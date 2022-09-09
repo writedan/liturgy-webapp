@@ -67,10 +67,9 @@ r { color: red; }
 	<i>The minister recites the antiphons alone the first time each is said. The "Joseph side" is Side A; the "Mary side" is side B.</i>
 	
 	<div id='psalmody'></div>
-	
-	<hr/>
-	
+		
 	<div id='call'></div>
+	<p><i>All sit.</i></p>
 	
 	<hr/>
 	
@@ -124,9 +123,7 @@ r { color: red; }
 	<h3>Intercessions</h3>
 	
 	<div id='int_ope'></div>
-	
-	<i>All kneel for the intercessions.</i>
-	
+		
 	<div id='int'></div>
 	
 	<i>All privately then pray</i> Our Father...
@@ -155,12 +152,13 @@ r { color: red; }
 		<v>r</v> Amen.
 	</p>
 	
-	<i>All then kneel and privately pray</i> Our Father...
+	<i>All then kneel and privately pray</i> Our Father... <i>Thus ends the office.</i>
 </body>
 </html>
 
 
 <script>
+function resetSize() {
 	let width = screen.width;
 	if (0.01 * width > 18) { // compress font size
 		document.getElementById("content").style.fontSize = "2vw";
@@ -169,6 +167,9 @@ r { color: red; }
 			glyphs[i].style.fontSize = "2.5vw";
 		}
 	}
+}
+
+resetSize();
 </script>
 
 <script>
@@ -236,15 +237,86 @@ r { color: red; }
 		vespers.name = OFFICE.name;
 		vespers.collect = OFFICE.collect;
 		
-		console.log(vespers);
 		
 		document.title = vespers.name;
 		
-		$('#heading').append('<p>'+vespers.name+'. Vespers. </p>');
-		for (let i = 0; i < vespers.psalmody.length; i++) {
-			var psalm = vespers.psalmody[i];
-			console.log(psalm);
+		function handlePsalm(psalm) {
+			var div = document.createElement('div');
+			div.id = psalm[1];
+			$('#psalmody').append(div);
+			$.get('https://daniel.writefamily.com/liturgy/psalter/'+psalm[1]+'.txt',function(text){
+				var heading = document.createElement('h3');
+				heading.innerHTML = text.split('\n')[0];
+				div.append(heading);
+				
+				div.innerHTML = div.innerHTML + "<p><i>Ant.</i> "+psalm[0] + "</p>";
+				
+				div.innerHTML = div.innerHTML + "<p><i>All sit after the antiphon.</i></p>";
+				
+				var sections = text.split("\r\n\r\n");
+				for (let i = 0; i < sections.length; i++) {
+					var sideA = (i % 2) == 0;
+					var section = sections[i].split("\n");
+					var k;
+					if (i == 0) k = 1;
+					else k = 0;
+					
+					for (; k < section.length; k++) {
+						if ( k == 0 || (k==1 && i==0)) {
+							if (i != 0) div.innerHTML = div.innerHTML + "<br/>";
+							div.innerHTML = div.innerHTML + ("<i>Side " + (sideA?'A':'B') + " leader begins:</i><br/>"+section[k]+"<br/>");
+						} else if (k==1 || (k==2 && i==0)) {
+							div.innerHTML = div.innerHTML + ("<i>All Side " + (sideA?'A':'B') + " continues:</i><br/>"+section[k]+"<br/>");
+						} else {
+							div.innerHTML = div.innerHTML + section[k] + "<br/>";
+						}
+					}
+				}
+				
+				div.innerHTML = div.innerHTML + "<p><i>After a brief pause, all stand.</i></p>";
+				div.innerHTML = div.innerHTML + "<p><v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/><v>r</v> As it was in the beginning is now and will be forever. Amen.</p>";
+				div.innerHTML = div.innerHTML + "<p><i>The antiphon is recited by all.</i><br/><i>Ant.</i> "+psalm[0] + "</p>";
+				
+				div.append(document.createElement('hr'));
+				
+				resetSize();
+			});
 		}
+		
+		$('#heading').append('<p>'+vespers.name+'. Vespers. </p>');
+		
+		for (let i = 0; i < vespers.psalmody.length; i++) {
+			handlePsalm(vespers.psalmody[i]);
+		}
+		
+		$('#call').append('<p><v>v</v> '+ vespers.call[0] +'<br/><v>r</v> '+vespers.call[1]+'</p>');
+		
+		$('#collect').append('<p>'+vespers.collect+'<br/><v>r</v> Amen.</p>');
+		
+		for (let i = 0; i < vespers.reading.length; i++) {
+			var div = document.createElement('div');
+			var name = vespers.reading[i].cite;
+			if (name == null) name = 'Patristic Homily';
+			div.innerHTML = '<h3>'+name+'</h3>';
+			var sections = vespers.reading[i].text.split("\n\n");
+			for (let k = 0; k < sections.length; k++) {
+				div.innerHTML = div.innerHTML + "<p>"+sections[k]+"</p>";
+			}
+			div.innerHTML = div.innerHTML + "<hr/>";
+			div.innerHTML = div.innerHTML + "<p><v>v</v> "+vespers.reading[i].responsory[0][0]+"<br/><v>r</v> "+vespers.reading[i].responsory[0][1]+"</p>";
+			div.innerHTML = div.innerHTML + "<p><v>v</v> "+vespers.reading[i].responsory[1][0]+"<br/><v>r</v> "+vespers.reading[i].responsory[1][1]+"</p>";
+			$('#lessons').append(div);
+		}
+		
+		$('.mag_ant').html('<p><i>Ant.</i> '+vespers.magnificat+'</p>');
+		
+		var intercessions = $("#int");
+		for (let i = 0; i < vespers.intercessions.length; i++) {
+			intercessions.append("<p><v>v</v> " + vespers.intercessions[i][0] + "<br/><v>r</v> " + vespers.intercessions[i][1]+"</p>");
+			if (i == 0) intercessions.append("<p><i>All kneel for the intercessions.</i></p>");
+		}
+		
+		resetSize();
 	}
 	
 	function getYaml(url, callback) {
@@ -270,7 +342,7 @@ r { color: red; }
 								}
 							}
 						} else {
-							if (OFFICE[key] == null) OFFICE[key] = data[key];
+							if (OFFICE[key][part] == null) OFFICE[key][part] = data[key][part];
 						}
 					}
 				}
@@ -365,6 +437,7 @@ r { color: red; }
 </script>
 
 <script>
+resetSize();
 switch (season) {
 		case 'pre-lent':
 		case 'post-pentecost': ordinaryTime(); break;
