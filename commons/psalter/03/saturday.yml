@@ -1,0 +1,47 @@
+rank: feria
+name: III Saturday
+common: 01/psalter/saturday
+vigil:
+    psalmody:
+        - ["Let us praise the Lord for his mercy and for the wonderful things he has done for us.",107i]
+        - ["We have seen the works of God, the marvels he has done.",107ii]
+        - ["Those who love the Lord will see and rejoice; they will understand his loving kindness.",107iii]
+    call: ["Your truth, O God, is high as the clouds.","Lord, your goodness is deep as the oceans."]
+lauds:
+    psalmody:
+        - ["Lord, you are near us and all your ways are true.",119xix]
+        - ["Wisdom of God, be with me, always at work in me.",wisdom9]
+        - ["The Lord remains faithful to his promise forever.",117]
+    intercessions:
+        - ["With confidence let us pray to the Father who willed that the Virgin Mary should surpass all creatures in heaven and earth:","Look upon the Mother of your Son and hear our prayer."]
+        - ["We are grateful to you, Father of mercy, for you gave us Mary to be our mother and our model.","Through her intercession give us the gifts of the Holy Spirit."]
+        - ["You strengthened Mary at the foot of the cross and filled her with joy at the resurrection of your Son.","Through her intercession relieve our distress and strengthen our hope."]
+daytime:
+    psalmody:
+        - ["Lord, give a loving welcome to your servant.",119xvi]
+        - ["Look to the Lord and be enlightened.",34i]
+        - ["When your heart is torn with grief, the Lord is near you.",34ii]
+terce:
+    reading:
+        cite: "1 Samuel 15:22"
+        text: >
+            Does the Lord so delight in holocausts and sacrifices
+                as in obedience to the command of the Lord?
+            Obedience is better than sacrifice,
+                and submission than the fat of rams.
+        responsory: ["A sacrifice of praise will give me glory.","To the pure of heart I will show myself a savior."]
+sext:
+    reading:
+        cite: "Galatians 5:26, 6:2"
+        text: >
+             Let us not be conceited, provoking one another, envious of one another. Bear one another's burdens, and so you will fulfill the law of Christ. 
+        responsory: ["What joy to see a family united in love.","The blessing of God rests upon it."]
+none:
+    reading:
+        cite: "Micah 6:8"
+        text: >
+            You have been told, O man, what is good,
+                and what the Lord requires of you:
+            Only to do the right and to love goodness,
+                and to walk humbly with your God.
+        responsory: ["All your commands are a joy to me, Lord.","Never will I forget your words."]
