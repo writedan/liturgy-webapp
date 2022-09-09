@@ -1,0 +1,43 @@
+rank: sunday
+name: IV Sunday
+common: psalter/02/sunday
+vespers1:
+    psalmody:
+        - ["Pray for the peace of Jerusalem.",122]
+        - ["From the morning watch until night, I have waited trustingly for the Lord.",130]
+        - ["Let everything in heaven and on earth bend at the name of Jesus.",philippians2]
+    intercessions:
+        - ["Everypme who waits for the Lord finds joy. Now we pray to him:","Look on us with favor, Lord, and hear us."]
+        - ["Faithful witness, first-born of the dead, you washed away our sins in your blood.","Make us always remember your wonderful deeds."]
+        - ["You called me to be heralds of your good news.","Make them strong and faithful messangers of your kingdom."]
+        - ["King of peace, send your Spirit on the leaders of the world.","Turn their eyes toward the poor and the suffering."]
+        - ["Protect and defend those who are discriminated against because of race, color, class, language, or religion.","That they may be accorded the rights and dignities which are theirs."]
+        - ["May all who died in your love share in your happiness...","With Mary, your mother, and all your holy ones."]
+vigil:
+    psalmody:
+        - ["Who can climb on the Lord's mountain, or stand in his holy place?",24]
+        - ["Bless our God, you nations of the world; he has given us life, alleluia.",66i]
+        - ["Listen to me, all who revere God, let me tell you what great things he has done for me, alleluia.",66ii]
+    call: ["God's word is alive; it strikes to the heart.","It pierces more surely than a two-edged sword."]
+lauds:
+    psalmody:
+        - ["Praise the Lord, for his loving kindness will never fail, alleluia.",118]
+        - ["Alleluia. Bless the Lord, all you works of the Lord, alleluia.",daniel3]
+        - ["Let everything that breathes praise the Lord, alleluia.",150]
+    intercessions:
+        - ["Open your hearts to praise the God of power and goodness, for he loves us and knows our needs:","We praise you, Lord, and trust in you."]
+        - ["We bless you, almighty God, King of the universe, because you called us while we were yet sinners...","To acknowledge your truth and serve your majesty."]
+        - ["O God, you opened the gates of mercy for us.","Let us never turn aside from the path of life."]
+        - ["As we celebrate the resurrection of your beloved Son...","Help us to spend this day in the spirit of joy."]
+        - ["Give to your faithful, O Lord, a prayerful spirit of gratitude.","That we may thank you for all your gifts."]
+daytime:
+    psalmody:
+        - ["He who eats this bread will live forever, alleluia.",23]
+        - ["The Lord will come in glory and show himself wonderful in his saints, alleluia.",76i]
+        - ["Pay your vows and bring offerings to the Lord our God, alleluia.",76ii]
+terce:
+    reading:
+        cite: "1 Corinthians 6:19-20"
+        text: >
+             Do you not know that your body is a temple of the holy Spirit within you, whom you have from God, and that you are not your own? For you have been purchased at a price. Therefore, glorify God in your body. 
+        responsory: ["I long to be in God's holy dwelling-place.","My whole being rejoices in the living God."]
