@@ -26,12 +26,17 @@ r { color: red; }
 </style>
 <script src='./loth.js?uiid=104'></script>
 
+<script src="yaml.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 <title>Liturgy of the Hours</title>
 </head>
 <body>
 <div id='content'>
 	<div class='center'>
 		<h1>Liturgy of the Hours</h1>
+		<div id='heading'></div>
 	</div>
 	<hr/>
 	<i>Before the office begins, kneel and make these prayers quietly.</i>
@@ -55,45 +60,29 @@ r { color: red; }
 		<v>r</v> As it was in the beginning is now and will be forever. Amen. Alleluia.
 	</p>
 	
+	<div id='hymn'></div>
+	
 	<hr/>
 	
 	<i>The minister recites the antiphons alone the first time each is said. The "Joseph side" is Side A; the "Mary side" is side B.</i>
 	
-	<p></p>
-	
-	<i>All sit after each antiphon has been recited.</i>
-	
-	<!-- psalmody -->
+	<div id='psalmody'></div>
 	
 	<hr/>
 	
-	<!-- call from vigil -->
+	<div id='call'></div>
 	
 	<hr/>
 	
-	<h3>Scriptural Lesson</h3>
-	
-	<!-- scriptural lesson -->
-	
-	<hr/>
-	
-	<!-- responsory -->
-	
-	<hr/>
-	
-	<h3>Patristic Lesson</h3>
-	
-	<!-- patristic lesson -->
-	
-	<hr/>
-	
-	<!-- responsory -->
+	<div id='lessons'></div>
 	
 	<hr/>
 	
 	<h3>Canticle of Mary</h3>
 	
 	<i>All stand for the canticle and remain standing throughout.</i>
+	
+	<p class='mag_ant'></p>
 	
 	<p>
 		<i>Side A leader begins:</i><br/>
@@ -128,13 +117,17 @@ r { color: red; }
 		<v>r</v> As it was in the beginning is now and will be forever. Amen.
 	</p>
 	
+	<p class='mag_ant'></p>
+	
 	<hr/>
 	
 	<h3>Intercessions</h3>
 	
-	<i>All kneel as the minister begins the intercessions.</i>
+	<div id='int_ope'></div>
 	
-	<p></p>
+	<i>All kneel for the intercessions.</i>
+	
+	<div id='int'></div>
 	
 	<i>All privately then pray</i> Our Father...
 	
@@ -148,6 +141,8 @@ r { color: red; }
 	</p>
 	
 	<p>Let us pray.</p>
+	
+	<div id='collect'></div>
 	
 	<hr/>
 	
@@ -219,9 +214,83 @@ r { color: red; }
 <script>
 	var WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
 	
-	function importOffice(url) {
-		console.log(url);
+	var OFFICE = {};
+	
+	var BUILDOFFICE_CALL = false;
+	
+	function buildOffice() {
+		if (BUILDOFFICE_CALL) return;
+		BUILDOFFICE_CALL = true;
+		console.log("It is time for the Lord to act.");
+		var vespers;
+		if (OFFICE.rank == 'sunday' || OFFICE.rank == 'solemnity') vespers = OFFICE.vespers2
+		else vespers = OFFICE.vespers;
+		
+		if (vespers == null) alert("This doesn't work with first vespers yet.");
+		
+		// import from the office of readings
+		vespers.reading = [OFFICE.vigil.reading1, OFFICE.vigil.reading2];
+		vespers.call = OFFICE.vigil.call;
+		
+		// import from elsewhere
+		vespers.name = OFFICE.name;
+		vespers.collect = OFFICE.collect;
+		
+		console.log(vespers);
+		
+		document.title = vespers.name;
+		
+		$('#heading').append('<p>'+vespers.name+'. Vespers. </p>');
+		for (let i = 0; i < vespers.psalmody.length; i++) {
+			var psalm = vespers.psalmody[i];
+			console.log(psalm);
+		}
 	}
+	
+	function getYaml(url, callback) {
+		jQuery.get(url, function(data) {
+			console.log(url);
+			callback(YAML.parse(data));
+		});
+	}
+	
+	function mergeOffice(data,url) {
+		for (key in data) {
+			if (data[key] instanceof Object) { // is hash
+				if (OFFICE[key] == null) {
+					OFFICE[key] = data[key];
+				} else {
+					for (part in data[key]) { // we are now inside the hours
+						if (data[key][part] instanceof Object) {
+							if (OFFICE[key][part] == null) {
+								OFFICE[key][part] = data[key][part];
+							} else if (part=='reading') {
+								for (ele in data[key][part]) {
+									if (OFFICE[key][part][ele] == null) OFFICE[key][part][ele] = data[key][part][ele];
+								}
+							}
+						} else {
+							if (OFFICE[key] == null) OFFICE[key] = data[key];
+						}
+					}
+				}
+			} else { // is something else
+				if (OFFICE[key] == null) OFFICE[key] = data[key];
+				// else retain the lowest level
+			}
+		}
+	}
+	
+	function importOffice(url) {
+		url = "https://daniel.writefamily.com/liturgy/"+url+".yml";
+		getYaml(url,function(data){
+			mergeOffice(data,url);
+			if (data.common != null) importOffice('commons/'+data.common);
+			else buildOffice();
+		});
+	}
+	
+	
 </script>
 
 <script>
