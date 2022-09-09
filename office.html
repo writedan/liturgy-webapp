@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Liturgy of the Hours</title>
+		<link rel='stylesheet' type='text/css' href='./style.css'/>
+		<script src="./yaml.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		
+		<script>
+			function getYaml(url, callback) {
+				jQuery.get(url, function(data) {
+					console.log(url);
+					callback(YAML.parse(data));
+				})
+			};
+			
+			function importOffice(url, callback, callback2) {
+				getYaml("https://daniel.writefamily.com/liturgy/"+url+".yml",function(data){
+					callback(data);
+					if (data.common != null) importOffice("commons/"+data.common, callback2, callback2);
+				});
+			}
+			
+			function isObject(item) {
+				return (item && typeof item === 'object' && !Array.isArray(item));
+			}
+			
+			function mergeDeep(target, ...sources) {
+				if (!sources.length) return target;
+				const source = sources.shift();
+
+				if (isObject(target) && isObject(source)) {
+					for (const key in source) {
+					  if (isObject(source[key])) {
+						if (!target[key]) Object.assign(target, { [key]: {} });
+						mergeDeep(target[key], source[key]);
+					  } else {
+						Object.assign(target, { [key]: source[key] });
+					  }
+					}
+				  }
+
+			  return mergeDeep(target, ...sources);
+			}
+		</script>
+		
+		<script>
+			// document pre-processor
+			urlParams = new URLSearchParams(window.location.search);
+				
+			var temporal, sanctoral;
+			if (urlParams.has('t')) {
+				console.log('Liturgical day from temporal cycle: ' + urlParams.get('t'));
+				temporal = urlParams.get('t');
+			} else if (urlParams.has('s')) {
+				console.log('Liturgical day from sanctoral cycle: ' + urlParams.get('s'));
+				sanctoral = urlParams.get('s');
+			}
+			
+			// We always first load the temporal day, if one was supplied, since feasts and memorials only overwrite parts of the temporal day.
+			if (temporal != null) {
+				console.log('Considering ' + temporal);
+				importOffice("propers/"+temporal, function(data){
+					temporal = data;
+					// called when main data file is loaded
+				},function(data){
+					// called when antecedent commons are loaded
+					temporal = mergeDeep({}, data, temporal);
+				});
+			}
+			
+			if (sanctoral != null) {
+				console.log('Considering ' + sanctoral);
+				importOffice("propers/"+sanctoral, function(data){
+					sanctoral = data;
+					// called when main data file is loaded
+				},function(data){
+					// called when antecedent commons are loaded
+					sanctoral = mergeDeep({}, data, sanctoral);
+				});
+			}
+		</script>
+		
+		<script>
+			// document builder
+			$(document).ready(function(){
+				if (temporal == null && sanctoral == null) {
+					$('#content').append('<p><i>No liturgical day was supplied. Return to the <a href="index.html">index</a> to choose one.</i></p>');
+					return;
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id='content'>
+			<div class='center'>
+				<h3>Liturgy of the Hours</h3>
+			</div>
+			<hr/>
+		</div>
+	</body>
+</html>
