@@ -1,3 +1,55 @@
 rank: feria
 name: III Wednesday
 common: psalter/01/wednesday
+vigil:
+    psalmody:
+        - ["Wherever you are, Lord, there is mercy, there is truth.",89i]
+        - ["When the Son of God came into this world, he was born of David's line.",89ii]
+        - ["Once for all I swore to my servant David, his dynasty shall never end.",89iii]
+    call: ["When we listened to your word, our minds are filled with light.","It is the lowly heart that understands."]
+lauds:
+    psalmody:
+        - ["Give joy to your servant, Lord, to you I lift up my heart.",86]
+        - ["Blessed is the upright man, who speaks the truth.",isaiah33]
+        - ["Let us celebrate with joy in the presence of our Lord and King.",98]
+    intercessions:
+        - ["Christ nourishes us and supports the Church for which he gave himself up to death. Let us ask him:","Remember your Church, Lord."]
+        - ["You are the Good Shepherd who has given life and light today.","Make us grateful for these gifts."]
+        - ["Look with mercy on the flock you have gathered together in your name.","Let no one whom the Father has given you perish."]
+        - ["Lead your Church in the way of your commandments.","May your Holy Spirit keep her faithful."]
+        - ["Nourish the Church at the banquet of your Word and Bread.","Strengthened by this food may she follow you in joy."]
+daytime:
+    psalmody:
+        - ["Whoever follows me does not walk in the dark; he will have the light of life.",119xiv]
+        - ["Help me, O God, for I am poor and needy.",70]
+        - ["God, who is justice and truth, does not judge by appearences.",75]
+terce:
+    reading:
+        cite: "1 Corinthians 13:4-7"
+        text: >
+             Love is patient, love is kind. It is not jealous, love is not pompous, it is not inflated, it is not rude, it does not seek its own interests, it is not quick-tempered, it does not brood over injury, it does not rejoice over wrongdoing but rejoices with the truth. It bears all things, believes all things, hopes all things, endures all things.
+        responsory: ["All who seek you, Lord, will dance for joy.","They will proclaim your greatness forever."]
+sext:
+    reading:
+        cite: "1 Corinthians 13:8-9, 13"
+        text: >
+             Love never fails. If there are prophecies, they will be brought to nothing; if tongues, they will cease; if knowledge, it will be brought to nothing. For we know partially and we prophesy partially. So faith, hope, love remain, these three; but the greatest of these is love. 
+        responsory: ["Lord, show us your love and mercy.","For we put our trust in you."]
+none:
+    reading:
+        cite: "Colossians 3:14-15"
+        text: >
+             Over all other virtues put on love, that is, the bond of perfection. And let the peace of Christ control your hearts, the peace into which you were also called in one body. And be thankful.
+        responsory: ["The gentle will inherit the earth.","They will have peace to their heart's content."]
+vespers:
+    psalmody:
+        - ["Those who sow in tears will reap in joy.",126]
+        - ["May the Lord build our house and guard our city.",127]
+        - ["He is the firstborn of all creation; in every way the primacy is his.",colossians1]
+    intercessions:
+        - ["Let us humbly pray to God who sent his Son as the Savior and exemplar of his people:","May your people praise you, Lord."]
+        - ["Let us give thanks to God who chose us as the first-fruits of salvation.","And who called us to share in the glory of our Lord Jesus Christ."]
+        - ["May those who confess your holy name be united in your truth...","And fervent in your love."]
+        - ["Creator of all things, your Son desired to work among men with his own hands.","Be mindful of all who earn their living by the sweat of their brow."]
+        - ["Be mindful of those who devote themselves to the service of their brothers and sisters.","Do not let them be deterred from their goals by discouraging results or lack of support."]
+        - ["Be merciful to the faithful departed.","Keep them from the power of the evil one."]
