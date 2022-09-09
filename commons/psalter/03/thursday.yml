@@ -1,0 +1,55 @@
+rank: feria
+name: III Thursday
+common: psalter/01/thursday
+vigil:
+    psalmody:
+        - ["Look on us, Lord, and see how we are despised.",89iv]
+        - ["I am the root and stock of David; I am the morning star.",89v]
+        - ["Our years wither away like grass, but you, Lord God, are eternal.",90]
+    call: ["In you is the source of life.","In your light we see light itself."]
+lauds:
+    psalmody:
+        - ["Glorious things are said of you, O city of God.",87]
+        - ["The Lord, the mighty conqueror will come; he will bring with him the prize of victory.",isaiah40]
+        - ["Give praise to the Lord our God, bow down before his holy mountain.",99]
+    intercessions:
+        - ["Let us joyfully cry out in thanks to God the Father, whose love guides and nourishes his people:","May you be glorified, Lord, for all ages."]
+        - ["Most merciful Father, we praise you for your love...","For you wondrously created us and even more wondrously restored us to grace."]
+        - ["At the beginning of this day fill our hearts with zeal for serving you.","So that our thoughts and actions may rebound to your glory."]
+        - ["Purify our hearts of every evil desire.","Make us intent on doing your will."]
+        - ["Open our hearts to the needs of all men.","Fill us with brotherly love."]
+daytime:
+    psalmody:
+        - ["Receive me, Lord, according to your promise, that I might live.",119xv]
+        - ["Help us, O God our Savior, and pardon all our sins.",79]
+        - ["O God of power, look down from heaven and come to tend this vine.",80]
+terce:
+    reading: 
+        cite: "Wisdom 19:22"
+        text: >
+            Every way, O Lord, you magnified and glorified your people;
+                unfailing, you stood by them in every time and circumstance. 
+        responsory: ["O God, what marvels you have done!","You have shown your power to all the nations."]
+sext:
+    reading: 
+        cite: "Deuteronomy 4:7"
+        text: >
+            What great nation is there that has gods so close to it as the Lord, our God, is to us whenever we call upon him? 
+        responsory: ["The Lord is close to all who call upon him.","He will answer their prayers."]
+none:
+    reading: 
+        cite: "Esther 10:6"
+        text: >
+             That people is Israel, who cried to God and was saved. The Lord saved his people and delivered us from all these evils. God worked signs and great wonders, such as have not occurred among the nations.
+        responsory: ["I shall proclaim your goodness, Lord, for you have answered me.","You have become my salvation."]
+vespers:
+    psalmody:
+        - ["Let your holy people rejoice, O Lord, as they enter your dwelling place.",132i]
+        - ["The Lord has chosen Zion as his sanctuary.",132ii]
+        - ["The Father has given Christ all honor, power, and kingship; all people will obey him.",revelation11]
+    intercessions:
+        - ["Let us call upon Christ, the Good Shepherd who comes to the aid of his people:","Hear us, O God our Refuge."]
+        - ["Blessed are you, Lord, for you graciously called us into your holy church.","Keep us withi the Church until death."]
+        - ["Grant the grace of conversion to all sinners.","And the grace of true repentence to all men."]
+        - ["You were willing to live as a stranger in our world.","Be mindful of those who are separated from family and homeland."]
+        - ["To all the departed who have hoped in you...","Grant eternal peace."]
