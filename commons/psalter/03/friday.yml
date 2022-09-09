@@ -1,0 +1,55 @@
+rank: feria
+name: III Friday
+common: psalter/01/friday
+vigil:
+    psalmody:
+        - ["I am worn out with crying, with longing for my God.",69i]
+        - ["I needed food and they gave me gall; I was parched with thirst and they gave me vinegar.",69ii]
+        - ["Seek the Lord and you will live.",69iii]
+    call: ["The Lord will teach us his ways.","And we will follow in his footsteps."]
+lauds:
+    psalmody:
+        - ["You alone I have grieved by my sin; have pity on me, O Lord.",51]
+        - ["Truly we know our offenses, Lord, for we have sinned against you.",jeremiah14]
+        - ["The Lord is God; we are his people, the flock he shepherds.",100]
+    intercessions:
+        - ["Raising our eyes to Christ, who was born and died and rose again for his people, let us cry out:","Save those you have redeemed by your blood, Lord."]
+        - ["Blessed are you, Jesus, redeemed of mankind; you did not hesitate to undergo your passion and death...","To redeem us by your blood."]
+        - ["You promised that you would provide living water, the fountain of eternal life.","Pour forth your Spirit upon all people."]
+        - ["You send disciples to preach the Gospel to all nations.","Help them to extend the victory of your cross."]
+        - ["You have given the sick and the suffering a share in your cross.","Give them patience and strength."]
+daytime:
+    psalmody:
+        - ["We saw him despised and rejected, a man of sorrow, acquainted with infirmity.",22i]
+        - ["The garments of Jesus they divided among them by casting lots.",22ii]
+        - ["The family of nations will worship in the presence of the Lord.",22iii]
+terce:
+    reading:
+        cite: "Romans 1:16b-17"
+        text: >
+             The Gospel is the power of God for the salvation of everyone who believes. For in it is revealed the righteousness of God from faith to faith; as it is written, "The just shall live by faith." 
+        responsory: ["God is the joy of our hearts.","We trust in his holy name."]
+sext:
+    reading:
+        cite: "Romans 3:21-22"
+        text: >
+             Now the righteousness of God has been manifested apart from the law, though testified to by the law and the prophets,the righteousness of God through faith in Jesus Christ for all who believe. 
+        responsory: ["The judgments of the Lord are true; they gladden the heart.","His precepts are clear; they give light to the mind."]
+none:
+    reading:
+        cite: "Ephesians 2:8-9"
+        text: >
+             By grace you have been saved through faith, and this is not from you; it is the gift of God; it is not a reward for anything you have accomplished, so let no one pride himself on it. 
+        responsory: ["Lord make known your way to us on earth.","May all nations know you their Savior."]
+vespers:
+    psalmody:
+        - ["Great is the Lord our Gpd, trascending all other gods.",135i]
+        - ["House of Israel, bless the Lord. Sing psalms to him for he is merciful.",135ii]
+        - ["All nations will come and worship before you, O Lord.",revelation15]
+    intercessions:
+        - ["Because of our sins the Father gave the Lord Jesus up to death, and for our justification he raised him up again. Let us pray:","Have mercy on your people Lord."]
+        - ["Hear our prayers and spare us as we confess our sins.","Grant us forgiveness and peace."]
+        - ["Your apostle said: \"Where sin abounds, grace abounds all the more.\"","Forgive us our transgressions."]
+        - ["Lord, we have sinned, yet we have also acknowledged your infinite mercy.","Bring us to conversion."]
+        - ["Save your people from their sins, Lord","And make them pleasing to you."]
+        - ["You opened paradise to the thief who believed in you.","Do not close the gates of heaven to the faithful departed."]
