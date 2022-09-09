@@ -1,0 +1,67 @@
+rank: feria
+name: I Thursday
+vigil:
+    invitatory: Come, let us worship the Lord, for he is our God.
+    hymn: 179 # Black Nights enshrouds All Earth in Gloom
+    psalmody:
+        - ["The word of the Lord is a strong shield for all who put their trust in him.",18iv]
+        - ["Your strong right hand has upheld me, Lord",18v]
+        - ["May the living God, my Savior, be praised forever.",18vi]
+    call: ["Open my eyes, Lord, that I may see...","The wonders of your law."]
+lauds:
+    hymn: 181 # Behold, the Godlen Dawn Arise
+    psalmody:
+        - ["Awake, lyre and harp, with praise let us awake the dawn.",57]
+        - ["My people, says the Lord, will be filled with my blessings.",jeremiah31]
+        - ["The Lord is great and worthy to be praised in the city of our God.",48]
+    responsory:
+        - "From the depth of my heart, I cry to you; hear me, Lord."
+        - ["I will do what you desire.","Hear me, Lord."]
+    benedictus: Let us serve the Lord in holiness, and he will save us from our enemies.
+    intercessions:
+        - ["The Lord Jesus Christ has given us the light of another day. In return we thank him as we cry out:","Lord, bless us and bring us close to you."]
+        - ["You offered yourself in sacrifice for our sins.","Accept our intentions and our work today."]
+        - ["You bring us joy by the light of another day.","Let the morning star rise in our hearts."]
+        - ["Give us strength to be patient with those we meet today.","And so imitate you."]
+        - ["Make us aware of your mercy this morning, Lord.","And let your strength be our delight."]
+daytime:
+    psalmody:
+        - ["Open my eyes, O Lord, that I may see the wonders of your law.",119iii]
+        - ["Guide me, O Lord, in your truth.",25i]
+        - ["Look on me, Lord, and help me, for I am poor and alone.",25ii]
+terce:
+    reading:
+        cite: "Amos 4:13"
+        text: >
+            He formed the mountains, and created the wind, and declares to man his thoughts; he made the dawn and the darkness, and strides upon the heights of the earth: the Lord, the God of hosts, by name.
+        call: ["All you works of the Lord, bless the Lord.","Praise and magnify him forever."]
+sext:
+    reading:
+        cite: "Amos 5:8, 9b"
+        text: >
+            He who made the Pleiades and Orion. who turns darkness into dawn, and darkens day into night; who summons the waters of the sea, and pours them out upon the surface of the earth; whose name is the Lord.
+        call: ["Beauty and wealth surround him.","Richness and splendor adorn his holy place."]
+none:
+    reading:
+        cite: "Amos 9:6"
+        text: >
+            I have built heaven, my upper chamber, and established my vault over the earth; I summon the waters of the sea and pour them upon the surface of the earth, I, the Lord by name.
+        call: ["The sky proclaims God's glory...","The vault of heavens, the hand of him who made it."]
+vespers:
+    hymn: 184 # O God of Power and Matchless Force
+    psalmody:
+        - ["I cried to you Lord, and you healed me; I will praise you forever.",30]
+        - ["The one who is sinless in the eyes of God is blessed indeed.",32]
+        - ["The Father has given Christ all honor, power, and kingship; all people will obey him.",revelation11]
+    reading:
+        responsory:
+            - "The Lord had given us food, bread of the finest wheat."
+            - ["Honey from the rock to our heart's content...","Bread of the finest wheat."]
+    magnificat: God has cast down the mighty from their thrones and has lifted up the lowly.
+    intercessions:
+        - ["Our hope is in God, who gives us help. Let us call upon him and say:","Look kindly on your children, Lord."]
+        - ["Lord, our God, you made an eternal covenant with your people.","Keep us ever mindful of your mighty deeds."]
+        - ["Let your ordained ministers grow toward perfect love.","And preserve your faithful people in unity by the bond of peace."]
+        - ["Be with us in our work of building hte earthly city.","That in building we may not labor in vain."]
+        - ["Send workers into your vineyard.","And glorify your name among the nations."]
+        - ["Welcome into the company of your saints our relatives and benefactors who have died.","May we share their happiness one day."]

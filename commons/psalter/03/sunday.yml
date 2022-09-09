@@ -1,0 +1,67 @@
+rank: sunday
+name: III Sunday
+common: psalter/01/sunday
+vespers1:
+    psalmody:
+        - ["From the rising of the sun to its setting, may the name of the Lord be praised.",113]
+        - ["I shall take into my hands the saving chalice and invoke the name of the Lord.",116]
+        - ["The Lord Jesus humbled himself and God exalted him forever.",philippians2]
+    intercessions:
+        - ["Christ had compassion on the hungry and performed a miracle of love for them. Mindful of this, let us pray:","Show us your love, Lord."]
+        - ["Lord, we recognize that all the favors we have received today come through your generosity.","Do not let them return to you empty, but let them bear fruit."]
+        - ["Light and salvation of all nations, protect the missionaries you have sent into the world.","Enkindle them in the fire of your Spirit."]
+        - ["Grant that we may shape the world in keeping with human dignity...","And respond generously to the needs of our time."]
+        - ["Healer of body and spirit, comfort the sick and be present to the dying.","In your mercy visit and refresh us."]
+        - ["May the faithful departed be numbered among the saints...","Whose names are in the book of life."]
+vigil:
+    psalmody:
+        - ["Day by day I shall bless you, Lord.",145i]
+        - ["Your kingdom, Lord, is an everlasting kingdom.",145ii]
+        - ["The Lord is faithful in all his words and loving in all his deeds.",145iii]
+    call: ["Listen to my words.","Give ear to my precepts."]
+lauds:
+    psalmody:
+        - ["Glorious is the Lord on high, alleluia.",93]
+        - ["To you, Lord, be highest glory and praise forever, alleluia.",daniel3]
+        - ["Praise the Lord from the heavens, alleluia.",148]
+    intercessions:
+        - ["Father, you sent the Holy Spirit to enlighten our hearts; hear us as we pray:","Enlighten your people, Lord."]
+        - ["Blessed are you, O God, our light.","You have given us a new day resplendent with your glory."]
+        - ["You enlightened the world through the resurrection of your Son.","Through your Church shed this light on all people."]
+        - ["You have the disciples of your only begotten Son the Spirit's gift of understanding.","Through the same Spirit keep the Church faithful to you."]
+        - ["Light of nations, remember those who remain in darkness.","Open their eyes and let them recognize you, the only true God."]
+daytime:
+    psalmody:
+        - ["In my distress, I called on the Lord, and he heard my cry, alleluia.",118i]
+        - ["The Lord's right hand has raised me up, alleluia.",118ii]
+        - ["The Lord our God has let his light shine upon us, alleluia.",118iii]
+terce:
+    reading:
+        cite: "Romans 8:15-16"
+        text: >
+             You did not receive a spirit of slavery to fall back into fear, but you received a spirit of adoption, through which we cry, "Abba, Father!" The Spirit itself bears witness with our spirit that we are children of God. 
+        responsory: ["Lord, you are the well-spring of life.","In your light, we see light itself."]
+sext:
+    reading:
+        cite: "Romans 8:22-23"
+        text: >
+              We know that all creation is groaning in labor pains even until now; and not only that, but we ourselves, who have the firstfruits of the Spirit, we also groan within ourselves as we wait for adoption, the redemption of our bodies. 
+        responsory: ["Bless the Lord, my soul.","He has rescued your life from destruction."]
+none:
+    reading:
+        cite: "2 Timothy 1:9"
+        text: >
+               God has saved us and called us to a holy life, not according to our works but according to his own design and the grace bestowed on us in Christ Jesus before time began. 
+        responsory: ["Confiding in the Lord's guidance, they feared nothing.","He led them into his holy land."]
+vespers2:
+    psalmody:
+        - ["The Lord said to my Master, sit on my right hand, alleluia.",110]
+        - ["Our compassionate Lord has left us a memorial of his wonderful work, alleluia.",111]
+        - ["All power is yours, Lord God, our mighty king, alleluia.",revelation19]
+    intercessions:
+        - [" The world was created by the Word of God, re-created by his redemption, and it is continually renewed by his love. Rejoicing in him we call out:","Renew the wonders of your love, Lord."]
+        - ["We give thanks to God whose power is revealed in nature...","And whose providence is revealed in history."]
+        - ["Through your Son, the herald of reconciliation, the victor of the cross...","Free us from empty fear and hopelessness."]
+        - ["May all those who love and pursue justice...","Work together without deceit to build a world of true peace."]
+        - ["Be with the oppressed, free the captives, console the sorrowing, feed the hungry, strengthen the weak.","In all people reveal the victory of your cross."]
+        - ["After your Son's death and burial you raised him up again in glory.","Grant that the faithful departed may live with him."]

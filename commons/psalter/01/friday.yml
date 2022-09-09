@@ -1,0 +1,68 @@
+rank: feria
+name: I Friday
+vigil:
+    invitatory: Come, let us give thanks to the Lord, for his great love is without end.
+    hymn: 185 # O Trinity of Unity
+    psalmody:
+        - ["Rise up Lord, and come to my aid.",35i]
+        - ["All powerful Lord, stand by me and defend me.",35ii]
+        - ["My tongue will speak of your goodness all the day long.",35iii]
+    call: ["My son, take my words to heart.","Do as I say and you will live."]
+lauds:
+    hymn: 187 # Eternal Glory of the Sky
+    psalmody:
+        - ["Lord, you will accept the true sacrifice offered on your altar.",51]
+        - ["All the descendants of Israel will glory in the Lord's gift of victory.",isaiah45]
+        - ["Let us go into God's presence singing for joy,",100]
+    reading:
+        responsory:
+            - "At daybreak, be merciful to me."
+            - ["Make it known to me the path that I must walk.","Be merciful to me."]
+    benedictus: The Lord has come to his people and set them free.
+    intercessions:
+        - ["Through his cross the Lord Jesus brought salvation to the human race. We adore him and in faith we call out to him:","Lord, pour out your mercy upon us."]
+        - ["Christ, rising sun, warm us with your rays.","And restrain us from every evil impulse."]
+        - ["Keep guard over our thoughts, words, and actions.","And make us pleasing in your sight this day."]
+        - ["Turn your gaze from our sinfulness.","And cleanse us from our iniquities."]
+        - ["Through your cross and resurrection...","Fill us with the consolation of the Spirit."]
+daytime:
+    psalmody:
+        - ["Lightly I run the way you have shown.",119iv]
+        - ["I trust in the Lord and will not be shaken.",26]
+        - ["I put all my trust in the Lord, and he has not failed me.",28]
+terce:
+    reading:
+        cite: "Philippians 2:2b-4"
+        text: >
+            Maintain your unanimity, possessing the one love, united in heart, thinking one thing. Do nothing out of selfishness or out of vainglory; rather, humbly regard others as more important than yourselves, each looking out not for his own interests, but also everyone for those of others.
+        call: ["All God's ways are faithful and compassionate...","For those who keep his covenant and do his will."]
+sext:
+    reading:
+        cite: "2 Corinthians 13:4"
+        text: >
+            Christ was crucified out of weakness, but he lived by the power of God. So also we are weak in him, but toward you we shall live with him by the power of God.
+        call: ["I am broken, crushed to the earth.","Speak, Lord, your word of life."]
+none:
+    reading:
+        cite: "Colossians 3:12-13"
+        text: >
+            Put on, as God's chosen ones, holy and beloved, heartfelt compassion, kindness, humility, gentleness, and patience, bearing with one another and forgiving one another, if one has a grievance against another; as the Lord has forgiven you, so must you also do.
+        call: ["Tender and compassionate is the Lord...","Patient and ready to forgive."]
+vespers:
+    hymn: 189 # Maker of Man, Who from Thy Throne
+    psalmody:
+        - ["Lord, lay your healing hand upon me, for I have sinned.",41]
+        - ["The mighty Lord is with us; the God of Jacob is our stronghold.",46]
+        - ["All nations will come and worship before you, O Lord.",revelation15]
+    reading:
+        responsory:
+            - "Christ loved us and washed away our sins in his own blood."
+            - ["He made us a nation of kings and priests...","In his own blood."]
+    magnificat: The Lord has come to the help of his servants, for he has remembered his promise of mercy.
+    intercessions:
+        - ["Blessed be God, who hears the prayers of the needy, and fills the hungry with good things. Let us pray to him in confidence:","Lord, show us your mercy."]
+        - ["Merciful Father, upon the cross Jesus offered you the perfect evening sacrifice.","We pray now for all the suffering members of his Church."]
+        - ["Release those in bondage, give sight to the blind.","Shelter the widow and the orphan."]
+        - ["Clothe your faithful people in the armor of salvation.","And shield them from hte deceptions of the devil."]
+        - ["Let your merciful presence be with us, Lord, at the hour of our death.","May we be found faithful and leave this world in your peace."]
+        - ["Lead the departed into the light of your dwelling-place.","That they may gaze upon you for all eternity."]

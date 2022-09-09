@@ -1,0 +1,68 @@
+rank: feria
+name: II Thursday
+vigil:
+    invitatory: Come into the Lord's presence, singing for joy.
+    hymn: 213 # The Winged Herald of the Day
+    psalmody:
+        - ["Lord, you are our Savior; we will praise you forever.",44i]
+        - ["Spare us, O Lord; do not bring your own people into contempt.",44ii]
+        - ["Rise up, O Lord, and save us, for you are merciful.",44iii]
+    call: ["Lord, to whom shall we go?","You have the words of eternal life."]
+lauds:
+    hymn: 216 # Now That the Daylight Fills the Sky
+    psalmody:
+        - ["Stir up your mighty power, Lord; come to our aid.",80]
+        - ["The Lord has worked marvels for us; make it known to the ends of the world.",isaiah12]
+        - ["Ring out your joy to God our strength.",81]
+    reading:
+        responsory:
+            - "In the early hours of the morning, I think of you, O Lord."
+            - ["Always you are there to help me.","I think of you, O Lord."]
+    benedictus: "Give your people knowledge of salvation, Lord, and forgive us our sins."
+    intercessions:
+        - ["Blessed be God, our Father, who protects his children and never spurns their prayers. Let us humbly implore him:","Enlighten us, Lord."]
+        - ["We thank you, Lord, for enlightening us through your Son.","Fill us with his light today."]
+        - ["Let your wisdom lead us today, Lord.","That we may walk in the newness of life."]
+        - ["May we bear hardships with courage for your name's sake.","And be generous in serving you."]
+        - ["Direct our thoughts, feelings, and actions this day.","Help us to follow your providential guidance."]
+daytime:
+    psalmody:
+        - ["More precious than gold or silver, Lord, is the way of life you teach us.",119ix]
+        - ["I have put my hope in God; I have no fear of man.",56]
+        - ["Your merciful love reaches high as the heavens, Lord.",57]
+terce:
+    reading:
+        cite: "Galatians 5:13-14"
+        text: >
+            You were called for freedom, brothers. But do not use this freedom as an opportunity for the flesh; rather, serve one another through love. For the whole law is fulfilled in one statement, namely, "You shall love your neighbor as yourself."
+        call: ["Lightly I run the way that you have shown.","For my heart is filled with joy."]
+sext:
+    reading:
+        cite: "Galatians 5:16-17"
+        text: >
+            Live by the Spirit and you will certainly not gratify the desire of the flesh. For the flesh has desires against the Spirit, and the Spirit against the flesh; these are opposed to each other, so that you may not do what you want.
+        call: ["O God, you are good and all goodness flows from you.","O Lord, teach me the ways of holiness."]
+none:
+    reading:
+        cite: "Galatians 5:22, 23a, 25"
+        text: >
+            In contrast, the fruit of the Spirit is love, joy, peace, patience, kindness, generosity, faithfulness, gentleness, self-control. If we live in the Spirit, let us also follow the Spirit.
+        call: ["Lord, show me the path I must follow.","Let the Spirit guide me to my true home."]
+vespers:
+    hymn: 217 # O Lord, our God, Who Made the Day
+    psalmody:
+        - ["I have made you the light of all nations to carry my salvation to the ends of the earth.",72i]
+        - ["The Lord will save the children of the poor and rescue them from slavery.",72ii]
+        - ["Now the victorious reign of our God has begun.",revelation11]
+    reading:
+        responsory:
+            - "The Lord is my shepherd, I shall want for nothing."
+            - ["He has brought me to green pastures.","I shall want for nothing."]
+    magnificat: "If you hunger for holiness, God will satisfy your longing, good measure, and flowing over."
+    intercessions:
+        - ["Lift up your hearts to our Lord and Savior who gives his people every spiritual blessing. In the spirit of devotion, let us ask him:","Bless your people, Lord."]
+        - ["Mericful God, strengthen Francis our Pope and David our Bishop.","Keep them free from harm."]
+        - ["Look favorably on our country, Lord.","Free us from all evil."]
+        - ["Call men to serve at your altar.","And to follow you more closely in chastity, poverty, and obedience."]
+        - ["Take care of your handmaidens vowed to virginity.","That they may follow you, the divine Lamb, wherever you go."]
+        - ["May the dead rest in eternal peace.","May their union with us be strengthened through the sharing of spiritual goods."]

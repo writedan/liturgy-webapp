@@ -1,0 +1,68 @@
+rank: feria
+name: II Tuesday
+vigil:
+    hymn: 205 # Now From the Slumbers of Night Arising
+    invitatory: Come let us worship the Lord, our mighty God.
+    psalmody:
+        - ["Show me your mercy, Lord, and keep me safe, alleluia.",37i]
+        - ["Lord, you know the burden of my sorrow.",37ii]
+        - ["The words of the Lord are true, like silver from the furnace.",37iii]
+    call: ["Teach me goodness and holy wisdom...","For I have put my trust in your guidance."]
+lauds:
+    hymn: 207 # Eternal Maker of the Light
+    psalmody:
+        - ["Lord, send forth your light and your truth.",43]
+        - ["Lord, keep us safe all the days of our life.",isaiah38]
+        - ["To you, O God, our praise is due in Zion.",65]
+    reading:
+        responsory:
+            - "Lord, listen ot my cry, all my trust is in your promise."
+            - ["Dawn finds me watching, crying out for you.","All my trust is in your promise."]
+    benedictus: "Lord, save us from the hands of all who hate us."
+    intercessions:
+        - ["Let us bless our Savior who enlightens the world by his resurrection. Let us humbly beg him:","Keep us, Lord, on your path."]
+        - ["Lord Jesus, we honor your resurrection in our morning prayer.","The hope of your glory enlightens our day."]
+        - ["Accept, Lord, our prayer and petitions...","As the first-fruits of our day."]
+        - ["Grant that we may progress today in your love.","And that all things may work together for our good and the good of all."]
+        - ["Make our light shine so brightly before men...","That seeing our good works they may give glory to the Father."]
+daytime:
+    psalmody:
+        - ["During my pilgrimage, I have kept your commandments.",119vii]
+        - ["God will deliver his people from bondage and bring them home rejoicing.",53]
+        - ["God is my helper and my strong support.",54]
+terce:
+    reading:
+        cite: "1 Corinthians 12:4-6"
+        text: >
+            There are different kinds of spiritual gifts but the same Spirit; there are different forms of service but the same Lord; there are different workings but the same God who produces all of them in everyone.
+        call: ["God is the savior of those who revere him...","That his glory may dwell here on earth."]
+sext:
+    reading:
+        cite: "1 Corinthians 12:12-13"
+        text: >
+            As a body is one though it has many parts, and all the parts of the body, though many, are one body, so also Christ. For in one Spirit we were all baptized into one body, whether Jews or Greeks, slaves or free persons, and we were all given to drink of one Spirit.
+        call: ["Holy Father, keep us true to yourself...","That we may be perfectly one."]
+none:
+    reading:
+        cite: "1 Corinthians 12:24b, 25-26"
+        text: >
+            God has so constructed the body as to give greater honor to a part that is without it, so that there may be no division in the body, but that the parts may have the same concern for one another. If one part suffers, all the parts suffer with it; if one part is honored, all the parts share its joy.
+        call: ["Lord our God, gather us from the nations of the world...","That we may glorify your holy name."]
+vespers:
+    hymn: 208 # Great Ruler of Space and Time
+    psalmody:
+        - ["You cannot serve both God and mammon.",49i]
+        - ["Store up for yourselves treasures in heaven, says the Lord.",49ii]
+        - ["Adoration and glory belong by right to the Lamb that was slain.",revelation4]
+    reading:
+        responsory:
+            - "I shall know the fullnes of joy when I see your face, O Lord."
+            - ["Fulfillment and endless peace in your presence...","When I see your face, O Lord."]
+    magnificat: Do great things for us, O Lord, for you are mighty and holy is your name.
+    intercessions:
+        - ["Let us praise Christ, the shepherd and guardian of our souls, who loves and protects his people. Placing our hope in him, we cry out:","Protect your people, Lord."]
+        - ["Eternal shepherd, protect our bishop David.","And all the shepherds of your Church."]
+        - ["Look kindly on those who suffer persecution.","Hasten to free them from all adversity."]
+        - ["Have mercy on the needy, Lord.","Provide food for the hungry."]
+        - ["Enlighten all legislators...","To enact laws in the spirit of wisdom and justice."]
+        - ["Come to the aid of our departed brothers and sister, whom you have redeemed with your blood.","Make them worthy to enter your wedding feast."]

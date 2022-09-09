@@ -1,0 +1,67 @@
+rank: feria
+name: II Wednesday
+vigil:
+    invitatory: Cry out with joy to the Lord, all the earth; serve the Lord with gladness.
+    hymn: 209 # Lord and Creator, Judge Supreme, Almighty
+    psalmody:
+        - ["We groan in pain as we await the redemption of our bodies.",39i]
+        - ["Hear and answer my prayer, O Lord, let me not weep in vain.",39ii]
+        - ["I have put all my trust in God's never-failing mercy.",52]
+    call: ["I put my trust in the word of the Lord.","All my hope is in him."]
+lauds:
+    hymn: 211 # O Author of the Heavens Bright
+    psalmody:
+        - ["O God, all your ways are holy; what god can compare to our God?",77]
+        - ["My heart leaps up with joy to the Lord, for he humbles only to exalt us.",1samuel2]
+        - ["The Lord is king, let the earth rejoice.",97]
+    reading:
+        responsory:
+            - "I will bless the Lord all my life long."
+            - ["With a long string of praise ever on my lips...","All my life long."]
+    benedictus: Let us serve the Lord in holiness all the days of our life.
+    intercessions:
+        - ["Blessed be God our Savior, who promised to remain with his Church all days until the end of the world. Let us give him thanks and call out:","Remain with us, Lord."]
+        - ["Remain with us the whole day, Lord.","Let your grace be a sun that never sets."]
+        - ["We dedicate this day to you as an offering.","Do not let us offer anything that is evil."]
+        - ["May your gift of light pervade this whole day...","That we may be the salt of the earth and the light of the world."]
+        - ["May the love of your holy Spirit direct our hearts and our lips.","And may we always act in accordance with your will."]
+daytime:
+    psalmody:
+        - ["I have pondered my ways and turned back to your teaching.",119viii]
+        - ["I tremble with fear, O Lord; turn to me and hear me.",55i]
+        - ["I shall cry to God for help, and the Lord will come to save me.",55ii]
+terce:
+    reading:
+        cite: "Deuteronomy 1:16-17a"
+        text: >
+            I charged your judges at that time, "Listen to complaints among your kinsmen, and administer true justice to both parties even if one of them is an alien. In rendering judgment, do not consider who a person is; give ear to the lowly and to the great alike, fearing no man, for judgment is God's."
+        call: ["The Lord is true and loves justice.","Those who are just will see him face to face."]
+sext:
+    reading:
+        cite: "Isaiah 55:8-9"
+        text: >
+            For my thoughts are not your thoughts, nor are your ways my ways, says the Lord. As high as the heavens are above the earth, so high are my ways above your ways and my thoughts above your thoughts.
+        call: ["God of power and might, who is your equal?","Faithfulness surrounds you on every side."]
+none:
+    reading:
+        cite: "1 Samuel 16:7b"
+        text: "Not as man sees does God see, because man sees the appearance but the Lord looks into the heart."
+        call: ["O God, search my heart and know me.","Lead me along the path to endless life."]
+vespers:
+    hymn: 212 # As Sun Declines and Shadows Fall
+    psalmody: 
+        - ["Eagerly we await the fulfillment of our hope, the glorious coming of our Savior.",62]
+        - ["May God turn his radiant face toward us, and fill us with his blessings.",67]
+        - ["Though him all things were made; he holds all creation together in himself.",colossians1]
+    reading:
+        responsory:
+            - "Keep us, O Lord, as the apple of your eye."
+            - ["Gather us under the shadow of your wings and keep us...","As the apple of your eye."]
+    magnificat: "Lord, with the strength of your arm, scatter the proud, and lift up the lowly."
+    intercessions:
+        - ["Beloved brothers and sisters, let us rejoice in our God, for he takes great delight in bestowing benefits on his people. Let us fervently pray:","Increase your grace and your peace, Lord."]
+        - ["Eternal God, for whom a thousand years are like the passing day...","Help us to remember that life is like a flower which blossoms in the morning, but whithers in the evening."]
+        - ["Give your people manna to satisfy their hunger.","And living water to quench their thirst for all eternity."]
+        - ["Let your faithful ones seek and taste the things that are above.","And let them direct their work and their leisure to your glory."]
+        - ["Deliver us from all harm, Lord.","And pour our your abundant blessings on our homes."]
+        - ["Show the faithful departed the vision of your face.","Let them rejoice in the contemplation of your presence."]

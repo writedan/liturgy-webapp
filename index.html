@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#content {
+	margin: auto;
+	width: 95%;
+	padding: 10px;
+	font-size: 5.25vw;
+}
+
+.center { text-align: center; }
+
+@font-face {
+  font-family: 'Versiculum';
+  font-style: normal;
+  font-weight: normal;
+  src: url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAn8AA4AAAAAEkwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABRAAAABwAAAAcc0/wCkdERUYAAAFgAAAAHQAAACAARAAET1MvMgAAAYAAAAA7AAAAYHmSKOhjbWFwAAABvAAAAH8AAAGaDGJ07Gdhc3AAAAI8AAAACAAAAAj//wADZ2x5ZgAAAkQAAAUBAAAJkLWTnchoZWFkAAAHSAAAAC8AAAA2CUBabWhoZWEAAAd4AAAAGwAAACQFYQI1aG10eAAAB5QAAAA2AAAAXBsQAABsb2NhAAAHzAAAABgAAAAwKAIptm1heHAAAAfkAAAAGAAAACAAGwErbmFtZQAAB/wAAAGLAAADuDm6iBZwb3N0AAAJiAAAAGwAAADIm7BxhXdlYmYAAAn0AAAABgAAAAZbWld2AAAAAQAAAADMPaLPAAAAANN2QWIAAAAA05wL2HjaY2BkYGDgA2IJBhBgYmAEQjEgZgHzGAAFPABJAAAAeNpjYGIMYJzAwMrAwqCBAU8woAJGZI5TZlEKgwMD7wMGZuP/xgwMTGUMZxiYIGqAbBBQYGAEAJMzCRUAeNpjYGBgZoBgGQZGBhCYAuQxgvksDBVAWopBACjCBWTxMigw6DEkMhQxlClwKegrxKv+ecDw/z9YF7IcA5Ic4/+v/x//v/Z/yf8p/yc+4Lj/5P7WW5IKYlC7cABGNga4AkYmIMGErgDiZARgYSAZsKILAC1lYGcYLAAAegkeuQAAAAAB//8AAnjahZW7chxFFIan79eZ6Z7p2dmrpL1Itgsj2dIaQQSBqILERfEQIiKEZ4A3oBxCxgs4IaSKxAQ8AEVMEZMCf+9qjSRbdvfWXma7T59z+v/OKWhR/PuMPCsuC1XEojg/PUvdYrlWp/P1k8VysUxnX7y4/PXsWxKXH1++uLz45iIuLhZFwbDvU/on/br4i0TyoCierM/fe9s8O+0HL+fVsyfre0f/z906zKt1XeqSkpiD/pWZ/1ku7h0tF9vPrQ83LC6Wea/sZPdy18Ya1i+v1rz0PMeL9dsdm13p9eec4zliyV6ebnbuTltv12ynWN+MemdFSVdZpzEsN8a5snTOGNZR6oTWQnDOGWcEb4Q7W9dGc0GosyE0MTbeM0uoNqW1hBAah8NBH4KSVbXnrLNWaaFxunYuVAJemMPZbBxDGHqpRr3RlPF8AOWiJDQ5JwUh1vrSO0kplRKbKbX4CUuUKuF9WwWlh02l8l7BGONajbRWSpsUYzdMKV/QT5QyUVUBw1AqqMoBSkk5hZdYmn+S57Bv4GPAaYrREEZt0yqZ4+VcKecb3XXj8d5sPEmdftQqL7EDfuDgcVlSP5muVuNxaJwT09gYxwWFfW5zDuG4lDHMZsfSmEF3dPjReDLp+za51jutxCZuroRg2CM4IhVIGBLrS+clDNGTvf02wb1hVRmrjVe4GKsEljRxMBiF1I6G+wf3KeECufbOq1prQxnTkjECLxn7BfeGe5FGNv0gpbrmhBIWkaPUph8jvEQWpUISrBrFWJbFjqXnYOkPYsj8Fkvb72s8W19Xdl6z1d9WX1eUbOZ1vu5k7NFrGLvF2U6x93Y27+bn6PoJWwZg9Q5S23TFzSse5v833qQuM5vuYkjKsrFOqHz7m5E/JW6lHWvl2qN2Pv/wbD4PR9ZUVR1svh0T6gjV2nnbGkjUZqDaEMqSGUKNLq2DFfDUD0KtVdMeNlCVRCANDvaMhTgdYoBFQu1GNFkzErgpwqz3uFto2hOmyrIqy1LqpolMcJEl4F0HKK0FSE3qR8N++r0Fz6GGkpVSUnMuZV31w4NQZrDJD0AXI6OioK4Qxk3bCrEpDwIlxEWV0nQ6n6/mHecRHmshBWfCA1FE5+LiZNKmstQ6B0+b0WhSxdBcHJ9M9+paT5tob+OjZAh7s2NlzWh8fPLZ4f5enzlPIXLCmDKCa53eAEgajQ8QftsOBm0yHsCDMxFWq3d6mYPgwmROcnHzoIJm7HEhyF2ubTVsCu5Z6SN4iaH0v72el9yzPqHf0a+K34u/iyKut/rYsbDT8tv7zPlp/4Yuc7t73STv1fOuzw011+euo7y9C93cd0TuIAAZqScQZJeaWoq+ylWSUKadrzvvhcxVHVmFxLznlpKNwNlO31I1zQoVXEI0nOWhkGO0D6t1FgVlRkNScNF3ZdlOBj1uEyXdjUJsmy6NVqhszBgoDgWeZUkqRSHN1uEOyd2AUKZ0WfbeAxFUZVOVY5ilABpitypu12zVTn7W0AjCgqqtgnpk7jmD2XR5PD8YIEoFEecewHYihhZzHZAxTjcyHg7fffg0Nk0IzqPnEWAd+348GaJp+Yj6nbsCBVQEr1y/qdDQpKzr1f7jx+9/fv9BZhDHMuuqumkaabR9OJ21jTWqvwaBU4I5G+OgHzWpm06XS1C2jz6GfOXOysU/X2aSEZCEXxkhiNkXBSl2A13gA/YfVCTREgAAAHjaY2BkYGAA4qtPlvrF89t8ZeBmYQCBy3O4byLo/x5ML5nKgFwOBiaQKABTOQu3AHjaY2BkYGAq+28CJF8yMIBJRgZUIA4AWycDmwB42mOSZ4ADRhEIzfQSiHcB8QygmDWQLkPQDJeAeC4QZ0KxPxDXAbEylAbKMX4BqgUyAXXvCSMAAHjaY2BgkIFBxkPMUSwH8MATLCcAAbUN/XjaY2BkYGAQZ9RiYGYAAUYGNAAABzYASHjaxVHNSkJREP7usT+FhEBcuDpEi2phGiVxV0UgFIKQUJs2V72ZpF3Lq9imB4ieoEUP0rJVf4to13v0AH1n7iklhNrFMMw3f9+cmQNgDm+IwZmIAxhQI+wgRS/CCklcWxxDATcWT2ABrxZPIoMPi6eQcpIWT+PQmbc4Du1cWpzAwLm1eBbLKm1xEmtq0+IHpFVo8SNy6sriJ8yoO4ufkVD3EX6PIaNesI0AHVzgHE00cIwQGouoYYl2FTnkKRpVVmhUmPXRp57S68MTu0eGAHVGs/S20KLoEb6ueD6tT2u666zcF6/Lqhp67OihTSafPcbzmBudFs0aTnLJOY7BHRvVP5iHNYFskOd7ciLjusczNmUvjxoy68mr2sJ+wliAoz/d67eK//qdCnZQYqbM6RFfUW5l5pfkEiZqegxHyCoXK5QuM4a7I8xZuVqLNmC0wXyZPCUcsK/KC30xRvcvSqfGrlxZS1wzvkFu8zcuN17/3rvAO/uUjnBHPzl8YwVnZGkyY3ZrfQJxz5QAAHjabc25EkFBAETRvvPw7EvkN8YwlpjyBwKhgCqJzO/jMR26VV0nbAX9er+E/jVvhoIqzXTQSWcCFS3adKjp0qPPgCEjxkyY1s/HPcUY7cImu7Qrm+3abuzW7uylmG7FXMzH/ddr8/cBAnokJAABV3ZbWQAA) format('woff');
+}
+
+v { font-family: 'Versiculum'; font-size:6.5vw; }
+
+i { color: red; font-style: italic; }
+
+r { color: red; }
+</style>
+<script src='./loth.js?uiid=104'></script>
+
+<title>Liturgy of the Hours</title>
+</head>
+<body>
+<div id='content'>
+	<div class='center'>
+		<h1>Liturgy of the Hours</h1>
+	</div>
+	<hr/>
+	<i>Before the office begins, kneel and make these prayers quietly.</i>
+	<p>Our Father, who art in heaven, hallowed be thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread and forgive us our trespasses as we forgive those who trespass against us. And lead us not into temptation but deliver us from evil.</p>
+	
+	<p>Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women and blessed is the fruit of thy womb, Jesus. Holy Mary, mother of God, pray for us sinners now and at the hour of our death. Amen.</p>
+	
+	<hr/>
+	
+	<i>All stand as the office begins.<br/>At the symbol of &#9769; make the Sign of the Cross here and wherever else it appears.</i>
+	
+	<p>
+		<v>v</v> God, &#9769; come to my assistance.<br/>
+		<v>r</v> Lord, make haste to help me.
+	</p>
+	
+	<i>For the following verse, the "Glory to the Father" or the "Glory be" as you may know it, stand and make a profound bow here and wherever else it occurs, rising for the response.</i>
+	
+	<p>
+		<v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/>
+		<v>r</v> As it was in the beginning is now and will be forever. Amen. Alleluia.
+	</p>
+	
+	<hr/>
+	
+	<i>The minister recites the antiphons alone the first time each is said. The "Joseph side" is Side A; the "Mary side" is side B.</i>
+	
+	<p></p>
+	
+	<i>All sit after each antiphon has been recited.</i>
+	
+	<!-- psalmody -->
+	
+	<hr/>
+	
+	<!-- call from vigil -->
+	
+	<hr/>
+	
+	<h3>Scriptural Lesson</h3>
+	
+	<!-- scriptural lesson -->
+	
+	<hr/>
+	
+	<!-- responsory -->
+	
+	<hr/>
+	
+	<h3>Patristic Lesson</h3>
+	
+	<!-- patristic lesson -->
+	
+	<hr/>
+	
+	<!-- responsory -->
+	
+	<hr/>
+	
+	<h3>Canticle of Mary</h3>
+	
+	<i>All stand for the canticle and remain standing throughout.</i>
+	
+	<p>
+		<i>Side A leader begins:</i><br/>
+		My soul &#9769; proclaims the greatness of the Lord,<br/>
+		<i>All continue:</i><br/>
+		my spirit rejoices in God my Savior<br/>
+		for he has looked with favor on his lowly servant.<br/>
+		From this day all generations will call me blessed;<br/>
+		the Almighty has done great things for me,<br/>
+		and holy is his name.
+	</p>
+	
+	<p>
+		<i>Side B leader begins:</i><br/>
+		He has mercy on those who fear him<br/>
+		<i>All continue:</i><br/>
+		in every generation.<br/>
+		He has shown the strength of his arm,<br/>
+		he has scattered the proud in their conceit.<br/>
+		He has cast down the mighty from their thrones,<br/>
+		and has lifted up the lowly.<br/>
+		He has filled the hungry with good things<br/>
+		And the rich he has sent away empty.<br/>
+		He has come to the help of his servant Israel,<br/>
+		for he has remembered his promise of mercy,<br/>
+		the promise he made to our fathers,<br/>
+		to Abraham and his children forever.
+	</p>
+	
+	<p>
+		<v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/>
+		<v>r</v> As it was in the beginning is now and will be forever. Amen.
+	</p>
+	
+	<hr/>
+	
+	<h3>Intercessions</h3>
+	
+	<i>All kneel as the minister begins the intercessions.</i>
+	
+	<p></p>
+	
+	<i>All privately then pray</i> Our Father...
+	
+	<hr/>
+	
+	<i>All stand as the minister begins the conclusion.</i>
+	
+	<p>
+		<v>v</v> Lord, hear my prayer.<br/>
+		<v>r</v> And let my cry come before you.
+	</p>
+	
+	<p>Let us pray.</p>
+	
+	<hr/>
+	
+	<p>
+		<v>v</v> Let us bless the Lord.<br/>
+		<v>r</v> And give him thanks.<br/>
+		<v>v</v> May the divine assistance remain with us always.<br/>
+		<v>r</v> And with our brethren who are absent.<br/>
+		<v>v</v> May the Lord bless us, &#9769; protect us from all evil, and bring us to everlasting life.<br/>
+		<v>r</v> Amen.
+	</p>
+	
+	<i>All then kneel and privately pray</i> Our Father...
+</body>
+</html>
+
+
+<script>
+	let width = screen.width;
+	if (0.01 * width > 18) { // compress font size
+		document.getElementById("content").style.fontSize = "2vw";
+		var glyphs = document.getElementsByTagName('v');
+		for (let i = 0; i < glyphs.length; i++) {
+			glyphs[i].style.fontSize = "2.5vw";
+		}
+	}
+</script>
+
+<script>
+	// first determine which liturgical year we are in
+	var today = new Date();
+	console.log(today);
+	
+	var currentYear = today.getFullYear();
+	
+	if (today >= dayToDate(moveDayForwardDays(getAdventSunday(currentYear + 1), 0))) { // we are in the next liturgical year
+		console.log("The calendar year is behind the liturgical year.");
+		currentYear++;
+	}
+	
+	var bounds = [getAdventSunday(currentYear), moveDayForwardDays(getAdventSunday(currentYear + 1), -1)];
+	
+	console.log("Liturgical year " + currentYear + " began " + bounds[0] + " and ends " + bounds[1]);
+	console.log("Today is " + dateToDay(today));
+	
+	// we must find ourselves on the temporal and sanctoral cycles
+	// for the temporal cycle, our lankmarks are Advent, Christmas, Ash Wednesday, Easter, and Pentecost. Between Christmas and Ash Wednesday is ordianry time and between Pentecost and Advent is ordinary time.
+	var season;
+	if (today >= dayToDate(getAdventSunday(currentYear)) && today < dayToDate(getChristmas(currentYear))) {
+		season = 'advent';
+	} else if (today >= dayToDate(getChristmas(currentYear)) && today <= dayToDate(getBaptism(currentYear))) {
+		season = 'christmas';
+	} else if (today >= dayToDate(getAshWednesday(currentYear)) && today < dayToDate(getEaster(currentYear))) {
+		season = 'lent';
+	} else if (today >= dayToDate(getEaster(currentYear)) && today <= dayToDate(getPentecost(currentYear))) {
+		season = 'easter';
+	} else if (today > dayToDate(getBaptism(currentYear)) && today < dayToDate(getAshWednesday(currentYear))) {
+		season = 'pre-lent';
+	} else if (today > dayToDate(getPentecost(currentYear)) && today < dayToDate(getAdventSunday(currentYear + 1))) {
+		season = 'post-pentecost';
+	}
+	else {
+		alert("liturgical season given as unknown value '"+season+"'");
+	}
+	
+	console.log("This falls in the " + season + " liturgical season.");
+</script>
+
+<script>
+	var WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
+	
+	function importOffice(url) {
+		console.log(url);
+	}
+</script>
+
+<script>
+	function postPentecost() {
+		// the post pentecost season begins on or after may 8, provided this is after pentecost
+		let n = [5, 8, currentYear];
+		let a = dayToDate(n);
+		while (a.getDay() != 0) a = moveDateForwardDays(a, 1);
+		n = dateToDay(a);
+		while (a <= dayToDate(getPentecost(currentYear))) a = moveDateForwardDays(a, 7);
+		console.log(a);
+	}
+	
+	function ordinaryTime() {
+		var weekSundays = [];
+		weekSundays[1] = getBaptism(currentYear);
+		for (let i = 2; i <= 5; i++) {
+			weekSundays[i] = moveDayForwardDays(weekSundays[i - 1], 7);
+		}
+		
+		
+		for (let i = 1; i < weekSundays.length; i++) weekSundays[i] = dayToDate(weekSundays[i]);
+		
+		var nextSunday = moveDateForwardDays(weekSundays[5], 7);
+		var index = 6;
+		while (nextSunday < dayToDate(getAshWednesday(currentYear))) {
+			weekSundays[index++] = nextSunday;
+			nextSunday = moveDateForwardDays(nextSunday, 7);
+		}
+		
+		weekSundays[index++] = moveDateForwardDays(nextSunday, 2);
+		
+		var medialWeeks = [];
+		medialWeeks[6] = [5, 8, currentYear];
+		medialWeeks[7] = [5, 15, currentYear];
+		medialWeeks[8] = [5, 22, currentYear];
+		medialWeeks[9] = [5, 29, currentYear];
+		
+		for (let i = 6; i < 10; i++) medialWeeks[i] = dateToNextSunday(dayToDate(medialWeeks[i]));
+		
+		index = 6;
+		while (nextSunday < dayToDate(getPentecost(currentYear))) {
+			nextSunday = medialWeeks[index++];
+			if (index > 9) break;
+		}
+		
+		if (nextSunday < dayToDate(getPentecost(currentYear))) {
+			index = 10; nextSunday = dateToNextSunday(dayToDate([6, 5, currentYear]));
+			while (nextSunday < dayToDate(getPentecost(currentYear))) {
+				nextSunday = moveDateForwardDays(nextSunday, 7);
+				index++;
+			}
+			weekSundays[index] = nextSunday;
+		} else {
+			weekSundays[--index] = nextSunday;
+		}
+		
+		for (index = index + 1; index < 35; index++) {
+			weekSundays[index] = moveDateForwardDays(weekSundays[index - 1], 7);
+		}
+		
+		var weekNumber;
+		for (let i = 1; i < weekSundays.length; i++) {
+			let a = weekSundays[i];
+			let b = weekSundays[i + 1];
+			if (today >= a && (today < b || b == null)) weekNumber = i;
+		}
+		
+		console.log(weekNumber + " Week in Ordinary Time");
+		importOffice('propers/ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
+}
+</script>
+
+<script>
+switch (season) {
+		case 'pre-lent':
+		case 'post-pentecost': ordinaryTime(); break;
+		default: alert("when does"+season+"occur?");
+	}
+</script>

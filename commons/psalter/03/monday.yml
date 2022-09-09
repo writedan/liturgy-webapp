@@ -1,0 +1,55 @@
+rank: feria
+name: III Monday
+common: psalter/01/monday
+vigil:
+    psalmody:
+        - ["Our God will be made manifest; he will not come in silence.",50i]
+        - ["Offer to God the sacrifice of praise.",50ii]
+        - ["I want a loving heart more than sacrifice, knowledge of my ways more than holocausts.",50iii]
+    call: ["Listen my people and I will speak.","I am the Lord, your God."]
+lauds:
+    psalmody:
+        - ["Blessed are they who dwell in your house, O Lord.",84]
+        - ["Come, let us climb the mountain of the Lord.",isaiah2]
+        - ["Sing to the Lord and bless his name.",96]
+    intercessions:
+        ["We were created to glorify God through deeds. Let us earnestly pray:","May we give glory to your name, Lord."]
+        - ["We bless you, creator of all things.","For you have given us the good things of the earth and brought us to this day."]
+        - ["Look with favor on us as we begin our daily work.","Let us be fellow workers with you."]
+        - ["Make our work today benefit our brothers and sisters.","That with them and for them we may build an earthly city, pleasing to you."]
+        - ["Grant joy and peace to us.","And to all we meet this day."]
+daytime:
+    psalmody:
+        - ["Lord, I have sought to do your will, through which you give me life.",119xii]
+        - ["I have trusted in you, O Lord, from my youth.",71i]
+        - ["Do not abandon me, O God, when I am old.",71ii]
+terce:
+    reading:
+        cite: "2 Corinthians 13:11"
+        text: >
+             Brothers and sisters, rejoice. Mend your ways, encourage one another, agree with one another, live in peace, and the God of love and peace will be with you. 
+        responsory: ["The Lord looks on those who love him.","He hears their cry."]
+sext:
+    reading:
+        cite: "Romans 6:22"
+        text: >
+            Now that you have been freed from sin and have become slaves of God, the benefit that you have leads to sanctification, and its end is eternal life. 
+        responsory: ["O God, turn back and bring us to life.","Then your people will rejoice in you."]
+none:
+    reading:
+        cite: "Colossians 1:21-22"
+        text: >
+             You who once were alienated and hostile in mind because of evil deeds he has now reconciled in his fleshly body through his death, to present you holy, without blemish, and irreproachable before him. 
+        responsory: ["All you who love the Lord, sing his praises.","Celebrate the beauty of his holiness."]
+vespers:
+    psalmody:
+        - ["All our eyes are fixed intently on the Lord, waiting for his merciful help.",123]
+        - ["Our help is in the name of the Lord, who made heaven and earth.",124]
+        - ["God chose us in his Son to be his adopted children.",ephesians1]
+    intercessions:
+        - ["Christ desires to lead all men to salvation. Let us implore him with all our heart:","Draw all things to yourself, Lord."]
+        - ["Through your precious blood, Lord, you redeemed us from the slavery of sin.","Grant us the freedom to be sons of God."]
+        - ["Bestow your grace upon our bishop David and upon all bishops.","May they administer your sacraments with fervent joy."]
+        - ["Grant that all who seek the truth may find it.","And in finding it may they desire it all the more."]
+        - ["Be present to comfort widows, orphans, and all the abandoned, Lord.","May they feel close to you and cling to you."]
+        - ["Receive our departed brethren into the heavenly kingdom.","Where with the Father and the Holy Spirit you will be all in all."]

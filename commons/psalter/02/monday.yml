@@ -1,0 +1,66 @@
+rank: feria
+name: II Monday
+vigil:
+    invitatory: Come let us sing joyful songs to the Lord.
+    hymn: 201 # Throughout All Ages 'Til Our Time
+    psalmody:
+        - ["Bow down and hear me, Lord, come to my rescue.",31i]
+        - ["Lord, let the light of your countenance shine on your servants.",31ii]
+        - ["Blessed be the Lord, for he has poured out his mercy upon me.",31iii]
+    call: ["Guide me in the way of your truth and teach me...","For you are my saving God."]
+lauds:
+    hymn: 203 # O Splendid Giver of Light
+    psalmody:
+        - ["When will I come to the end of my pilgrimage and enter the presence of God?",42]
+        - ["Lord, show us the radiance of your mercy.",sirach36]
+        - ["The vaults of heaven ring with your praise, O Lord.",19a]
+    reading:
+        responsory:
+            - "Sing for joy, God's chosen ones, give him the praise that is due."
+            - ["Sing a new song to the Lord.","Give him the praise that is due."]
+    benedictus: Blessed be the Lord, for he has come to his people and set them free.
+    intercessions:
+        - ["Our Savior has made us a nation of priests to offer an acceptable sacrifice to the Father. Let us call upon him in gratitude:","Preserve us in your ministry, Lord."]
+        - ["Christ, eternal priest, you conferred the holy priesthood on your people.","Grant that we may offer spiritual sacrifices acceptable to the Father."]
+        - ["In your goodness pour out on us the fruits of your Spirit:","Patience, kindness, and gentleness."]
+        - ["May we love you and possess you, for you are love.","And may every action of our lives praise you."]
+        - ["May we seek those things which are beneficial to our brothers, without counting the cost...","To help them on the way to salvation."]
+daytime:
+    psalmody:
+        - ["Blessed are those who hear the word of God and cherish it in their hearts.",119vi]
+        - ["Doing my Father's will is the food that sustains me.",40i]
+        - ["I am poor, but the Lord takes care of me.",40ii]
+terce:
+    reading:
+        cite: "Jeremiah 31:33"
+        text: >
+            This is the covenant which I will make with the house of Israel after those days, says the Lord. I will place my law within them, and write it upon their hearts; I will be their God, and they shall be my people.
+        call: ["Create a clean heart in me, O God.","Do not cast me away from your face."]
+sext:
+    reading:
+        cite: "Jeremiah 32:40"
+        text: >
+            I will make them an eternal covenant, never to cease doing good to them; into their hearts I will put the fear of me, that they may never depart from me.
+        call: ["God is my savior and my glory.","I take refuge in him."]
+none:
+    reading:
+        cite: "Ezekiel 34:31"
+        text: "You, my sheep, you are the sheep of my pasture, and I am your God, says the Lord God."
+vespers:
+    hymn: 204 # O Fount of Light, True Light Itself
+    psalmody: 
+        - ["Yours is more than mortal beauty; every word you speak is full of grace.".45i]
+        - ["The bridgegroom is here; go out and welcome him.",45ii]
+        - ["God planned in the fullness of time to restore all things in Christ.",ephesians1]
+    reading:
+        responsory:
+            - "Accept my prayer, O Lord, which rises up to you."
+            - ["Like burning incense in your sight...","Which rises up to you."]
+    magnificat: Forever will my soul proclaim the greatness of the Lord.
+    intercessions:
+        - ["Let us praise Christ, who loves, nourishes, and supports his Church. With faith let us cry out to him:","Answer the prayers of your people, Lord."]
+        - ["Lord Jesus, grant that all men be saved...","And come to the knowledge of truth."]
+        - ["Preserve our holy Father, Pope Francis, and David our bishop.","Come with your power to help them."]
+        - ["Remember those who long for honest work.","So that they may lead a life of peaceful security."]
+        - ["Lord, be the refuge of the poor...","Their help in distress."]
+        - ["We commend to your care all bishops, priests, and deacons who have died.","May they sing your praises forever around your heavenly throne."]

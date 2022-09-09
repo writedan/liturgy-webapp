@@ -1,0 +1,68 @@
+rank: feria
+name: I Tuesday
+vigil:
+    invitatory: Come let us worship our mighty King and God.
+    hymn: 168 # Most Holy Trinity, One God
+    psalmody:
+        - ["The Lord is just, he will defend the poor.",10i]
+        - ["Lord, you know the burden of my sorrow.",10ii]
+        - ["The words of the Lord are true, like silver from a furnace.",12]
+    call: ["The Lord teaches the humble his way.","He guides the gentle hearted along the right path."]
+lauds:
+    hymn: 169 # Unto the World a Pleasant Dawn
+    psalmody:
+        - ["The man whose deeds are blameless and whose heart is pure will climb the mountain of the Lord.",24]
+        - ["Praise the eternal king in all your deeds.",tobit13]
+        - ["The loyal heart must praise the Lord.",33]
+    reading:
+        responsory:
+            - "My God stands by me, all my trust is in him."
+            - ["I find refuge in him, and I am truly free.","All my trust is in him."]
+    benedictus: God has raised up for us a mighty Savior, as he promised through the words of his holy prophets.
+    intercessions:
+        - ["Beloved brothers and sisters, we share a heavenly calling under Christ our high priest. Let us praise him with shouts of joy:","Lord, our God and our Savior."]
+        - ["Almighty King, through baptism you conferred on us a royal priesthood.","Inspire us to offer you a continual sacrifice of praise."]
+        - ["Help us to keep your commandments...","That through the power of the Holy Spirit we may live in you and you in us."]
+        - ["Give us your eternal wisdom...","To be with us today and to guide us."]
+        - ["May our companions today be free of sorrow...","And filled with joy."]
+daytime:
+    psalmody:
+        - ["The will of God gives joy to the heart; we see all things in its light.",119i]
+        - ["You have saved me, Lord, and my heart is full with joy.",13]
+        - ["God sees all people as sinners, that he might show them his mercy.",14]
+terce:
+    reading:
+        cite: "Jeremiah 17:7-8"
+        text: >
+            Blessed in the one who trusts in the Lord, whose trust is the Lord. They shall be like a tree planted by water, sending out its roots by the stream. It shall not fear when heat comes, and its leaves shall stay green; in the year of drought it is not anxious, and it does not cease to bear fruit.
+        call: ["God cares for all the needs of those who follow him.","Lord, God of hosts, happy is the man who trusts in you."]
+sext:
+    reading:
+        cite: "Proverbs 3:13-15"
+        text: >
+            Happy are those who find wisdom, and those who get understanding, for her income is better than silver, and her revenue better than gold. She is more precious than corals, and none of your choice possessions can compare with her.
+        call: ["Lord, all you ask of me is truth.","In the depths of my heart you have taught me wisdom."]
+none:
+    reading:
+        cite: "Job 5:17-18"
+        text: >
+            How happy is the one whom god reproves; therefore do not despise the discipline of the Almighty. For he wounds, but he binds up; he strikes, but his hands heal.
+        call: ["Deal with your servant in mercy, Lord.","Teach me to do your will."]
+vespers:
+    hymn: 171 # O Mighty Maker of the Land
+    psalmody:
+        - ["God has crowned his Christ with victory.",20]
+        - ["We celebrate your mighty works with songs of praise, O God.",21]
+        - ["Lord, you have made us a kingdom and priests for God our Father.",revelation4]
+    reading:
+        responsory:
+            - "Through all eternity, O Lord, your promise stands unshaken."
+            - ["Your faithfulness will never failed.","Your promise stands unshaken."]
+    magnificat: My spirit rejoices in God my Savior.
+    intercessions:
+        - ["Let us praise Christ the Lord who lives among us, the people he redeemed, and let us say:","Lord, hear our prayer."]
+        - ["Lord, king and ruler of nations, be with all your people and their governments.","Inspire them to pursue the good of all according to your law."]
+        - ["You made captive our captivity.","To our brothers who are enduring bodily or spiritual chains, grant the freedom of the sons and daughters of God."]
+        - ["May our young people be concerned with remaining blameless in your sight.","And may they generously follow your call."]
+        - ["May our children imitate your example.","And grow in wisdom and grace."]
+        - ["Accept our dead brothers and sisters into your eternal kingdom.","Where we hope to reign with you."]

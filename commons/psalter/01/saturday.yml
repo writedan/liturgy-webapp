@@ -1,0 +1,50 @@
+rank: feria
+name: I Saturday
+vigil:
+    invitatory: Come, let us worship God who holds the world and its wonders in his creating hand.
+    hymn: 191 # O God, All Merciful and Wise
+    psalmody:
+        - ["Whoever humbles himself, like a little child, will be greater in the kingdom of heaven.",131]
+        - ["With simplicity of heart, I have joyfully offered everything to you, my God.",132i]
+        - ["The Lord has sworn an oath to David; his kingdom will stand forever.",132ii]
+    call: ["Come, consider the works of the Lord...","The marvels has has created on earth."]
+lauds:
+    hymn: 194 # The Dawn Now Tints the Eastern Sky
+    psalmody:
+        - ["Dawn finds me ready to welcome you, my God.",119xix]
+        - ["The Lord is my strength and I shall sing his praise, for he has become my savior.",exodus15]
+        - ["O praise the Lord, all you nations.",117]
+    reading:
+        responsory:
+            - "I cry to you, O Lord, for you are my refuge."
+            - ["You are all I desire in the land of the living...","For you are my refuge."]
+    benedictus: Lord, shine on those who dwell in darkness and the shadow of death.
+    intercessions:
+        - ["Let us all praise Christ. In order to become our faithful and merciful high priest before the Father's throne, he chose to become one of us, a brother in all things. In prayer we ask of him:","Lord, share with us the treasure of you love."]
+        - ["Sun of justice, you filled us with light at our baptism.","We dedicate this day to you."]
+        - ["At every hour of the day, we give you glory.","In all our deedsm we offer you praise."]
+        - ["Mary, your mother, was obedient to your word.","Direct our lives in accordance with that word."]
+        - ["Our lives are surrounded with passing things.","Set our hearts on things of heaven, so that through faith, hope, and charity we may come to enjoy the visions of your glory."]
+daytime:
+    psalmody:
+        - ["Lead me, Lord, in the path of your commandments.",119v]
+        - ["Those who seek the Lord will be filled with every blessing.",34i]
+        - ["Seek and strive for peace.",34ii]
+terce:
+    reading:
+        cite: "1 Kings 8:60-61"
+        text: >
+            May all the peoples of the earth know the Lord is God and there is no other. You must be wholly devoted to the Lord, our God, observing his statutes and keeping his commandments.
+        call: ["Lord, my God, teach me your ways.","Make me live by the light of your truth."]
+sext:
+    reading:
+        cite: "Jeremiah 17:9-10"
+        text: >
+            More tortuous than all else is the human heart, beyond remedy; who can understand it? I, the Lord, alone probe the mind and test the heart, to reward everyone according to his ways, according to the merit of his deeds.
+        call: ["Free me from my hidden faults.","Never let me sin through pride."]
+none:
+    reading:
+        cite: "Wisdom 7:27a, 8:1"
+        text: >
+            The wisdom of God, who is one, can do all things, and renews everything while herself perduring; indeed, she reaches from end to end mightily and governs all things well.
+        call: ["How wonderful are you works, O Lord...","Fathomless your designs."]

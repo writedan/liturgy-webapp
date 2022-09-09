@@ -1,0 +1,66 @@
+rank: feria
+name: II Friday
+vigil:
+    invitatory: "Come, let us praise the Lord; in him is all our delight."
+    hymn: 218 # With Passing Night the Cock Will Crow
+    psalmody:
+        - ["Lord, in your anger, do not punish me.",38i]
+        - ["Lord, you know all my longings.",38ii]
+        - ["I will confess my guilt to you, Lord; do not abandon me, for you are my Savior.",38iii]
+    call: ["My eyes keep watch for your saving help...","Awaiting the word that will justify me."]
+lauds:
+    hymn: 220 # O God, the Lamp of Heaven High
+    psalmody:
+        - ["A humble, contrite heart, O God, you will not spurn.",51]
+        - ["Even in your anger, Lord, you will remember compassion.",habakkuk3]
+        - ["O praise the Lord, Jerusalem.",147]
+    reading:
+        responsory:
+            - "The Lord, the Most High, has done good things for me. In need I shall cry out to him."
+            - ["My he send his strength to rescue me.","In need I shall cry out to him."]
+    benedictus: "Through the tender compassion of our God the dawn from on high shall break upon us."
+    intercessions:
+        - ["Let us adore Christ who offered himself to the Father through the Holy Spirit to cleanse us from the works of death. Let us adore him and call upon him with sincere hearts:","In your will is our peace, Lord."]
+        - ["From your generosity we have received the beginning of this day.","Grant us also the beginning of new life."]
+        - ["You created all things, and now your provide for their growth.","May we always perceive your handiwork in creation."]
+        - ["With your own blood you ratified the new and eternal convenant.","May we remain faithful to that covenant by following your precepts."]
+        - ["On the cross, blood and water flowed from your side.","May this saving stream wash away our sin and gladden the city of God."]
+daytime:
+    psalmody:
+        - ["Let your loving kindness console me as you promised.",119x]
+        - ["Protect me, God, from those who rise up against me.",59]
+        - ["We are happy to be chastened by God, who heals us as he wounds.",60]
+terce:
+    reading:
+        cite: "Deuteronomy 1:31b"
+        text: "The Lord, your God, carried you, as a man carries his child, all along your journey until you arrived at this place."
+        responsory: ["Support me, Lord, according to your promise, and I shall live.","Let my hope in you not be in vain."]
+sext:
+    reading:
+        cite: "Baruch 4:28-29"
+        text: "As your hearts have been disposed to stray from God, turn now ten times the more to seek him; for he who has brought disaster upon you will, in saving you, bring you back enduring joy."
+        responsory: ["With the Lord there is mercy...","And the fullness of redemption."]
+none:
+    reading:
+        cite: "Wisdom 1:13-15"
+        text: >
+            God did not make death, nor does he rejoice in the destruction of the living. For he fashioned all things that they might have being; and the creatures of the world are wholesome, and there is not a destructive drug among them nor any domain of the netherworld on earth, for justice is undying.
+        responsory: ["god has snatched me from the bonds of death.","I shall walk among the living in his presence."]
+vespers:
+    hymn: 221 # The Hours Are Passing Swiftly By
+    psalmody:
+        - ["Lord, keep my soul from death; never let me stumble.",116]
+        - ["My help comes from the Lord, who made heaven and earth.",121]
+        - ["King of all the ages, your ways are perfect and true.",revelation15]
+    reading:
+        responsory:
+            - "Christ died for our sins to make of us an offering to God."
+            - ["He died to this world of sin and rose in the power of the Spirit...","To make of us an offering to God."]
+    magnificat: "Remember your mercy, Lord, the promise of mercy you made to our fathers."
+    intercessions:
+        - ["Let us bless Christ, the compassionate and mericful Lord, who wipes away the tears of those who weep. Let us cry out to him in love and ask:","Have mercy on your people, Lord."]
+        - ["Lord Jesus, you console the humble.","Be attentive to the tears of the poor."]
+        - ["Merciful God, hear the cries of the dying.","Comfort them with your presence."]
+        - ["Make exiles aware of your providential care.","May they return to their home on earth and finally enter their home in heaven."]
+        - ["Be merciful to sinners who have fallen away from your love.","Reconcile them to yourself and to your Church."]
+        - ["Save our brothers who have died.","Let them share in the fullness of redemption."]

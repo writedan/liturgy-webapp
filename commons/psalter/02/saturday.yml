@@ -1,0 +1,48 @@
+rank: feria
+name: II Saturday
+vigil:
+    invitatory: "Let us listen to the voice of God; let us enter into his rest."
+    hymn: 222 # Eternal Light, Undying Day
+    psalmody:
+        - ["None but the Lord has done such marvels; his love endures forever.",136i]
+        - ["He brought Israel out of Egypt with a powerful hand and arms outstretched.",136ii]
+        - ["Give praise to the God of heaven; he has ransomed us from our enemies.",136iii]
+    call: ["Lord, show me your ways.","Teach me to walk in your footsteps."]
+lauds:
+    hymn: 224 # With Daylight Once Again Restored
+    psalmody:
+        - ["As morning breaks, we sing of your mercy, Lord, and night will find us proclaiming your fidelity.",92]
+        - ["Extol the greatness of our God.",deuteronomy32]
+        - ["How wonderful is your name, O Lord, in all creation.",8]
+    reading:
+        responsory:
+            - "It is my joy, O God, to praise you with song."
+            - ["To sing as I ponder your goodness...","To praise you with song."]
+    benedictus: "Lord, guide our feet into the way of peace."
+    intercessions:
+        - ["Let us celebrate the kindness and wisdom of Christ, he offers his love and understanding to all men, especially to the suffering. Let us earnestly pray to him:","Perfect us in love, Lord."]
+        - ["This morning we recall your resurrection.","And we long for the benefits of your redemption."]
+        - ["Grant that we bear witness to you today, Lord.","And offer an acceptable gift to the Father through you."]
+        - ["Enable us to see your image in all men.","And to serve you in them."]
+        - ["Lord Jesus, you are the true vine and we are the branches.","Allow us to remain in you, to bear much fruit and to give glory to the Father."]
+daytime:
+    psalmody:
+        - ["Heaven and earth will pass away, but my words will not pass away.",119xi]
+        - ["Lord you are my hope; a strong citadel against my enemies.",61]
+        - ["O Lord, guard my life from the menace of the foe.",64]
+terce:
+    reading:
+        cite: "Deuteronomy 8:5b-6"
+        text: "The Lord, your God, disciplines you even as a man disciplines his son. Therefore, keep the commandments of the Lord, your God, by walking in his ways and fearing him."
+        responsory: ["The fear of the Lord is holy, enduring forever.","The decrees of the Lord are true and all of them just."]
+sext:
+    reading:
+        cite: "1 Kings 2:2b-3"
+        text: "Take courage. Keep the mandate of the Lord, your God, following his ways and observing his statutes, commands, ordinances, and decrees as they are written in the law of Moses, that you may succeed in whatever you do, wherever you turn."
+        responsory: ["Guide me Lord, in the way of your precepts...","For this is all I desire."]
+none:
+    reading:
+        cite: "Jeremiah 6:16a"
+        text: >
+            Stand beside the earliest roads, ask the pathways of old which is the way to good and walk it; thus you will find the rest for your souls.
+        responsory: ["Your words are my eternal heritage.","They are the joy of my heart."]

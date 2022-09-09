@@ -1,0 +1,68 @@
+rank: feria
+name: I Wednesday
+vigil:
+    invitatory: Come let us worship before the Lord, our maker.
+    hymn: 173 # Creator Bountiful and Kind
+    psalmody:
+        - ["I love you Lord; you are my strength.",18i]
+        - ["The Lord has saved me; he wanted me for his own.",18ii]
+        - ["Lord, kindle a light for my guidance and scatter my darkness.",18iii]
+    call: ["All wondered at the words of grace.","Which came from the mouth of the Lord."]
+lauds:
+    hymn: 175 # When Breaks the Day and Dawn Grows Bright
+    psalmody:
+        - ["O Lord, in your light we see light itself.",36]
+        - ["O God, you are great and glorious; we marvel at your power.",judith16]
+        - ["Exult in God's presence with hymns of praise.",47]
+    reading:
+        responsory: 
+            - "Incline my heart according to your will, O God."
+            - ["Speed my steps along your path...","According to your will, O God."]
+    benedictus: Show us your mercy, Lord; remember your holy covenant.
+    intercessions:
+        - ["Let us give thanks to Christ and offer him continual praise, for he sanctifies us and calls us his brothers and sisters:","Lord, help us to grow in holiness."]
+        - ["With single-minded devotion we dedicate the beginnings of this day to the honor of your resurrection.","May we make the whole day pleasing to you by our works of holiness."]
+        - ["As a sign of your love, you renew each day for the sake of our well-being and happiness.","Renew us daily for the sake of your glory."]
+        - ["Teach us today to recognize your presence in all people.","Especially in hte poor and in those who mourn."]
+        - ["Grant that we may live today in peace with all people...","Never rendering evil for evil."]
+daytime:
+    psalmody:
+        - ["Lord, may you be blessed forever. Teach me the ways of holiness.",119ii]
+        - ["Lord, keep me steadfast in your ways.",17i]
+        - ["Rise up, O Lord, and rescue me.",17ii]
+terce:
+    reading:
+        cite: "1 Peter 1:13-14"
+        text: >
+            Gird up the loins of your mind, live soberly, and set your hopes completely on the grace to be brought to you at the revelation of Jesus Christ. Like obedient children, do not act in compliance with the desires of your former ignorance.
+        call: ["Lord, show me your ways.","Teach me to walk in your footsteps."]
+sext:
+    reading:
+        cite: "1 Peter 1:15-16"
+        text: >
+            As he who called you is holy, be holy yourselves in every aspect of your conduct, for it is written, "Be holy because I am holy."
+        call: ["May your priests be robed with holiness.","Let your people dance for joy."]
+none:
+    reading:
+        cite: "James 4:7-8a, 10"
+        text: >
+            Submit yourselves to God. Resist the devil, and he will flee from you. Draw near to God, and he will draw near to you. Humble yourselves before the Lord and he will exult you.
+        call: ["God looks tenderly on those who revere him...","On those who trust in his mercy."]
+vespers:
+    hymn: 178 # O God Most Holy, God Most High
+    psalmody:
+        - ["The Lord is my light and my salvation; whom shall I fear?",27i]
+        - ["I long to look on you, O Lord; do not turn your face away from me.",27ii]
+        - ["He is the first-born of all creation; in every way the primacy is his.",colossians1]
+    reading:
+        responsory:
+            - "Claim me once more as your own, Lord, and have mercy on me."
+            - ["Do not abandon me with the wicked.","Have mercy on me."]
+    magnificat: The Almighty has done great things for me, and holy is his name.
+    intercessions:
+        - ["In all that we do, let the name of the Lord be praised, for he surrounds his chosen people with boundless love. Let our prayer rise up to him:","Lord, show us your love."]
+        - ["Remember your Church, Lord.","Keep her from every evil and let her grow to the fullness of your love."]
+        - ["Let the nations recognize you as the one true God...","And Jesus our Son as the Messiah whom you sent."]
+        - ["Grant prosperity to our neighbors.","give them life and happines forever."]
+        - ["Console those who are burdened with oppressive work and daily hardships.","Preserve the dignity of workers."]
+        - ["Open wide the doors of your compassion to those who have died today.","And in your mercy receive them into your kingdom."]

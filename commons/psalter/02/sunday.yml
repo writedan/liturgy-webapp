@@ -1,0 +1,83 @@
+rank: sunday
+name: II Sunday
+vespers1:
+    hymn: 195 # O God, the Source and Fount of Life
+    psalmody:
+        - ["Your word, O Lord, is the lantern to light our way, alleluia.",119xiv]
+        - ["When I see your face, O Lord, I shall know the fullness of joy, alleluia.",16]
+        - ["Let everything in heaven and earth bend the knee at the name of Jesus, alleluia.",philippians2]
+    reading:
+        responsory:
+            - "From the rising of the sun to its setting, may the name of the Lord be praised."
+            - ["His splendor reaches far beyond the heavens.","May the name of the Lord be praised."]
+    intercessions:
+        - ["God aids and protects the people he has chosen for his inheritance. Let us give thanks to him and proclaim his goodness:","Lord, we trust in you."]
+        - ["We pray for Francis our Pope and David our bishop.","Protect them and in your goodness make them holy."]
+        - ["May the sick feel their companionship with the suffering Christ.","And know that they will enjoy his eternal consolation."]
+        - ["In your goodness have compassion on the homeless.","Help them to find proper housing."]
+        - ["In your goodness give and preserve the fruits of the earth.","So that each day there may be bread enough for all."]
+        - ["Lord, you attend the dying with great mercy.","Grant them an eternal dwelling."]
+vigil:
+    hymn: 196 # The Prophet's Voice Bids Us Arise
+    invitatory: Come, worship the Lord, for we are his people, the flock he shepherds, alleluia.
+    psalmody:
+        - ["Lord God, in splendor and majesty you are clothed, wrapped in light as in a robe, alleluia.",104i]
+        - ["The Lord has brought forth bread from the earth, and wine to give warmth to our hearts, alleluia.",104ii]
+        - ["The Lord looked upon all he had made and saw that is was very good, alleluia.",104iii]
+    call: ["Blessed are your eyes, for they see God's works...","And your ears, for they hear his word."]
+lauds:
+    hymn: 198 # Lo! The Dim Shadows of the Night are Waning
+    psalmody:
+        - ["Blessed is he who comes in the name of the Lord, alleluia.",118]
+        - ["Let us sing a hymn of praise to our God, alleluia.",daniel3]
+        - ["Praise the Lord for his infinite greatness, alleluia.",150]
+    reading:
+        responsory:
+            - "We give thanks to you, O god, as we call upon your name."
+            - ["We praise you for your blessings to us...","As we call upon your name."]
+    intercessions:
+        - ["Let us give thanks to our Savior who came into this world as God's presence among us. Let us call upon him:","Christ, king of glory, be our light and our joy."]
+        - ["Lord Jesus, you are the risings sun, the first-fruits of the future resurrection.","Grant that we may not sit in the shadow of death but walk in the light of life."]
+        - ["Show us your goodness present in every creature.","That we may contemplate your glory everywhere."]
+        - ["Do not allow us to be overcome by evil today.","But grant that we may overcme evil through the power of good."]
+        - ["You were baptized in the Jordan and annointed by the Holy Spirit.","Grant that we may this day give thanks to your Holy Spirit."]
+daytime:
+    psalmody:
+        - ["The Lord has brought me to green pastures, alleluia.",23]
+        - ["Great is the name of the Lord among his people Israel, alleluia.",76i]
+        - ["Earth shuddered, then all was still, when God arose for judgment, alleluia.",76ii]
+terce:
+    reading:
+        cite: "Romans 5:1-2, 5"
+        text: >
+            Since we have been justified by faith, we have peace with God through our Lord Jesus Christ, through whom we have gained access by faith to this grace in which we stand, and we boast in hope of the glory of God. And hope does not disappoint, because the love of God has been poured out into our hearts through the Holy Spirit that has been given to us.
+        call: ["I will sing forever of your mercy, O Lord.","Make known to all generations the fidelity of our God."]
+sext:
+    reading:
+        cite: "Romans 8:26"
+        text: >
+            The Spirit comes to the aid of our weakness; for we do not know how to pray as we ought, but the Spirit itself intercedes with inexpressible groanings.
+        call: ["Lord, grant a hearing to my prayer.","Give me wisdom as you promised."]
+none:
+    reading:
+        cite: "2 Corinthians 1:21-22"
+        text: >
+            The one who gives us security with you in Christ and who annointed us is God; he has also put his seal upon us and given the Spirit in our hearts as a first installment.
+        call: ["The Lord is my light and my help.","He is the protector of my life."]
+vespers2:
+    hymn: 200 # O Trinity of Blessed Light
+    psalmody:
+        - ["Christ our Lord is a priest forever, like Melchizedek of old, alleluia.",110]
+        - ["God dwells in highest heaven; he has power to do all he wills, alleluia.",115]
+        - ["Praise God, all you who serve him, both great and small, alleluia.",revelation19]
+    reading:
+        responsory:
+            - "Our Lord is great, mighty is his power."
+            - ["His wisdom is beyond compare.","Mighty is his power."]
+    intercessions:
+        - ["All praise and honor to Christ. He lives forever to intercede for us, and he is able to save those who approach the Father in his name. Sustained by our faith, let us call upon him:","Remember your people, Lord."]
+        - ["As the day draws to a close, sun of justice, we invoke your name upon the whole human race.","So that all men may enjoy your never-failing light."]
+        - ["Preserve the covenant which you have ratified in your blood.","Cleanse and sanctify your Church."]
+        - ["Remember your assembly, Lord...","Your dwelling place."]
+        - ["Guide travelers along the path of peace and prosperity.","So that they may reach their destinations in safety and joy."]
+        - ["Receive the souls of the dead, Lord.","Grant them your favor and the gift of eternal glory."]

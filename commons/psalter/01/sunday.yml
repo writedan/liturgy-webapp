@@ -1,0 +1,83 @@
+rank: sunday
+name: I Sunday
+vespers1:
+        hymn: 151 # O God, Creator of the World
+        psalmody:
+                - ["Like burning incense, Lord, let my prayer rise up to you.",141]
+                - ["You are my refuge, Lord, you are all that I desire in life.",142]
+                - ["The Lord Jesus humbled himself, and God exalted him forever.","philippians2"]
+        reading:
+            responsory:
+                    - "Our hearts are filled with wonder as we contemplate your works, O Lord."
+                    - ["We praise the wisdom which wrought them all.","As we contemplate your works, O Lord."]
+        intercessions:
+                - ["We give glory to the one God Father, Son, and Holy Spirit, and in our weakness we pray:","Lord, be with you people."]
+                - ["Holy Lord, Father all-powerful, let justice spring up on the earth.","Then your people will dwell in the beauty of peace."]
+                - ["Let every nation come into your kingdom.","So that all people will be saved."]
+                - ["Let married couples live in your peace...","And grow in mutual love."]
+                - ["Reward all who have done good to us, Lord.","And grant them eternal life."]
+                - ["Lord, you attend the dying with great mercy.","Grant them an eternal dwelling."]
+vigil:
+        invitatory: "Come let us sing to the Lord and shout with joy to the Rock who saves us."
+        hymn: 154 # This Sacred Day, the Eighth of Days
+        psalmody:
+                - ["See how the cross of the Lord stands revealed as the tree of life.",1]
+                - ["Here is a king of my own choosing who will rule on Mount Zion.",2]
+                - ["Lord, you are my protector; you have raised me up in glory.",3]
+        call: ["May the word of Christ ever fill your hearts.","Share with one another the wisdom you receive."]
+lauds:
+        hymn: 155 # Eternal Maker of the World
+        psalmody:
+                - ["As morning breaks, I look to you, O God, to be my strength this day, alleluia.",63]
+                - ["From the midst of the flames the three young men cried out with one voice: Blessed be God, alleluia.","Canticle of the Three Young Men"]
+                - ["Let the people of Zion rejoice in their king, alleluia.",149]
+        reading:
+            responsory:
+                    - "Christ, Son of the living God, have mercy on us."
+                    - ["You are seated at the right hand of the Father.","Have mercy on us."]
+        intercessions:
+                - ["Christ is the sun that never sets, the true light that shines on every man. Let us call out to him in praise:","Lord, you are our life and our salvation."]
+                - ["Creator of the stars, we thank you for your gift, the first rays of the dawn.","And we commemorate your resurrection."]
+                - ["May your Holy Spirit teach us to do your will today.","And may your Wisdom guide us always."]
+                - ["Each Sunday give us the joy of gathering as your people...","Around the table of your Word and your Body."]
+                - ["From our hearts we thank you...","For your countless blessings."]
+daytime:
+        psalmody:
+                - ["What better can we do than take refuge in the Lord: his love will never fail, alleluia.",118i]
+                - ["The Lord is my strength, and I shall sing his praise, alleluia.",118ii]
+                - ["I shall proclaim your goodness Lord, for you have answered me, alleluia.",118iii]
+terce:
+        reading:
+                cite: "1 John 4:16"
+                text: >
+                       We have come to know and to believe in the love God has for us. God is love, and whoever remains in love remains in God and God in him
+            call: ["Incline my heart according to your will, O God.","Speed my steps along your path."]
+sext:
+        reading:
+                cite: "Galatians 6:7b-8"
+                text: >
+                        A person will reap only what he sows. If he sows in the field of flesh he will reap a harvest of corruption; but if his seedground is the spirit, he will reap everlasting life.
+            call: ["Your promise, Lord, will stand forever.","In every generation your word is true."]
+none:
+        reading:
+                cite: "Galations 6:9-10"
+                text: >
+                        Let us not grow weary of doing good; if we do not relax our efforts in due time we shall reap our harvest. While we have the opportunity, let us do good to all - but especially to those of the household of faith.
+            call: ["From the depths of my heart I cry to you, Lord.","I shall always do your will."]
+vespers2:
+        hymn: 157 # O Blest Creator of the Night
+        psalmody: 
+                - ["The Lord will strecht forth his mighty scepter from Zion, and he will reign forever, alleluia.",110]
+                - ["The earth was shaken to its depths before the glory of your face.",114]
+                - ["All power is yours, Lord God, our mighty king, alleluia.",revelation19]
+        reading:
+            responsory:
+                    - "The whole creation proclaims the greatness of your glory."
+                    - ["Eternal ages praise...","The greatness of your glory."]
+        intercessions:
+                - ["Christ the Lord is our head; we are his members. In joy let us call out to him:","Lord, may your kingdom come."]
+                - ["Christ our Savior, make your Church a more vivid symbol of the unity of all people.","Make it more effectively the sacrament of salvation for all peoples."]
+                - ["Through your presence, guide the college of bishops in union with the Pope.","Give them the gifts of unity, love, and peace."]
+                - ["Bind all Christians more closely to yourself, their divine Head.","Lead them to proclaim your kingdom by the witness of their lives."]
+                - ["Grant peace to the world.","Let every land flourish in justice and security."]
+                - ["Grant to the dead the glory of resurrection.","And give us a share in their happiness."]

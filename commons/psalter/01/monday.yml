@@ -1,0 +1,67 @@
+rank: feria
+name: I Monday
+vigil:
+        invitatory: "Let us approach the Lord with praise and thanksgiving."
+        hymn: 161 # Divinity, Eternal Light
+        psalmody:
+                - ["Show me your mercy, Lord, and keep me safe, alleluia.",6]
+                - ["The poor are not alone in their distress. God is here to help them, alleluia.",9i]
+                - ["I will be the herald of your praises, Lord, where the people of Zion gather, alleluia.",9ii]
+        call: ["Give me insight, Lord, to know your will.","Then I will cherish it with all my heart."]
+lauds:
+        hymn: 162 # O Splendor of God's Glory Bright
+        psalmody:
+                - ["I lift up my heart to you, O Lord, and you will hear my morning prayer.",5]
+                - ["We praise your glorious name, O Lord our God.",1chronicles29]
+                - ["Adore the Lord in his holy court.",29]
+        reading:
+            responsory:
+                    - "Blessed be the Lord our God from age to age."
+                    - ["His marvelous works are beyond compare","Blessed from age to age."]
+        benedictus: Blessed be the Lord our God.
+        intercessions:
+                - ["We esteem Christ above all men and women, for he was filled with grace and the Holy Spirit. In faith let us implore him:","Give your Spirit, Lord."]
+                - ["Grant us a peaceful day","When evening comes we will praise you with joy and purity of heart."]
+                - ["Let your splendor rest upon us today.","Direct the work of our hands."]
+                - ["May your face shine upon us and keep us in peace.","May your strong arm protect us."]
+                - ["Look kindly on all who put their trust in our prayer.","Fill them with every bodily and spiritual grace."]
+daytime:
+        psalmody:
+                - ["The will of god gives joy to the heart; we see all things in its light.",19b]
+                - ["God comes in power to give his people justice.",7i]
+                - ["God is our judge, strong and just. He saves the upright of heart.",7ii]
+terce:
+        reading:
+                cite: "Romans 13:8-10"
+                text: >
+                        Owe nothing to anyone, except to love one another; for the one who loves another has fulfilled the law. The commandments "You shall not commit adultery; you shall not kill; you shall not steal; you shall not covet," and whatever other commandments there may be, are summed up in this saying, namely "You shall love your neighbor as yourself." Love does no evil to the neighbor; hence, love is the fulfillment of the law.
+            call: ["Stand by me, God, do not forsake me.","Do not abandon me, my Savior."]
+sext:
+        reading:
+                cite: "James 1:19-20, 26"
+                text: >
+                        Know this, my dear brothers and sister: everyone should be quick to hear, slow to speak, slow to wrath, for wrath does not accomplish the righteousness of God. If anyone thinks he is religious and does not bridle his tongue but deceives his heart, his religion is vain.
+            call: ["I will bless the Lord all my life long.","With a song of praise ever on my lips."]
+none:
+        reading:
+                cite: "1 Peter 1:17-19"
+                text: >
+                        If you invoke as Father him who judges impartially according to each one's works, conduct yourselves with reverence during the time of your sojourning, realizing that you were ransomed from your futile conduct, handed on by your ancestors, not with perishable things like silver or gold but with the precious blood of Christ as of a spotless, unblemished Lamb.
+                call: ["Claim me once more as your own, Lord, and have mercy on me.","And I will give thanks where your people gather in prayer."]
+vespers:
+        hymn: 164 # O Boundless Wisdom, god Most High
+        psalmody: 
+                - ["The Lord looks tenderly on those who are poor.",11]
+                - ["Blessed are the pure of heart, for they shall see God.",15]
+                - ["God chose us in his Son to be his adopted children.",ephesians1]
+        reading:
+            responsory:
+                    - "Lord, you alone can heal me, for I have grieved you by my sins."
+                    - ["Once more I say: O Lord, have mercy on me...","For I have grieved you by my sins."]
+        magnificat: My soul proclaims the greatness of the Lord, for he has looked with favor on his lowly servant.
+        intercessions:
+                - ["God has made an everlasting covenant with his people, and he never ceases to bless them. Grateful for these gifts, we confidently direct our prayer to him:","Lord, bless your people."]
+                - ["Gather into one body all who bear the name of Christian...","That the whole world may believe in Christ whom you have sent."]
+                - ["Give our friends and our loved ones a share in divine life.","Let them be symbols of Christ before all people."]
+                - ["Show your love to those who are suffering.","Open their eyes to the vision of your revelation."]
+                - ["Be compassionate to those who have died.","Welcome them into the company of the faithful departed."]
