@@ -1,6 +1,6 @@
 rank: feria
 name: III Saturday
-common: 01/psalter/saturday
+common: psalter/01/saturday
 vigil:
     psalmody:
         - ["Let us praise the Lord for his mercy and for the wonderful things he has done for us.",107i]
