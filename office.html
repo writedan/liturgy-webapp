@@ -98,8 +98,12 @@
 				}
 				
 				// handle first and second vespers
-				if (hour == 'vespers' && (temporal.vespers == null || sanctoral.vespers == null)) {
-					hour ='vespers2';
+				if (temporal == null) {
+					if (hour == 'vespers' && sanctoral.vespers == null) hour = 'vespers2';
+				} else if (sanctoral == null) {
+					if (hour == 'vespers' && temporal.vespers == null) hour = 'vespers2';
+				} else {
+					if (hour == 'vespers' && (temporal.vespers == null || sanctoral.vespers == null)) hour = 'vespers2';
 				}
 				
 				if (hour == 'vespers1') {
