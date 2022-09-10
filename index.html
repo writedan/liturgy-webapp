@@ -177,16 +177,16 @@ r { color: red; }
 			if (options[i][0].getTime() == today.getTime()) { // include all hours
 				$('#content').append('<h3>'+options[i][1]+'</h3>');
 				if (options[i][2] == 'sunday' || options[i][2] == 'solemnity') {
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
+					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
+					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
 					$('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers2&v=lessons">Second Vespers</a>');
 				} else if (options[i][2] == 'feria') {
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
+					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
+					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
 					if (today.getDay() != 6) $('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers2&v=lessons">Vespers</a>');
 				} else { 
-					$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</p>');
-					$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=lauds&s='+options[i][3]+'">Lauds</p>');
+					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</p>');
+					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=lauds&s='+options[i][3]+'">Lauds</p>');
 					if (today.getDay() != 6) $('#content').append('<a href="office.html?t='+options[0][3]+'&hour=vespers2&v=lessons&s='+options[i][3]+'">Vespers</a>');
 				}
 			}
