@@ -112,7 +112,7 @@ resetSize();
 		console.log('Offering ' + link);
 		getYaml('https://daniel.writefamily.com/liturgy/propers/'+link+'.yml',function(data){
 			$('#content').append('<h3>'+data.name+'</h3>');
-			$('#content').append('<a href="office.html?t='+link+'&hour=vespers+vigil">Vespers</a>');
+			$('#content').append('<a href="office.html?t='+link+'&hour=vespers&v=lessons">Vespers</a>');
 		});
 	}
 	

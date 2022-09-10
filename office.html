@@ -130,14 +130,12 @@
 					OFFICE.vigil.reading1, OFFICE.vigil.reading2
 				];
 				delete OFFICE.vigil.reading1; delete OFFICE.vigil.reading2;
-				
-				// one small hack
-				if (hour == 'vespers vigil') {
+
+				if (urlParams.has('v')) {
 					OFFICE.vespers.call = OFFICE.vigil.call;
 					OFFICE.vespers.readings = OFFICE.vigil.readings;
 					delete OFFICE.vespers.reading;
 					OFFICE.note = 'Lessons from the Office of Readings. ';
-					hour = 'vespers';
 				}
 				
 				OFFICE[hour].name = OFFICE.name;
