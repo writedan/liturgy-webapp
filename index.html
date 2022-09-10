@@ -37,6 +37,8 @@ r { color: red; }
 	<div class='center'><h1>Liturgy of the Hours</h1></div>
 	<hr/>
 </div>
+<hr/>
+<a href='https://github.com/writedan/liturgy-webapp'>Github source code</a>
 </body>
 </html>
 
@@ -184,7 +186,11 @@ resetSize();
 		}
 		
 		console.log(weekNumber + " Week in Ordinary Time");
-		makeTemporalOption('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
+		if (today.getDay() == 6) {
+			
+		} else {
+			makeTemporalOption('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
+		}
 }
 </script>
 
