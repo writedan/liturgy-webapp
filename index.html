@@ -191,6 +191,15 @@ r { color: red; }
 				}
 			}
 		}
+		
+		let width = screen.width;
+				if (0.01 * width > 18) { // compress font size
+					document.getElementById("content").style.fontSize = "2vw";
+					var glyphs = document.getElementsByTagName('v');
+					for (let i = 0; i < glyphs.length; i++) {
+						glyphs[i].style.fontSize = "2.5vw";
+					}
+				}
 		});
 </script>
 
