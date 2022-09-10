@@ -98,9 +98,7 @@
 				}
 				
 				// handle first and second vespers
-				if (hour == 'vespers' && (temporal.vespers == null)) {
-					hour ='vespers2';
-				} if (hour == 'vespers' && (sanctoral.vespers == null)) {
+				if (hour == 'vespers' && (temporal.vespers == null || sanctoral.vespers == null)) {
 					hour ='vespers2';
 				}
 				
