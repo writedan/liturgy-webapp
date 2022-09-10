@@ -98,11 +98,22 @@ resetSize();
 
 <script>
 	var WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+	
+	function getYaml(url, callback) {
+				jQuery.get(url, function(data) {
+					console.log(url);
+					callback(YAML.parse(data));
+				})
+			};
 </script>
 
 <script>
 	function makeOption(link) {
 		console.log('Offering ' + link);
+		getYaml('https://daniel.writefamily.com/liturgy/propers/'+link+'.yml',function(data){
+			$('#content').append('<h3>'+data.name+'</h3>');
+			$('#content').append('<a href="office.html?t='+link+'&hour=vespers+vigil">Vespers</a>');
+		});
 	}
 	
 	
