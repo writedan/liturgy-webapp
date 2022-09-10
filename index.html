@@ -34,125 +34,9 @@ r { color: red; }
 </head>
 <body>
 <div id='content'>
-	<div class='center'>
-		<h1>Liturgy of the Hours</h1>
-		<div id='heading'></div>
-	</div>
+	<div class='center'><h1>Liturgy of the Hours</h1></div>
 	<hr/>
-	<i>Before the office begins, kneel and make these prayers quietly.</i>
-	<p>Our Father, who art in heaven, hallowed be thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread and forgive us our trespasses as we forgive those who trespass against us. And lead us not into temptation but deliver us from evil.</p>
-	
-	<p>Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women and blessed is the fruit of thy womb, Jesus. Holy Mary, mother of God, pray for us sinners now and at the hour of our death. Amen.</p>
-	
-	<hr/>
-	
-	<i>All stand as the office begins.<br/>At the symbol of &#9769; make the Sign of the Cross here and wherever else it appears.</i>
-	
-	<p>
-		<v>v</v> God, &#9769; come to my assistance.<br/>
-		<v>r</v> Lord, make haste to help me.
-	</p>
-	
-	<i>For the following verse, the "Glory to the Father" or the "Glory be" as you may know it, stand and make a profound bow here and wherever else it occurs, rising for the response.</i>
-	
-	<p>
-		<v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/>
-		<v>r</v> As it was in the beginning is now and will be forever. Amen. Alleluia.
-	</p>
-	
-	<div id='hymn'></div>
-	
-	<hr/>
-	
-	<i>The minister recites the antiphons alone the first time each is said. The "Joseph side" is Side A; the "Mary side" is side B.</i>
-	
-	<div id='psalmody'></div>
-		
-	<div id='call'></div>
-	<p><i>All sit.</i></p>
-	
-	<hr/>
-	
-	<div id='lessons'></div>
-	
-	<hr/>
-	
-	<h3>Canticle of Mary</h3>
-	
-	<i>All stand for the canticle and remain standing throughout.</i>
-	
-	<p class='mag_ant'></p>
-	
-	<p>
-		<i>Side A leader begins:</i><br/>
-		My soul &#9769; proclaims the greatness of the Lord,<br/>
-		<i>All continue:</i><br/>
-		my spirit rejoices in God my Savior<br/>
-		for he has looked with favor on his lowly servant.<br/>
-		From this day all generations will call me blessed;<br/>
-		the Almighty has done great things for me,<br/>
-		and holy is his name.
-	</p>
-	
-	<p>
-		<i>Side B leader begins:</i><br/>
-		He has mercy on those who fear him<br/>
-		<i>All continue:</i><br/>
-		in every generation.<br/>
-		He has shown the strength of his arm,<br/>
-		he has scattered the proud in their conceit.<br/>
-		He has cast down the mighty from their thrones,<br/>
-		and has lifted up the lowly.<br/>
-		He has filled the hungry with good things<br/>
-		And the rich he has sent away empty.<br/>
-		He has come to the help of his servant Israel,<br/>
-		for he has remembered his promise of mercy,<br/>
-		the promise he made to our fathers,<br/>
-		to Abraham and his children forever.
-	</p>
-	
-	<p>
-		<v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/>
-		<v>r</v> As it was in the beginning is now and will be forever. Amen.
-	</p>
-	
-	<p class='mag_ant'></p>
-	
-	<hr/>
-	
-	<h3>Intercessions</h3>
-	
-	<div id='int_ope'></div>
-		
-	<div id='int'></div>
-	
-	<i>All privately then pray</i> Our Father...
-	
-	<hr/>
-	
-	<i>All stand as the minister begins the conclusion.</i>
-	
-	<p>
-		<v>v</v> Lord, hear my prayer.<br/>
-		<v>r</v> And let my cry come before you.
-	</p>
-	
-	<p>Let us pray.</p>
-	
-	<div id='collect'></div>
-	
-	<hr/>
-	
-	<p>
-		<v>v</v> Let us bless the Lord.<br/>
-		<v>r</v> And give him thanks.<br/>
-		<v>v</v> May the divine assistance remain with us always.<br/>
-		<v>r</v> And with our brethren who are absent.<br/>
-		<v>v</v> May the Lord bless us, &#9769; protect us from all evil, and bring us to everlasting life.<br/>
-		<v>r</v> Amen.
-	</p>
-	
-	<i>All then kneel and privately pray</i> Our Father... <i>Thus ends the office.</i>
+</div>
 </body>
 </html>
 
@@ -213,168 +97,14 @@ resetSize();
 </script>
 
 <script>
-	var WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
-	
-	var OFFICE = {};
-	
-	var BUILDOFFICE_CALL = false;
-	
-	function buildOffice() {
-		if (BUILDOFFICE_CALL) return;
-		BUILDOFFICE_CALL = true;
-		console.log("It is time for the Lord to act.");
-		var vespers;
-		if (OFFICE.rank == 'sunday' || OFFICE.rank == 'solemnity') vespers = OFFICE.vespers2
-		else vespers = OFFICE.vespers;
-		
-		if (vespers == null) alert("This doesn't work with first vespers yet.");
-		
-		// import from the office of readings
-		vespers.reading = [OFFICE.vigil.reading1, OFFICE.vigil.reading2];
-		vespers.call = OFFICE.vigil.call;
-		
-		// import from elsewhere
-		vespers.name = OFFICE.name;
-		vespers.collect = OFFICE.collect;
-		
-		
-		document.title = vespers.name;
-		
-		function handlePsalm(psalm) {
-			var div = document.createElement('div');
-			div.id = psalm[1];
-			$('#psalmody').append(div);
-			$.get('https://daniel.writefamily.com/liturgy/psalter/'+psalm[1]+'.txt',function(text){
-				var heading = document.createElement('h3');
-				heading.innerHTML = text.split('\n')[0];
-				div.append(heading);
-				
-				div.innerHTML = div.innerHTML + "<p><i>Ant.</i> "+psalm[0] + "</p>";
-				
-				div.innerHTML = div.innerHTML + "<p><i>All sit after the antiphon.</i></p>";
-				
-				var sections = text.split("\r\n\r\n");
-				for (let i = 0; i < sections.length; i++) {
-					var sideA = (i % 2) == 0;
-					var section = sections[i].split("\n");
-					var k;
-					if (i == 0) k = 1;
-					else k = 0;
-					
-					for (; k < section.length; k++) {
-						if ( k == 0 || (k==1 && i==0)) {
-							if (i != 0) div.innerHTML = div.innerHTML + "<br/>";
-							div.innerHTML = div.innerHTML + ("<i>Side " + (sideA?'A':'B') + " leader begins:</i><br/>"+section[k]+"<br/>");
-						} else if (k==1 || (k==2 && i==0)) {
-							div.innerHTML = div.innerHTML + ("<i>All Side " + (sideA?'A':'B') + " continues:</i><br/>"+section[k]+"<br/>");
-						} else {
-							div.innerHTML = div.innerHTML + section[k] + "<br/>";
-						}
-					}
-				}
-				
-				div.innerHTML = div.innerHTML + "<p><i>After a brief pause, all stand.</i></p>";
-				div.innerHTML = div.innerHTML + "<p><v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/><v>r</v> As it was in the beginning is now and will be forever. Amen.</p>";
-				div.innerHTML = div.innerHTML + "<p><i>The antiphon is recited by all.</i><br/><i>Ant.</i> "+psalm[0] + "</p>";
-				
-				div.append(document.createElement('hr'));
-				
-				resetSize();
-			});
-		}
-		
-		$('#heading').append('<p>'+vespers.name+'. Vespers. </p>');
-		
-		for (let i = 0; i < vespers.psalmody.length; i++) {
-			handlePsalm(vespers.psalmody[i]);
-		}
-		
-		$('#call').append('<p><v>v</v> '+ vespers.call[0] +'<br/><v>r</v> '+vespers.call[1]+'</p>');
-		
-		$('#collect').append('<p>'+vespers.collect+'<br/><v>r</v> Amen.</p>');
-		
-		for (let i = 0; i < vespers.reading.length; i++) {
-			var div = document.createElement('div');
-			var name = vespers.reading[i].cite;
-			if (name == null) name = 'Patristic Homily';
-			div.innerHTML = '<h3>'+name+'</h3>';
-			var sections = vespers.reading[i].text.split("\n\n");
-			for (let k = 0; k < sections.length; k++) {
-				div.innerHTML = div.innerHTML + "<p>"+sections[k]+"</p>";
-			}
-			div.innerHTML = div.innerHTML + "<hr/>";
-			div.innerHTML = div.innerHTML + "<p><v>v</v> "+vespers.reading[i].responsory[0][0]+"<br/><v>r</v> "+vespers.reading[i].responsory[0][1]+"</p>";
-			div.innerHTML = div.innerHTML + "<p><v>v</v> "+vespers.reading[i].responsory[1][0]+"<br/><v>r</v> "+vespers.reading[i].responsory[1][1]+"</p>";
-			$('#lessons').append(div);
-		}
-		
-		$('.mag_ant').html('<p><i>Ant.</i> '+vespers.magnificat+'</p>');
-		
-		var intercessions = $("#int");
-		for (let i = 0; i < vespers.intercessions.length; i++) {
-			intercessions.append("<p><v>v</v> " + vespers.intercessions[i][0] + "<br/><v>r</v> " + vespers.intercessions[i][1]+"</p>");
-			if (i == 0) intercessions.append("<p><i>All kneel for the intercessions.</i></p>");
-		}
-		
-		resetSize();
-	}
-	
-	function getYaml(url, callback) {
-		jQuery.get(url, function(data) {
-			console.log(url);
-			callback(YAML.parse(data));
-		});
-	}
-	
-	function mergeOffice(data,url) {
-		for (key in data) {
-			if (data[key] instanceof Object) { // is hash
-				if (OFFICE[key] == null) {
-					OFFICE[key] = data[key];
-				} else {
-					for (part in data[key]) { // we are now inside the hours
-						if (data[key][part] instanceof Object) {
-							if (OFFICE[key][part] == null) {
-								OFFICE[key][part] = data[key][part];
-							} else if (part=='reading') {
-								for (ele in data[key][part]) {
-									if (OFFICE[key][part][ele] == null) OFFICE[key][part][ele] = data[key][part][ele];
-								}
-							}
-						} else {
-							if (OFFICE[key][part] == null) OFFICE[key][part] = data[key][part];
-						}
-					}
-				}
-			} else { // is something else
-				if (OFFICE[key] == null) OFFICE[key] = data[key];
-				// else retain the lowest level
-			}
-		}
-	}
-	
-	function importOffice(url) {
-		url = "https://daniel.writefamily.com/liturgy/"+url+".yml";
-		getYaml(url,function(data){
-			mergeOffice(data,url);
-			if (data.common != null) importOffice('commons/'+data.common);
-			else buildOffice();
-		});
-	}
-	
-	
+	var WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
 </script>
 
 <script>
-	function postPentecost() {
-		// the post pentecost season begins on or after may 8, provided this is after pentecost
-		let n = [5, 8, currentYear];
-		let a = dayToDate(n);
-		while (a.getDay() != 0) a = moveDateForwardDays(a, 1);
-		n = dateToDay(a);
-		while (a <= dayToDate(getPentecost(currentYear))) a = moveDateForwardDays(a, 7);
-		console.log(a);
+	function makeOption(link) {
+		console.log('Offering ' + link);
 	}
+	
 	
 	function ordinaryTime() {
 		var weekSundays = [];
@@ -432,7 +162,7 @@ resetSize();
 		}
 		
 		console.log(weekNumber + " Week in Ordinary Time");
-		importOffice('propers/ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
+		makeOption('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
 }
 </script>
 
