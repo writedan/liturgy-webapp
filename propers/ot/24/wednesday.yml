@@ -1,0 +1,54 @@
+name: Wednesday of the Twenty-fourth Week in Ordinary Time
+rank: feria
+common: psalter/04/wednesday
+collect: >-
+    Look upon us, O God, creator and ruler of all things, and, that we may feel the working of your mercy, grant that we may serve you with all our heart: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+    reading1:
+        cite: "Ezekiel 10:18-22, 11:14-25"
+        text: |
+            From the book of the prophet Ezekiel.
+            
+            The glory of the Lord left the threshold of the temple and rested upon the cherubim. These lifted their wings, and I saw them rise from the earth, the wheels rising along with them. They stood at the entrance of the eastern gate of the Lord's house, and the glory of the God of Israel was up above them.
+ 
+            These were the living creatures I had seen beneath the God of Israel by the river Chebar, whom I now recognized to be cherubim. Each ohad four faces and four wings; something like human hands were under their wings. Their faces looked just like those I had seen by the river Chebar; each one went straight forward.
+ 
+            Thus the word of the Lord came to me:  Son of man, it is about your kinsmen, your fellow exiles, and the whole house of Israel that the inhabitants of Jerusalem say, "They are far away from the Lord; to us the land of Israel has been given as our possession." Therefore say: Thus says the Lord God: Though I have removed them far among the nations and scattered them over foreign countries--and was for a while their only sanctuary in the countries to which they had gone-- I will gather you from the nations and assemble you from the countries over which you have been scattered, and I will restore to you the land of Israel. They shall return to it and remove from it all its detestable abominations. I will give them a new heart and put a new spirit within them; I will remove the stony heart from their bodies, and replace it with a natural heart, so that they will live according to my statutes, and observe and carry out my ordinances; thus they shall be my people and I will be their God. But as for those whose hearts are devoted to their detestable abominations, I will bring down their conduct upon their heads, says the Lord God.
+  
+            Then the cherubim lifted their wings, and the wheels went along with them, while up above them was the glory of the God of Israel. And the glory of the Lord rose from the city and took a stand on the mountain which is to the east of the city.
+  
+            Spirit lifted me up and brought me back to the exiles in Chaldea (in a vision, by God's spirit). Then the vision I had seen left me, and I told the exiles everything the Lord had shown me.
+        responsory:
+            - ["The glory of the Lord rose to the threshold of the temple, the temple was filled with the cloud, and the court shone with the glory of the Lord.","Then the glory of the Lord went forth from the threshold of the temple."]
+            - ["O Jerusalem, how often have I longed to gather your children together, but you refused: your temple will be left deserted.","Then the glory of the Lord went forth from the threshold of the temple."]
+    reading2:
+        text: |
+            From a sermon on Pastors by Saint Augustine, bishop.
+            
+            I have explained what it means to consume milk. Now let us consider what it means to clothe with wool. One who gives milk gives sustenance, while one who gives wool gives honor. These are precisely the two things that pastors, who feed themselves and not the sheep, look for from the people—the benefit of having their wants supplied as well as the favor of honor and praise.
+
+            Yes, clothing can well be taken to mean honor, since it covers nakedness. For every man without exception is weak. And who is any man placed over you except someone just like yourself. Your pastor is in the flesh, he is mortal, he eats, sleeps and awakens; he was born and he is going to die. In himself he is, when you think of it, simply a man. But it is true that you make him something more by giving him honor; it is as if you were covering what is weak.
+
+            Consider the nature of the clothing that the apostle Paul received from God's good people. He said: "You have received me like an angel of God. I testify that if it were possible you would have torn out your eyes and given them to me." Indeed great honor was shown to him. But did he then spare sinners because of that honor, perhaps out of fear that it would be refused and that he would receive less praise when he gave blame? Had he done so, he would be among those shepherds who feed themselves and not the sheep. He would then say to himself: "What has this to do with me? Let everyone do what he will; my sustenance is safe, and my honor too. I have enough milk and wool, so let each one do as he likes." But then are things really secure for you if each one does as he pleases? I do not want to make you a leader over the people but one of them. "If one member suffers, all the members suffer with him."
+
+            In recalling how they treated him, the Apostle does not want to appear forgetful of the honor they did him. Therefore he gives testimony that they received him like an angel of God, that if it were possible, they were willing to tear out their eyes and give them to him. Yet he still comes to the sheep that is ill, to the one that is diseased, to cut the wound and not to spare the diseased part. He says: Have I then become your enemy by preaching the truth? He took from the milk of the sheep, as I mentioned a short time ago, and he was clothed with their wool, but he did not neglect his sheep. He did not seek what was his but what was Christ's.
+        responsory:
+            - ["If they have chosen you master of the feast, do not think too highly of yourself.","Be like one of the guests and look after them."]
+            - ["If anyone wishes to be first, he must be last of all and servant of all.","Be like one of the guests and look after them."]
+lauds:
+    reading:
+        cite: "Deuteronomy 4:39-40"
+        text: "Know, and fix in your heart, that the Lord is God in the heavens above and on earth below, and that there is no other. You must keep his statutes and commandments which I enjoin on you today, that you and your children after you may prosper, and that you may have long life on the land which the Lord, your God, is giving you forever."
+vespers:
+    reading:
+        cite: "1 John 2:3-6"
+        text: |
+            The way we may be sure that we know Christ
+            is to keep his commandments.
+            Whoever says, "I know him,"
+            but does not keep his commandments
+            is a liar, and the truth is not in him.
+            But whoever keeps his word,
+            the love of God is truly perfected in him.
+            This is the way we may know that we are in union with him: whoever claims to abide in him
+            ought to live just as he lived.
