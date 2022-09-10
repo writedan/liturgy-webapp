@@ -129,12 +129,13 @@
 				} else { // saint and temporal, requiring merger (including overwrite)
 					// if the saint day is a solemnity, it takes everything
 					OFFICE = sanctoral;
-					if (sanctoral.rank == 'solemnity') {
+					if (sanctoral.rank == 'solemnity' || (sanctoral.rank == 'feast' && temporal.rank != 'sunday')) {
 					} else {
 						// otherwise the psalmody is from the day
 						OFFICE[hour].psalmody = temporal[hour].psalmody;
 						// first reading of vigils is also temporal
 						OFFICE.vigil.reading1 = temporal.vigil.reading1;
+						OFFICE.vigil.call = temporal.vigil.call;
 						OFFICE.note = OFFICE.note + 'Psalmody from ' + sanctoral.name+'. ';
 					}
 				}
