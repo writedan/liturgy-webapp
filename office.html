@@ -107,12 +107,18 @@
 				}
 				
 				if (hour == 'vespers1') {
-					if (temporal.vespers1 != null) temporal.vespers = temporal.vespers1;
-					if (sanctoral.vespers1 != null) sanctoral.vespers = sanctoral.vespers1;
+					if (temporal != null) {
+						if (temporal.vespers1 != null) temporal.vespers = temporal.vespers1;
+					} if (sanctoral != null) {
+						if (sanctoral.vespers1 != null) sanctoral.vespers = sanctoral.vespers1;
+					}
 					hours =  'vespers';
 				} if (hour == 'vespers2') {
-					if (temporal.vespers2 != null) temporal.vespers = temporal.vespers2;
-					if (sanctoral.vespers2 != null) sanctoral.vespers = sanctoral.vespers2;
+					if (temporal != null) {
+						if (temporal.vespers2 != null) temporal.vespers = temporal.vespers2;
+					} if (sanctoral != null) {
+						if (sanctoral.vespers2 != null) sanctoral.vespers = sanctoral.vespers2;
+					}
 					hour = 'vespers';
 				}
 								
