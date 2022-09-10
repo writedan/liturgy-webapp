@@ -128,7 +128,7 @@
 					OFFICE.vespers.call = OFFICE.vigil.call;
 					OFFICE.vespers.readings = OFFICE.vigil.readings;
 					delete OFFICE.vespers.reading;
-					OFFICE.note = OFFICE.note + 'Lessons from the Office of Readings. ';
+					OFFICE.note = 'Lessons from the Office of Readings. ';
 					hour = 'vespers';
 				}
 				
@@ -148,7 +148,7 @@
 						heading.innerHTML = text.split('\n')[0];
 						$('#content').append(heading);
 						$('#content').append('<p><i>Ant.</i> ' + psalm[0] + '</p>');
-						$('#content').append('<p><i>All sit after the antiphon.</i></p>');
+						$('#content').append('<p><i class="sit-'+psalm[1]+'">All sit after the antiphon.</i></p>');
 						var sections = text.split("\r\n\r\n");
 						for (let k = 0; k < sections.length; k++) {
 							var sideA = (k % 2) == 0;
@@ -178,10 +178,9 @@
 					printPsalm(OFFICE.psalmody[i]);
 				}
 				
-				if (OFFICE.call != null) $('#content').append('<p><v>v</v> '+OFFICE.call[0] + '<br/><v>r</v> ' + OFFICE.call[1] + '</p><hr/>');
+				if (OFFICE.call != null) $('#content').append('<p><v>v</v> '+OFFICE.call[0] + '<br/><v>r</v> ' + OFFICE.call[1] + '</p><p><i>All sit.</i></p><hr/>');
 				
 				function publishReading(reading) {
-					console.log(reading);
 					$('#content').append('<h3>' + ((reading.cite != null) ? reading.cite : 'Patristic Homily') + '</h3>');
 					var sections = reading.text.split('\n\n');
 					for (let i = 0; i < sections.length; i++) {
@@ -206,18 +205,40 @@
 				}
 				
 				if (OFFICE.magnificat != null) {
+					$('#content').append('<p><i>All stand for the Gospel canticle Magnificat.</i></p>');
 					printPsalm([OFFICE.magnificat, 'magnificat']);
 					$(".magnificat").html('All continue:');
+					$(".sit-magnificat").css('display','none');
 				}
 				
 				if (OFFICE.benedictus != null) {
+					$('#content').append('<p><i>All stand for the Gospel canticle Benedictus.</i></p>');
 					printPsalm([OFFICE.magnificat, 'benedictus']);
 					$(".benedictus").html('All continue:');
 				}
 				
+				if (OFFICE.intercessions != null) {
+					$('#content').append('<h3>Intercessions</h3>');
+					for (let i = 0; i < OFFICE.intercessions.length; i++) {
+						$('#content').append('<p><v>v</v> ' + OFFICE.intercessions[i][0] + '<br/><v>r</v> ' + OFFICE.intercessions[i][1] + '</p>');
+						if (i == 0) $('#content').append('<p><i>All kneel.</i></p>');
+					}
+					$('#content').append('<p><i>All kneel and privately pray the Our Father.</i></p>');
+					$('#content').append('<hr/>');
+				}
 				
+				$('#content').append('<p><i>All stand as the minister begins the conclusion.</i></p>');
+				$('#content').append('<p><v>v</v> Lord, hear my prayer.<br/><v>r</v> And let my cry come before you.</p><p>Let us pray.</p>');
+				
+				$('#content').append('<p>' + OFFICE.collect + '<br/><v>r</v> Amen.</p><hr/>');
+				
+				$('#content').append('<p><v>v</v> Let us bless the Lord.<br/><v>r</v> And give him thanks.<br/><v>v</v> May the divine assistance remain with us always.<br/><v>r</v> And with our brethren who are absent.<br/><v>v</v> May the Lord bless us, &#9769; protect us from all evil, and bring us to everlasting life.<br/><v>r</v> Amen.</p>');
+				
+				$('#content').append('<p><i>All kneel and privately pray the Our Father.</i></p>');
+				
+				$('#content').append('<p><i>Thus ends the office.</i></p>');
 						
-				// the conclusion
+				// document post-processor
 				let width = screen.width;
 				if (0.01 * width > 18) { // compress font size
 					document.getElementById("content").style.fontSize = "2vw";
@@ -256,7 +277,6 @@
 				<v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/>
 				<v>r</v> As it was in the beginning is now and will be forever. Amen. Alleluia.
 			</p>
-			
 			<hr/>
 		</div>
 	</body>
