@@ -101,18 +101,29 @@ resetSize();
 	
 	function getYaml(url, callback) {
 				jQuery.get(url, function(data) {
-					console.log(url);
+					console.log('got ' + url);
 					callback(YAML.parse(data));
 				})
 			};
 </script>
 
 <script>
-	function makeOption(link) {
+	var OPTIONS = [];
+	
+	function makeTemporalOption(link) {
 		console.log('Offering ' + link);
+		OPTIONS[0] = link;
 		getYaml('https://daniel.writefamily.com/liturgy/propers/'+link+'.yml',function(data){
 			$('#content').append('<h3>'+data.name+'</h3>');
 			$('#content').append('<a href="office.html?t='+link+'&hour=vespers&v=lessons">Vespers</a>');
+		});
+	}
+	
+	function makeSanctoral(link) {
+		console.log('Offering ' + link);
+		getYaml('https://daniel.writefamily.com/liturgy/propers/'+link+'.yml',function(data){
+			$('#content').append('<h3>'+data.name+'</h3>');
+			$('#content').append('<a href="office.html?s='+link+'&hour=vespers&v=lessons&t='+OPTIONS[0]+'">Vespers</a>');
 		});
 	}
 	
@@ -173,7 +184,7 @@ resetSize();
 		}
 		
 		console.log(weekNumber + " Week in Ordinary Time");
-		makeOption('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
+		makeTemporalOption('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
 }
 </script>
 
@@ -184,4 +195,12 @@ switch (season) {
 		case 'post-pentecost': ordinaryTime(); break;
 		default: alert("when does"+season+"occur?");
 	}
+	
+// check for saints days
+months = ['january','february','march','april','june','july','august','september','october','november','december'];
+getYaml('propers/'+months[dateToDay(today)[0] - 2]+'/'+dateToDay(today)[1]+'.yml',function(data){
+	for (let i = 0; i < data.feasts.length; i++) {
+		makeSanctoral(months[dateToDay(today)[0] - 2]+'/'+data.feasts[i][2]);
+	}
+});
 </script>
