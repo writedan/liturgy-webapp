@@ -7,6 +7,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		
 		<script>
+			jQuery.ajaxSetup({async:false});
+			
 			function getYaml(url, callback) {
 				jQuery.get(url, function(data) {
 					console.log(url);
@@ -48,7 +50,7 @@
 			// document pre-processor
 			urlParams = new URLSearchParams(window.location.search);
 				
-			var temporal, sanctoral;
+			var temporal, sanctoral, hour = urlParams.get('hour'), OFFICE;
 			if (urlParams.has('t')) {
 				console.log('Liturgical day from temporal cycle: ' + urlParams.get('t'));
 				temporal = urlParams.get('t');
@@ -88,6 +90,142 @@
 					$('#content').append('<p><i>No liturgical day was supplied. Return to the <a href="index.html">index</a> to choose one.</i></p>');
 					return;
 				}
+				
+				if (hour == null) {
+					$('#content').append('<p><i>No hour was supplied. Return to the <a href="index.html">index</a> to choose one.</i></p>');
+					return;
+				}
+				
+				if (sanctoral == null) { // the default case: no saints
+					OFFICE = temporal;
+				} else if (temporal == null) { // saint and no temporal
+					OFFICE = sanctoral;
+				} else { // saint and temporal, requiring merger (including overwrite)
+					// if the saint day is a solemnity, it takes everything
+					OFFICE = sanctoral;
+					if (sanctoral.rank == 'solemnity') {
+					} else {
+						// otherwise the psalmody is from the day
+						for (hour in OFFICE) {
+							if (isObject(hour)) {
+								OFFICE[hour].psalmody = temporal[hour].psalmody;
+							}
+						}
+						// first reading of vigils is also temporal
+						OFFICE.vigil.reading1 = temporal.vigil.reading1;
+						OFFICE.note = OFFICE.note + 'Psalmody from ' + sanctoral.name+'. ';
+					}
+				}
+				
+				// complete some renovations
+				OFFICE.vigil.readings = [
+					OFFICE.vigil.reading1, OFFICE.vigil.reading2
+				];
+				delete OFFICE.vigil.reading1; delete OFFICE.vigil.reading2;
+				
+				// one small hack
+				if (hour == 'vespers vigil') {
+					OFFICE.vespers.call = OFFICE.vigil.call;
+					OFFICE.vespers.readings = OFFICE.vigil.readings;
+					delete OFFICE.vespers.reading;
+					OFFICE.note = OFFICE.note + 'Lessons from the Office of Readings. ';
+					hour = 'vespers';
+				}
+				
+				OFFICE[hour].name = OFFICE.name;
+				OFFICE[hour].hour = hour.charAt(0).toUpperCase() + hour.slice(1);
+				OFFICE[hour].collect = OFFICE.collect;
+				OFFICE = OFFICE[hour];
+				
+				// having now the office we can build the page
+				document.title = OFFICE.name;
+				$('#intro').append('<p>'+OFFICE.name+'.</p>');
+				$('#intro').append('<p>'+OFFICE.hour+'. '+OFFICE.note+'</p>');
+				// the psalmody
+				function printPsalm(psalm) {
+					$.get('https://daniel.writefamily.com/liturgy/psalter/'+psalm[1]+'.txt',function(text){
+						var heading = document.createElement('h3');
+						heading.innerHTML = text.split('\n')[0];
+						$('#content').append(heading);
+						$('#content').append('<p><i>Ant.</i> ' + psalm[0] + '</p>');
+						$('#content').append('<p><i>All sit after the antiphon.</i></p>');
+						var sections = text.split("\r\n\r\n");
+						for (let k = 0; k < sections.length; k++) {
+							var sideA = (k % 2) == 0;
+							var section = sections[k].split('\n');
+							var j = (k == 0) ? 1 : 0;
+							for (; j < section.length; j++) {
+								if (j == 0 || (j == 1 && k == 0)) {
+									if (k != 0) $('#content').append('<br/>');
+									$('#content').append('<i>Side ' + (sideA?'A':'B') + ' leader begins:</i><br/>'+section[j]+"<br/>");
+								} else if (j == 1 || (j == 2 && k == 0)) {
+									$('#content').append('<i class="'+psalm[1]+'">All side ' + (sideA?'A':'B') + ' continue:</i><br/>'+section[j]+'<br/>');
+								} else {
+									$('#content').append(section[j] + '<br/>');
+								}
+							}
+						}
+						
+						$('#content').append('<p><i>After a brief pause, all stand:</i></p>');
+						$('#content').append('<p><v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/><v>r</v> As it was in the beginning is now and will be forever. Amen.</p>');
+						$('#content').append('<p><i>The antiphon is recited by all.</i></p>');
+						$('#content').append('<p><i>Ant.</i> ' + psalm[0] + '</p>');
+						$('#content').append('<hr/>');
+					});
+				}
+				
+				for (let i = 0; i < OFFICE.psalmody.length; i++) {
+					printPsalm(OFFICE.psalmody[i]);
+				}
+				
+				if (OFFICE.call != null) $('#content').append('<p><v>v</v> '+OFFICE.call[0] + '<br/><v>r</v> ' + OFFICE.call[1] + '</p><hr/>');
+				
+				function publishReading(reading) {
+					console.log(reading);
+					$('#content').append('<h3>' + ((reading.cite != null) ? reading.cite : 'Patristic Homily') + '</h3>');
+					var sections = reading.text.split('\n\n');
+					for (let i = 0; i < sections.length; i++) {
+						$('#content').append('<p>' + sections[i] + '</p>');
+					}
+					$('#content').append('<hr/>');
+					if (reading.responsory.length % 2 == 0) { // simple verse-response; no gloria
+						for (let i = 0; i < reading.responsory.length; i++) {
+							$('#content').append('<p><v>v</v> ' + reading.responsory[i][0] + '<br/><v>r</v> '+reading.responsory[i][1] + '</p>');
+						}
+					} else { // response-verse-response*-gloria-response
+					}
+					$('#content').append('<hr/>');
+				}
+				
+				if (OFFICE.readings != null) {
+					for (let i = 0; i < OFFICE.readings.length; i++) {
+						publishReading(OFFICE.readings[i]);
+					}
+				} else {
+					publishReading(OFFICE.reading);
+				}
+				
+				if (OFFICE.magnificat != null) {
+					printPsalm([OFFICE.magnificat, 'magnificat']);
+					$(".magnificat").html('All continue:');
+				}
+				
+				if (OFFICE.benedictus != null) {
+					printPsalm([OFFICE.magnificat, 'benedictus']);
+					$(".benedictus").html('All continue:');
+				}
+				
+				
+						
+				// the conclusion
+				let width = screen.width;
+				if (0.01 * width > 18) { // compress font size
+					document.getElementById("content").style.fontSize = "2vw";
+					var glyphs = document.getElementsByTagName('v');
+					for (let i = 0; i < glyphs.length; i++) {
+						glyphs[i].style.fontSize = "2.5vw";
+					}
+				}
 			});
 		</script>
 	</head>
@@ -95,7 +233,30 @@
 		<div id='content'>
 			<div class='center'>
 				<h3>Liturgy of the Hours</h3>
+				<div id='intro'></div>
 			</div>
+			<hr/>
+			<i>Before the office begins, kneel and make these prayers quietly.</i>
+			<p>Our Father, who art in heaven, hallowed be thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread and forgive us our trespasses as we forgive those who trespass against us. And lead us not into temptation but deliver us from evil.</p>
+			
+			<p>Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women and blessed is the fruit of thy womb, Jesus. Holy Mary, mother of God, pray for us sinners now and at the hour of our death. Amen.</p>
+			
+			<hr/>
+			
+			<i>All stand as the office begins.<br/>At the symbol of &#9769; make the Sign of the Cross here and wherever else it appears.</i>
+			
+			<p>
+				<v>v</v> God, &#9769; come to my assistance.<br/>
+				<v>r</v> Lord, make haste to help me.
+			</p>
+			
+			<i>For the following verse, the "Glory to the Father" or the "Glory be" as you may know it, stand and make a profound bow here and wherever else it occurs, rising for the response.</i>
+			
+			<p>
+				<v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/>
+				<v>r</v> As it was in the beginning is now and will be forever. Amen. Alleluia.
+			</p>
+			
 			<hr/>
 		</div>
 	</body>
