@@ -53,10 +53,15 @@ r { color: red; }
 		});
 	}
 
-	function offer(link) {
-		console.log(link);
+	function offer(feast) {
+		console.log(feast);
+		options.push([today, feast[1], feast[2], feast[3]]);
+	}
+
+	function offerLink(link) {
+		console.log('offer link: ' + link);
 		getYaml('https://daniel.writefamily.com/liturgy/propers/'+link+'.yml',function(data){
-			options.push([today, data.name, data.rank, link]);
+			offer([today, data.name, data.rank, link]);
 		});
 	}
 	
