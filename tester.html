@@ -63,7 +63,7 @@ r { color: red; }
 	function offerLink(link) {
 		console.log('offer link: ' + link);
 		getYaml('https://daniel.writefamily.com/liturgy/propers/'+link+'.yml',function(data){
-			offer([today, data.name, data.rank, link]);
+			offer([data.rank, data.name, link]);
 		});
 	}
 	
@@ -164,6 +164,8 @@ r { color: red; }
 		getYaml('propers/'+months[dateToDay(today)[0] - 2]+'/'+dateToDay(today)[1]+'.yml',function(data){
 			for (let i = 0; i < data.feasts.length; i++) {
 				//offer(months[dateToDay(today)[0] - 2]+'/'+data.feasts[i][2]);
+				console.log('feast: ' + data.feasts[i]);
+				data.feasts[i][2] = months[dateToDay(today)[0] - 2]+'/'+data.feasts[i][2];
 				offer(data.feasts[i]);
 			}
 		});	
@@ -195,7 +197,7 @@ r { color: red; }
 				} else { 
 					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</p>');
 					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=lauds&s='+options[i][3]+'">Lauds</p>');
-					if (today.getDay() != 6) $('#content').append('<a href="office.html?t='+options[0][3]+'&hour=vespers2&v=lessons&s='+options[i][3]+'">Vespers</a>');
+					$('#content').append('<a href="office.html?t='+options[0][3]+'&hour=vespers2&v=lessons&s='+options[i][3]+'">Vespers</a>');
 				}
 			}
 		}
