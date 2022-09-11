@@ -1,8 +1,8 @@
 name: Exaltation of the Holy Cross
-rank: solemnity
+rank: feast
 collect: >-
     O God, who willed that your only-begotten Son should undergo the Cross to save the human race, grant, we pray, that we, who have known his mystery on earth, may merit the grace of his redemption in heaven: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
-vespers2:
+vespers:
     psalmody:
         - ["What a great work of chairty: death itself died when life was slain on the tree.",110]
         - ["We worship your cross, O Lord, and we commemorate your glorious resurrection: you suffered for us; have mercy on us.",116]
@@ -52,22 +52,3 @@ vigil:
         responsory:
             - ["O glorious Cross, your arms upheld the priceless ransom of captive mankind.","Through you the world has been saved by the blood of the Lord."]
             - ["Hail, O Cross, consecrated by the body of Christ; his members have made your wood more noble than precious pearls.","Through you the world has been saved by the blood of the Lord."]
-vespers1:
-    psalmody:
-        - ["Our crucified and risen Lord has redeemed us, alleluia.",147i]
-        - ["The tree of life flourished in the midst of the holy city of Jerusalem, and its leaves had power to save all the nations, alleluia.",147ii]
-        - ["We must glory in the cross of our Lord Jesus Christ.",philippians2]
-    reading:
-        cite: "2 Corinthians 1:23-24"
-        text: "We proclaim Christ crucified, a stumbling-block to Jews and foolishness to Gentiles, but to those who are the called, both Jews and Greeks, Christ the power of God and the wisdom of God."
-        responsory:
-            - "The sign will appear in the heavens when the Lord comes."
-            - ["Lift up your heads, your salvation is at hand...","When the Lord comes."]
-    magnificat: "It was ordained that Christ should suffer, and on the third day rise from the dead."
-    intercessions:
-        - ["Let us pray with confidence to Christ who endured the cross to save us:","Lord, through your Cross bring us to the glory of your kingdom."]
-        - ["O Christ, you emptied yourself, taking the form of a servant and being made like us.","Grant that your people may follow the example of your humility."]
-        - ["O Christ, you humbled yourself and became obedient to death, even death on a cross.","Grant that your servants may imitate your obedience and willing acceptance of trials."]
-        - ["O Christ, you were raised up by the Father and given the name that is above every name.","May your people, strengthened in the hope of a heavenly resurrection, persevere to the end."]
-        - ["O Christ, at your name every knee in heaven, on earth and under the earth will bend in adoration.","Pour out your love upon all people that they may join together in proclaiming your glory."]
-        - ["O Christ, every tongue shall confess that you are Lord to the glory of God the Father.","Welcome our brothers and sisters who have died into the unfailing joy of your kingdom."]
