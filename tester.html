@@ -55,10 +55,15 @@ r { color: red; }
 		});
 	}
 
-	function offer(link) {
-		console.log(link);
+	function offer(feast) {
+		console.log('offer: ' + feast);
+		options.push([today, feast[1], feast[0], feast[2]]);
+	}
+
+	function offerLink(link) {
+		console.log('offer link: ' + link);
 		getYaml('https://daniel.writefamily.com/liturgy/propers/'+link+'.yml',function(data){
-			options.push([today, data.name, data.rank, link]);
+			offer([today, data.name, data.rank, link]);
 		});
 	}
 	
@@ -117,7 +122,7 @@ r { color: red; }
 		}
 		
 		console.log(weekNumber + " Week in Ordinary Time");
-		offer('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
+		offerLink('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
 	}
 	
 		if (today >= dayToDate(moveDayForwardDays(getAdventSunday(currentYear + 1), 0))) { // we are in the next liturgical year
@@ -158,7 +163,8 @@ r { color: red; }
 		var months = ['january','february','march','april','june','july','august','september','october','november','december'];
 		getYaml('propers/'+months[dateToDay(today)[0] - 2]+'/'+dateToDay(today)[1]+'.yml',function(data){
 			for (let i = 0; i < data.feasts.length; i++) {
-				offer(months[dateToDay(today)[0] - 2]+'/'+data.feasts[i][2]);
+				//offer(months[dateToDay(today)[0] - 2]+'/'+data.feasts[i][2]);
+				offer(data.feasts[i]);
 			}
 		});	
 		
@@ -179,16 +185,16 @@ r { color: red; }
 			if (options[i][0].getTime() == today.getTime()) { // include all hours
 				$('#content').append('<h3>'+options[i][1]+'</h3>');
 				if (options[i][2] == 'sunday' || options[i][2] == 'solemnity') {
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
+					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
+					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
 					$('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers2&v=lessons">Second Vespers</a>');
 				} else if (options[i][2] == 'feria') {
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
+					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
+					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
 					if (today.getDay() != 6) $('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers2&v=lessons">Vespers</a>');
 				} else { 
-					$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</p>');
-					$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=lauds&s='+options[i][3]+'">Lauds</p>');
+					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</p>');
+					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=lauds&s='+options[i][3]+'">Lauds</p>');
 					if (today.getDay() != 6) $('#content').append('<a href="office.html?t='+options[0][3]+'&hour=vespers2&v=lessons&s='+options[i][3]+'">Vespers</a>');
 				}
 			}

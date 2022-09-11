@@ -54,8 +54,8 @@ r { color: red; }
 	}
 
 	function offer(feast) {
-		console.log(feast);
-		options.push([today, feast[1], feast[2], feast[3]]);
+		console.log('offer: ' + feast);
+		options.push([today, feast[1], feast[0], feast[2]]);
 	}
 
 	function offerLink(link) {
@@ -120,7 +120,7 @@ r { color: red; }
 		}
 		
 		console.log(weekNumber + " Week in Ordinary Time");
-		offer('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
+		offerLink('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
 	}
 	
 		if (today >= dayToDate(moveDayForwardDays(getAdventSunday(currentYear + 1), 0))) { // we are in the next liturgical year
@@ -161,7 +161,8 @@ r { color: red; }
 		var months = ['january','february','march','april','june','july','august','september','october','november','december'];
 		getYaml('propers/'+months[dateToDay(today)[0] - 2]+'/'+dateToDay(today)[1]+'.yml',function(data){
 			for (let i = 0; i < data.feasts.length; i++) {
-				offer(months[dateToDay(today)[0] - 2]+'/'+data.feasts[i][2]);
+				//offer(months[dateToDay(today)[0] - 2]+'/'+data.feasts[i][2]);
+				offer(data.feasts[i]);
 			}
 		});	
 		
