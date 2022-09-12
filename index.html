@@ -34,18 +34,26 @@ r { color: red; }
 
 <script>
 	jQuery.ajaxSetup({async:false});
-	
-	var today = new Date();
+
+	urlParams = new URLSearchParams(window.location.search);
+	var today;
+
+	if (urlParams.has('d')) {
+	today = dayToDate([urlParams.get('m'),urlParams.get('d'),urlParams.get('y')]);
+} else {
+
+	today = new Date();
+}
 	console.log(today);
-		
+
 	var currentYear = today.getFullYear();
-	
+
 	var WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
-	
+
 	var options = [];
-	
+
 	function getOptions(today, currentYear) {
-	
+
 	function getYaml(url, callback) {
 		jQuery.get(url, function(data) {
 			console.log('got ' + url);
@@ -64,39 +72,39 @@ r { color: red; }
 			offer([data.rank, data.name, link]);
 		});
 	}
-	
+
 	function ordinaryTime() {
 		var weekSundays = [];
 		weekSundays[1] = getBaptism(currentYear);
 		for (let i = 2; i <= 5; i++) {
 			weekSundays[i] = moveDayForwardDays(weekSundays[i - 1], 7);
 		}
-		
+
 		for (let i = 1; i < weekSundays.length; i++) weekSundays[i] = dayToDate(weekSundays[i]);
-		
+
 		var nextSunday = moveDateForwardDays(weekSundays[5], 7);
 		var index = 6;
 		while (nextSunday < dayToDate(getAshWednesday(currentYear))) {
 			weekSundays[index++] = nextSunday;
 			nextSunday = moveDateForwardDays(nextSunday, 7);
 		}
-		
+
 		weekSundays[index++] = moveDateForwardDays(nextSunday, 2);
-		
+
 		var medialWeeks = [];
 		medialWeeks[6] = [5, 8, currentYear];
 		medialWeeks[7] = [5, 15, currentYear];
 		medialWeeks[8] = [5, 22, currentYear];
 		medialWeeks[9] = [5, 29, currentYear];
-		
+
 		for (let i = 6; i < 10; i++) medialWeeks[i] = dateToNextSunday(dayToDate(medialWeeks[i]));
-		
+
 		index = 6;
 		while (nextSunday < dayToDate(getPentecost(currentYear))) {
 			nextSunday = medialWeeks[index++];
 			if (index > 9) break;
 		}
-		
+
 		if (nextSunday < dayToDate(getPentecost(currentYear))) {
 			index = 10; nextSunday = dateToNextSunday(dayToDate([6, 5, currentYear]));
 			while (nextSunday < dayToDate(getPentecost(currentYear))) {
@@ -107,32 +115,32 @@ r { color: red; }
 		} else {
 			weekSundays[--index] = nextSunday;
 		}
-		
+
 		for (index = index + 1; index < 35; index++) {
 			weekSundays[index] = moveDateForwardDays(weekSundays[index - 1], 7);
 		}
-		
+
 		var weekNumber;
 		for (let i = 1; i < weekSundays.length; i++) {
 			let a = weekSundays[i];
 			let b = weekSundays[i + 1];
 			if (today >= a && (today < b || b == null)) weekNumber = i;
 		}
-		
+
 		console.log(weekNumber + " Week in Ordinary Time");
 		offerLink('ot/'+weekNumber+'/'+WEEKDAYS[today.getDay()]);
 	}
-	
+
 		if (today >= dayToDate(moveDayForwardDays(getAdventSunday(currentYear + 1), 0))) { // we are in the next liturgical year
 			console.log("The calendar year is behind the liturgical year.");
 			currentYear++;
 		}
-		
+
 		var bounds = [getAdventSunday(currentYear), moveDayForwardDays(getAdventSunday(currentYear + 1), -1)];
-		
+
 		console.log("Liturgical year " + currentYear + " began " + bounds[0] + " and ends " + bounds[1]);
 		console.log("Today is " + dateToDay(today));
-		
+
 		// we must find ourselves on the temporal and sanctoral cycles
 		// for the temporal cycle, our lankmarks are Advent, Christmas, Ash Wednesday, Easter, and Pentecost. Between Christmas and Ash Wednesday is ordianry time and between Pentecost and Advent is ordinary time.
 		var season;
@@ -152,12 +160,12 @@ r { color: red; }
 		else {
 			alert("liturgical season given as unknown value '"+season+"'");
 		}
-		
+
 		switch (season) {
 			case 'pre-lent':
 			case 'post-pentecost': ordinaryTime(); break;
 		}
-		
+
 		var months = ['january','february','march','april','june','july','august','september','october','november','december'];
 		getYaml('propers/'+months[dateToDay(today)[0] - 2]+'/'+dateToDay(today)[1]+'.yml',function(data){
 			for (let i = 0; i < data.feasts.length; i++) {
@@ -166,14 +174,14 @@ r { color: red; }
 				data.feasts[i][2] = months[dateToDay(today)[0] - 2]+'/'+data.feasts[i][2];
 				offer(data.feasts[i]);
 			}
-		});	
-		
+		});
+
 		}
-		
+
 		$(document).ready(function(){
 		getOptions(today,currentYear);
 		getOptions(moveDateForwardDays(today, 1), currentYear);
-		
+
 		for (let i = 0; i < options.length; i++) {
 			console.log(options[i]);
 			if ((options[i][0].getTime() != today.getTime()) && (options[i][2] == 'sunday' || options[i][2] == 'solemnity')) { // include first vespers alone, no saints
@@ -181,7 +189,7 @@ r { color: red; }
 				$('#content').append('<h3>'+options[i][1]+'</h3>');
 				$('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers1&v=lessons">First Vespers</a>');
 			}
-			
+
 			if (options[i][0].getTime() == today.getTime()) { // include all hours
 				$('#content').append('<h3>'+options[i][1]+'</h3>');
 				if (options[i][2] == 'sunday' || options[i][2] == 'solemnity') {
@@ -192,14 +200,14 @@ r { color: red; }
 					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
 					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
 					if (today.getDay() != 6) $('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers2&v=lessons">Vespers</a>');
-				} else { 
+				} else {
 					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</p>');
 					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=lauds&s='+options[i][3]+'">Lauds</p>');
 					$('#content').append('<a href="office.html?t='+options[0][3]+'&hour=vespers2&v=lessons&s='+options[i][3]+'">Vespers</a>');
 				}
 			}
 		}
-		
+
 		let width = screen.width;
 				if (0.01 * width > 18) { // compress font size
 					document.getElementById("content").style.fontSize = "2vw";
