@@ -49,7 +49,7 @@ none:
 vespers:
     hymn: 204 # O Fount of Light, True Light Itself
     psalmody: 
-        - ["Yours is more than mortal beauty; every word you speak is full of grace.".45i]
+        - ["Yours is more than mortal beauty; every word you speak is full of grace.",45i]
         - ["The bridgegroom is here; go out and welcome him.",45ii]
         - ["God planned in the fullness of time to restore all things in Christ.",ephesians1]
     reading:

@@ -1,0 +1,54 @@
+name: Exaltation of the Holy Cross
+rank: feast
+collect: >-
+    O God, who willed that your only-begotten Son should undergo the Cross to save the human race, grant, we pray, that we, who have known his mystery on earth, may merit the grace of his redemption in heaven: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vespers:
+    psalmody:
+        - ["What a great work of chairty: death itself died when life was slain on the tree.",110]
+        - ["We worship your cross, O Lord, and we commemorate your glorious resurrection: you suffered for us; have mercy on us.",116]
+        - ["We adore you, O Christ, and we bless you: for by your holy cross you have redeemed the world.",revelation4]
+    reading:
+        cite: "2 Corinthians 1:23-24"
+        text: "We proclaim Christ crucified, a stumbling-block to Jews and foolishness to Gentiles, but to those who are the called, both Jews and Greeks, Christ the power of God and the wisdom of God."
+        responsory:
+            - "O glorious Cross, on you the king of angels was victorious."
+            - ["And he has washed away our sins in his own blood.","On you the king of angels was victorious."]
+    magnificat: "O cross, you are the glorious sign of our victory: through your power may we share in the triumph of Christ Jesus."
+    intercessions:
+        - ["Let us pray with confidence to Christ who endured the cross to save us:","Lord, through your Cross bring us to the glory of your kingdom."]
+        - ["O Christ, you emptied yourself, taking the form of a servant and being made like us.","Grant that your people may follow the example of your humility."]
+        - ["O Christ, you humbled yourself and became obedient to death, even death on a cross.","Grant that your servants may imitate your obedience and willing acceptance of trials."]
+        - ["O Christ, you were raised up by the Father and given the name that is above every name.","May your people, strengthened in the hope of a heavenly resurrection, persevere to the end."]
+        - ["O Christ, at your name every knee in heaven, on earth and under the earth will bend in adoration.","Pour out your love upon all people that they may join together in proclaiming your glory."]
+        - ["O Christ, every tongue shall confess that you are Lord to the glory of God the Father.","Welcome our brothers and sisters who have died into the unfailing joy of your kingdom."]
+vigil:
+    psalmody:
+        - ["See the cross of the Lord; let all his enemies flee in terror: the Lion of Judah, David's deed, has prevailed, alleluia.",2]
+        - ["The holy Name of Jesus has been raised up on the cross above heaven and earth, alleluia.",8]
+        - ["O blessed Cross, you alone were found worthy to bear the king of heaven, alleluia.",96]
+    call: ["As Moses lifted up the serpent in the desert.","So must the Son of Man be raised up."]
+    reading1:
+        cite: "Galatians 2:19 - 3:8; 6:14-16"
+        text: |
+            From the letter of Saint Paul to the Galatians.
+            
+            For through the law I died to the law, so that I might live to God. I have been crucified with Christ; and it is no longer I who live, but it is Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me. I do not nullify the grace of God; for if justification comes through the law, then Christ died for nothing.
+
+            You foolish Galatians! Who has bewitched you? It was before your eyes that Jesus Christ was publicly exhibited as crucified! The only thing I want to learn from you is this: Did you receive the Spirit by doing the works of the law or by believing what you heard? Are you so foolish? Having started with the Spirit, are you now ending with the flesh? Did you experience so much for nothing?—if it really was for nothing. Well then, does God supply you with the Spirit and work miracles among you by your doing the works of the law, or by your believing what you heard?
+
+            Just as Abraham ‘believed God, and it was reckoned to him as righteousness’, so, you see, those who believe are the descendants of Abraham. And the scripture, foreseeing that God would justify the Gentiles by faith, declared the gospel beforehand to Abraham, saying, ‘All the Gentiles shall be blessed in you.’ May I never boast of anything except the cross of our Lord Jesus Christ, by which the world has been crucified to me, and I to the world. For neither circumcision nor uncircumcision is anything; but a new creation is everything! As for those who will follow this rule—peace be upon them, and mercy, and upon the Israel of God.
+        responsory:
+            - ["We must glory in the cross of our Lord Jesus Christ: in him is our salvation, life, and resurrection.","Through him we are saved and set free."]
+            - ["Because he suffered death, he is crowned with glory and honor.","Through him we are saved and set free."]
+    reading2:
+        text: |
+            From a discourse by Saint Andrew of Crete
+            
+            We are celebrating the feast of the cross which drove away darkness and brought in the light. As we keep this feast, we are lifted up with the crucified Christ, leaving behind us earth and sin so that we may gain the things above. So great and outstanding a possession is the cross that he who wins it has won a treasure. Rightly could I call this treasure the fairest of all fair things and the costliest, in fact as well as in name, for on it and through it and for its sake the riches of salvation that had been lost were restored to us.
+
+            Had there been no cross, Christ could not have been crucified. Had there been no cross, life itself could not have been nailed to the tree. And if life had not been nailed to it, there would be no streams of immortality pouring from Christ’s side, blood and water for the world’s cleansing. The legal bond of our sin would not be cancelled, we should not have attained our freedom, we should not have enjoyed the fruit of the tree of life and the gates of paradise would not stand open. Had there been no cross, death would not have been trodden underfoot, nor hell despoiled. Therefore, the cross is something wonderfully great and honourable. It is great because through the cross the many noble acts of Christ found their consummation – very many indeed, for both his miracles and his sufferings were fully rewarded with victory. The cross is honourable because it is both the sign of God’s suffering and the trophy of his victory. It stands for his suffering because on it he freely suffered unto death. But it is also his trophy because it was the means by which the devil was wounded and death conquered; the barred gates of hell were smashed, and the cross became the one common salvation of the whole world.
+
+            The cross is called Christ’s glory; it is saluted as his triumph. We recognise it as the cup he longed to drink and the climax of the sufferings he endured for our sake. As to the cross being Christ’s glory, listen to his words: "Now is the Son of Man glorified, and in him God is glorified, and God will glorify him at once." And again: "Father, glorify me with the glory I had with you before the world came to be." And once more: "Father, glorify your name". Then a voice came from heaven: "I have glorified it and will glorify it again". Here he speaks of the glory that would accrue to him through the cross. And if you would understand that the cross is Christ’s triumph, hear what he himself also said: "When I am lifted up, then I will draw all men to myself." Now you can see that the cross is Christ’s glory and triumph.
+        responsory:
+            - ["O glorious Cross, your arms upheld the priceless ransom of captive mankind.","Through you the world has been saved by the blood of the Lord."]
+            - ["Hail, O Cross, consecrated by the body of Christ; his members have made your wood more noble than precious pearls.","Through you the world has been saved by the blood of the Lord."]

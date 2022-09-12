@@ -1,0 +1,54 @@
+name: Twenty-fourth Sunday in Ordinary Time
+common: psalter/04/sunday
+rank: sunday
+collect: >-
+    Look upon us, O God, creator and ruler of all things, and, that we may feel the working of your mercy, grant that we may serve you with all our heart: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever.
+vespers1:
+    reading:
+        cite: "2 Peter 1:19-21"
+        text: " We possess the prophetic message that is altogether reliable. You will do well to be attentive to it, as to a lamp shining in a dark place, until day dawns and the morning star rises in your hearts. Know this first of all, that there is no prophecy of scripture that is a matter of personal interpretation, for no prophecy ever came through human will; but rather human beings moved by the holy Spirit spoke under the influence of God."
+    magnificat: "Jesus said to Peter: I do not tell you to forgive only seven times, but seventy times seven."
+vigil:
+    reading1:
+        cite: "Ezekiel 1:3-13, 22-28"
+        text: |
+            From the beginning of the book of the prophet Ezekiel.
+            
+            The word of the Lord came to the priest Ezekiel, the son of Buzi, in the land of the Chaldeans by the river Chebar.--There the hand of the Lord came upon me.
+
+            As I looked, a stormwind came from the North, a huge cloud with flashing fire (enveloped in brightness), from the midst of which (the midst of the fire) something gleamed like electrum. Within it were figures resembling four living creatures that looked like this: their form was human,but each had four faces and four wings,and their legs went straight down; the soles of their feet were round. They sparkled with a gleam like burnished bronze.
+
+            Their faces were like this: each of the four had the face of a man, but on the right side was the face of a lion, and on the left side the face of an ox, and finally each had the face of an eagle.Their faces (and their wings) looked out on all their four sides; they did not turn when they moved, but each went straight forward.(Each went straight forward; wherever the spirit wished to go, there they went; they did not turn when they moved.)
+
+            Human hands were under their wings, and the wings of one touched those of another.Each had two wings spread out above so that they touched one another's, while the other two wings of each covered his body.In among the living creatures something like burning coals of fire could be seen; they seemed like torches, moving to and fro among the living creatures. The fire gleamed, and from it came forth flashes of lightning.
+
+            Over the heads of the living creatures, something like a firmament could be seen, seeming like glittering crystal, stretched straight out above their heads.Beneath the firmament their wings were stretched out, one toward the other. (Each of them had two covering his body.)Then I heard the sound of their wings, like the roaring of mighty waters, like the voice of the Almighty. When they moved, the sound of the tumult was like the din of an army. (And when they stood still, they lowered their wings.)
+
+            Above the firmament over their heads something like a throne could be seen, looking like sapphire. Upon it was seated, up above, one who had the appearance of a man. Upward from what resembled his waist I saw what gleamed like electrum; downward from what resembled his waist I saw what looked like fire; he was surrounded with splendor.Like the bow which appears in the clouds on a rainy day was the splendor that surrounded him. Such was the vision of the likeness of the glory of the Lord. 
+        responsory:
+            - ["I saw what looked like a throne and high upon it was seated one who had the appearence of a man, and I hear a loud rumbling cry.","Praise to the glory of the Lord in his dwelling place."]
+            - ["Praise and honor, glory and power to him who sits on the throne, and to the Lamb forever and ever."," Praise to the glory of the Lord in his dwelling place."]
+    reading2:
+        text: |
+            From the beginning of a sermon on Pastors by Saint Augustine.
+            
+            You have often learned that all our hope is in Christ and that he is our true glory and our salvation. You are members of the flock of the Good Shepherd, who watches over Israel and nourishes his people. Yet there are shepherds who want to have the title of shepherd without wanting to fulfil a pastor’s duties; let us then recall what God says to his shepherds through the prophet. You must listen attentively; I must listen with fear and trembling.
+
+            "The word of the Lord came to me and said: Son of man, prophesy against the shepherds of Israel and speak to the shepherds of Israel." We just heard this reading a moment ago, my brothers, and I have decided to speak to you on this passage. The Lord will help me to speak the truth if I do not speak on my own authority. For if I speak on my own authority, I will be a shepherd nourishing myself and not the sheep. However, if my words are the Lord’s, then he is nourishing you no matter who speaks. "Thus says the Lord God: Shepherds of Israel, who have been nourishing only themselves! Should not the shepherds nourish the sheep?" In other words, true shepherds take care of their sheep, not themselves. This is the principle reason why God condemns those shepherds: they took care of themselves rather than their sheep. Who are they who nourish themselves? They are the shepherds the Apostle described when he said: "They all seek what is theirs and not what is Christ’s."
+
+            I must distinguish carefully between two aspects of the role the Lord has given me, a role that demands a rigorous accountability, a role based on the Lord’s greatness rather than on my own merit. The first aspect is that I am a Christian; the second, that I am a leader. I am a Christian for my own sake, whereas I am a leader for your sake; the fact that I am a Christian is to my own advantage, but I am a leader for your advantage.
+
+            Many persons come to God as Christians but not as leaders. Perhaps they travel by an easier road and are less hindered since they bear a lighter burden. In addition to the fact that I am a Christian and must give God an account of my life, I as a leader must give him an account of my stewardship as well. 
+        responsory:
+            - ["The Lord is my shepherd: there is nothing I shall want.","In green pastures he gives me rest."]
+            - ["He guides me in the right path for his name's sake.","In green pastures he gives me rest."]
+lauds:
+    reading:
+        cite: "2 Timothy 2:8a, 11-13"
+        text: "Remember Jesus Christ, raised from the dead, a descendant of David: such is my gospel. This saying is trustworthy: If we have died with him we shall also live with him; if we persevere we shall also reign with him. But if we deny him he will deny us. If we are unfaithful he remains faithful, for he cannot deny himself."
+    benedictus: "He who loses his life because me and the sake of the Gospel shall save it."
+vespers2:
+    reading:
+        cite: "Hebrews 12:22-24"
+        text: "You have approached Mount Zion and the city of the living God, the heavenly Jerusalem, and countless angels in festal gathering, and the assembly of the firstborn enrolled in heaven, and God the judge of all, and the spirits of the just made perfect, and Jesus, the mediator of a new covenant, and the sprinkled blood that speaks more eloquently than that of Abel."
+    magnificat: "I say to you: there is great rejoicing among the angels of God over one repentent sinner."

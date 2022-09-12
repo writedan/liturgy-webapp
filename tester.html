@@ -35,7 +35,9 @@ r { color: red; }
 <script>
 	jQuery.ajaxSetup({async:false});
 	
-	var today = new Date();
+	urlParams = new URLSearchParams(window.location.search);
+	
+	var today = dayToDate([urlParams.get('m'),urlParams.get('d'),urlParams.get('y')]);
 	console.log(today);
 		
 	var currentYear = today.getFullYear();

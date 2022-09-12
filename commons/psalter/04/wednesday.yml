@@ -1,0 +1,32 @@
+name: IV Wednesday
+rank: feria
+common: psalter/02/wednesday
+vigil:
+    psalmody:
+        - ["Bless the Lord, O my soul; never forget all he has done for you.",103i]
+        - ["As a father is gentle with his children, so is the Lord with those who revere him.",103ii]
+        - ["Bless the Lord, all you his works.",103iii]
+    call: ["Lord, make me understand the way of your precepts.","And I will marvel at your wisdom."]
+lauds:
+    psalmody:
+        - ["My heart is ready, O God, my heart is ready.",108]
+        - ["The Lord has robed me with grace and salvation.",isaiah61]
+        - ["I will praise my God all the days of my life.",146]
+    intercessions:
+        - ["Christ, the splendor of the Father's glory, enlightens us with his word. With deep love we call upon him:","Hear us, King of eternal glory."]
+        - ["Blessed are you, the alpha and omega of our faith.","For you called us out of darkness into your marvelous light."]
+        - ["You enabled the blind to see, the deaf to hear.","Help our unbelief."]
+        - ["Lord, keep us in your love, preserve our community.","Do not let us become separated from one another."]
+        - ["Give us strength in temptation, endurance in trial.","And gratitude in prosperity."]
+vespers:
+    psalmody:
+        - ["Lord, how wonderful is your wisdom, so far beyond my understanding.", 139i]
+        - ["I am the Lord; I search the mind and probe the heart.",139ii]
+        - ["Through him all things were made; he holds all creation together in himself.",colossians1]
+    intercessions:
+        - ["With joyful hearts, let us praise the eternal father whose mercy toward his people is exalted to the heavens:","Let all who hope in you rejoice, Lord."]
+        - ["Remember, Lord, that you sent your Son into the world to be its savior, not its judge.","Let his glorious death bring us salvation."]
+        - ["You ordained your priests to be ministers of Christ and stewards of your marvelous gifts.","Fill them with fidelity, wisdom, and love."]
+        - ["You have called men and women to chastity for the sake of your kingdom.","Let them faithfully follow your Son."]
+        - ["From the beginning you intended husband and wife to be one.","Keep all families united in sincere love."]
+        - ["You sent Christ Jesus into the world to absolve sins.","Free the dead from their sins."]
