@@ -1,0 +1,130 @@
+name: Common of the Blessed Virgin Mary
+vespers1:
+  psalmody:
+    - ["Blessed are you, O Virgin Mary, for you carried the Creator of the world in your womb.",113]
+    - ["You are the mother of your Maker, yet you remain a virgin forever.", 147]
+    - ["We share the fruit of life through you, O daughter blessed by the Lord.",ephesians1]
+  reading:
+    cite: "Galatians 4:4-5"
+    text: "When the fullness of time had come, God sent his Son, born of a woman, born under the law, to ransom those under the law, so that we might receive adoption."
+    responsory:
+      - "After the birth of your Son, you remained a virgin."
+      - ["Mother of God, intercede for us.","You remained a virgin."]
+  magnificat: "All generations will call me blessed: the Lord has looked with favor on his lowly servant."
+  intercessions:
+    - ["O God, worker of miracles, you made the immaculate Virgin Mary share, body and soul, in your Son's glory in heaven.","Direct the hearts of your children to that same glory."]
+    - ["You made Mary our mother: through her intercession grant strength to the weak, comfort to the sorrowing, pardon to sinners...", "Salvation and peace to all."]
+    - ["You made Mary full of grace.","Grant all men hte joyful abundance of your grace."]
+    - ["Make your Church of one mind and one heart in love.","And help all those who believe to be one in prayer with Mary, the mother of Jesus."]
+    - ["You crowned Mary queen of heaven.","May all the dead rejoice in your kingdom with the saints forever."]
+vigil:
+  invitatory: "Let us sing to the Lord as we celebrate this feast of the Blessed Virgin Mary."
+  psalmody:
+    - ["Mary received a blessing from the Lord and loving-kindness from God her savior.",24]
+    - ["The most high has made his dwelling place a holy temple.",46]
+    - ["Glorious things are said of you, O Virgin Mary.",87]
+  call: ["Blessed are those who hear the word of God.","And cherish it in their hearts."]
+  reading1:
+    cite: "Isaiah 7:10-14; 8:10b; 11:1-9"
+    text: |
+      From the book of the prophet Isaiah.
+
+      The LORD spoke to Ahaz:  Ask for a sign from the LORD, your God; let it be deep as the nether world, or high as the sky!  But Ahaz answered, "I will not ask! I will not tempt the LORD!"
+
+      Then Isaiah said: Listen, O house of David! Is it not enough for you to weary men, must you also weary my God?  Therefore the Lord himself will give you this sign: the virgin shall be with child, and bear a son, and shall name him Immanuel. for "With us is God!"
+
+      But a shoot shall sprout from the stump of Jesse,
+        and from his roots a bud shall blossom.
+      The spirit of the LORD shall rest upon him:
+        a spirit of wisdom and of understanding,
+      A spirit of counsel and of strength,
+        a spirit of knowledge and of fear of the LORD,
+        and his delight shall be the fear of the LORD.
+
+      Not by appearance shall he judge,
+        nor by hearsay shall he decide,
+      But he shall judge the poor with justice,
+        and decide aright for the land's afflicted.
+      He shall strike the ruthless with the rod of his mouth,
+        and with the breath of his lips he shall slay the wicked.
+      Justice shall be the band around his waist,
+        and faithfulness a belt upon his hips.
+
+      Then the wolf shall be a guest of the lamb,
+        and the leopard shall lie down with the kid;
+      The calf and the young lion shall browse together,
+        with a little child to guide them.
+      The cow and the bear shall be neighbors,
+        together their young shall rest;
+        the lion shall eat hay like the ox.
+      The baby shall play by the cobra's den,
+        and the child lay his hand on the adder's lair.
+      There shall be no harm or ruin on all my holy mountain;
+        for the earth shall be filled with knowledge of the LORD,
+        as water covers the sea.
+    responsory:
+      - ["Behold a virgin shall conceive and bear a Son.","He shall be called Wonderful, the Almighty God."]
+      - ["He shall sit on the throne of David his father and reign over his kingdom forever.","He shall be called Wonderful, the Almighty God."]
+  reading2:
+    text: |
+      "Hail, full of grace, the Lord is with you." What Joy could surpass this, O Virgin Mother? What grace can excel that which God has granted to you alone? What could be imagined more dazzling or more delightful? Before the miracle we witness in you, all else pales; all else is inferior when compared with the grace you have been given. All else, even what is most desirable, must take second place and enjoy a lesser importance.
+
+      "The Lord is with you." Who would dare challenge you? You are God’s mother; who would not immediately defer to you and be glad to accord you a greater primacy and honor? for this reason, when I look upon the privilege you have above all creatures, I extol you with the highest praise: "Hail, full of grace, the Lord is with you." On your account joy has not only graced men, but is also granted to the powers of heaven.
+
+      Truly, you are blessed among women. For you have changed Eve’s curse into a blessing; and Adam, who hitherto lay under a curse, has been blessed because of you.
+
+      Truly, you are blessed among women. Through you the Father’s blessing has shone forth on mankind, setting them free of their ancient curse.
+
+      Truly, you are blessed among women, because through you your forbears have found salvation. For you were to give birth to the Savior who was to win them salvation.
+
+      Truly, you are blessed among women, for without seed you have borne, as your fruit, him who bestows blessings on the whole world and redeems it from that curse that made it sprout thorns.
+
+      Truly, you are blessed among women, because, though a woman by nature, you will become, in reality, God’s mother. If he whom you are to bear is truly God made flesh, then rightly do we call you God’s mother. For you have truly given birth to God.
+
+      Enclosed within your womb is God himself. He makes his abode in you and comes forth from you like a bridegroom, winning joy for all and bestowing God’s light on all.
+
+      You, O Virgin, are like a clear and shining sky, in which God has set his tent. From you "he comes forth like a bridegroom leaving his chamber." Like a giant running his course, he will run the course of his life which will bring salvation for all who will ever live, and extending from the highest heavens to the end of them, it will fill all things with divine warmth and with life-giving brightness.
+    responsory:
+      - ["Truly you are the most favored of women: where Eve brought a curse, you have brought a blessing.","Through you the Father's Gift has been bestowed on us."]
+      - ["Through you, your ancestors have found salvation.","Through you, the Father's Gift has been bestowed on us."]
+lauds:
+  psalmody:
+    - ["Blessed are you, O Mary, for the world's salvation came forth from you; now in glory, you rejoice forever with the Lord: intercede for us with your Son.",63]
+    - ["You are the glory of Jerusalem, the joy of Israel: you are the fairest of our race.",daniel3]
+    - ["O Virgin Mary, how great your cause for joy: God found you worthy to bear Christ our Savior.",149]
+  reading:
+    cite: "Isaiah 61:10"
+    text: |
+      I rejoice heartily in the Lord,
+        in my God is the joy of my soul;
+      For he has clothed me with a robe of salvation,
+        and wrapped me in a mantle of justice,
+        like a bride bedecked with her jewels.
+    responsory:
+      - "The Lord has chosen her, his loved one from the beginning."
+      - ["He has taken her to live with him.","His loved one from the beginning."]
+  benedictus: "Eve shut all her children out of Paradise; the Virgin Mary opened wide its gates."
+  intercessions:
+    - ["Let us glorify our Savior, who chosen the Virgin Mary for his mother. Let us ask him:","May your mother intercede for us, Lord."]
+    - ["Sun of Justice, the immaculate Virgin was the white dawn announcing your rising.","Grant that we may always live in the light of your coming."]
+    - ["Lord, help us to imitate Mary, your mother, who chose the best part.""May we seek the food that will sustain us forever."]
+    - ["Savior of the world, by your redeeming might you preserved your mother beforehand from all stain of sin.","Keep watch over us, lest we sin."]
+    - ["You are our redeemer, who made the immaculate Virgin Mary your purest home and the sanctuary of the Holy Spirit.","Make us temples of your Spirit forever."]
+vespers2:
+  psalmody:
+    - ["Hail Mary, full of grace, the Lord is with you.",122]
+    - ["I am the handmaid of the Lord: let it be done to me as you have said.",127]
+    - ["Blessed are you among women and blessed is the fruit of your womb.",revelation19]
+  reading:
+    cite: "Galatians 4:4-5"
+    text: "When the fullness of time had come, God sent his Son, born of a woman, born under the law, to ransom those under the law, so that we might receive adoption."
+    responsory:
+      - "Hail Mary, full of grace, the Lord is with you."
+      - ["Blessed are you among women and blessed is the fruit of yur womb.","The Lord is with you."]
+  magnificat: "Mary heard the word of God and kept it; she pondered it in her heart."
+  intercessions:
+    - ["O God, worker of miracles, you made the immaculate Virgin Mary share, body and soul, in your Son's glory in heaven.","Direct the hearts of your children to that same glory."]
+    - ["You made Mary our mother: through her intercession grant strength to the weak, comfort to the sorrowing, pardon to sinners...", "Salvation and peace to all."]
+    - ["You made Mary full of grace.","Grant all men hte joyful abundance of your grace."]
+    - ["Make your Church of one mind and one heart in love.","And help all those who believe to be one in prayer with Mary, the mother of Jesus."]
+    - ["You crowned Mary queen of heaven.","May all the dead rejoice in your kingdom with the saints forever."]
