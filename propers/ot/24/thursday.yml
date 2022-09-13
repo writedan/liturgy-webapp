@@ -1,0 +1,43 @@
+name: Thursday of the Twenty-fourth Sunday in Ordinary Time
+common: psalter/04/tuesday
+rank: feria
+collect: >-
+    Look upon us, O God, creator and ruler of all things, and, that we may feel the working of your mercy, grant that we may serve you with all our heart: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  reading1:
+    cite: "Ezekiel 12:1-16"
+    text: |
+      From the book of the prophet Ezekiel.
+
+      The word of the Lord came to me: Son of man, you live in the midst of a rebellious house; they have eyes to see but do not see, and ears to hear but do not hear, for they are a rebellious house. Now, son of man, during the day while they are looking on, prepare your baggage as though for exile, and again while they are looking on, migrate from where you live to another place; perhaps they will see that they are a rebellious house. You shall bring out your baggage like an exile in the daytime while they are looking on; in the evening, again while they are looking on, you shall go out like one of those driven into exile;  while they look on, dig a hole in the wall and pass through it; while they look on, shoulder the burden and set out in the darkness; cover your face that you may not see the land, for I have made you a sign for the house of Israel.
+
+      I did as I was told. During the day I brought out my baggage as though it were that of an exile, and at evening I dug a hole through the wall with my hand and, while they looked on, set out in the darkness, shouldering my burden.
+
+      Then, in the morning, the word of the Lord came to me: Son of man, did not the house of Israel, that rebellious house, ask you what you were doing? Tell them: Thus says the Lord God: This oracle concerns Jerusalem and the whole house of Israel within it.
+
+      I am a sign for you: as I have done, so shall it be done to them; as captives they shall go into exile. The prince who is among them shall shoulder his burden and set out in darkness, going through a hole that he has dug in the wall, and covering his face lest he be seen by anyone.  But I will spread my net over him, and he shall be taken in my snare. I will bring him to Babylon, into the land of the Chaldeans--but he shall not see it--and there he shall die. All his retinue, his aides, and his troops I will scatter in every direction, and pursue them with the sword.
+
+      Then shall they know that I am the Lord, when I disperse them among the nations and scatter them over foreign lands. Yet I will leave a few of them to escape the sword, famine and pestilence, so that they may tell of all their abominations among the nations to which they will come; thus they shall know that I am the Lord.
+    responsory:
+      - ["When I disperse them among the nations and scatter them over many lands.","Then they shall know that I am the Lord."]
+      - ["If they abandon my law and refuse to obey my ordinances, I will punish their crimes with the rod.","Then they shall know that I am the Lord."]
+  reading2:
+    text: |
+      From a sermon on pastors by Saint Augustine, bishop.
+
+      After the Lord had shown what wicked shepherds esteem, he also spoke about what they neglect. The defects of the sheep are widespread. There are very few healthy and sound sheep, few that are solidly sustained by the food of truth, and few that enjoy the good pasture God gives them. But the wicked shepherds do not spare such sheep. It is not enough that they neglect those that are ill and weak, those that go stray and are lost. They even try, so far as it is in their power, to kill the strong and healthy. Yet such sheep live; yes, by God's mercy they live. As for the wicked shepherds themselves, they kill the sheep. "How do they kill them?" you ask. By their wicked lives and by giving bad example. Or was God's servant, who was high among the members of the chief shepherd, told this in vain: "Show yourself as an example of good works toward all men, and, Be an example to the faithful"?
+
+      Even the strong sheep, if he turns his eyes from the Lord's laws and looks at the man set over him, notices when his shepherd is living wickedly and begins to say in his heart: "If my pastor lives like that, why should I not live like him?" The wicked shepherd kills the strong sheep. But if he kills the strong one what does he do to the rest? After all, by his wicked life he kills even the sheep he had not strengthened but had found strong and hardy.
+
+      I appeal to your love, and again I say, even if the sheep have life and if they are strong in the word of the Lord, and if they hold fast to what they have heard from their Lord, "Do what they say but not what they do." Still, as far as he himself is concerned, the shepherd who lives a wicked life before the people kills the sheep under his care. Let such a shepherd not deceive himself because the sheep is not dead, for though it still lives, he is a murderer - just as when the lustful man looks on a woman with desire, even though she is chaste, he has committed adultery. For the Lord said in plain truth: "Whoever has looked upon a woman with desire has already committed adultery with her in his heart." He has not entered her bedroom, yet he has ravished her within the bedroom of his heart.
+    responsory:
+      - ["If much has been given to you, much will be demanded of you.","More will be expected of one to whom more has been entrusted."]
+      - ["The most severe judgment will be set aside for those in high places.","More will be expected of one to whom more has been entrusted."]
+lauds:
+  reading:
+    cite: "Romans 8:18-21"
+    text: "I consider that the sufferings of this present time are as nothing compared with the glory to be revealed for us. For creation awaits with eager expectation the revelation of the children of God; for creation was made subject to futility, not of its own accord but because of the one who subjected it, in hope that creation itself would be set free from slavery to corruption and share in the glorious freedom of the children of God."
+vespers:
+  reading:
+    cite: "Colossians 1:21-23"
+    text: "You yourselves were once alienated from him; you nourished hostility because of your evil deeds. But Christ has achieved reconciliation for you in his mortal body through his death, to present you holy, without blemish, and irreproachable before him, provided that you persevere in the faith, firmly grounded, stable, and not shifting from the hope of the gospel that you heard, which has been preached to every creature under heaven, of which I, Paul, am a minister."

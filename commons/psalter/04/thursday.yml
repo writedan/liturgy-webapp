@@ -1,0 +1,31 @@
+name: IV Thursday
+common: psalter/02/thursday
+vigil:
+  psalmody:
+    - ["Their own strength could not save theml it was your strength and the light of your face.",44i]
+    - ["Turn back to the Lord; he will not hide his face.",44ii]
+    - ["Arise, Lord, do not abandon us forever.",44iii]
+  call: ["Let the light of your face shine on me, O Lord.","Teach me your way of holiness."]
+lauds:
+  psalmody:
+    - ["At daybreak, be merciful to me, O Lord.",143]
+    - ["The Lord will make a river of peace flow through Jerusalem.",isaiah66]
+    - ["Let us joyfully praise the Lord our God.",147]
+  intercessions:
+    - ["Let us pray to God, who gives salvation to his people:","You are our life, O Lord."]
+    - ["Blessed are you, Father of our Lord Jesus Christ, for by your mercy we have been reborn to a living hope.","Through the resurrection of Jesus Christ from the dead."]
+    - ["You made us in your image and renewed us in Christ.","Mold us into the likeness of your Son."]
+    - ["Pour out your love through the Holy Spirit.","Heal our hearts, wounded by hatred and jealousy."]
+    - ["Today grant work to laborers, bread to the hungry, joy to the sorrowful...","Grace and redemption to all people."]
+vespers:
+  psalmody:
+    - ["He is my comfort and my refuge: in him I put my trust.",144i]
+    - ["Blessed are the people whose God is the Lord.",144ii]
+    - ["Now the victorious reign of our God has begun.",revelation11]
+  intercessions:
+    - ["Let us pray to Christ, the light of the nations and the joy of every living creature:","Give us light, peace, and security, Lord."]
+    - ["Brilliant light, Word of the Father, you came to save all people.","Lead the catechumens of your Church into your marvelous light."]
+    - ["Overlook our sins, Lord.","For you are the source of forgiveness."]
+    - ["Lord, it is your will that we use our minds to unlock nature's secrets and master the world.","May the arts and sciences advance your glory and the happiness of all peoples."]
+    - ["Look kindly on those who have dedicated themselves to the service of their fellow men.","May they fulfill their work freely and completely."]
+    - ["Lord, you open the way and no one can close it.","Lead into your perpetual light those who have fallen asleep in the hope of resurrection."]
