@@ -1,0 +1,19 @@
+name: IV Saturday
+common: psalter/02/saturday
+vigil:
+  psalmody:
+    - ["The Lord summons heaven and earth to witness his judgment upon his people.",50i]
+    - ["Come to me in your distress and I will save you.",50ii]
+    - ["A sacrifice of praise will give me glory.",50iii]
+  call: ["We are always praying earnestly for you.","That you may have a deep knowledge of God's will."]
+lauds:
+  psalmody:
+    - ["We do well to sing your name, Most High, and proclaim your mercy at daybreak.",92]
+    - ["I will create a new heart in you, and breathe into you a new spirit.",ezekiel36]
+    - ["On the lips of children and infants you have found perfect praise.",8]
+  intercessions:
+    - ["Let us adore God, who has given hope and life to the world through his Son, and let us humbly ask him:","Lord, hear us."]
+    - ["Lord, Father of all, you have brought us to the dawn of this day.","Make us live with Christ and praise your glory."]
+    - ["You have poured out faith, hope, and love upon us.","Keep them firmly rooted in our hearts."]
+    - ["Lord, let our eyes be always raised up to you.","So that we may swiftly answer your call."]
+    - ["Protect us from the snares and enticements of evil.","Keep our feet from stumbling."]
