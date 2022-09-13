@@ -1,0 +1,31 @@
+name: IV Monday
+common: psalter/02/monday
+vigil:
+    psalmody:
+        - ["How good is the God of Israel to the pure of heart.",73i]
+        - ["Their laughter will turn to weeping, their merriment to joy.",73ii]
+        - ["Those who depart from you will perish; my joy is to remain with you, my God.",73iii]
+    call: ["To savor your words is my delight, O Lord.","Honey itself is not sweeter."]
+lauds:
+    psalmody:
+        - ["Each morning Lord, you will us with your kindness.",90]
+        - ["From the farthest bounds of the earth, may God be praised.",isaiah42]
+        - ["You who stand in his sanctuary, praise the name of the Lord.",135]
+    intercessions:
+        - ["Because Christ hears us and saves those who hope in him, let us pray:","We praise you, Lord, we hope in you."]
+        - ["We thank you because you are rich in mercy.","And for the abundant love with which you have loved us."]
+        - ["With the Father you are always at work in the world.","Make all things new through the power of your Holy Spirit."]
+        - ["Open our eyes and the eyes of our brothers and sisters.","To see your wonders this day."]
+        - ["You call us today to your service.","Make us stewards of your many gifts."]
+vespers:
+    psalmody:
+        - ["Give thanks to the Lord, for his great love is without end.",136i]
+        - ["Great and wonderful are your deeds, Lord God the Almighty.",136ii]
+        - ["God planned in the fullness of time to restore all things in Christ.",ephesians1]
+    intercessions:
+        - ["Jesus does not abandon those who hope in him; therefore, let us humbly ask him:","Our Lord and our God, hear us."]
+        - ["Christ our light, brighten your Church with your splendor.","So that she may be for the nations the great sacrament of your love."]
+        - ["Watch over the priests and ministers of your Church.","So that after they have preached to others, they themselves may remain faithful in your service."]
+        - ["Through your blood you gave peace to the world.","Turn away the sin of strife and the scourge of war."]
+        - ["O Lord, help married couples with an abundance of your grace.","So that they may better symbolize the mystery of your Church."]
+        - ["In your mercy forgive the sins of all the dead.","That they may live with your saints."]
