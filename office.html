@@ -173,7 +173,7 @@
 						$('#content').append(heading);
 						$('#content').append('<p><i>Ant.</i> ' + psalm[0] + '</p>');
 						$('#content').append('<p><i class="sit-'+psalm[1]+'">All sit after the antiphon.</i></p>');
-						text = text.replaceAll("\n","\r\n");
+						text = text.replaceAll("\n","\r\n").trim();
 						var sections = text.split("\r\n\r\n");
 						for (let k = 0; k < sections.length; k++) {
 							var sideA = (k % 2) == 0;
