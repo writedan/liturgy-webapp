@@ -55,6 +55,7 @@ r { color: red; }
 	function getOptions(today, currentYear) {
 
 	function getYaml(url, callback) {
+		url = url + '?' + UUID;
 		jQuery.get(url, function(data) {
 			console.log('got ' + url);
 			callback(YAML.parse(data));

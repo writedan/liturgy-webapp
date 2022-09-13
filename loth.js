@@ -137,3 +137,6 @@ function getImmaculateHeart(year) {
 function getChristKing(year) {
 	return moveDayForwardDays(getAdventSunday(year + 1), -7);
 }
+
+// For universal use
+var UUID = '100';
