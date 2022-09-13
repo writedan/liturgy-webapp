@@ -1,0 +1,31 @@
+name: IV Tuesday
+common: psalter/02/tuesday
+vigil:
+  psalmody:
+    - ["Let my cry come to you; do not hide your face from me.", 102i]
+    - ["Be attentive, Lord, to the prayer of the helpless.",102ii]
+    - ["You, O Lord, established the earth, and the heavens are the work of your hands.",102iii]
+  call: ["Listen my people to my teaching.","Give ear to the words I speak."]
+lauds:
+  psalmody:
+    - ["I will sing to you, Lord, I will learn from the way of perfection.", 101]
+    - ["Lord, do not withhold your compassion from us.", daniel3]
+    - ["O God, I will sing to you a new song.",144]
+  intercessions:
+    - ["To the God who gives us the joy of praising him this morning, and who strengthens our hope, let us pray:","Hear us, O Lord, for the glory of your name."]
+    - ["We thank you, God and Father of Jesus our Savior.","For the knowledge and immortality you have given us through him."]
+    - ["Make us humble of heart.","Help us to serve one another out of reverence for Christ."]
+    - ["Pour out your Spirit on us, your servants.","Make us sincere in our love for each other."]
+    - ["You instructed us to labor and to exercise dominion over the earth.","May our work honor you and sanctify our brothers and sisters."]
+vespers:
+  psalmody:
+    - ["If I forget you Jerusalem, let my right hand wither.",137]
+    - ["In the presence of the angels, I will sing to you, my God.",138]
+    - ["Adoration and glory belong by right to the Lamb that was slain.",revelation4]
+  intercessions:
+    - ["Let us praise God who gives power and strength to his people and let us entreat him with sincere hearts:","Hear us, O Lord, and we shall praise you forever."]
+    - ["Christ our strength, you called your faithful ones to your truth.","Mercifully grant them faith and perseverance."]
+    - ["Direct our leaders according to your will.","And help them to keep us in peace."]
+    - ["You provided bread for the hungry crow.","Teach us to share our resources with the needy."]
+    - ["Do not direct world leaders to give attention only to the needs of their own nations.","But give them, above all, a respect and deep concern for all peoples."]
+    - ["Grant blessed life and resurrection to our brothers and sisters who have fallen asleep.","And may all those who have believed in you share in your glory."]
