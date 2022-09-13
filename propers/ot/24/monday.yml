@@ -1,0 +1,51 @@
+name: Monday of the Twenty-fourth Week in Ordinary Time
+rank: feria
+common: psalter/04/monday
+collect: >-
+    Look upon us, O God, creator and ruler of all things, and, that we may feel the working of your mercy, grant that we may serve you with all our heart: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+    reading1:
+        cite: "Ezekiel 2:8 - 3:11, 17-21"
+        text: |
+            From the book of the prophet Ezekiel.
+            
+            The Lord spoke to me and said: As for you, son of man, obey me when I speak to you: be not rebellious like this house of rebellion, but open your mouth and eat what I shall give you.
+
+            It was then I saw a hand stretched out to me, in which was a written scroll which he unrolled before me. It was covered with writing front and back, and written on it was: Lamentation and wailing and woe!
+
+            He said to me: Son of man, eat what is before you; eat this scroll, then go, speak to the house of Israel. So I opened my mouth and he gave me the scroll to eat. Son of man, he then said to me, feed your belly and fill your stomach with this scroll I am giving you. I ate it, and it was as sweet as honey in my mouth. He said: Son of man, go now to the house of Israel, and speak my words to them.
+
+            Not to a people with difficult speech and barbarous language am I sending you, nor to the many peoples (with difficult speech and barbarous language) whose words you cannot understand. If I were to send you to these, they would listen to you; but the house of Israel will refuse to listen to you, since they will not listen to me. For the whole house of Israel is stubborn of brow and obstinate in heart. But I will make your face as hard as theirs, and your brow as stubborn as theirs, like diamond, harder than flint. Fear them not, nor be dismayed at their looks, for they are a rebellious house.
+
+            Son of man, he said to me, take into your heart all my words that I speak to you; hear them well. Now go to the exiles, to your countrymen, and say to them: Thus says the Lord God!--whether they heed or resist!
+             
+            Thus the word of the Lord came to me: Son of man, I have appointed you a watchman for the house of Israel. When you hear a word from my mouth, you shall warn them for me.
+             
+            If I say to the wicked man, You shall surely die; and you do not warn him or speak out to dissuade him from his wicked conduct so that he may live: that wicked man shall die for his sin, but I will hold you responsible for his death. If, on the other hand, you have warned the wicked man, yet he has not turned away from his evil nor from his wicked conduct, then he shall die for his sin, but you shall save your life.
+
+            If a virtuous man turns away from virtue and does wrong when I place a stumbling block before him, he shall die. He shall die for his sin, and his virtuous deeds shall not be remembered; but I will hold you responsible for his death if you did not warn him. When, on the other hand, you have warned a virtuous man not to sin, and he has in fact not sinned, he shall surely live because of the warning, and you shall save your own life. 
+        responsory:
+            - ["I have appointed you a watchman for the house of Israel: listen to what I say to you and speak in my name.","Neither be afraid of them nor rebellious like them."]
+            - ["I will make your face as hard as theirs and your forehead as stubborn and as obstinate.","Neither be afraid of them nor rebellious like them."]
+    reading2:
+        text: |
+            From a sermon on pastors by Saint Augustine, bishop.
+            
+            Let us consider the unflattering words of God which Scripture addresses to shepherds who feed themselves and not the sheep. "You consume their milk and cover yourselves with their wool; you kill the fatlings, but my sheep you do not pasture. You have failed to strengthen what was weak, to heal what was sick, and to bind up what was injured. You did not call back what went astray, nor seek out what was lost. What was strong you have destroyed, and my sheep have been scattered because there is no shepherd."
+
+            This is spoken to the shepherds who feed themselves and not the sheep; it speaks of their concern and their neglect. What is their concern? "You consume their mild and cover yourselves with their wool. And so the Apostle asks: Who plants a vineyard and does not eat from its fruit? Who pastures a flock and does not drink from the mild of the flock?" Thus we learn that the milk of the flock is whatever temporal support and sustenance God's people give to those who are placed over them. It is of this that the Apostle was speaking in the passage just quoted.
+
+            Although he chose to support himself by the labor of his own hands and not to ask for milk from the sheep, the Apostle did say that he had the right to receive the milk, for the Lord had established that they who preach the Gospel should live from the Gospel. Paul also says that other of his fellow apostles made use of this right, a right granted them, and not unlawfully usurped. But Paul went further by not taking what was rightfully his. He forgave the debt, whereas the others did not demand what was not due them. Therefore Paul went further. Perhaps his action was foreshadowed by the Good Samaritan who, when he brought the sick man to the inn, said: "If you spend any more, I will repay you on my way back."
+
+            What more can I say concerning those shepherds who do not need the milk of the flock? They are more merciful; or rather, they carry out a more abundant ministry of mercy. They are able to do so, and they do it. Let them receive praise, but do not condemn the others. The Apostle himself did not seek what was given. However, he wanted the sheep to be fruitful, not sterile and unable to give milk. 
+        responsory:
+            - ["I myself shall pasture my sheep and I myself shall give them rest, says the Lord God.","I shall look for the lost sheep and bring back the stray."]
+            - ["I shall strengthen the weak and protect the healthy and strong.","I shall look for the lost sheep and bring back the stray."]
+lauds:
+    reading:
+        cite: "Judith 8:25-27"
+        text: "We should be grateful to the Lord our God, for putting us to the test, as he did our forefathers. Recall how he dealt with Abraham, and how he tried Isaac, and all that happened to Jacob in Syrian Mesopotamia while he was tending the flocks of Laban, his mother's brother. Not for vengeance did the Lord put them in the crucible to try their hearts, nor has he done so with us. It is by way of admonition that he chastises those who are close to him."
+vespers:
+    reading:
+        cite: "1 Thessalonians 2:11-13"
+        text: "May the Lord make you increase and abound in love for one another and for all, just as we have for you, so as to strengthen your hearts, to be blameless in holiness before our God and Father at the coming of our Lord Jesus with all his holy ones."
