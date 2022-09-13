@@ -3,3 +3,16 @@ rank: omemorial
 common: bvm
 collect: >-
     Grant, we pray, almighty God, that, for all who celebrate the glorious name of the Blessed Virgin Mary, she may obtain your merciful favor: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  reading2:
+    text: |
+      From the homilies of Saint Bernard of Clairvaux on the glories of the Virgin Mother
+
+      “And the Virgin’s name was Mary”. Let us speak a little about this name, which is said to mean “star of the sea,” and which so well befits the Virgin Mother. Rightly is she likened to a star. As a star emits a ray without being dimmed, so the Virgin brought forth her Son without receiving any injury. The ray takes naught from the brightness of the star, nor the Son from His Mother’s virginal integrity. This is the noble star risen out of Jacob, whose ray illumines the whole world, whose splendour shines in the heavens, penetrates the abyss, and, traversing the whole earth, gives warmth rather to souls than to bodies, cherishing virtues, withering vices. Mary is that bright and incomparable star, whom we need to see raised above this vast sea, shining by her merits, and giving us light by her example.
+
+      All of you, who see yourselves amid the tides of the world, tossed by storms and tempests rather than walking on the land, do not turn your eyes away from this shining star, unless you want to be overwhelmed by the hurricane. If temptation storms, or you fall upon the rocks of tribulation, look to the star: call upon Mary! If you are tossed by the waves of pride or ambition, detraction or envy, look to the star, call upon Mary. If anger or avarice or the desires of the flesh dash against the ship of your soul, turn your eyes to Mary. If troubled by the enormity of your crimes, ashamed of your guilty conscience, terrified by dread of the judgement, you begin to sink into the gulf of sadness or the abyss of despair, think of Mary.
+
+      In dangers, in anguish, in doubt, think of Mary, call upon Mary. Let her name be ever on your lips, ever in your heart; and the better to obtain the help of her prayers, imitate the example of her life. Following her, you do not stray; invoking her, you do not despair; thinking of her, you do not wander; upheld by her, you do not fall; shielded by her, you do not fear; guided by her, you do not grow weary; favoured by her, you reach the goal. And thus you experience in yourself how good is that saying: “And the Virgin’s name was Mary”.
+    responsory:
+      - ["My teaching is sweeter than honey, my inheritance sweeter than a honeycomb.","And the virgin's name was Mary."]
+      - ["The memory of me lasts through the generations.","And the virgin's name was Mary."]
