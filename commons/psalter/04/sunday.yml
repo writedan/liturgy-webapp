@@ -39,5 +39,17 @@ terce:
     reading:
         cite: "1 Corinthians 6:19-20"
         text: >
-             Do you not know that your body is a temple of the holy Spirit within you, whom you have from God, and that you are not your own? For you have been purchased at a price. Therefore, glorify God in your body. 
+             Do you not know that your body is a temple of the holy Spirit within you, whom you have from God, and that you are not your own? For you have been purchased at a price. Therefore, glorify God in your body.
         responsory: ["I long to be in God's holy dwelling-place.","My whole being rejoices in the living God."]
+vespers2:
+  psalmody:
+    - ["In eternal splendor, before the dawn of light on earth, I have begotten you, alleluia.",110]
+    - ["Blessed are they who hunger and thirst for righteousness, they will be satisfied.",112]
+    - ["Praise God, all you who serve him, both great and small, alleluia.",revelation19]
+  intercessions:
+    - ["Rejoicing in the Lord, from whom all good things come, let us pray:","Lord, hear our prayer."]
+    - ["Father and Lord of all, you sent your Son into the world, that your name might be glorified in every place.","Strengthen the witness of your Church among the nations."]
+    - ["Make us obedient to the teachings of your apostles.","And bound to the truth of our faith."]
+    - ["As you love the innocent...","Render justice to those who are wronged."]
+    - ["Free those in bondage and give sight to the blind.","Raise up the fallen and protect the stranger."]
+    - ["Fulfill your promise to those who already sleep in your peace.","Through your Son grant them a blessed resurrection."]
