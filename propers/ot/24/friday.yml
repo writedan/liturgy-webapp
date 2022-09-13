@@ -1,0 +1,31 @@
+name: Friday of the Twenty-fourth Week in Ordinary Time
+rank: feria
+common: psalter/04/friday
+collect: >-
+    Look upon us, O God, creator and ruler of all things, and, that we may feel the working of your mercy, grant that we may serve you with all our heart: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  reading1:
+    cite: "Ezekiel 16:3, 5b-7a, 8-15, 35, 37a, 40-43, 59-63"
+    text: |
+      From the book of the prophet Ezekiel.
+
+      Thus says the Lord God to Jerusalem: By origin and birth you are of the land of Canaan; your father was an Amorite and your mother a Hittite. You were thrown out on the ground as something loathsome, the day you were born.
+
+      Then I passed by and saw you weltering in your blood. I said to you: Live in your blood and grow like a plant in the field. You grew and developed, you came to the age of puberty. Again I passed by you and saw that you were now old enough for love. So I spread the corner of my cloak over you to cover your nakedness; I swore an oath to you and entered into a covenant with you; you became mine, says the Lord God. Then I bathed you with water, washed away your blood, and anointed you with oil. I clothed you with an embroidered gown, put sandals of fine leather on your feet; I gave you a fine linen sash and silk robes to wear. I adorned you with jewelry: I put bracelets on your arms, a necklace about your neck, a ring in your nose, pendants in your ears, and a glorious diadem upon your head. Thus you were adorned with gold and silver; your garments were of fine linen, silk, and embroidered cloth. Fine flour, honey, and oil were your food. You were exceedingly beautiful, with the dignity of a queen. You were renowned among the nations for your beauty, perfect as it was, because of my splendor which I had bestowed on you, says the Lord God.
+
+      But you were captivated by your own beauty, you used your renown to make yourself a harlot, and you lavished your harlotry on every passer-by, whose own you became.
+
+      Therefore, harlot, hear the word of the Lord! I will now gather together all your lovers whom you tried to please, whether you loved them or loved them not;  They shall lead an assembly against you to stone you and hack you with their swords. They shall burn your apartments with fire and inflict punishments on you while many women look on. Thus I will put an end to your harlotry, and you shall never again give payment. When I have wreaked my fury upon you I will cease to be jealous of you, I will be quiet and no longer vexed. Because you did not remember what happened when you were a girl, but enraged me with all these things, therefore in return I am bringing down your conduct upon your head, says the Lord God. For did you not add lewdness to the rest of your abominable deeds?
+
+      For thus speaks the Lord God: I will deal with you according to what you have done, you who despised your oath, breaking a covenant. Yet I will remember the covenant I made with you when you were a girl, and I will set up an everlasting covenant with you. Then you shall remember your conduct and be ashamed when I take your sisters, those older and younger than you, and give them to you as daughters, even though I am not bound by my covenant with you. For I will re-establish my covenant with you, that you may know that I am the Lord, that you may remember and be covered with confusion, and that you may be utterly silenced for shame when I pardon you for all you have done, says the Lord God.
+    responsory:
+      - ["I have called you back, like a forsaken wife; for a brief moment of anger, I hid my face from you.","With an everlasting love I have had compassion on you, says the Lord your redeemer."]
+      - ["I will remember the covenant I made with you when you were a young woman, and I will make a covenant with you that will last forever.","With an everlasting love I have had compassion on you, says the Lord your redeemer."]
+lauds:
+  reading:
+    cite: "Galatians 2:16, 19-20"
+    text: "Knowing that a person is not justified by works of the law but through faith in Jesus Christ, we have believed in Christ Jesus that we may be justified by faith in Christ and not by works of the law, because by works of the law no one will be justified. For through the law I died to the law, that I might live for God. I have been crucified with Christ; yet I live, no longer I, but Christ lives in me; insofar as I now live in the flesh, I live by faith in the Son of God who has loved me and given himself up for me. "
+vespers:
+  reading:
+    cite: "Romans 8:1-2, 10-11"
+    text: "There is now no condemnation for those who are in Christ Jesus. For the law of the spirit of life in Christ Jesus has freed you from the law of sin and death. If Christ is in you, although the body is dead because of sin, the spirit is alive because of righteousness. If the Spirit of the one who raised Jesus from the dead dwells in you, the one who raised Christ from the dead will give life to your mortal bodies also, through his Spirit that dwells in you."

@@ -1,0 +1,30 @@
+name: IV Friday
+common: psalter/02/friday
+vigil:
+  psalmody:
+    - ["My God, do not reject my cry for help, assailed as I am by the wicked.",55i]
+    - ["The Lord himself will free us from hostile and treacherous hands.",55ii]
+    - ["Entrust your cares to the Lord; he will sustain you.",55iii]
+lauds:
+  psalmody:
+    - ["Create a clean heart in me, O God; renew in me a steadfast spirit.",51]
+    - ["Rejoice, Jerusalem, for though you all people will be gathered to the Lord.",tobit13]
+    - ["Zion, praise your God, who sent his word to renew the earth.",147]
+  intercessions:
+    - ["We trust in God's concern for every person he has created and redeemed through his Son. Let us, therefore, renew our prayer to him:","Fulfill the good work you have begun in us, Lord."]
+    - ["O God of mercy, guide us toward spiritual growth.","Fill our minds with thoughts of truth, justice, and love."]
+    - ["For your name's sake, do not abandon us forever.","And do not annul your covenant."]
+    - ["Accept us, for our hearts are humble and our spirits contrite.","And those who trust in you shall not be put to shame."]
+    - ["You have called us to a prophetic vocation in Christ.","Help us proclaim your mighty deeds."]
+vespers:
+  psalmody:
+    - ["Day after day I will bless you, Lord; I will tell of your marvelous deeds.",145i]
+    - ["To you alone, Lord, we look with confidence; you are ever close to those who call upon you.",145ii]
+    - ["King of all ages, your ways are perfect and true.",revelation15]
+  intercessions:
+    - ["Let us pray to Christ, the source of hope for all who know his name:","Lord, have mercy."]
+    - ["Christ, our frail humanity is prone to fall.","Strengthen us through your help."]
+    - ["Left to itself, our nature is inclined to sin.","Let your love always restore it to grace."]
+    - ["Lord, sin offends you, repentance pleases you.","Do not punish us in your wrath even when we have sinned."]
+    - ["You forgave the penitent woman and placed the wandering sheep on your shoulders.","Do not deprive us of your mercy."]
+    - ["By your death on the cross, you opened the gates of heaven.","Admit into your kingdom all who hoped in you."]
