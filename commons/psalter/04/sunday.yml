@@ -30,17 +30,6 @@ lauds:
         - ["O God, you opened the gates of mercy for us.","Let us never turn aside from the path of life."]
         - ["As we celebrate the resurrection of your beloved Son...","Help us to spend this day in the spirit of joy."]
         - ["Give to your faithful, O Lord, a prayerful spirit of gratitude.","That we may thank you for all your gifts."]
-daytime:
-    psalmody:
-        - ["He who eats this bread will live forever, alleluia.",23]
-        - ["The Lord will come in glory and show himself wonderful in his saints, alleluia.",76i]
-        - ["Pay your vows and bring offerings to the Lord our God, alleluia.",76ii]
-terce:
-    reading:
-        cite: "1 Corinthians 6:19-20"
-        text: >
-             Do you not know that your body is a temple of the holy Spirit within you, whom you have from God, and that you are not your own? For you have been purchased at a price. Therefore, glorify God in your body.
-        responsory: ["I long to be in God's holy dwelling-place.","My whole being rejoices in the living God."]
 vespers2:
   psalmody:
     - ["In eternal splendor, before the dawn of light on earth, I have begotten you, alleluia.",110]

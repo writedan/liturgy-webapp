@@ -30,29 +30,6 @@ lauds:
         - ["You enlightened the world through the resurrection of your Son.","Through your Church shed this light on all people."]
         - ["You have the disciples of your only begotten Son the Spirit's gift of understanding.","Through the same Spirit keep the Church faithful to you."]
         - ["Light of nations, remember those who remain in darkness.","Open their eyes and let them recognize you, the only true God."]
-daytime:
-    psalmody:
-        - ["In my distress, I called on the Lord, and he heard my cry, alleluia.",118i]
-        - ["The Lord's right hand has raised me up, alleluia.",118ii]
-        - ["The Lord our God has let his light shine upon us, alleluia.",118iii]
-terce:
-    reading:
-        cite: "Romans 8:15-16"
-        text: >
-             You did not receive a spirit of slavery to fall back into fear, but you received a spirit of adoption, through which we cry, "Abba, Father!" The Spirit itself bears witness with our spirit that we are children of God. 
-        responsory: ["Lord, you are the well-spring of life.","In your light, we see light itself."]
-sext:
-    reading:
-        cite: "Romans 8:22-23"
-        text: >
-              We know that all creation is groaning in labor pains even until now; and not only that, but we ourselves, who have the firstfruits of the Spirit, we also groan within ourselves as we wait for adoption, the redemption of our bodies. 
-        responsory: ["Bless the Lord, my soul.","He has rescued your life from destruction."]
-none:
-    reading:
-        cite: "2 Timothy 1:9"
-        text: >
-               God has saved us and called us to a holy life, not according to our works but according to his own design and the grace bestowed on us in Christ Jesus before time began. 
-        responsory: ["Confiding in the Lord's guidance, they feared nothing.","He led them into his holy land."]
 vespers2:
     psalmody:
         - ["The Lord said to my Master, sit on my right hand, alleluia.",110]

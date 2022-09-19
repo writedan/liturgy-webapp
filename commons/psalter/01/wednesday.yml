@@ -15,7 +15,7 @@ lauds:
         - ["O God, you are great and glorious; we marvel at your power.",judith16]
         - ["Exult in God's presence with hymns of praise.",47]
     reading:
-        responsory: 
+        responsory:
             - "Incline my heart according to your will, O God."
             - ["Speed my steps along your path...","According to your will, O God."]
     benedictus: Show us your mercy, Lord; remember your holy covenant.
@@ -25,29 +25,6 @@ lauds:
         - ["As a sign of your love, you renew each day for the sake of our well-being and happiness.","Renew us daily for the sake of your glory."]
         - ["Teach us today to recognize your presence in all people.","Especially in hte poor and in those who mourn."]
         - ["Grant that we may live today in peace with all people...","Never rendering evil for evil."]
-daytime:
-    psalmody:
-        - ["Lord, may you be blessed forever. Teach me the ways of holiness.",119ii]
-        - ["Lord, keep me steadfast in your ways.",17i]
-        - ["Rise up, O Lord, and rescue me.",17ii]
-terce:
-    reading:
-        cite: "1 Peter 1:13-14"
-        text: >
-            Gird up the loins of your mind, live soberly, and set your hopes completely on the grace to be brought to you at the revelation of Jesus Christ. Like obedient children, do not act in compliance with the desires of your former ignorance.
-        call: ["Lord, show me your ways.","Teach me to walk in your footsteps."]
-sext:
-    reading:
-        cite: "1 Peter 1:15-16"
-        text: >
-            As he who called you is holy, be holy yourselves in every aspect of your conduct, for it is written, "Be holy because I am holy."
-        call: ["May your priests be robed with holiness.","Let your people dance for joy."]
-none:
-    reading:
-        cite: "James 4:7-8a, 10"
-        text: >
-            Submit yourselves to God. Resist the devil, and he will flee from you. Draw near to God, and he will draw near to you. Humble yourselves before the Lord and he will exult you.
-        call: ["God looks tenderly on those who revere him...","On those who trust in his mercy."]
 vespers:
     hymn: 178 # O God Most Holy, God Most High
     psalmody:

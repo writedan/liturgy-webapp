@@ -25,31 +25,9 @@ lauds:
         - ["We dedicate this day to you as an offering.","Do not let us offer anything that is evil."]
         - ["May your gift of light pervade this whole day...","That we may be the salt of the earth and the light of the world."]
         - ["May the love of your holy Spirit direct our hearts and our lips.","And may we always act in accordance with your will."]
-daytime:
-    psalmody:
-        - ["I have pondered my ways and turned back to your teaching.",119viii]
-        - ["I tremble with fear, O Lord; turn to me and hear me.",55i]
-        - ["I shall cry to God for help, and the Lord will come to save me.",55ii]
-terce:
-    reading:
-        cite: "Deuteronomy 1:16-17a"
-        text: >
-            I charged your judges at that time, "Listen to complaints among your kinsmen, and administer true justice to both parties even if one of them is an alien. In rendering judgment, do not consider who a person is; give ear to the lowly and to the great alike, fearing no man, for judgment is God's."
-        call: ["The Lord is true and loves justice.","Those who are just will see him face to face."]
-sext:
-    reading:
-        cite: "Isaiah 55:8-9"
-        text: >
-            For my thoughts are not your thoughts, nor are your ways my ways, says the Lord. As high as the heavens are above the earth, so high are my ways above your ways and my thoughts above your thoughts.
-        call: ["God of power and might, who is your equal?","Faithfulness surrounds you on every side."]
-none:
-    reading:
-        cite: "1 Samuel 16:7b"
-        text: "Not as man sees does God see, because man sees the appearance but the Lord looks into the heart."
-        call: ["O God, search my heart and know me.","Lead me along the path to endless life."]
 vespers:
     hymn: 212 # As Sun Declines and Shadows Fall
-    psalmody: 
+    psalmody:
         - ["Eagerly we await the fulfillment of our hope, the glorious coming of our Savior.",62]
         - ["May God turn his radiant face toward us, and fill us with his blessings.",67]
         - ["Though him all things were made; he holds all creation together in himself.",colossians1]

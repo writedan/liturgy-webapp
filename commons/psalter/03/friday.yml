@@ -18,29 +18,6 @@ lauds:
         - ["You promised that you would provide living water, the fountain of eternal life.","Pour forth your Spirit upon all people."]
         - ["You send disciples to preach the Gospel to all nations.","Help them to extend the victory of your cross."]
         - ["You have given the sick and the suffering a share in your cross.","Give them patience and strength."]
-daytime:
-    psalmody:
-        - ["We saw him despised and rejected, a man of sorrow, acquainted with infirmity.",22i]
-        - ["The garments of Jesus they divided among them by casting lots.",22ii]
-        - ["The family of nations will worship in the presence of the Lord.",22iii]
-terce:
-    reading:
-        cite: "Romans 1:16b-17"
-        text: >
-             The Gospel is the power of God for the salvation of everyone who believes. For in it is revealed the righteousness of God from faith to faith; as it is written, "The just shall live by faith." 
-        responsory: ["God is the joy of our hearts.","We trust in his holy name."]
-sext:
-    reading:
-        cite: "Romans 3:21-22"
-        text: >
-             Now the righteousness of God has been manifested apart from the law, though testified to by the law and the prophets,the righteousness of God through faith in Jesus Christ for all who believe. 
-        responsory: ["The judgments of the Lord are true; they gladden the heart.","His precepts are clear; they give light to the mind."]
-none:
-    reading:
-        cite: "Ephesians 2:8-9"
-        text: >
-             By grace you have been saved through faith, and this is not from you; it is the gift of God; it is not a reward for anything you have accomplished, so let no one pride himself on it. 
-        responsory: ["Lord make known your way to us on earth.","May all nations know you their Savior."]
 vespers:
     psalmody:
         - ["Great is the Lord our God, transcending all other gods.",135i]

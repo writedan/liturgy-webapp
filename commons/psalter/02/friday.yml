@@ -25,27 +25,6 @@ lauds:
         - ["You created all things, and now your provide for their growth.","May we always perceive your handiwork in creation."]
         - ["With your own blood you ratified the new and eternal convenant.","May we remain faithful to that covenant by following your precepts."]
         - ["On the cross, blood and water flowed from your side.","May this saving stream wash away our sin and gladden the city of God."]
-daytime:
-    psalmody:
-        - ["Let your loving kindness console me as you promised.",119x]
-        - ["Protect me, God, from those who rise up against me.",59]
-        - ["We are happy to be chastened by God, who heals us as he wounds.",60]
-terce:
-    reading:
-        cite: "Deuteronomy 1:31b"
-        text: "The Lord, your God, carried you, as a man carries his child, all along your journey until you arrived at this place."
-        responsory: ["Support me, Lord, according to your promise, and I shall live.","Let my hope in you not be in vain."]
-sext:
-    reading:
-        cite: "Baruch 4:28-29"
-        text: "As your hearts have been disposed to stray from God, turn now ten times the more to seek him; for he who has brought disaster upon you will, in saving you, bring you back enduring joy."
-        responsory: ["With the Lord there is mercy...","And the fullness of redemption."]
-none:
-    reading:
-        cite: "Wisdom 1:13-15"
-        text: >
-            God did not make death, nor does he rejoice in the destruction of the living. For he fashioned all things that they might have being; and the creatures of the world are wholesome, and there is not a destructive drug among them nor any domain of the netherworld on earth, for justice is undying.
-        responsory: ["god has snatched me from the bonds of death.","I shall walk among the living in his presence."]
 vespers:
     hymn: 221 # The Hours Are Passing Swiftly By
     psalmody:

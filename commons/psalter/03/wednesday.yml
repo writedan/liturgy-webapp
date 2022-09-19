@@ -18,29 +18,6 @@ lauds:
         - ["Look with mercy on the flock you have gathered together in your name.","Let no one whom the Father has given you perish."]
         - ["Lead your Church in the way of your commandments.","May your Holy Spirit keep her faithful."]
         - ["Nourish the Church at the banquet of your Word and Bread.","Strengthened by this food may she follow you in joy."]
-daytime:
-    psalmody:
-        - ["Whoever follows me does not walk in the dark; he will have the light of life.",119xiv]
-        - ["Help me, O God, for I am poor and needy.",70]
-        - ["God, who is justice and truth, does not judge by appearences.",75]
-terce:
-    reading:
-        cite: "1 Corinthians 13:4-7"
-        text: >
-             Love is patient, love is kind. It is not jealous, love is not pompous, it is not inflated, it is not rude, it does not seek its own interests, it is not quick-tempered, it does not brood over injury, it does not rejoice over wrongdoing but rejoices with the truth. It bears all things, believes all things, hopes all things, endures all things.
-        responsory: ["All who seek you, Lord, will dance for joy.","They will proclaim your greatness forever."]
-sext:
-    reading:
-        cite: "1 Corinthians 13:8-9, 13"
-        text: >
-             Love never fails. If there are prophecies, they will be brought to nothing; if tongues, they will cease; if knowledge, it will be brought to nothing. For we know partially and we prophesy partially. So faith, hope, love remain, these three; but the greatest of these is love. 
-        responsory: ["Lord, show us your love and mercy.","For we put our trust in you."]
-none:
-    reading:
-        cite: "Colossians 3:14-15"
-        text: >
-             Over all other virtues put on love, that is, the bond of perfection. And let the peace of Christ control your hearts, the peace into which you were also called in one body. And be thankful.
-        responsory: ["The gentle will inherit the earth.","They will have peace to their heart's content."]
 vespers:
     psalmody:
         - ["Those who sow in tears will reap in joy.",126]

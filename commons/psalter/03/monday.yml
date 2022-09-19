@@ -18,29 +18,6 @@ lauds:
         - ["Look with favor on us as we begin our daily work.","Let us be fellow workers with you."]
         - ["Make our work today benefit our brothers and sisters.","That with them and for them we may build an earthly city, pleasing to you."]
         - ["Grant joy and peace to us.","And to all we meet this day."]
-daytime:
-    psalmody:
-        - ["Lord, I have sought to do your will, through which you give me life.",119xii]
-        - ["I have trusted in you, O Lord, from my youth.",71i]
-        - ["Do not abandon me, O God, when I am old.",71ii]
-terce:
-    reading:
-        cite: "2 Corinthians 13:11"
-        text: >
-             Brothers and sisters, rejoice. Mend your ways, encourage one another, agree with one another, live in peace, and the God of love and peace will be with you. 
-        responsory: ["The Lord looks on those who love him.","He hears their cry."]
-sext:
-    reading:
-        cite: "Romans 6:22"
-        text: >
-            Now that you have been freed from sin and have become slaves of God, the benefit that you have leads to sanctification, and its end is eternal life. 
-        responsory: ["O God, turn back and bring us to life.","Then your people will rejoice in you."]
-none:
-    reading:
-        cite: "Colossians 1:21-22"
-        text: >
-             You who once were alienated and hostile in mind because of evil deeds he has now reconciled in his fleshly body through his death, to present you holy, without blemish, and irreproachable before him. 
-        responsory: ["All you who love the Lord, sing his praises.","Celebrate the beauty of his holiness."]
 vespers:
     psalmody:
         - ["All our eyes are fixed intently on the Lord, waiting for his merciful help.",123]

@@ -24,29 +24,6 @@ lauds:
         - ["You bring us joy by the light of another day.","Let the morning star rise in our hearts."]
         - ["Give us strength to be patient with those we meet today.","And so imitate you."]
         - ["Make us aware of your mercy this morning, Lord.","And let your strength be our delight."]
-daytime:
-    psalmody:
-        - ["Open my eyes, O Lord, that I may see the wonders of your law.",119iii]
-        - ["Guide me, O Lord, in your truth.",25i]
-        - ["Look on me, Lord, and help me, for I am poor and alone.",25ii]
-terce:
-    reading:
-        cite: "Amos 4:13"
-        text: >
-            He formed the mountains, and created the wind, and declares to man his thoughts; he made the dawn and the darkness, and strides upon the heights of the earth: the Lord, the God of hosts, by name.
-        call: ["All you works of the Lord, bless the Lord.","Praise and magnify him forever."]
-sext:
-    reading:
-        cite: "Amos 5:8, 9b"
-        text: >
-            He who made the Pleiades and Orion. who turns darkness into dawn, and darkens day into night; who summons the waters of the sea, and pours them out upon the surface of the earth; whose name is the Lord.
-        call: ["Beauty and wealth surround him.","Richness and splendor adorn his holy place."]
-none:
-    reading:
-        cite: "Amos 9:6"
-        text: >
-            I have built heaven, my upper chamber, and established my vault over the earth; I summon the waters of the sea and pour them upon the surface of the earth, I, the Lord by name.
-        call: ["The sky proclaims God's glory...","The vault of heavens, the hand of him who made it."]
 vespers:
     hymn: 184 # O God of Power and Matchless Force
     psalmody:

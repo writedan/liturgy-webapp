@@ -25,29 +25,6 @@ lauds:
         - ["Keep guard over our thoughts, words, and actions.","And make us pleasing in your sight this day."]
         - ["Turn your gaze from our sinfulness.","And cleanse us from our iniquities."]
         - ["Through your cross and resurrection...","Fill us with the consolation of the Spirit."]
-daytime:
-    psalmody:
-        - ["Lightly I run the way you have shown.",119iv]
-        - ["I trust in the Lord and will not be shaken.",26]
-        - ["I put all my trust in the Lord, and he has not failed me.",28]
-terce:
-    reading:
-        cite: "Philippians 2:2b-4"
-        text: >
-            Maintain your unanimity, possessing the one love, united in heart, thinking one thing. Do nothing out of selfishness or out of vainglory; rather, humbly regard others as more important than yourselves, each looking out not for his own interests, but also everyone for those of others.
-        call: ["All God's ways are faithful and compassionate...","For those who keep his covenant and do his will."]
-sext:
-    reading:
-        cite: "2 Corinthians 13:4"
-        text: >
-            Christ was crucified out of weakness, but he lived by the power of God. So also we are weak in him, but toward you we shall live with him by the power of God.
-        call: ["I am broken, crushed to the earth.","Speak, Lord, your word of life."]
-none:
-    reading:
-        cite: "Colossians 3:12-13"
-        text: >
-            Put on, as God's chosen ones, holy and beloved, heartfelt compassion, kindness, humility, gentleness, and patience, bearing with one another and forgiving one another, if one has a grievance against another; as the Lord has forgiven you, so must you also do.
-        call: ["Tender and compassionate is the Lord...","Patient and ready to forgive."]
 vespers:
     hymn: 189 # Maker of Man, Who from Thy Throne
     psalmody:

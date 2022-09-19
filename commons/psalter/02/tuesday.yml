@@ -25,29 +25,6 @@ lauds:
         - ["Accept, Lord, our prayer and petitions...","As the first-fruits of our day."]
         - ["Grant that we may progress today in your love.","And that all things may work together for our good and the good of all."]
         - ["Make our light shine so brightly before men...","That seeing our good works they may give glory to the Father."]
-daytime:
-    psalmody:
-        - ["During my pilgrimage, I have kept your commandments.",119vii]
-        - ["God will deliver his people from bondage and bring them home rejoicing.",53]
-        - ["God is my helper and my strong support.",54]
-terce:
-    reading:
-        cite: "1 Corinthians 12:4-6"
-        text: >
-            There are different kinds of spiritual gifts but the same Spirit; there are different forms of service but the same Lord; there are different workings but the same God who produces all of them in everyone.
-        call: ["God is the savior of those who revere him...","That his glory may dwell here on earth."]
-sext:
-    reading:
-        cite: "1 Corinthians 12:12-13"
-        text: >
-            As a body is one though it has many parts, and all the parts of the body, though many, are one body, so also Christ. For in one Spirit we were all baptized into one body, whether Jews or Greeks, slaves or free persons, and we were all given to drink of one Spirit.
-        call: ["Holy Father, keep us true to yourself...","That we may be perfectly one."]
-none:
-    reading:
-        cite: "1 Corinthians 12:24b, 25-26"
-        text: >
-            God has so constructed the body as to give greater honor to a part that is without it, so that there may be no division in the body, but that the parts may have the same concern for one another. If one part suffers, all the parts suffer with it; if one part is honored, all the parts share its joy.
-        call: ["Lord our God, gather us from the nations of the world...","That we may glorify your holy name."]
 vespers:
     hymn: 208 # Great Ruler of Space and Time
     psalmody:

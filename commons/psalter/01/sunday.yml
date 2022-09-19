@@ -41,11 +41,6 @@ lauds:
                 - ["May your Holy Spirit teach us to do your will today.","And may your Wisdom guide us always."]
                 - ["Each Sunday give us the joy of gathering as your people...","Around the table of your Word and your Body."]
                 - ["From our hearts we thank you...","For your countless blessings."]
-daytime:
-        psalmody:
-                - ["What better can we do than take refuge in the Lord: his love will never fail, alleluia.",118i]
-                - ["The Lord is my strength, and I shall sing his praise, alleluia.",118ii]
-                - ["I shall proclaim your goodness Lord, for you have answered me, alleluia.",118iii]
 vespers2:
         hymn: 157 # O Blest Creator of the Night
         psalmody:
