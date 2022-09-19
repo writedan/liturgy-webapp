@@ -121,6 +121,7 @@ r { color: red; }
 
 	var sanctorals = [];
 	var temporal; // by definition, there can only be one temporal day
+	var WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
 
 	/**
 	Given a date, fill the offices array with all the offices of such day.
@@ -145,7 +146,103 @@ r { color: red; }
 		});
 
 		// loading the temporal day is a bit more involved
-		
+		function ordinaryTime() {
+			var weekSundays = [];
+			weekSundays[1] = getBaptism(currentYear);
+			for (let i = 2; i <= 5; i++) {
+				weekSundays[i] = moveDayForwardDays(weekSundays[i - 1], 7);
+			}
+
+			for (let i = 1; i < weekSundays.length; i++) weekSundays[i] = dayToDate(weekSundays[i]);
+
+			var nextSunday = moveDateForwardDays(weekSundays[5], 7);
+			var index = 6;
+			while (nextSunday < dayToDate(getAshWednesday(currentYear))) {
+				weekSundays[index++] = nextSunday;
+				nextSunday = moveDateForwardDays(nextSunday, 7);
+			}
+
+			weekSundays[index++] = moveDateForwardDays(nextSunday, 2);
+
+			var medialWeeks = [];
+			medialWeeks[6] = [5, 8, currentYear];
+			medialWeeks[7] = [5, 15, currentYear];
+			medialWeeks[8] = [5, 22, currentYear];
+			medialWeeks[9] = [5, 29, currentYear];
+
+			for (let i = 6; i < 10; i++) medialWeeks[i] = dateToNextSunday(dayToDate(medialWeeks[i]));
+
+			index = 6;
+			while (nextSunday < dayToDate(getPentecost(currentYear))) {
+				nextSunday = medialWeeks[index++];
+				if (index > 9) break;
+			}
+
+			if (nextSunday < dayToDate(getPentecost(currentYear))) {
+				index = 10; nextSunday = dateToNextSunday(dayToDate([6, 5, currentYear]));
+				while (nextSunday < dayToDate(getPentecost(currentYear))) {
+					nextSunday = moveDateForwardDays(nextSunday, 7);
+					index++;
+				}
+				weekSundays[index] = nextSunday;
+			} else {
+				weekSundays[--index] = nextSunday;
+			}
+
+			for (index = index + 1; index < 35; index++) {
+				weekSundays[index] = moveDateForwardDays(weekSundays[index - 1], 7);
+			}
+
+			var weekNumber;
+			for (let i = 1; i < weekSundays.length; i++) {
+				let a = weekSundays[i];
+				let b = weekSundays[i + 1];
+				if (today >= a && (today < b || b == null)) weekNumber = i;
+			}
+
+			console.log(weekNumber + " Week in Ordinary Time");
+			//temporal = 'ot/' + weekNumber + '/' + WEEKDAYS[today.getDay()];
+			temporal = {
+				'name': weekNumber + WEEKDAYS[today.getDay()],
+				'rank': ['weak','feria'],
+				link: 'ot/' + weekNumber + '/' + WEEKDAYS[today.getDay()]
+			};
+		}
+
+		var currentYear = today.getFullYear();
+
+		if (today >= dayToDate(moveDayForwardDays(getAdventSunday(currentYear + 1), 0))) { // we are in the next liturgical year
+			console.log("The calendar year is behind the liturgical year.");
+			currentYear++;
+		}
+
+		var bounds = [getAdventSunday(currentYear), moveDayForwardDays(getAdventSunday(currentYear + 1), -1)];
+
+		console.log("Liturgical year " + currentYear + " began " + bounds[0] + " and ends " + bounds[1]);
+		console.log("Today is " + dateToDay(today));
+
+		var season;
+		if (today >= dayToDate(getAdventSunday(currentYear)) && today < dayToDate(getChristmas(currentYear))) {
+			season = 'advent';
+		} else if (today >= dayToDate(getChristmas(currentYear)) && today <= dayToDate(getBaptism(currentYear))) {
+			season = 'christmas';
+		} else if (today >= dayToDate(getAshWednesday(currentYear)) && today < dayToDate(getEaster(currentYear))) {
+			season = 'lent';
+		} else if (today >= dayToDate(getEaster(currentYear)) && today <= dayToDate(getPentecost(currentYear))) {
+			season = 'easter';
+		} else if (today > dayToDate(getBaptism(currentYear)) && today < dayToDate(getAshWednesday(currentYear))) {
+			season = 'pre-lent';
+		} else if (today > dayToDate(getPentecost(currentYear)) && today < dayToDate(getAdventSunday(currentYear + 1))) {
+			season = 'post-pentecost';
+		}
+		else {
+			alert("liturgical season given as unknown value ' "+season+" '");
+		}
+
+		switch (season) {
+			case 'pre-lent':
+			case 'post-pentecost': ordinaryTime(); break;
+		}
 	}
 </script>
 
