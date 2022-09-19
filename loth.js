@@ -142,8 +142,7 @@ function getChristKing(year) {
 var UUID = '105';
 
 function getYaml(url, callback) {
-	url = url + '?' + UUID;
-	jQuery.get(url, function onGetYaml(data) {
+	jQuery.get(url + '.yml?' + UUID, function onGetYaml(data) {
 		function doLogAndCallback(data){
 			console.log('-----' + url + '------');
 			console.log(data);
