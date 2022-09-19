@@ -46,27 +46,9 @@ daytime:
                 - ["What better can we do than take refuge in the Lord: his love will never fail, alleluia.",118i]
                 - ["The Lord is my strength, and I shall sing his praise, alleluia.",118ii]
                 - ["I shall proclaim your goodness Lord, for you have answered me, alleluia.",118iii]
-terce:
-        reading:
-                cite: "1 John 4:16"
-                text: >
-                       We have come to know and to believe in the love God has for us. God is love, and whoever remains in love remains in God and God in him
-            call: ["Incline my heart according to your will, O God.","Speed my steps along your path."]
-sext:
-        reading:
-                cite: "Galatians 6:7b-8"
-                text: >
-                        A person will reap only what he sows. If he sows in the field of flesh he will reap a harvest of corruption; but if his seedground is the spirit, he will reap everlasting life.
-            call: ["Your promise, Lord, will stand forever.","In every generation your word is true."]
-none:
-        reading:
-                cite: "Galations 6:9-10"
-                text: >
-                        Let us not grow weary of doing good; if we do not relax our efforts in due time we shall reap our harvest. While we have the opportunity, let us do good to all - but especially to those of the household of faith.
-            call: ["From the depths of my heart I cry to you, Lord.","I shall always do your will."]
 vespers2:
         hymn: 157 # O Blest Creator of the Night
-        psalmody: 
+        psalmody:
                 - ["The Lord will strecht forth his mighty scepter from Zion, and he will reign forever, alleluia.",110]
                 - ["The earth was shaken to its depths before the glory of your face.",114]
                 - ["All power is yours, Lord God, our mighty king, alleluia.",revelation19]
