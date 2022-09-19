@@ -141,7 +141,7 @@ function getChristKing(year) {
 // For universal use
 var UUID = '105';
 
-function getYaml(url, callback) {
+function loadYaml(url, callback) {
 	jQuery.get(url + '.yml?' + UUID, function onGetYaml(data) {
 		function doLogAndCallback(data){
 			console.log('-----' + url + '------');
@@ -152,4 +152,31 @@ function getYaml(url, callback) {
 
 		doLogAndCallback(YAML.parse(data));
 	});
+}
+
+
+// ugly counting functions
+function ordinalInWord( cardinal ) {
+    var ordinals = [ 'zeroth', 'first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth', 'eleventh', 'twelth', 'thirteenth', 'fourteenth', 'fifteenth', 'sixteenth', 'seventeenth', 'eighteenth', 'nineteenth', 'twentieth' ];
+    var tens = {
+        20: 'twenty-',
+		30: 'thirty-'
+    };
+    var ordinalTens = {
+		20: 'twentieth',
+        30: 'thirtieth'
+    };
+
+    if( cardinal <= 20 ) { 
+		var n = ordinals[ cardinal ];
+		return n.charAt(0).toUpperCase() + n.slice(1);
+    }
+
+    if( cardinal % 10 === 0 ) {
+        var n = ordinalTens[ cardinal ];
+		return n.charAt(0).toUpperCase() + n.slice(1);
+    }
+
+    var n = (tens[ cardinal - ( cardinal % 10 ) ] + ordinals[ cardinal % 10 ]);
+	return n.charAt(0).toUpperCase() + n.slice(1);
 }
