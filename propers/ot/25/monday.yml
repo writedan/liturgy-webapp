@@ -1,0 +1,44 @@
+name: Monday of the Twenty-fifth Week in Ordinary Time
+common: psalter/01/monday
+collect: >-
+  O God, who founded all the commands of your sacred law upon love of you and of our neighbor, grant that, by keeping your precepts, we may merit to attain eternal life: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  reading1:
+    cite: "Ezekiel 34:1-6, 11-16, 23-31"
+    text: |
+      From the book of the prophet Ezekiel.
+
+      Thus the word of the Lord came to me: Son of man, prophesy against the shepherds of Israel, in these words prophesy to them (to the shepherds): Thus says the Lord God:
+
+      Woe to the shepherds of Israel who have been pasturing themselves! Should not shepherds, rather, pasture sheep? You have fed off their milk, worn their wool, and slaughtered the fatlings, but the sheep you have not pastured. You did not strengthen the weak nor heal the sick nor bind up the injured. You did not bring back the strayed nor seek the lost, but you lorded it over them harshly and brutally. So they were scattered for lack of a shepherd, and became food for all the wild beasts. My sheep were scattered and wandered over all the mountains and high hills; my sheep were scattered over the whole earth, with no one to look after them or to search for them.
+
+      For thus says the Lord God: I myself will look after and tend my sheep. As a shepherd tends his flock when he finds himself among his scattered sheep, so will I tend my sheep. I will rescue them from every place where they were scattered when it was cloudy and dark. I will lead them out from among the peoples and gather them from the foreign lands; I will bring them back to their own country and pasture them upon the mountains of Israel (in the land's ravines and all its inhabited places). In good pastures will I pasture them, and on the mountain heights of Israel shall be their grazing ground. There they shall lie down on good grazing ground, and in rich pastures shall they be pastured on the mountains of Israel.
+
+      I myself will pasture my sheep; I myself will give them rest, says the Lord God. The lost I will seek out, the strayed I will bring back, the injured I will bind up, the sick I will heal (but the sleek and the strong I will destroy), shepherding them rightly.
+
+      I will appoint one shepherd over them to pasture them, my servant David; he shall pasture them and be their shepherd. I, the Lord, will be their God, and my servant David shall be prince among them. I, the Lord, have spoken.
+
+      I will make a covenant of peace with them, and rid the country of ravenous beasts, that they may dwell securely in the desert and sleep in the forests. I will place them about my hill, sending rain in due season, rains that shall be a blessing to them. The trees of the field shall bear their fruits, and the land its crops, and they shall dwell securely on their own soil. Thus they shall know that I am the Lord when I break the bonds of their yoke and free them from the power of those who enslaved them. They shall no longer be despoiled by the nations or devoured by beasts of the earth, but shall dwell secure, with no one to frighten them.
+
+      I will prepare for them peaceful fields for planting; they shall no longer be carried off by famine in the land, or bear the reproaches of the nations. Thus they shall know that I, the Lord, am their God, and they are my people, the house of Israel, says the Lord God. (You, my sheep, you are the sheep of my pasture, and I am your God, says the Lord God.)
+    responsory:
+      - ["I shall rescue my sheep from wherever they were scattered on the day of mist and darkness, and I shall bring them back into their own land.","And in rich pasture lands I shall feed them."]
+      - ["I have come that they may have life, and have it more abundantly.","And in rich pasture lands I shall feed them."]
+  reading2:
+    text: |
+      From a sermon on pastors by Saint Augustine, bishop.
+
+      "The straying sheep you have not recalled; the lost sheep you have not sought." In one way or another, we go on living between the hands of robbers and the teeth of raging wolves, and in light of these present dangers we ask your prayers. The sheep moreover are insolent. The shepherd seeks out the straying sheep, but because they have wandered away and are lost they say that they are not ours. “ Why do you want us? Why do you seek us?” they ask, as if their straying and being lost were not the very reason for our wanting them and seeking them out. “If I am straying,” he says, “if I am lost, why do you want me?” You are straying, that is why I wish to recall you. You have been lost, I wish to find you. “But I wish to stray,” he says: “I wish to be lost.”
+
+      So you wish to stray and be lost? How much better that I do not also wish this. Certainly, I dare say, I am unwelcome. But I listen to the Apostle who says: "Preach the word; insist upon it, welcome and unwelcome." Welcome to whom? Unwelcome to whom? By all means welcome to those who desire it; unwelcome to those who do not. However unwelcome, I dare to say: “You wish to stray, you wish to be lost; but I do not want this.” For the one whom I fear does not wish this. And should I wish it, consider his words of reproach: "The straying sheep you have not recalled; the lost sheep you have not sought." Shall I fear you rather than him? "Remember, we must all present ourselves before the judgement seat of Christ."
+
+      I shall recall the straying; I shall seek the lost. Whether they wish it or not, I shall do it. And should the brambles of the forests tear at me when I seek them, I shall force myself through all straits; I shall put down all hedges. So far as the God whom I fear grants me the strength, I shall search everywhere. I shall recall the straying; I shall seek after those on the verge of being lost. If you do not want me to suffer, do not stray, do not become lost. It is enough that I lament your straying and loss. No, I fear that in neglecting you, I shall also kill what is strong. Consider the passage that follows: "And what was strong you have destroyed." Should I neglect the straying and lost, the strong one will also take delight in straying and in being lost.
+    responsory:
+      - ["Speak out when the time is right; do not hide your wisdom.","For speech makes wisdom known and all a man has learned appears in his words."]
+      - ["Preach the word, persevere in this task, both when convenient and inconvenient; correct, reprove, summon to obedience, but do all with patience and sound doctrine.","For speech makes wisdom known and all a man has learned appears in his words."]
+lauds:
+  reading:
+    text: "Anyone who would not work should not eat. We hear that some of you are unruly, not keeping busy but acting like busy-bodies. We enjoin all such, and we urge them strongly in the Lord Jesus Christ to earn the food they eat by working quietly. You must never grow weary of doing what is right, brothers."
+vespers:
+  reading:
+    text: "May you attain full knowledge of God's will through perfect wisdom and spiritual insight. Then you will lead a life worthy of the Lord and pleasing to him in every way. You will multiply good works of every sort and grow in the knowledge of God. By the might of his glory you will be endowed with the strength needed to stand fast, even to endure joyfully whatever may come, giving thanks to the Father, who has made us worthy to share in the lot of the saints in light. He rescued us from the power of darkness and brought us into the kingdom of his beloved Son."
