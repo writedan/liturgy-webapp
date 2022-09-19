@@ -1,0 +1,144 @@
+january:
+  "1":
+    name: "Mary the Holy Mother of God"
+    weight: ["solemnity", "bvm"] # 3-iii
+    link: "january/mother_of_god"
+  "2":
+    name: "Saints Basil the Great and Gregory Nazianzen"
+    weight: "memorial" # 10
+    link: "january/basil_and_gregory"
+  "3":
+    name: "Most Holy Name of Jesus"
+    weight: ["weak","memorial"] # 12-i
+    link: "january/holy_name"
+  # Epiphany on the 6th is skipped
+  "7":
+    name: "Saint Raymond of Penyafort"
+    weight: ["weak","memorial"] # 12-i
+    link: "january/raymond"
+  "13":
+    name: "Saint Hilary"
+    weight: ["weak","memorial"] # 12-i
+    link: "january/hilary"
+  "17":
+    name: "Saint Anthony"
+    weight: "memorial" # 10
+    link: "january/anthony"
+  "20":
+    - name: "Saint Fabian"
+      weight: ["weak","memorial"] # 12-i
+      link: "january/fabian"
+    - name: "Saint Sebastian"
+      weight: ["weak", "memorial"]
+      link: "january/sebastian"
+  "21":
+    name: "Saint Agnes"
+    weight: "memorial"
+    link: "january/agnes"
+  "22":
+    name: "Saint Vincent"
+    rank: "memorial"
+    link: "january/vincent"
+  "24":
+    name: "Saint Francis de Sales"
+    rank: "memorial"
+    link: "january/francis"
+  "25":
+    name: "Conversion of Saint Paul the Apostle"
+    rank: ["feast","saint"] # 8-i
+    link: "january/paul"
+  "26":
+    name: "Saints Timothy and Titus"
+    rank: "memorial"
+    link: "january/timothy_and_titus"
+  "27":
+    name: "Saint Angela Merici"
+    rank: ["weak","memorial"]
+    link: "january/angela"
+  "28":
+    name: "Saint Thomas Aquinas"
+    rank: "memorial"
+    link: "january/aquinas"
+  "31":
+    name: "Saint John Bosco"
+    rank: "memorial"
+    link: "january/bosco"
+september:
+  3:
+    name: "Saint Gregory the Great"
+    rank: memorial
+    link: "september/gregory"
+  8:
+    name: "Nativity of the Blessed Virgin Mary"
+    rank: ["feast","bvm"] # 7
+    link: "september/nativity"
+  9:
+    name: "Saint Peter Claver"
+    rank: ["weak","memorial"]
+    link: "september/claver"
+  12:
+    name: "Most Holy Name of Mary"
+    rank: ["weak","memorial"]
+    link: "september/holyname"
+  13:
+    name: "Saint John Chrysostom"
+    rank: "memorial"
+    link: "september/chrysostom"
+  14:
+    name: "Exaltation of the Holy Cross"
+    rank: ["feast","lord"] # 5
+    link: "september/holy_cross"
+  15:
+    name: "Our Lady of Sorrows"
+    rank: "memorial"
+    link: "september/sorrows"
+  16:
+    name: "Saints Cornelius and Cyprian"
+    rank: "memorial"
+    link: "september/cornelius_and_cyprian"
+  17:
+    - name: "Saint Robert Bellarmine"
+      rank: ["weak","memorial"]
+      link: "september/bellarmine"
+    - name: "Saint Hildegard of Bingen"
+      rank: ["weak","memorial"]
+      link: "september/hildegard"
+  19:
+    name: "Saint Januarius"
+    rank: ["weak","memorial"]
+    link: "september/januarius"
+  20:
+    name: "Saints Andrew Kim Tae-gon and Paul Chong Ha-sang"
+    rank: "memorial"
+    link: "september/andrew_and_paul"
+  21:
+    name: "Saint Matthew"
+    rank: ["feast","saint"] # 8-i
+    link: "september/matthew"
+  23:
+    name: "Saint Pio of Pietrelcina (Padre Pio)"
+    rank: "memorial"
+    link: "september/pio"
+  26:
+    name: "Saints Cosmas and Damian"
+    rank: ["weak","memorial"]
+    link: "september/cosmas_and_damian"
+  27:
+    name: "Saint Vincent de Paul"
+    rank: "memorial"
+    link: "september/vincent"
+  28:
+    - name: "Saint Wenceslaus"
+      rank: ["weak","memorial"]
+      link: "september/wenceslaus"
+    - name: "Saint Lawrence Ruiz"
+      rank: ["weak","memorial"]
+      link: "september/lawrence"
+  29:
+    name: "Saints Michael, Gabriel, and Raphael"
+    rank: ["feast","saint"] # 8-i
+    link: "september/archangels"
+  30:
+    name: "Saint Jerome"
+    rank: "memorial"
+    link: "september/jerome"
