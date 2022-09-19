@@ -33,6 +33,121 @@ r { color: red; }
 <title>Liturgy of the Hours</title>
 
 <script src="yaml.js"></script>
+<script src="loth.js?106"></script>
+
+<script>
+	/**
+		Accepts an array or string rank and outputs a liturgical rank weight as a double.
+
+		Referring to the "ranking of the liturgical days," a ["weak","memorial"] would have the rank of 12.1
+
+		The offices with the lowest weight have the highest rank
+
+		The types of ranks and their divisions are as follows:
+			holyday 					(reference 1 and 2)
+			solemnity 				(reference 3)
+				lord 						(reference 3-i)
+				bvm 						(reference 3-ii)
+				saint 					(reference 3-iii)
+				patron 					(reference 4-i)
+				dedication 			(reference 4-ii)
+				title 					(reference 4-iii)
+			feast							(reference 5, 6, 7, and 8)
+				lord						(reference 5)
+				sunday					(reference 6)
+				bvm							(refernce 7)
+				saint						(reference 8-i)
+				patron_diocese	(reference 8-ii)
+				dedication			(refernce 8-iii)
+				patron_region		(reference 8-iv)
+				title						(refernce 8-v)
+				parish					(refernce 8-vi)
+				diocese					(reference 8-vii)
+			strong_feria			(reference 9)
+			memorial					(reference 10)
+			secondary					(reference 11)
+				patron					(reference 11-i)
+				memorial				(reference 11-ii)
+			weak							(reference 12, 12-i, and 12-ii)
+	*/
+	function convertRankToWeight(rank) {
+		var mainRank = rank, minorRank;
+		if (Array.isArray(rank)) {
+			mainRank = rank[0];
+			minorRank = rank[1];
+		}
+
+		switch (mainRank) {
+			case 'holyday': return 1.0;
+			case 'solemnity':
+				switch (minorRank) {
+					case 'lord': return 2.1;
+					case 'bvm': return 2.2;
+					case 'saint': return 2.3;
+					case 'patron': return 2.4;
+					case 'dedication': return 2.5;
+					case 'title': return 2.6;
+				}
+			case 'feast':
+				switch (minorRank) {
+					case 'lord': return 3.1;
+					case 'sunday': return 3.2;
+					case 'bvm': return 3.3;
+					case 'saint': return 3.4;
+					case 'patron_diocese': return 3.5;
+					case 'dedication': return 3.6;
+					case 'patron_region': return 3.7;
+					case 'title': return 3.8;
+					case 'parish': return 3.9;
+					case 'diocese': return 3.91;
+				}
+			case 'strong_feria': return 4;
+			case 'memorial': return 5;
+			case 'secondary':
+				switch (minorRank) {
+					case 'patron': return 6.1;
+					case 'memorial': return 6.2;
+				}
+			case 'weak': return 7;
+			default:
+				console.log('----unkown rank----');
+				console.log(rank);
+				console.log('---unknown rank----');
+		}
+
+		alert('malformed rank: ' + rank);
+		return false;
+	}
+
+	var sanctorals = [];
+	var temporal; // by definition, there can only be one temporal day
+
+	/**
+	Given a date, fill the offices array with all the offices of such day.
+	*/
+	function getOptions(today) {
+		getYaml('propers/year.yml', function onCalendar(calendar){
+			// load the sanctoral offices for today
+			// note that certain calendar days are arrays, indicating two offices
+
+			var month = today.toLocaleString('default', { month: 'long' }).toLowerCase();
+
+			var saints = calendar[month][today.getDate()];
+			if (saints != null) {
+				if (Array.isArray(saints)) {
+					for (let i = 0; i < saints.length; i++) {
+						sanctorals.push(saints[i]);
+					}
+				} else {
+					sanctorals.push(saints);
+				}
+			}
+		});
+
+		// loading the temporal day is a bit more involved
+		
+	}
+</script>
 
 <script>
 	// we want a simpler interface in the form of a table
@@ -58,7 +173,31 @@ r { color: red; }
 	// notice that memorials will still require a reference to the temporal day
 
 	jQuery.ajaxSetup({async:false});
-	var UUID='103';
+
+	var today;
+	var urlParams = new URLSearchParams(window.location.search);
+
+	if (urlParams.has('d')) {
+		today = dayToDate([urlParams.get('m'),urlParams.get('d'),urlParams.get('y')]);
+	} else {
+		today = new Date();
+	}
+
+	console.log(today);
+</script>
+
+<script>
+
+</script>
+
+<script>
+	// once the temporal and sactoral offices have been loaded, we must eliminate all but hte highest-ranking and handle any transfers as well
+
+	// since we only have one transfer, it will just be handled manually
+</script>
+
+<script>
+	// then display the results in a table like the one above
 </script>
 </head>
 <body>
