@@ -47,3 +47,41 @@ The twelve ranks are:
         * Weekdays of Ordinary Time
 
 Consequently, an office is described by two or three elements as regards its liturgical rank: its main rank, an optional minor rank (except for ranks 5, 6, 7, 9, and 10), and transfer requirements. The only transfer requirements I am now aware of are All Souls day transfers to November 3 if November 2 is a Sunday.
+	All offices in (1-ii, 2-i, 3, 4, and 6) have first vespers.
+
+
+The types of ranks and their divisions are as follows:
+holyday 			(reference 1 and 2)					*
+
+solemnity 			(reference 3)						*
+	lord 			(reference 3-i)						2.1
+	bvm 			(reference 3-ii)					2.2
+	saint 			(reference 3-iii)					2.3
+	patron 			(reference 4-i)						2.4
+	dedication 		(reference 4-ii)					2.5
+	title 			(reference 4-iii)					2.6
+	
+feast				(reference 5, 6, 7, and 8)			*
+	lord			(reference 5)						3.1
+	sunday			(reference 6)						3.2
+	bvm				(reference 7)						3.3
+	saint			(reference 8-i)						3.4
+	patron_diocese	(reference 8-ii)					3.5
+	dedication		(reference 8-iii)					3.6
+	patron_region	(reference 8-iv)					3.7
+	title			(reference 8-v)						3.8
+	parish			(reference 8-vi)					3.9
+	diocese			(reference 8-vii)					3.91
+	
+strong_feria		(reference 9)						4
+
+memorial			(reference 10)						5
+
+secondary			(reference 11)						*
+	patron			(reference 11-i)					6.1
+	memorial		(reference 11-ii)					6.2
+	
+weak				(reference 12, 12-i, and 12-ii)		7
+
+
+All offices ranked solemnity and certain offices ranked holyday have first vespers.
