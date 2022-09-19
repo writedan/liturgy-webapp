@@ -39,6 +39,7 @@ vigil:
       - ["Preach the word, persevere in this task, both when convenient and inconvenient; correct, reprove, summon to obedience, but do all with patience and sound doctrine.","For speech makes wisdom known and all a man has learned appears in his words."]
 lauds:
   reading:
+    cite: "2 Thessalonians 3:10"
     text: "Anyone who would not work should not eat. We hear that some of you are unruly, not keeping busy but acting like busy-bodies. We enjoin all such, and we urge them strongly in the Lord Jesus Christ to earn the food they eat by working quietly. You must never grow weary of doing what is right, brothers."
 vespers:
   reading:
