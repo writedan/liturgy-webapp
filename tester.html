@@ -204,17 +204,17 @@ r { color: red; }
 			} else { // include all hours
 				$('#content').append('<h3>'+options[i][1]+'</h3>');
 				if (options[i][2] == 'sunday' || options[i][2] == 'solemnity') {
-					//$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</a></p>');
-					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
+					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</a></p>');
 					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vespers2">Second Vespers</a></p>');
+					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vespers2&v=lessons">Second Vespers + Vigil</a></p>');
 				} else if (options[i][2] == 'feria') {
-					//$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</a></p>');
-					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
+					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</a></p>');
 					if (today.getDay() != 6) $('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers2">Vespers</a>');
+					if (today.getDay() != 6) $('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vespers2&v=lessons">Vespers + Vigil</a></p>');
 				} else {
-					//$('#content').append('<p><a href="office.html?t='+options[0][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</a></p>');
-					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=lauds&s='+options[i][3]+'">Lauds</p>');
+					$('#content').append('<p><a href="office.html?t='+options[0][3]+'&hour=lauds&s='+options[i][3]+'">Lauds</a></p>');
 					$('#content').append('<p><a href="office.html?t='+options[0][3]+'&hour=vespers2&s='+options[i][3]+'">Vespers</a></p>');
+					$('#content').append('<p><a href="office.html?t='+options[0][3]+'&hour=vespers2&s='+options[i][3]+'&v=lessons">Vespers + Vigil</a></p>');
 				}
 			}
 		}
