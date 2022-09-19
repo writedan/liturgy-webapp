@@ -417,6 +417,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 			}
 			var ele = '<a href="' + href + '&v=lessons">' + vespers[i].name + '</a>';
 			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Vespers':'') + '</td><td>' + ele + '</td></tr>');
+			$('#vsprs').append('<p><a href="' + href + '">' + vespers[i].name + '</a></p>');
 		}
 
 		for (let i = 0; i < vigil.length; i++) {
@@ -451,29 +452,11 @@ td { padding-bottom: 1em; vertical-align: top; }
 	<h3 class='center'>Liturgy of the Hours</h3>
 	<hr/>
 	<table id='hours'>
-		<!--<tr>
-			<td style='width:25%'>Lauds</td>
-			<td>Saint Robert Bellarmine</td>
-		</tr>
-		<tr>
-			<td style='width:25%;'></td>
-			<td>Saint Hildegard of Bingen</td>
-		</tr>
-		<tr>
-			<td style='width:25%;'></td>
-			<td>Saturday of the Twenty-fourth Week in Ordinary Time</td>
-		</tr>
-		<tr>
-			<td style='width:25%'>Vespers</td>
-			<td>Twenty-fifth Sunday in Ordinary Time</td>
-		</tr>
-		<tr>
-			<td style='width:25%'>Vigil</td>
-			<td>Twenty-fifth Sunday in Ordinary Time</td>
-		</tr>-->
 	</table>
 </div>
 <hr/>
-<a href='https://github.com/writedan/liturgy-webapp'>Github source code</a>
+<p><a href='https://github.com/writedan/liturgy-webapp'>The source code of this webapp is available on Github.</a></p>
+<p><!-- Historically, Lauds would be prayed just before sunrise, Vespers at sunset, and Vigil in the middle of the night.  We are praying Lauds after the daily Mass at 8:15am, Vespers at 5:00pm, and Vigil at 10:00pm. Join us in the chapel.<br/>-->We have combined Vespers with the lessons from Vigil in accordance with GILH nn. 48 and 49. If you are diseridous of Vespers without the lessons, it is offered here:</p>
+<div id='vsprs'></div>
 </body>
 </html>
