@@ -98,6 +98,7 @@
 				}
 
 				// handle first and second vespers
+				var office_name = hour.charAt(0).toUpperCase() + hour.slice(1);
 				if (temporal == null) {
 					if (hour == 'vespers' && sanctoral.vespers == null) hour = 'vespers2';
 				} else if (sanctoral == null) {
@@ -105,6 +106,9 @@
 				} else {
 					if (hour == 'vespers' && (temporal.vespers == null || sanctoral.vespers == null)) hour = 'vespers2';
 				}
+				
+				if (office_name == 'Vespers1') office_name = 'First Vespers';
+				else if (office_name == 'Vespers2') office_name = 'Second Vespers';
 
 				if (hour == 'vespers1') {
 					if (temporal != null) {
@@ -167,9 +171,8 @@
 				OFFICE = OFFICE[hour];
 
 				// having now the office we can build the page
-				document.title = OFFICE.name;
-				$('#intro').append('<p>'+OFFICE.name+'.</p>');
-				$('#intro').append('<p>'+OFFICE.hour+'</p>');
+				document.title = office_name + ' of ' +OFFICE.name;
+				$('#intro').append('<p>' + office_name + ' of ' +OFFICE.name + '</p>');
 
 				// the psalmody
 				function printPsalm(psalm) {
