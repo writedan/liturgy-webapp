@@ -34,7 +34,7 @@ r { color: red; }
 
 <script>
 	jQuery.ajaxSetup({async:false});
-	var UUID='103';
+	var UUID='104';
 
 	urlParams = new URLSearchParams(window.location.search);
 	var today;
@@ -186,26 +186,35 @@ r { color: red; }
 
 		for (let i = 0; i < options.length; i++) {
 			console.log(options[i]);
-			if ((options[i][0].getTime() != today.getTime()) && (options[i][2] == 'sunday' || options[i][2] == 'solemnity')) { // include first vespers alone, no saints
-				console.log('\tfirst vespers');
+			if ((options[i][0].getTime() != today.getTime())) {
+				console.log("\tvigil");
 				$('#content').append('<h3>'+options[i][1]+'</h3>');
-				$('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers1&v=lessons">First Vespers</a>');
-			}
-
-			if (options[i][0].getTime() == today.getTime()) { // include all hours
+				if (options[i][2] == 'sunday' || options[i][2] == 'solemnity') { // include first vespers alone, no saints
+					console.log('\tfirst vespers');
+					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vespers1&v=lessons">First Vespers</a></p>');
+				}
+				
+				if (options[i][2] == 'sunday' || options[i][2] == 'solemnity') {
+					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</a></p>');
+				} else if (options[i][2] == 'feria') {
+					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</a></p>');
+				} else {
+					$('#content').append('<p><a href="office.html?t='+options[1][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</a></p>');
+				}
+			} else { // include all hours
 				$('#content').append('<h3>'+options[i][1]+'</h3>');
 				if (options[i][2] == 'sunday' || options[i][2] == 'solemnity') {
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
+					//$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</a></p>');
 					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
-					$('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers2">Second Vespers</a>');
+					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vespers2">Second Vespers</a></p>');
 				} else if (options[i][2] == 'feria') {
-					$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</p>');
+					//$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</a></p>');
 					//$('#content').append('<p href="office.html?t='+options[i][3]+'&hour=lauds">Lauds</p>');
 					if (today.getDay() != 6) $('#content').append('<a href="office.html?t='+options[i][3]+'&hour=vespers2">Vespers</a>');
 				} else {
-					$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</p>');
+					//$('#content').append('<p><a href="office.html?t='+options[0][3]+'&hour=vigil&s='+options[i][3]+'">Midnight Vigil</a></p>');
 					//$('#content').append('<p href="office.html?t='+options[0][3]+'&hour=lauds&s='+options[i][3]+'">Lauds</p>');
-					$('#content').append('<a href="office.html?t='+options[0][3]+'&hour=vespers2&s='+options[i][3]+'">Vespers</a>');
+					$('#content').append('<p><a href="office.html?t='+options[0][3]+'&hour=vespers2&s='+options[i][3]+'">Vespers</a></p>');
 				}
 			}
 		}
