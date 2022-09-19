@@ -24,7 +24,7 @@ i { color: red; font-style: italic; }
 
 r { color: red; }
 </style>
-<script src='./loth.js?uiid=104'></script>
+<script src='./loth.js?108'></script>
 
 <script src="yaml.js"></script>
 
@@ -118,16 +118,17 @@ r { color: red; }
 		alert('malformed rank: ' + rank);
 		return false;
 	}
-
-	var sanctorals = [];
-	var temporal; // by definition, there can only be one temporal day
-	var WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+	
+	var offices = [];
 
 	/**
 	Given a date, fill the offices array with all the offices of such day.
 	*/
 	function getOptions(today) {
-		getYaml('propers/year.yml', function onCalendar(calendar){
+		var sanctorals = [];
+		var temporal;
+		var WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+		getYaml('propers/year', function onCalendar(calendar){
 			// load the sanctoral offices for today
 			// note that certain calendar days are arrays, indicating two offices
 
@@ -201,10 +202,11 @@ r { color: red; }
 			}
 
 			console.log(weekNumber + " Week in Ordinary Time");
-			//temporal = 'ot/' + weekNumber + '/' + WEEKDAYS[today.getDay()];
+			var rank = ['weak','feria'];
+			if (today.getDay() == 0) rank = ['feast','sunday'];
 			temporal = {
 				'name': weekNumber + WEEKDAYS[today.getDay()],
-				'rank': ['weak','feria'],
+				'rank': rank,
 				link: 'ot/' + weekNumber + '/' + WEEKDAYS[today.getDay()]
 			};
 		}
@@ -243,6 +245,15 @@ r { color: red; }
 			case 'pre-lent':
 			case 'post-pentecost': ordinaryTime(); break;
 		}
+		
+		for (let i = 0; i < sanctorals.length; i++) {
+			sanctorals[i].date = today;
+			sanctorals[i].temporal_ref = temporal;
+			offices.push(sanctorals[i])
+		};
+		
+		temporal.date = today;
+		offices.push(temporal);
 	}
 </script>
 
@@ -284,13 +295,83 @@ r { color: red; }
 </script>
 
 <script>
-
+	getOptions(today);
+	getOptions(moveDateForwardDays(today, 1));
 </script>
 
 <script>
 	// once the temporal and sactoral offices have been loaded, we must eliminate all but hte highest-ranking and handle any transfers as well
+	
+	for (let i = 0; i < offices.length; i++) {
+		offices[i].weight = convertRankToWeight(offices[i].rank);
+		var mar = offices[i].rank, mir;
+		if (Array.isArray(offices[i].rank)) {
+			mar = offices[i].rank[0];
+			mir = offices[i].rank[1];
+		}
+		
+		console.log(offices[i].name + ' : ' + offices[i].rank);
+		
+		if (mar == 'solemnity' || mar=='holyday' || mir=='sunday') {
+			// however, a check must still be performed; but no office where this is false can have first vespers
+			getYaml('propers/' + offices[i].link, function checkForFirstVespers(data){
+				if (data.vespers1 != null) offices[i].bifucrated_vespers = true;
+			});
+		}
+	}
+	
+	var daytime = [], vespers =[], vigil = []; // daytime would handle all of lauds, terce, sext
+											   // vespers handles vespers alone, since certain days have first vespers
+											   // vigil handles vigil alone, since these are always anticipated
+	
+	{ // handle daytime
+		var highest_weight = 8;
+		for (let i = 0; i < offices.length; i++) {
+			var office = offices[i];
+			if (office.date.getTime() != today.getTime()) continue;
+			if (office.weight < highest_weight) {
+				console.log
+				daytime = [office];
+				highest_weight = office.weight;
+			} else if (office.weight == highest_weight) {
+				daytime.push(office);
+			}
+		}
+	}
+	
+	{ // handle vespers
+		var highest_weight = 8;
+		for (let i = 0; i < offices.length; i++) {
+			var office = offices[i];
+			if (office.date.getTime() == today.getTime() || office.bifucrated_vespers) {
+				if (office.weight < highest_weight) {
+					console.log
+					vespers = [office];
+					highest_weight = office.weight;
+				} else if (office.weight == highest_weight) {
+					vespers.push(office);
+				}
+			}
+		}
+	}
+	
+	{ // handle vigil
+		var highest_weight = 8;
+		for (let i = 0; i < offices.length; i++) {
+			var office = offices[i];
+			if (office.date.getTime() == today.getTime()) continue;
+			if (office.weight < highest_weight) {
+				console.log
+				vigil = [office];
+				highest_weight = office.weight;
+			} else if (office.weight == highest_weight) {
+				vigil.push(office);
+			}
+		}
+	}
 
 	// since we only have one transfer, it will just be handled manually
+	// TODO handle the All Souls transfer
 </script>
 
 <script>
