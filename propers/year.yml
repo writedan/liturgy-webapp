@@ -1,39 +1,39 @@
 january:
   "1":
     name: "Mary the Holy Mother of God"
-    weight: ["solemnity", "bvm"] # 3-iii
+    rank: ["solemnity", "bvm"] # 3-iii
     link: "january/mother_of_god"
   "2":
     name: "Saints Basil the Great and Gregory Nazianzen"
-    weight: "memorial" # 10
+    rank: "memorial" # 10
     link: "january/basil_and_gregory"
   "3":
     name: "Most Holy Name of Jesus"
-    weight: ["weak","memorial"] # 12-i
+    wrankeight: ["weak","memorial"] # 12-i
     link: "january/holy_name"
   # Epiphany on the 6th is skipped
   "7":
     name: "Saint Raymond of Penyafort"
-    weight: ["weak","memorial"] # 12-i
+    rank: ["weak","memorial"] # 12-i
     link: "january/raymond"
   "13":
     name: "Saint Hilary"
-    weight: ["weak","memorial"] # 12-i
+    rank: ["weak","memorial"] # 12-i
     link: "january/hilary"
   "17":
     name: "Saint Anthony"
-    weight: "memorial" # 10
+    rank: "memorial" # 10
     link: "january/anthony"
   "20":
     - name: "Saint Fabian"
-      weight: ["weak","memorial"] # 12-i
+      rank: ["weak","memorial"] # 12-i
       link: "january/fabian"
     - name: "Saint Sebastian"
-      weight: ["weak", "memorial"]
+      rank: ["weak", "memorial"]
       link: "january/sebastian"
   "21":
     name: "Saint Agnes"
-    weight: "memorial"
+    rank: "memorial"
     link: "january/agnes"
   "22":
     name: "Saint Vincent"
