@@ -139,4 +139,18 @@ function getChristKing(year) {
 }
 
 // For universal use
-var UUID = '100';
+var UUID = '105';
+
+function getYaml(url, callback) {
+	url = url + '?' + UUID;
+	jQuery.get(url, function onGetYaml(data) {
+		function doLogAndCallback(data){
+			console.log('-----' + url + '------');
+			console.log(data);
+			callback(data);
+			console.log('-----' + url + '------')
+		};
+
+		doLogAndCallback(YAML.parse(data));
+	});
+}
