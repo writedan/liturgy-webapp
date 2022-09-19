@@ -23,6 +23,8 @@ v { font-family: 'Versiculum'; font-size:6.5vw; }
 i { color: red; font-style: italic; }
 
 r { color: red; }
+
+td { padding-bottom: 1em; }
 </style>
 <script src='./loth.js?108'></script>
 
@@ -376,11 +378,47 @@ r { color: red; }
 
 <script>
 	// then display the results in a table like the one above
+	$(document).ready(function onDocReady(){
+		for (let i = 0; i < daytime.length; i++) {
+			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Lauds':'') + '</td><td>' + daytime[i].name + '</td></tr>');
+		}
+
+		for (let i = 0; i < vespers.length; i++) {
+			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Vespers':'') + '</td><td>' + vespers[i].name + '</td></tr>');
+		}
+
+		for (let i = 0; i < vigil.length; i++) {
+			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Vigil':'') + '</td><td>' + vigil[i].name + '</td></tr>');
+		}			
+	});
 </script>
 </head>
 <body>
 <div id='content'>
+	<h3 class='center'>Liturgy of the Hours</h3>
 	<hr/>
+	<table border='0' id='hours'>
+		<!--<tr>
+			<td style='width:25%'>Lauds</td>
+			<td>Saint Robert Bellarmine</td>
+		</tr>
+		<tr>
+			<td style='width:25%;'></td>
+			<td>Saint Hildegard of Bingen</td>
+		</tr>
+		<tr>
+			<td style='width:25%;'></td>
+			<td>Saturday of the Twenty-fourth Week in Ordinary Time</td>
+		</tr>
+		<tr>
+			<td style='width:25%'>Vespers</td>
+			<td>Twenty-fifth Sunday in Ordinary Time</td>
+		</tr>
+		<tr>
+			<td style='width:25%'>Vigil</td>
+			<td>Twenty-fifth Sunday in Ordinary Time</td>
+		</tr>-->
+	</table>
 </div>
 <hr/>
 <a href='https://github.com/writedan/liturgy-webapp'>Github source code</a>
