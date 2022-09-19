@@ -70,7 +70,7 @@ r { color: red; }
 
 	function offerLink(link) {
 		console.log('offer link: ' + link);
-		getYaml('https://daniel.writefamily.com/liturgy/propers/'+link+'.yml',function(data){
+		getYaml('propers/'+link+'.yml',function(data){
 			offer([data.rank, data.name, link]);
 		});
 	}
@@ -193,7 +193,7 @@ r { color: red; }
 					console.log('\tfirst vespers');
 					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vespers1&v=lessons">First Vespers</a></p>');
 				}
-				
+
 				if (options[i][2] == 'sunday' || options[i][2] == 'solemnity') {
 					$('#content').append('<p><a href="office.html?t='+options[i][3]+'&hour=vigil">Midnight Vigil</a></p>');
 				} else if (options[i][2] == 'feria') {

@@ -70,7 +70,7 @@ r { color: red; }
 
 	function offerLink(link) {
 		console.log('offer link: ' + link);
-		getYaml('https://daniel.writefamily.com/liturgy/propers/'+link+'.yml',function(data){
+		getYaml('/propers/'+link+'.yml',function(data){
 			offer([data.rank, data.name, link]);
 		});
 	}

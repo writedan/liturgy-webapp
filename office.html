@@ -18,7 +18,7 @@
 			};
 
 			function importOffice(url, callback, callback2) {
-				getYaml("https://daniel.writefamily.com/liturgy/"+url+".yml" + '?' + UUID,function(data){
+				getYaml("/"+url+".yml" + '?' + UUID,function(data){
 					callback(data);
 					if (data.common != null) importOffice("commons/"+data.common, callback2, callback2);
 				});
@@ -173,7 +173,7 @@
 
 				// the psalmody
 				function printPsalm(psalm) {
-					$.get('https://daniel.writefamily.com/liturgy/psalter/'+psalm[1]+'.txt?' + UUID,function(text){
+					$.get('/psalter/'+psalm[1]+'.txt?' + UUID,function(text){
 						var heading = document.createElement('h3');
 						heading.innerHTML = text.split('\n')[0];
 						$('#content').append(heading);
