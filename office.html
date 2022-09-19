@@ -221,11 +221,12 @@
 						$('#content').append('<p>' + sections[i] + '</p>');
 					}
 					$('#content').append('<hr/>');
-					if (reading.responsory.length % 2 == 0) { // simple verse-response; no gloria
+					if (!isObject(reading.responsory[0])) {
 						for (let i = 0; i < reading.responsory.length; i++) {
 							$('#content').append('<p><v>v</v> ' + reading.responsory[i][0] + '<br/><v>r</v> '+reading.responsory[i][1] + '</p>');
 						}
 					} else { // response-verse-response*-gloria-response
+						$('#content').append('<p><v>r</v> ' + reading.responsory[0] + '<br/><v>v</v> ' + reading.responsory[1][0] + '<br/><v>r</v>' + reading.responsory[1][1] + '<br/><v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/><v>r</v> ' + reading.responsory[0]);
 					}
 					$('#content').append('<hr/>');
 				}
