@@ -106,7 +106,7 @@
 				} else {
 					if (hour == 'vespers' && (temporal.vespers == null || sanctoral.vespers == null)) hour = 'vespers2';
 				}
-				
+
 				if (office_name == 'Vespers1') office_name = 'First Vespers';
 				else if (office_name == 'Vespers2') office_name = 'Second Vespers';
 
@@ -134,11 +134,14 @@
 					hour = 'vespers';
 				}
 
+				var have_of = (temporal != null);
+
 				if (sanctoral == null) { // the default case: no saints
 					OFFICE = temporal;
 				} else if (temporal == null) { // saint and no temporal
 					OFFICE = sanctoral;
 				} else { // saint and temporal, requiring merger (including overwrite)
+					have_of = false;
 					// if the saint day is a solemnity, it takes everything
 					OFFICE = sanctoral;
 					if (sanctoral.rank == 'solemnity' || (sanctoral.rank == 'feast' && temporal.rank != 'sunday')) {
@@ -172,7 +175,8 @@
 
 				// having now the office we can build the page
 				document.title = office_name + ' of ' +OFFICE.name;
-				$('#intro').append('<p>' + office_name + ' of ' +OFFICE.name + '</p>');
+				//$('#intro').append('<p>' + office_name + (have_of ? ' of the ':' of ') +OFFICE.name + '</p>');
+				$('#intro').append('<p>' + OFFICE.name + ' &mdash; ' + office_name + '</p>');
 
 				// the psalmody
 				function printPsalm(psalm) {
