@@ -65,7 +65,7 @@ january:
     link: "january/bosco"
 september:
   3:
-    name: "Saint Gregory the Great"
+    name: "Saint Gregory the Great, Pope and Doctor of the Church"
     rank: memorial
     link: "september/gregory"
   8:
@@ -73,7 +73,7 @@ september:
     rank: ["feast","bvm"] # 7
     link: "september/nativity"
   9:
-    name: "Saint Peter Claver"
+    name: "Saint Peter Claver, Priest"
     rank: ["weak","memorial"]
     link: "september/claver"
   12:
@@ -81,7 +81,7 @@ september:
     rank: ["weak","memorial"]
     link: "september/holy_name"
   13:
-    name: "Saint John Chrysostom"
+    name: "Saint John Chrysostom, Bishop and Doctor of the Church"
     rank: "memorial"
     link: "september/chrysostom"
   14:
@@ -93,52 +93,52 @@ september:
     rank: "memorial"
     link: "september/sorrows"
   16:
-    name: "Saints Cornelius and Cyprian"
+    name: "Saints Cornelius, Pope, and Cyprian, Bishop, Martyrs"
     rank: "memorial"
     link: "september/cornelius_and_cyprian"
   17:
-    - name: "Saint Robert Bellarmine"
+    - name: "Saint Robert Bellarmine, Bishop and Doctor of the Church"
       rank: ["weak","memorial"]
       link: "september/bellarmine"
-    - name: "Saint Hildegard of Bingen"
+    - name: "Saint Hildegard of Bingen, Virgin and Doctor of the Church"
       rank: ["weak","memorial"]
       link: "september/hildegard"
   19:
-    name: "Saint Januarius"
+    name: "Saint Januarius, Bishop and Martyr"
     rank: ["weak","memorial"]
     link: "september/januarius"
   20:
-    name: "Saints Andrew Kim Tae-gon and Paul Chong Ha-sang"
+    name: "Saints Andrew Kim Tae-gon and Paul Chong Ha-sang, Martyrs"
     rank: "memorial"
     link: "september/andrew_and_paul"
   21:
-    name: "Saint Matthew"
+    name: "Saint Matthew, Apostle and Evangelist"
     rank: ["feast","saint"] # 8-i
     link: "september/matthew"
   23:
-    name: "Saint Pio of Pietrelcina (Padre Pio)"
+    name: "Saint Pio of Pietrelcina (Padre Pio), Priest"
     rank: "memorial"
     link: "september/pio"
   26:
-    name: "Saints Cosmas and Damian"
+    name: "Saints Cosmas and Damian, Martyrs"
     rank: ["weak","memorial"]
     link: "september/cosmas_and_damian"
   27:
-    name: "Saint Vincent de Paul"
+    name: "Saint Vincent de Paul, Priest"
     rank: "memorial"
     link: "september/vincent"
   28:
-    - name: "Saint Wenceslaus"
+    - name: "Saint Wenceslaus, Martyr"
       rank: ["weak","memorial"]
       link: "september/wenceslaus"
-    - name: "Saint Lawrence Ruiz"
+    - name: "Saint Lawrence Ruiz, Martyr"
       rank: ["weak","memorial"]
       link: "september/lawrence"
   29:
-    name: "Saints Michael, Gabriel, and Raphael"
+    name: "Saints Michael, Gabriel, and Raphael, Archangels"
     rank: ["feast","saint"] # 8-i
     link: "september/archangels"
   30:
-    name: "Saint Jerome"
+    name: "Saint Jerome, Priest and Doctor of the Church"
     rank: "memorial"
     link: "september/jerome"
