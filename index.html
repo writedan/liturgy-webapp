@@ -401,6 +401,23 @@ td { padding-bottom: 1em; vertical-align: top; }
 
 		$('#hours').append('<tr><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
 
+		for (let i = 0; i < daytime.length; i++) {
+			var href = 'office.html?hour=terce';
+			if (daytime[i].sanctoral) { // probably need to include temporal reference
+				if (daytime[i].weight < 4) { // no need for temporal reference
+					href = href + '&s=' + daytime[i].link;
+				} else { // need temporal reference
+					href = href + '&s=' + daytime[i].link + '&t=' + daytime[i].temporal_ref.link;
+				}
+			} else { // else it is the temporal reference
+				href = href + '&t=' + daytime[i].link;
+			}
+			var ele = '<a href="' + href + '">' + daytime[i].name + '</a>';
+			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Terce':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
+		}
+
+		$('#hours').append('<tr><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
+
 		for (let i = 0; i < vespers.length; i++) {
 			var href = 'office.html?hour=vespers';
 			if (vespers[i].date.getTime() != today.getTime()) {
