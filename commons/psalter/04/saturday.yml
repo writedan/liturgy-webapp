@@ -17,3 +17,19 @@ lauds:
     - ["You have poured out faith, hope, and love upon us.","Keep them firmly rooted in our hearts."]
     - ["Lord, let our eyes be always raised up to you.","So that we may swiftly answer your call."]
     - ["Protect us from the snares and enticements of evil.","Keep our feet from stumbling."]
+terce:
+  psalmody:
+    - ["I have chosen you to do your will; may your hand be always there to strengthen me.",119xxii]
+    - ["Your throne stands firm, O God, forever.",45i]
+    - ["I saw the New Jerusalem, beautiful as a bride adorned to meet her husband.",45ii]
+  reading:
+    cite: "Daniel 6:27b-28a"
+    text: >-
+      Our God is the living God, enduring forever;
+        his kingdom shall not be destroyed,
+        and his dominion shall be without end.
+      He is a deliverer and savior,
+        working signs and wonders in heaven and on earth.
+    responsory:
+      - "Be calm and remember that I am God."
+      - "Supreme over all nations, supreme on the earth."

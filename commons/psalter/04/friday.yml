@@ -28,3 +28,15 @@ vespers:
     - ["Lord, sin offends you, repentance pleases you.","Do not punish us in your wrath even when we have sinned."]
     - ["You forgave the penitent woman and placed the wandering sheep on your shoulders.","Do not deprive us of your mercy."]
     - ["By your death on the cross, you opened the gates of heaven.","Admit into your kingdom all who hoped in you."]
+terce:
+  psalmody:
+    - ["Lord, great is the peace of those who love your law.",119xxi]
+    - ["The assembly of believers had but one mind and heart.",133]
+    - ["Save me from the grasp of the sinner, O Lord, my saving power.",140]
+  reading:
+    cite: "Romans 12:17a, 19b, 20a, 21"
+    text: >-
+      Do not repay anyone evil for evil; for it is written, "Vengeance is mine, I will repay, says the Lord." Rather, "if your enemy is hungry, feed him; if he is thirsty, give him something to drink; Do not be conquered by evil but conquer evil with good.
+    responsory:
+      - "The Lord's mercy has never failed; it will endure forever."
+      - "Unswerving his fidelity to those who obey him."

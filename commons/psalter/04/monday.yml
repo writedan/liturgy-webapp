@@ -29,3 +29,15 @@ vespers:
         - ["Through your blood you gave peace to the world.","Turn away the sin of strife and the scourge of war."]
         - ["O Lord, help married couples with an abundance of your grace.","So that they may better symbolize the mystery of your Church."]
         - ["In your mercy forgive the sins of all the dead.","That they may live with your saints."]
+terce:
+  psalmody:
+    - ["Lord, guide my steps according to your promise.",119xvii]
+    - ["There is but one lawgiver and judge; who are you to judge your neighbor?",82]
+    - ["I cried out to the Lord, and he heard me.",120]
+  reading:
+    cite: "Leviticus 20:26"
+    reading: "To me you shall be sacred; for I, the Lord, am sacred, I, who have set you apart from the other nations to be my own."
+    responsory:
+      - "How happy are we who have the Lord for our God."
+      - "We are the people he chose as his inheritance."
+      

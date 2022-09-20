@@ -42,3 +42,15 @@ vespers2:
     - ["As you love the innocent...","Render justice to those who are wronged."]
     - ["Free those in bondage and give sight to the blind.","Raise up the fallen and protect the stranger."]
     - ["Fulfill your promise to those who already sleep in your peace.","Through your Son grant them a blessed resurrection."]
+terce:
+  psalmody:
+    - ["He who eats this bread will live forever, alleluia.",23]
+    - ["The Lord will come in glory and show himself wonderful in his saints, alleluia.",76i]
+    - ["Pay your vows and bring offerings to the Lord our God, alleluia.",76ii]
+  reading:
+    cite: "1 Corinthians 6:19-20"
+    text: "Do you not know that your body is a temple of the holy Spirit within you, whom you have from God, and that you are not your own? For you have been purchased at a price. Therefore, glorify God in your body."
+    responsory:
+      - "I long to be in God's holy dwelling-place."
+      - "My whole being rejoices in the living God."
+      

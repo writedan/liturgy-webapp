@@ -29,3 +29,14 @@ vespers:
     - ["You provided bread for the hungry crow.","Teach us to share our resources with the needy."]
     - ["Do not direct world leaders to give attention only to the needs of their own nations.","But give them, above all, a respect and deep concern for all peoples."]
     - ["Grant blessed life and resurrection to our brothers and sisters who have fallen asleep.","And may all those who have believed in you share in your glory."]
+terce:
+  psalmody:
+    - ["Do the things you have learned, and you will be blessed.",119xviii]
+    - ["Let the prayer rise up before you, O Lord.",88i]
+    - ["I cry to you, O Lord; do not hide your face from me.",88ii]
+  reading:
+    cite: "1 John 3:17-18"
+    text: "I ask you, how can God’s love survive in a man who has enough of this world’s goods yet closes his heart to his brother when he sees him in need? Little children, let us love in deed and in truth and not merely talk about it."
+    responsory:
+      - "Happy the man who is compassionate and thoughtful."
+      - "His memory will be cherished forever."
