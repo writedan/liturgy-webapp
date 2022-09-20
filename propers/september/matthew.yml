@@ -1,0 +1,46 @@
+name: "Saint Matthew"
+rank: ["feast","saint"]
+common: apostles
+collect: >-
+  O God, who with untold mercy was pleased to choose an an apostle Saint Matthew, the tax collector, grant that, sustained by his example and intercession, we may merit to hold firm in following you: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+lauds:
+  benedictus: "The Lord saw a man named Matthew sitting at the tax collector's office and said to him: Follow me; Matthew got up and followed him."
+vespers2:
+  magnificat: "I desire mercy and not sacrifice; I did not come to call the virtuous but sinners."
+vigil:
+  reading1:
+    cite: "Ephesians 4:1-16"
+    text: |
+      From the first letter of Saint Paul the Apostle to the Ephesians.
+
+      I plead with you, as a prisoner for the Lord, to live in a manner worthy of the call you have received, with all humility and gentleness, with patience, bearing with one another through love, striving to preserve the unity of the spirit through the bond of peace:  one body and one Spirit, as you were also called to the one hope of your call; one Lord, one faith, one baptism; one God and Father of all, who is over all and through all and in all.
+
+      But grace was given to each of us according to the measure of Christ's gift. Therefore, it says:
+
+         "He ascended on high and took prisoners captive;
+         he gave gifts to men."
+
+      What does "he ascended" mean except that he also descended into the lower regions of the earth? The one who descended is also the one who ascended far above all the heavens, that he might fill all things.
+
+      And he gave some as apostles, others as prophets, others as evangelists, others as pastors and teachers, to equip the holy ones for the work of ministry, for building up the body of Christ, until we all attain to the unity of faith and knowledge of the Son of God, to mature manhood, to the extent of the full stature of Christ.
+
+      Let us, then, be children no longer, tossed by waves and swept along by every wind of teaching arising from human trickery, from their cunning in the interests of deceitful scheming. Rather, living the truth in love, we should grow in every way into him who is the head, Christ, from whom the whole body, joined and held together by every supporting ligament, with the proper functioning of each part, brings about the body's growth and builds itself up in love.
+    responsory:
+      - ["No prophecy ever came from man.","The men who spoke the word of God were inspired by the Holy Spirit."]
+      - ["The Lord gives wisdom; knowledge and understanding flow from his mouth.","The men who spoke the word of God were inspired by the Holy Spirit."]
+  reading2:
+    text: |
+      From a homily of Saint Bede the Venerable, priest.
+
+      "Jesus saw a man called Matthew sitting at the tax office, and he said to him: Follow me." Jesus saw Matthew, not merely in the usual sense, but more significantly with his merciful understanding of men.
+
+      He saw the tax collector and, because he saw him through the eyes of mercy and chose him, he said to him: "Follow me." This following meant imitating the pattern of his life – not just walking after him. St. John tells us: "Whoever says he abides in Christ ought to walk in the same way in which he walked."
+
+      "And he rose and followed him." There is no reason for surprise that the tax collector abandoned earthly wealth as soon as the Lord commanded him. Nor should one be amazed that neglecting his wealth, he joined a band of men whose leader had, on Matthew’s assessment, no riches at all. Our Lord summoned Matthew by speaking to him in words. By an invisible, interior impulse flooding his mind with the light of grace, he instructed him to walk in his footsteps. In this way Matthew could understand that Christ, who was summoning him away from earthly possessions, had incorruptible treasures of heaven in his gift.
+
+      "As he sat at table in the house, behold many tax collectors and sinners came and sat down with Jesus and his disciples." This conversion of one tax collector gave many men, those from his own profession and other sinners, an example of repentance and pardon. Notice also the happy and true anticipation of his future status as apostle and teacher of the nations. No sooner was he converted than Matthew drew after him a whole crowd of sinners along the same road to salvation. He took up his appointed duties while still taking his first steps in the faith, and from that hour he fulfilled his obligation and thus grew in merit. To see a deeper understanding of the great celebration Matthew held at his house, we must realise that he not only gave a banquet for the Lord at his earthly residence, but far more pleasing was the banquet set in his own heart which he provided through faith and love. Our Saviour attests to this: "Behold I stand at the door and knock; if anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me."
+
+      On hearing Christ’s voice, we open the door to receive him, as it were, when we freely assent to his promptings and when we give ourselves over to doing what must be done. Christ, since he dwells in the hearts of his chosen ones through the grace of his love, enters so that he might eat with us and we with him. He ever refreshes us by the light of his presence insofar as we progress in our devotion to and longing for the things of heaven. He himself is delighted by such a pleasing banquet.
+    responsory:
+      - ["Matthew was a talented scribe and deeply versed in the law of the Lord.","He dedicated all his efforts to the study of God's law so that with the Lord's guidance he might observe his precepts and teach them to others."]
+      - ["The gospel of God's glory is credited to him.","He dedicated all his efforts to the study of God's law so that with the Lord's guidance he might observe his precepts and teach them to others."]
