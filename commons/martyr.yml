@@ -84,3 +84,12 @@ vespers2:
       - "You have tried us by fire, O God, then led us to a place of refreshment."
       - ["You have refined us like silver in the furnace.","Then led us to a place of refreshment."]
   magnificat: "The saints find their home in the kingdom of heaven; their life is eternal peace."
+terce:
+  psalmody:
+    antiphon: "The Lord gave them victory after a bitter conquest, for no power can conquer the wisdom of God."
+  reading:
+    cite: "1 Peter 5:10-11"
+    text: "The God of all grace, who called us to his everlasting glory in Christ, will himself restore, confirm, strengthen, and establish those who have suffered a little while. Dominion be his throughout the ages. Amen."
+    responsory:
+      - "God clothed him in gladness."
+      - "And placed a crown of glory on his head."

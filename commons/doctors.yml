@@ -147,3 +147,12 @@ vespers2:
     - ["In the midst of their brothers and sisters you anointed your holy ones and filled them with the Holy Spirit.","Fill all leaders of your people with the same Spirit."]
     - ["You yourself are the only visible possession of our holy pastors.","Let none of them, won at the price of your blood, remain far from you."]
     - ["The shepherds of your Church keep your flock from being snatched out of your hand.","Save those who have died, those for whom you gave up your life."]
+terce:
+  psalmody:
+    antiphon: "My Father, as you sent me into the world, so I send my disciples."
+  reading:
+    cite: "1 Timothy 4:16"
+    text: "Attend to yourself and to your teaching; persevere in both tasks, for by doing so you will save both yourself and those who listen to you."
+    responsory:
+      - "This is the man the Lord has chosen as his servant."
+      - "He has called him to shepherd his inheritance Jacob."

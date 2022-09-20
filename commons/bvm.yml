@@ -131,3 +131,16 @@ vespers2:
     - ["You made Mary full of grace.","Grant all men the joyful abundance of your grace."]
     - ["Make your Church of one mind and one heart in love.","And help all those who believe to be one in prayer with Mary, the mother of Jesus."]
     - ["You crowned Mary queen of heaven.","May all the dead rejoice in your kingdom with the saints forever."]
+terce:
+  psalmody:
+    antiphon: "All of them, united in heart, continued in prayer with Mary, the mother of Jesus."
+  reading:
+    cite: "Zephaniah 3:14, 15b"
+    text: >-
+      Shout for joy, O daughter Zion!
+        sing joyfully, O Israel!
+      Be glad and exult with all your heart,
+        O daughter Jerusalem!
+      The King of Israel, the Lord,
+        is in your midst.
+    

@@ -78,3 +78,12 @@ vespers2:
     - ["You sent your Son to sow the seed of unending life.","Grant that we who work at sowing the seed may share the joy of the harvest."]
     - ["You sent your Son to reconcile all to you through his blood.","Help us all to work toward achieving this reconciliation."]
     - ["Your Son sits at your right hand in heaven.","Let the dead enter your kingdom of joy."]
+terce:
+  psalmody:
+    antiphon: "Go forth and proclaim the good news of the kingdom; and freely share with others what God has given you."
+  reading:
+    cite: "2 Corinthians 5:19-20"
+    text: "God has entrusted to us the news of reconciliation. So we are ambassadors for Christ; it is as though God were appealing through us, and the appeal that we make in Christ's name is: be reconciled to God."
+    responsory:
+      - "Their voice has gone out to the limits of the earth."
+      - "Their words to the ends of the world."

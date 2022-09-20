@@ -100,3 +100,12 @@ vespers2:
     - ["Lord, your virgin Church has always kept its faith whole and untarnished:","Grant all Christians a whole and untarnished faith."]
     - ["You have given your people joy in celebrating the feast of your holy virgin:","Give us constant joy through her intercession."]
     - ["You have admitted the holy virgins to your marriage banquet:","In your mercy lead the dead to your heavenly feast."]
+terce:
+  psalmody:
+    antiphon: "What joy to be near to my God, to place all my trust in the Lord."
+  reading:
+    cite: "Wisdom 8:21a"
+    text: "I knew I could not otherwise possess her except God gave it - and this, too, was prudence, to know whose is the gift."
+    responsory:
+      - "This is the wise virgin."
+      - "The Lord found her ready for the marriage feast."

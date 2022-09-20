@@ -1,4 +1,5 @@
 name: Common of Several Martyrs
+common: martyr
 vespers1:
     psalmody:
         - ["The saints endured many torments to gain the martyr's crown.",118i]
@@ -29,7 +30,7 @@ vigil:
         cite: "Romans 8:18-39"
         text: |
             From the letter of Saint Paul the Apostle to the Romans.
-            
+
             I consider the sufferings of the present to be as nothing compared with the glory to be revealed in us. Indeed, the whole created world eagerly awaits the revelation of the sons of God. Creation was made subject to futility, not of its own accord but by him who once subjected it; yet not without hope, because the world itself will be freed from its slavery to corruption and share in the glorious freedom of the children of God. Yes, we know that all creation groans and is in agony even until now. Not only that, but we ourselves, although we have the Spirit as first fruits, groan inwardly while we await the redemption of our bodies. In hope we were saved. But hope is not hope if its object is seen; how is it possible for one to hope for what he sees? And hoping for what we cannot see means awaiting it with patient endurance.
 
             The Spirit too helps us in our weakness, for we do not know how to pray as we ought; but the Spirit himself makes intercession for us with groanings that cannot be expressed in speech. He who searches hearts knows what the Spirit means, for the Spirit intercedes for the saints as God himself wills.
@@ -45,7 +46,7 @@ vigil:
     reading2:
         text: |
             From a letter of Saint Cyprian, bishop and martyr.
-            
+
             I greet you, dearest brothers, and would like also to enjoy your company face to face, if only the conditions in which I find myself did not prevent my coming to see you. What could be more desirable or more joyful for me than to embrace you now, to be encircled by those pure and sinless hands that have kept the faith of the Lord and refused to offer sacrilegious worship?
 
             What could be more pleasant, more sublime, than to kiss at this moment those lips of yours, which have given such glorious utterance in praise of the Lord; to be seen also by those eyes of yours, which have despised the world and proved themselves worthy of seeing God?
