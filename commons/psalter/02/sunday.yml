@@ -58,3 +58,15 @@ vespers2:
         - ["Remember your assembly, Lord...","Your dwelling place."]
         - ["Guide travelers along the path of peace and prosperity.","So that they may reach their destinations in safety and joy."]
         - ["Receive the souls of the dead, Lord.","Grant them your favor and the gift of eternal glory."]
+terce:
+  psalmody:
+    - ["The Lord has brought me to green pastures, alleluia.",23]
+    - ["Great is the name of the Lord among his people Israel, alleluia.",76i]
+    - ["Earth shuddered, then all was still, when God arose for judgment, alleluia.",76ii]
+  reading:
+    cite: "Romans 5:1-2, 5"
+    text: "Since we have been justified by faith, we have peace with God through our Lord Jesus Christ, through whom we have gained access by faith to this grace in which we stand, and we boast in hope of the glory of God. And hope does not disappoint, because the love of God has been poured out into our hearts through the holy Spirit that has been given to us."
+    responsory:
+      - "I will sing forever of your mercy, O Lord."
+      - "Make known to all generations the fidelity of our God."
+  

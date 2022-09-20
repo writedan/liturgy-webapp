@@ -43,3 +43,14 @@ vespers:
         - ["Make exiles aware of your providential care.","May they return to their home on earth and finally enter their home in heaven."]
         - ["Be merciful to sinners who have fallen away from your love.","Reconcile them to yourself and to your Church."]
         - ["Save our brothers who have died.","Let them share in the fullness of redemption."]
+terce:
+  psalmody:
+    - ["Let your loving-kindness console me as you promised.",119x]
+    - ["Protect me, God, from those who rise up against me.",59]
+    - ["We are happy to be chastened by God, who heals us as he wounds.",60]
+  reading:
+    cite: "Deuteronomy 1:31b"
+    text: "The Lord, your God, carried you, as a man carries his child, all along your journey until you arrived at this place."
+    responsory:
+      - "Support me, Lord, according to your promise, and I shall live."
+      - "Let my hope in you not be in vain."

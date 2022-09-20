@@ -43,3 +43,15 @@ vespers:
         - ["Remember those who long for honest work.","So that they may lead a life of peaceful security."]
         - ["Lord, be the refuge of the poor...","Their help in distress."]
         - ["We commend to your care all bishops, priests, and deacons who have died.","May they sing your praises forever around your heavenly throne."]
+terce:
+  psalmody:
+    - ["Blessed are those who hear the word of God and cherish it in their hearts.",119vi]
+    - ["Doing my Father's will is the food that sustains me.",40i]
+    - ["I am poor, but the Lord takes care of me.",40ii]
+  reading:
+    cite: "Jeremiah 31:33"
+    text: "This is the covenant which I will make with the house of Israel after those days, says the Lord. I will place my law within them, and write it upon their hearts; I will be their God, and they shall be my people."
+    responsory:
+      - "Create a clean heart in me, O God."
+      - "Do not cast me away from your face."
+      

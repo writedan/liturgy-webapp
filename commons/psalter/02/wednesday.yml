@@ -43,3 +43,14 @@ vespers:
         - ["Let your faithful ones seek and taste the things that are above.","And let them direct their work and their leisure to your glory."]
         - ["Deliver us from all harm, Lord.","And pour our your abundant blessings on our homes."]
         - ["Show the faithful departed the vision of your face.","Let them rejoice in the contemplation of your presence."]
+terce:
+  psalmody:
+    - ["I have pondered my ways and turned back to your teaching.",119viii]
+    - ["I tremble with fear, O Lord; turn to me and hear me.",55i]
+    - ["I shall cry to God for help, and the Lord will come to save me.",55ii]
+  reading:
+    cite: "Deuteronomy 1:16-17a"
+    text: "I charged your judges at that time, 'Listen to complaints among your kinsmen, and administer true justice to both parties even if one of them is an alien. In rendering judgment, do not consider who a person is; give ear to the lowly and to the great alike, fearing no man, for judgment is God's.'"
+    responsory:
+      - "The Lord is true and loves justice."
+      - "Those who are just will see him face to face."

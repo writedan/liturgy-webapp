@@ -43,3 +43,14 @@ vespers:
         - ["Have mercy on the needy, Lord.","Provide food for the hungry."]
         - ["Enlighten all legislators...","To enact laws in the spirit of wisdom and justice."]
         - ["Come to the aid of our departed brothers and sister, whom you have redeemed with your blood.","Make them worthy to enter your wedding feast."]
+terce:
+  psalmody:
+    - ["During my pilgrimage, I have kept your commandments.",119vii]
+    - ["God will deliver his people from bondage and bring them home rejoicing.",53]
+    - ["God is my helper and my strong support.",54]
+  reading:
+    cite: "1 Corinthians 12:4-6"
+    text: "There are different kinds of spiritual gifts but the same Spirit; there are different forms of service but the same Lord; there are different workings but the same God who produces all of them in everyone."
+    responsory:
+      - "God is the Savior of those who revere him."
+      - "That his glory may dwell here on earth."
