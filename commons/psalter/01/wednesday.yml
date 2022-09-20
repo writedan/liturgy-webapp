@@ -43,3 +43,14 @@ vespers:
         - ["Grant prosperity to our neighbors.","give them life and happines forever."]
         - ["Console those who are burdened with oppressive work and daily hardships.","Preserve the dignity of workers."]
         - ["Open wide the doors of your compassion to those who have died today.","And in your mercy receive them into your kingdom."]
+terce:
+  psalmody:
+    - ["Lord, may you be blessed forever; teach me the ways of holiness.",119ii]
+    - ["Lord, keep my steadfast in your ways.",17i]
+    - ["Rise up, O Lord, and rescue me.",17ii]
+  reading:
+    cite: "1 Peter 1:13-14"
+    text: "Gird up the loins of your mind, live soberly, and set your hopes completely on the grace to be brought to you at the revelation of Jesus Christ. Like obedient children, do not act in compliance with the desires of your former ignorance."
+    responsory:
+      - "Lord, show me your ways."
+      - "Teach me to walk in your footsteps."

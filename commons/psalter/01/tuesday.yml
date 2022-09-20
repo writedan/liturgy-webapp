@@ -43,3 +43,22 @@ vespers:
         - ["May our young people be concerned with remaining blameless in your sight.","And may they generously follow your call."]
         - ["May our children imitate your example.","And grow in wisdom and grace."]
         - ["Accept our dead brothers and sisters into your eternal kingdom.","Where we hope to reign with you."]
+terce:
+  psalmody:
+    - ["The will of God gives joy to the heart; we see all things in its light.",119i]
+    - ["You have saved me, Lord, and my heart is fill with joy.",13]
+    - ["God sees all people as sinners, that he might show them his mercy.",14]
+  reading:
+    cite: "Jeremiah 17:7-8"
+    text: |
+      Blessed is the one who trusts in the Lord,
+        whose trust is the Lord.
+      They shall be like a tree planted by water,
+        sending out its roots by the stream.
+      It shall not fear when heat comes,
+        and its leaves shall stay green;
+      in the year of drought it is not anxious,
+        and it does not cease to bear fruit.
+    responsory:
+      - "God cares for the needs of those who follow him."
+      - "Lord, God of hosts, happy is the man who trusts in you."

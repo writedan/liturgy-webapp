@@ -42,3 +42,19 @@ vespers:
         - ["Be with us in our work of building hte earthly city.","That in building we may not labor in vain."]
         - ["Send workers into your vineyard.","And glorify your name among the nations."]
         - ["Welcome into the company of your saints our relatives and benefactors who have died.","May we share their happiness one day."]
+terce:
+  psalmody:
+    - ["Open my eyes, O Lord, that I might see the wonders of your law.",119iii]
+    - ["Guide me, O Lord, in your truth.",25i]
+    - ["Look on me, Lord, and help me, for I am poor and alone.",25ii]
+  reading:
+    cite: "Amos 4:13"
+    text: >-
+      He formed the mountains, and created the wind,
+      and declares to man his thoughts;
+      He made the dawn and the darkness,
+      and strides upon the heights of the earth:
+      The Lord, the God of hosts by name.
+    responsory:
+      - "All you works of the Lord, bless the Lord."
+      - "Praise and glorify him forever."

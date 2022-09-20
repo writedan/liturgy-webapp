@@ -43,3 +43,15 @@ vespers:
         - ["Clothe your faithful people in the armor of salvation.","And shield them from hte deceptions of the devil."]
         - ["Let your merciful presence be with us, Lord, at the hour of our death.","May we be found faithful and leave this world in your peace."]
         - ["Lead the departed into the light of your dwelling-place.","That they may gaze upon you for all eternity."]
+terce:
+  psalmody:
+    - ["Lightly I run in the way you have shown.",119iv]
+    - ["I trust in the Lord and will not be shaken.",26]
+    - ["I put all my trust in the Lord, and he has not failed me.", 28]
+  reading:
+    cite: "Philippians 2:2b-4"
+    text: "Maintain your unanimity, posessing the one love, united in heart, thinking one thing.Do nothing out of selfishness or out of vainglory; rather, humbly regard others as more important than yourselves, each looking out not for his own interests, but also everyone for those of others."
+    responsory:
+      - "All God's ways are faithful and compassionate."
+      - "For those who keep his covenant and do his will."
+    

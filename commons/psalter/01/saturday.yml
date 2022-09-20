@@ -25,3 +25,14 @@ lauds:
         - ["At every hour of the day, we give you glory.","In all our deedsm we offer you praise."]
         - ["Mary, your mother, was obedient to your word.","Direct our lives in accordance with that word."]
         - ["Our lives are surrounded with passing things.","Set our hearts on things of heaven, so that through faith, hope, and charity we may come to enjoy the visions of your glory."]
+terce:
+  psalmody:
+    - ["Lead me, Lord, in the path of your commandments.",119v]
+    - ["Those who seek the Lord will be filled with every blessing.",34i]
+    - ["Seek and strive for peace.",34ii]
+  reading:
+    cite: "1 Kings 8:60-61"
+    text: "May all the peoples of the earth know the Lord is God and there is no other. You must be wholly devoted to the Lord, our God, observing his statutes and keeping his commandments."
+    responsory:
+      - "Lord, my God, teach me your ways."
+      - "Make me live by the light of your truth."
