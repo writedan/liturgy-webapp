@@ -30,3 +30,14 @@ vespers:
         - ["Grant that all who seek the truth may find it.","And in finding it may they desire it all the more."]
         - ["Be present to comfort widows, orphans, and all the abandoned, Lord.","May they feel close to you and cling to you."]
         - ["Receive our departed brethren into the heavenly kingdom.","Where with the Father and the Holy Spirit you will be all in all."]
+terce:
+  psalmody:
+    - ["Lord, I have sought to do your will, through which you give me life.",119xii]
+    - ["I have trusted in you, O Lord, from my youth.",71i]
+    - ["Do not abandon me, O God, when I am old.",71ii]
+  reading:
+    cite: "2 Corinthians 13:11"
+    text: "Brothers and sisters, rejoice. Mend your ways, encourage one another, agree with one another, live in peace, and the God of love and peace will be with you."
+    responsory:
+      - "The Lord looks on those who love him."
+      - "He hears their cry."

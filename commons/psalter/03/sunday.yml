@@ -42,3 +42,15 @@ vespers2:
         - ["May all those who love and pursue justice...","Work together without deceit to build a world of true peace."]
         - ["Be with the oppressed, free the captives, console the sorrowing, feed the hungry, strengthen the weak.","In all people reveal the victory of your cross."]
         - ["After your Son's death and burial you raised him up again in glory.","Grant that the faithful departed may live with him."]
+terce:
+  psalmody:
+    - ["In my distress, I called on the Lord, and he heard my cry, alleluia.",118i]
+    - ["The Lord's right hand has raised me up, alleluia.",118ii]
+    - ["The Lord our God has let his light shine upon us, alleluia.",118iii]
+  reading:
+    cite: "Romans 8:15-16"
+    text: >-
+      You did not receive a spirit of slavery to fall back into fear, but you received a spirit of adoption, through which we cry, "Abba, Father!" The Spirit itself bears witness with our spirit that we are children of God.
+    responsory:
+      - "Lord, you are the well-spring of life."
+      - "In your light, we see light itself."

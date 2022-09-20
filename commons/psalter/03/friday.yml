@@ -30,3 +30,15 @@ vespers:
         - ["Lord, we have sinned, yet we have also acknowledged your infinite mercy.","Bring us to conversion."]
         - ["Save your people from their sins, Lord","And make them pleasing to you."]
         - ["You opened paradise to the thief who believed in you.","Do not close the gates of heaven to the faithful departed."]
+terce:
+  psalmody:
+    - ["We saw him despised and rejected, a man of sorrows, acquainted with infirmity.",22i]
+    - ["The garments of Jesus they divided among them by casting lots.",22ii]
+    - ["The family of nations will worship in the presence of the Lord.",22iii]
+  reading:
+    cite: "Romans 1:16b-17"
+    text: >-
+      The Gospel is the power of God for the salvation of everyone who believes. For in it is revealed the righteousness of God from faith to faith; as it is written, "The just shall live by faith."
+    responsory:
+      - "God is the joy of our hearts."
+      - "We trust in his holy name."

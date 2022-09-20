@@ -29,3 +29,15 @@ vespers:
         - ["Grant the grace of conversion to all sinners.","And the grace of true repentence to all men."]
         - ["You were willing to live as a stranger in our world.","Be mindful of those who are separated from family and homeland."]
         - ["To all the departed who have hoped in you...","Grant eternal peace."]
+terce:
+  psalmody:
+    - ["Receive me, Lord, according to your promise, that I may live.",119xv]
+    - ["Help us, O God our Savior, and pardon all our sins.",79]
+    - ["O God of power, look down from heaven and come to tend this vine.",80]
+  reading:
+    cite: "Wisdom 19:22"
+    text: "Every way, O Lord, you magnified and glorified your people; unfailing, you stood by them in every time and circumstance."
+    responsory:
+      - "O God, what marvels you have done."
+      - "You have shown your power to all the nations."
+  

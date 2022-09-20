@@ -30,3 +30,14 @@ vespers:
         - ["The talents of the artists reflect your splendor.","May their work give the world hope and joy."]
         - ["You do not allow us to be tested beyond our ability.","Strengthen the weak and raise up the fallen."]
         - ["Through your Son you promised to raise men up on the last day.","Do not forget those who have died."]
+terce:
+  psalmody:
+    - ["Law finds its fulfillment in love.",119xiii]
+    - ["Lord, remember your people whom you chose from the beginning.",74i]
+    - ["Rise up, Lord, defend your cause.",74ii]
+  reading:
+    cite: "Jeremiah 22:3"
+    text: "Do what is right and just. Rescue the victim from the hand of his oppressor. Do not wrong or oppress the resident alien, the orphan, or the widow, and do not shed innocent blood in this place."
+    responsory:
+      - "The Lord will judge the whole world with justice."
+      - "He will render to all peoples their just reward."

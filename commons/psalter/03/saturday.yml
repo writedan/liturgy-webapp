@@ -16,3 +16,18 @@ lauds:
         - ["With confidence let us pray to the Father who willed that the Virgin Mary should surpass all creatures in heaven and earth:","Look upon the Mother of your Son and hear our prayer."]
         - ["We are grateful to you, Father of mercy, for you gave us Mary to be our mother and our model.","Through her intercession give us the gifts of the Holy Spirit."]
         - ["You strengthened Mary at the foot of the cross and filled her with joy at the resurrection of your Son.","Through her intercession relieve our distress and strengthen our hope."]
+terce:
+  psalmody:
+    - ["Lord, give a loving welcome to your servant.",119xvi]
+    - ["Look to the Lord and be enlightened.",34i]
+    - ["When your heart is torn with grief, the Lord is near you.",34ii]
+  reading:
+    cite: "1 Samuel 15:22"
+    text: >-
+      Does the Lord so delight in holocausts and sacrifices
+        as in obedience to the command of the Lord?
+      Obedience is better than sacrifice,
+        and submission than the fat of rams.
+    responsory:
+      - "A sacrifice of praise will give me glory."
+      - "To the pure of heart I will show myself a savior."

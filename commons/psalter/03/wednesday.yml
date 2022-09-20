@@ -30,3 +30,14 @@ vespers:
         - ["Creator of all things, your Son desired to work among men with his own hands.","Be mindful of all who earn their living by the sweat of their brow."]
         - ["Be mindful of those who devote themselves to the service of their brothers and sisters.","Do not let them be deterred from their goals by discouraging results or lack of support."]
         - ["Be merciful to the faithful departed.","Keep them from the power of the evil one."]
+terce:
+  psalmody:
+    - ["Whoever follows me does not walk in the dark; he will have the light of life.",119xiv]
+    - ["Help me, O God, for I am poor and needy.",70]
+    - ["God, who is truth and justice, does not judge by appearances.",75]
+  reading:
+    cite: "1 Corinthians 13:4-7"
+    text: "Love is patient, love is kind. It is not jealous, love is not pompous, it is not inflated, it is not rude, it does not seek its own interests, it is not quick-tempered, it does not brood over injury, it does not rejoice over wrongdoing but rejoices with the truth. It bears all things, believes all things, hopes all things, endures all things."
+    responsory:
+      - "All who seek you, Lord, will dance for joy."
+      - "They will proclaim your greatness forever."
