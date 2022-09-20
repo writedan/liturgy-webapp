@@ -395,10 +395,10 @@ td { vertical-align: top; }
 				href = href + '&t=' + daytime[i].link;
 			}
 			var ele = '<a href="' + href + '">' + daytime[i].name + '</a>';
-			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Lauds':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
+			$('#hours').append('<tr style="width:100%"><td style="width:25%">' + (i == 0 ? 'Lauds':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
 
-		$('#hours').append('<tr><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
+		$('#hours').append('<tr style="width:100%"><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
 
 		for (let i = 0; i < daytime.length; i++) {
 			var href = 'office.html?hour=terce';
@@ -412,10 +412,10 @@ td { vertical-align: top; }
 				href = href + '&t=' + daytime[i].link;
 			}
 			var ele = '<a href="' + href + '">' + daytime[i].name + '</a>';
-			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Terce':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
+			$('#hours').append('<tr style="width:100%"><td style="width:25%">' + (i == 0 ? 'Terce':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
 
-		$('#hours').append('<tr><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
+		$('#hours').append('<tr style="width:100%"><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
 
 		for (let i = 0; i < vespers.length; i++) {
 			var href = 'office.html?hour=vespers';
@@ -434,10 +434,10 @@ td { vertical-align: top; }
 				href = href + '&t=' + vespers[i].link;
 			}
 			var ele = '<a href="' + href + '&v=lessons">' + vespers[i].name + '</a>';
-			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Vespers':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
+			$('#hours').append('<tr style="width:100%"><td style="width:25%">' + (i == 0 ? 'Vespers':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
 
-		$('#hours').append('<tr><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
+		$('#hours').append('<tr style="width:100%"><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
 
 		for (let i = 0; i < vigil.length; i++) {
 			var href = 'office.html?hour=vigil';
@@ -451,16 +451,16 @@ td { vertical-align: top; }
 				href = href + '&t=' + vigil[i].link;
 			}
 			var ele = '<a href="' + href + '">' + vigil[i].name + '</a>';
-			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Vigil':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
+			$('#hours').append('<tr style="width:100%"><td style="width:25%">' + (i == 0 ? 'Vigil':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
 
 // document post-processor
 				let width = screen.width;
 				if (0.01 * width > 14) { // compress font size
-					document.getElementById("content").style.fontSize = "2vw";
+					document.getElementById("content").style.fontSize = "3vw";
 					var glyphs = document.getElementsByTagName('v');
 					for (let i = 0; i < glyphs.length; i++) {
-						glyphs[i].style.fontSize = "2.5vw";
+						glyphs[i].style.fontSize = "3.5vw";
 					}
 				}
 	});
@@ -471,10 +471,10 @@ td { vertical-align: top; }
 	<h3 class='center'>Liturgy of the Hours</h3>
 	<p class='center'>Arranged for use of the Kent State University Parish Newman Center.</p>
 	<hr/>
-	<table id='hours'>
+	<table id='hours' style="width:100%">
 	</table>
-</div>
 <hr/>
+</div>
 <p><a href='https://github.com/writedan/liturgy-webapp'>Source code on Github</a></p>
 </body>
 </html>
