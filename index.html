@@ -120,7 +120,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 		alert('malformed rank: ' + rank);
 		return false;
 	}
-	
+
 	var offices = [];
 
 	/**
@@ -209,7 +209,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 			if (today.getDay() == 0) {
 				rank = ['feast','sunday'];
 				name = ordinalInWord(weekNumber) + ' Sunday in Ordinary Time';
-			} 
+			}
 			temporal = {
 				'name': name,
 				'rank': rank,
@@ -251,13 +251,13 @@ td { padding-bottom: 1em; vertical-align: top; }
 			case 'pre-lent':
 			case 'post-pentecost': ordinaryTime(); break;
 		}
-		
+
 		for (let i = 0; i < sanctorals.length; i++) {
 			sanctorals[i].date = today;
 			sanctorals[i].temporal_ref = temporal;
 			offices.push(sanctorals[i])
 		};
-		
+
 		temporal.date = today;
 		offices.push(temporal);
 	}
@@ -307,7 +307,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 
 <script>
 	// once the temporal and sactoral offices have been loaded, we must eliminate all but hte highest-ranking and handle any transfers as well
-	
+
 	for (let i = 0; i < offices.length; i++) {
 		offices[i].weight = convertRankToWeight(offices[i].rank);
 		var mar = offices[i].rank, mir;
@@ -315,21 +315,21 @@ td { padding-bottom: 1em; vertical-align: top; }
 			mar = offices[i].rank[0];
 			mir = offices[i].rank[1];
 		}
-				
+
 		if (mar == 'solemnity' || mar=='holyday' || mir=='sunday') {
 			// however, a check must still be performed; but no office where this is false can have first vespers
 			loadYaml('propers/' + offices[i].link, function checkForFirstVespers(data){
 				if (data.vespers1 != null) offices[i].bifucrated_vespers = true;
 			});
 		}
-		
+
 		offices[i].sanctoral = offices[i].temporal_ref != null;
 	}
-	
+
 	var daytime = [], vespers =[], vigil = []; // daytime would handle all of lauds, terce, sext
 											   // vespers handles vespers alone, since certain days have first vespers
 											   // vigil handles vigil alone, since these are always anticipated
-	
+
 	{ // handle daytime
 		var highest_weight = 8;
 		for (let i = 0; i < offices.length; i++) {
@@ -344,7 +344,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 			}
 		}
 	}
-	
+
 	{ // handle vespers
 		var highest_weight = 8;
 		for (let i = 0; i < offices.length; i++) {
@@ -360,7 +360,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 			}
 		}
 	}
-	
+
 	{ // handle vigil
 		var highest_weight = 8;
 		for (let i = 0; i < offices.length; i++) {
@@ -383,7 +383,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 <script>
 	// then display the results in a table like the one above
 	$(document).ready(function onDocReady(){
-		
+
 		for (let i = 0; i < daytime.length; i++) {
 			var href = 'office.html?hour=lauds';
 			if (daytime[i].sanctoral) { // probably need to include temporal reference
@@ -398,7 +398,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 			var ele = '<a href="' + href + '">' + daytime[i].name + '</a>';
 			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Lauds':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
-		
+
 		$('#hours').append('<tr><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
 
 		for (let i = 0; i < vespers.length; i++) {
@@ -420,7 +420,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 			var ele = '<a href="' + href + '&v=lessons">' + vespers[i].name + '</a>';
 			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Vespers':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
-				
+
 		$('#hours').append('<tr><td style="width:25%"><hr/></td><td style="width:75%"><hr/></td></tr>');
 
 		for (let i = 0; i < vigil.length; i++) {
@@ -436,7 +436,7 @@ td { padding-bottom: 1em; vertical-align: top; }
 			}
 			var ele = '<a href="' + href + '">' + vigil[i].name + '</a>';
 			$('#hours').append('<tr><td style="width:25%">' + (i == 0 ? 'Vigil':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
-		}	
+		}
 
 // document post-processor
 				let width = screen.width;
@@ -446,13 +446,14 @@ td { padding-bottom: 1em; vertical-align: top; }
 					for (let i = 0; i < glyphs.length; i++) {
 						glyphs[i].style.fontSize = "2.5vw";
 					}
-				}		
+				}
 	});
 </script>
 </head>
 <body>
 <div id='content'>
 	<h3 class='center'>Liturgy of the Hours</h3>
+	<p class='center'>Arranged for use of the Kent State University Parish Newman Center.</p>
 	<hr/>
 	<table id='hours'>
 	</table>
