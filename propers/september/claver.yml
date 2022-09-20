@@ -1,6 +1,6 @@
 name: Saint Peter Claver
 common: pastors
-rank: omemorial
+rank: ["weak","feria"]
 collect: >
     O God, who made Saint Peter Claver a slave of slaves and strengthened him with wonderful charity and patience as he came to their help, grant, through his intercession, that, seeking the things of Jesus Christ, we may love our neighbor in deeds and in truth: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
 vigil:
