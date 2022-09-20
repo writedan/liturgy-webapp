@@ -139,7 +139,7 @@ function getChristKing(year) {
 }
 
 // For universal use
-var UUID = '105';
+var UUID = '10';
 
 function loadYaml(url, callback) {
 	jQuery.get(url + '.yml?' + UUID, function onGetYaml(data) {
@@ -167,7 +167,7 @@ function ordinalInWord( cardinal ) {
         30: 'thirtieth'
     };
 
-    if( cardinal <= 20 ) { 
+    if( cardinal <= 20 ) {
 		var n = ordinals[ cardinal ];
 		return n.charAt(0).toUpperCase() + n.slice(1);
     }

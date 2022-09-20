@@ -4,12 +4,12 @@
 		<title>Liturgy of the Hours</title>
 		<link rel='stylesheet' type='text/css' href='./style.css'/>
 		<script src="./yaml.js"></script>
-		<script src="./loth.js"></script>
+		<script src="./loth.js?10"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 		<script>
 			jQuery.ajaxSetup({async:false});
-			var UUID = '103';
+			var UUID = '10';
 
 			function getYaml(url, callback) {
 				jQuery.get(url, function(data) {
@@ -174,7 +174,7 @@
 				OFFICE = OFFICE[hour];
 
 				// having now the office we can build the page
-				document.title = office_name + ' of ' +OFFICE.name;
+				document.title = OFFICE.name + ' &mdash; ' + office_name;
 				//$('#intro').append('<p>' + office_name + (have_of ? ' of the ':' of ') +OFFICE.name + '</p>');
 				$('#intro').append('<p>' + OFFICE.name + ' &mdash; ' + office_name + '</p>');
 
@@ -313,11 +313,11 @@
 				<v>r</v> Lord, make haste to help me.
 			</p>
 
-			<i>For the following verse, the "Glory to the Father" or the "Glory be" as you may know it, stand and make a profound bow here and wherever else it occurs, rising for the response.</i>
+			<i>For the following verse, stand and make a profound bow here and wherever else it occurs, rising for the response.</i>
 
 			<p>
 				<v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/>
-				<v>r</v> As it was in the beginning is now and will be forever. Amen. Alleluia.
+				<v>r</v> As it was in the beginning is now and will be forever. Amen. <span id='alle'>Alleluia.</span>
 			</p>
 			<hr/>
 		</div>
