@@ -1,0 +1,80 @@
+name: Commons of Apostles
+vespers1:
+  psalmody:
+    - ["Of those whom he called to follow him, Jesus chose twelve, and made them his apostles.",117]
+    - ["They left their nets to follow the Lord and redeemer.",147]
+    - ["You are my friends, for you have remained steadfast in my love.", ephesians1]
+  reading:
+    cite: "Acts 2:42-45"
+    text: "They devoted themselves to the teaching of the apostles and to the communal life, to the breaking of the bread and to the prayers. Awe came upon everyone, and many wonders and signs were done through the apostles. All who believed were together and had all things in common;they would sell their property and possessions and divide them among all according to each one's need."
+    responsory:
+      - "All the world will know, you are living as I taught you."
+      - ["If you love one another...","You are living as I taught you."]
+  magnificat: "You did not hoose me, but I chose you to go forth and bear fruit that will last forever."
+  intercessions:
+    - ["My brothers and sisters, we build on the foundation of the apostles. Let us pray to our almighty Father for his holy people and say:","Be mindful of your Church, O Lord."]
+    - ["Father, you wanted your Son to be seen first by the apostles after the resurrection from the dead.","We ask you to make us his witnesses to the farthest coroners of the world."]
+    - ["You sent your Son to preach your good news to the poor.","Help us to preach this Gospel to every creature."]
+    - ["You sent your Son to sow the seed of unending life.","Grant that we who work at sowing the seed may share the joy of the harvest."]
+    - ["You sent your Son to reconcile all to you through his blood.","Help us all to work toward achieving this reconciliation."]
+    - ["Your Son sits at your right hand in heaven.","Let the dead enter your kingdom of joy."]
+vigil:
+  invitatory: "Come, let us worship the Lord, the King of Apostles."
+  psalmody:
+    - ["Their voice has gone out to the limits of the earth, their words to the ends of the world.",19]
+    - ["They proclaimed what God has done for us; they grasped the meaning of his deeds.",64]
+    - ["God's holiness was revealed by them; all nations saw God's glory.",97]
+  call: ["They proclaimed the Lord's praises, told of his power to save.","And of the wonders he had worked."]
+  reading1:
+    cite: "1 Corinthians 4:1-16"
+    text: |
+      From the first letter of Saint Paul the Apostle to the Corinthians.
+
+      Men should regard us as servants of Christ and administrators of the mysteries of God. The first requirement of an administrator is that he prove trustworthy. It matters little to me whether you or any human court pass judgment on me. I do not even pass judgment on myself. Mind you, I have nothing on my conscience. But that does not mean that I am declaring myself innocent. The Lord is the one to judge me, so stop passing judgment before the time of his return. He will bring to light what is hidden in darkness and manifest the intentions of hearts. At that time, everyone will receive his praise from God.
+
+      Brothers, I have applied all this to myself and Apollos by way of example for your benefit. May you learn from us not to go beyond what is set down, so that none of you will grow self-important by reason of his association with one person rather than another. Who confers any distinction on you? Name something you have that you have not received. If, then, you have received it, why are you boasting as if it were your own? At the moment you are completely satisfied. You have grown rich! You have launched upon your reign with no help from us. Would that you had really begun to reign, that we might be reigning with you!
+
+      As I see it, God has put us apostles at the end of the line, like men doomed to die in the arena. We have become a spectacle to the universe, to angels and men alike. We are fools on Christ’s account. Ah, but in Christ you are wise! We are the weak ones, you the strong! They honor you, while they sneer at us! Up to this very hour we go hungry and thirsty, poorly clad, roughly treated, wandering about homeless. We work hard at manual labor. When we are insulted we respond with a blessing. Persecution comes our way; we bear it patiently. We are slandered, and we try conciliation. We have become the world’s refuse, the scum of all; that is the present state of affairs.
+
+      I am writing you in this way not to shame you but to admonish you as my beloved children. Granted you have ten thousand guardians in Christ, you have only one father. It was I who begot you in Christ Jesus through my preaching of the gospel. I beg you, then, be imitators of me.
+    responsory:
+      - ["I no longer call you servants, but my friends.","For I have shared with you everything I have heard from my Father."]
+      - ["The mysteries of the kingdom of heaven have been revealed to you; blessed are your eyes because they see and your ears because they hear.","For I have shared with you everything I have heard from my Father."]
+  # Second reading is always proper
+lauds:
+  psalmody:
+    - ["My commandment is this: love one another as I have loved you.",63]
+    - ["There is no greater love than to lay down your life for your friends.",daniel3]
+    - ["You are my friends, says the Lord, if you do what I command you.",149]
+  reading:
+    cite: "Ephesians 2:19-22"
+    text: "You are strangers and aliens no longer. No, you are fellow citizens of the saints and members of the household of God. You form a building that rises on the foundation of the apostles and the prophets, with Christ Jesus himself as the capstone. Through him the whole structure is fitted together and takes shape as a holy temple in the Lord; in him you are being built into this temple, to become a dwelling place for God in the Spirit."
+    responsory:
+      - "You have made them rulers over all the earth."
+      - ["They will always remember your name, O Lord.","Over all the earth."]
+  benedictus: "On the foundation stones of the heavenly Jerusalem, the names of the twelve apostles of the Lamb are written; the Lamb of God is the light of that holy city."
+  intercessions:
+    - ["Beloved friends, we have inherited heaven along with the apostles. Let us give thanks to the Father for all his gifts:","The company of the apostles praises you, O Lord."]
+    - ["Praise be to you, Lord, for the banquet of Christ's body and blood given us through the apostles.","Which refreshes us and gives us life."]
+    - ["Praise be to you, Lord, for the feast of your word prepared for us by the apostles.","Giving us light and joy."]
+    - ["Praise be to you, Lord, for your holy Church, founded on the apostles.","Where we are gathered together into your community."]
+    - ["Praise be to you, Lord, for the cleansing power of baptism and penance that you have entrusted to your apostles.","Through which we are cleansed of our sins."]
+vespers2:
+  psalmody:
+    - ["You are the men who have stood by me in my time of trial.",116]
+    - ["I have lived among you as one who ministers to others.",126]
+    - ["I no longer call you servants, but my friends, for I have shared with you everything I have heard from my Father.",ephesians1]
+  reading:
+    cite: "Ephesians 4:13"
+    text: "Christ gave apostles, prophets, evangelists, pastors and teachers in roles of service for the faithful to build up the body of Christ, till we become one in faith and in the knowledge of God's Son, and form that perfect man who is Christ come to full stature."
+    responsory:
+      - "Tell all the nations how glorious God is."
+      - ["Make known his wonders to every people.","How glorious God is."]
+  magnificat: "When all things are made new, and the Son of Man is enthroned in majesty, you will sit in judgment over the twelve tribes of Israel."
+  intercessions:
+    - ["My brothers and sisters, we build on the foundation of the apostles. Let us pray to our almighty Father for his holy people and say:","Be mindful of your Church, O Lord."]
+    - ["Father, you wanted your Son to be seen first by the apostles after the resurrection from the dead.","We ask you to make us his witnesses to the farthest coroners of the world."]
+    - ["You sent your Son to preach your good news to the poor.","Help us to preach this Gospel to every creature."]
+    - ["You sent your Son to sow the seed of unending life.","Grant that we who work at sowing the seed may share the joy of the harvest."]
+    - ["You sent your Son to reconcile all to you through his blood.","Help us all to work toward achieving this reconciliation."]
+    - ["Your Son sits at your right hand in heaven.","Let the dead enter your kingdom of joy."]
