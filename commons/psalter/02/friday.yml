@@ -15,6 +15,8 @@ lauds:
         - ["Even in your anger, Lord, you will remember compassion.",habakkuk3]
         - ["O praise the Lord, Jerusalem.",147]
     reading:
+        cite: "Ephesians 2:13-16"
+        text: "Now in Christ Jesus you who once were far off have been brought near through the blood of Christ. It is he who is our peace and who made the two of us one by breaking down the barrier of hostility that kept us apart. In his own flesh he abolished the law with its commands and precepts, to create in himself one new man from us who had been two and to make peace, reconciling both of us to God in one body through his cross, which put that enmity to death."
         responsory:
             - "The Lord, the Most High, has done good things for me. In need I shall cry out to him."
             - ["My he send his strength to rescue me.","In need I shall cry out to him."]
@@ -32,6 +34,9 @@ vespers:
         - ["My help comes from the Lord, who made heaven and earth.",121]
         - ["King of all the ages, your ways are perfect and true.",revelation15]
     reading:
+        cite: "1 Corinthians 2:6-10a"
+        text: |
+          There is a certain wisdom which we express among those who are spiritually mature. It is not a wisdom of this age, nor of the rulers of this age who are passing away. Rather, we speak God's wisdom, mysterious, hidden, which God predetermined before the ages for our glory, and which none of the rulers of this age knew; for if they had known it, they would not have crucified the Lord of glory. But as it is written: "What eye has not seen, and ear has not heard, and what has not entered the human heart, what God has prepared for those who love him," this God has revealed to us through the Spirit.
         responsory:
             - "Christ died for our sins to make of us an offering to God."
             - ["He died to this world of sin and rose in the power of the Spirit...","To make of us an offering to God."]

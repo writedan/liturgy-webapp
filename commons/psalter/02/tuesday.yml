@@ -15,6 +15,9 @@ lauds:
         - ["Lord, keep us safe all the days of our life.",isaiah38]
         - ["To you, O God, our praise is due in Zion.",65]
     reading:
+        cite: "1 Thessalonians 5:2-6"
+        text: |
+          You yourselves know very well that the day of the Lord will come like a thief at night. When people are saying, "Peace and security," then sudden disaster comes upon them, like labor pains upon a pregnant woman,and they will not escape. But you, brothers, are not in darkness, for that day to overtake you like a thief. For all of you are children of the light and children of the day. We are not of the night or of darkness. Therefore, let us not sleep as the rest do, but let us stay alert and sober.
         responsory:
             - "Lord, listen ot my cry, all my trust is in your promise."
             - ["Dawn finds me watching, crying out for you.","All my trust is in your promise."]
@@ -32,6 +35,8 @@ vespers:
         - ["Store up for yourselves treasures in heaven, says the Lord.",49ii]
         - ["Adoration and glory belong by right to the Lamb that was slain.",revelation4]
     reading:
+        cite: "Romans 3:21-26"
+        text: "But now the righteousness of God has been manifested apart from the law, though testified to by the law and the prophets, the righteousness of God through faith in Jesus Christ for all who believe. For there is no distinction; all have sinned and are deprived of the glory of God. They are justified freely by his grace through the redemption in Christ Jesus, whom God set forth as an expiation, through faith, by his blood, to prove his righteousness because of the forgiveness of sins previously committed, through the forbearance of God - to prove his righteousness in the present time, that he might be righteous and justify the one who has faith in Jesus."
         responsory:
             - "I shall know the fullnes of joy when I see your face, O Lord."
             - ["Fulfillment and endless peace in your presence...","When I see your face, O Lord."]

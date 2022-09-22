@@ -15,6 +15,9 @@ lauds:
         - ["Extol the greatness of our God.",deuteronomy32]
         - ["How wonderful is your name, O Lord, in all creation.",8]
     reading:
+        cite: "Romans 12:13-21"
+        text: |
+          Contribute to the needs of the holy ones, exercise hospitality. Bless those who persecute you, bless and do not curse them. Rejoice with those who rejoice, weep with those who weep. Have the same regard for one another; do not be haughty but associate with the lowly; do not be wise in your own estimation. Do not repay anyone evil for evil; be concerned for what is noble in the sight of all. If possible, on your part, live at peace with all. Beloved, do not look for revenge but leave room for the wrath; for it is written, "Vengeance is mine, I will repay, says the Lord." Rather, "if your enemy is hungry, feed him; if he is thirsty, give him something to drink; for by so doing you will heap burning coals upon his head." Do not be conquered by evil but conquer evil with good.
         responsory:
             - "It is my joy, O God, to praise you with song."
             - ["To sing as I ponder your goodness...","To praise you with song."]
@@ -36,4 +39,3 @@ terce:
     responsory:
       - "The fear of the Lord is holy, enduring forever."
       - "The decrees of the Lord are true and all of them are just."
-      

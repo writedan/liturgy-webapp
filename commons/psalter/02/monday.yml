@@ -15,6 +15,8 @@ lauds:
         - ["Lord, show us the radiance of your mercy.",sirach36]
         - ["The vaults of heaven ring with your praise, O Lord.",19a]
     reading:
+        cite: "Jeremiah 15:16"
+        text: "When I found your words, I devoured them; they became my joy and the happiness of my heart, because I bore your name, O Lord God of hosts."
         responsory:
             - "Sing for joy, God's chosen ones, give him the praise that is due."
             - ["Sing a new song to the Lord.","Give him the praise that is due."]
@@ -32,6 +34,8 @@ vespers:
         - ["The bridgegroom is here; go out and welcome him.",45ii]
         - ["God planned in the fullness of time to restore all things in Christ.",ephesians1]
     reading:
+        cite: "1 Thessalonians 2:11-13"
+        text: "As you know, we treated each one of you as a father treats his children, exhorting and encouraging you and insisting that you conduct yourselves as worthy of the God who calls you into his kingdom and glory. And for this reason we too give thanks to God unceasingly, that, in receiving the word of God from hearing us, you received not a human word but, as it truly is, the word of God, which is now at work in you who believe."
         responsory:
             - "Accept my prayer, O Lord, which rises up to you."
             - ["Like burning incense in your sight...","Which rises up to you."]
@@ -54,4 +58,3 @@ terce:
     responsory:
       - "Create a clean heart in me, O God."
       - "Do not cast me away from your face."
-      
