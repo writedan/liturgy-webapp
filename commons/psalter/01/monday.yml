@@ -15,6 +15,8 @@ lauds:
                 - ["We praise your glorious name, O Lord our God.",1chronicles29]
                 - ["Adore the Lord in his holy court.",29]
         reading:
+            cite: "2 Thessalonians 3:10"
+            text: "Anyone who would not work should not eat. We hear that some of you are unruly, not keeping busy but acting like busy-bodies. We enjoin all such, and we urge them strongly in the Lord Jesus Christ to earn the food they eat by working quietly. You must never grow weary of doing what is right, brothers."
             responsory:
                     - "Blessed be the Lord our God from age to age."
                     - ["His marvelous works are beyond compare","Blessed from age to age."]
@@ -32,6 +34,8 @@ vespers:
                 - ["Blessed are the pure of heart, for they shall see God.",15]
                 - ["God chose us in his Son to be his adopted children.",ephesians1]
         reading:
+            cite: "Colossians 1:9b-13"
+            text: "May you attain full knowledge of God's will through perfect wisdom and spiritual insight. Then you will lead a life worthy of the Lord and pleasing to him in every way. You will multiply good works of every sort and grow in the knowledge of God. By the might of his glory you will be endowed with the strength needed to stand fast, even to endure joyfully whatever may come, giving thanks to the Father, who has made us worthy to share in the lot of the saints in light. He rescued us from the power of darkness and brought us into the kingdom of his beloved Son."
             responsory:
                     - "Lord, you alone can heal me, for I have grieved you by my sins."
                     - ["Once more I say: O Lord, have mercy on me...","For I have grieved you by my sins."]

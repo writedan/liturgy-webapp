@@ -15,6 +15,8 @@ lauds:
         - ["All the descendants of Israel will glory in the Lord's gift of victory.",isaiah45]
         - ["Let us go into God's presence singing for joy,",100]
     reading:
+        cite: "Ephesians 4:29-32"
+        text: "Never let evil talk pass your lips; say only the good things men need to hear, things what will really help them. Do nothing that will sadden the Holy Spirit with whom you were sealed against the day of redemption. Get rid of all bitterness, all passion and anger, harsh words, slander, and malice of every kind. In place of these, be kind to one another, compassionate, and mutually forgiving, just as God has forgiven you in Christ."
         responsory:
             - "At daybreak, be merciful to me."
             - ["Make it known to me the path that I must walk.","Be merciful to me."]
@@ -32,6 +34,9 @@ vespers:
         - ["The mighty Lord is with us; the God of Jacob is our stronghold.",46]
         - ["All nations will come and worship before you, O Lord.",revelation15]
     reading:
+        cite: "Romans 15:1-6"
+        text: >
+          We who are strong ought to put up with the failings of the weak and not to please ourselves; let each of us please our neighbor for the good, for building up. For Christ did not please himself; but, as it is written,"The insults of those who insult you fall upon me." For whatever was written previously was written for our instruction, that by endurance and by the encouragement of the scriptures we might have hope. May the God of endurance and encouragement grant you to think in harmony with one another, in keeping with Christ Jesus, that with one accord you may with one voice glorify the God and Father of our Lord Jesus Christ. 
         responsory:
             - "Christ loved us and washed away our sins in his own blood."
             - ["He made us a nation of kings and priests...","In his own blood."]
@@ -54,4 +59,3 @@ terce:
     responsory:
       - "All God's ways are faithful and compassionate."
       - "For those who keep his covenant and do his will."
-    

@@ -15,6 +15,8 @@ lauds:
         - ["O God, you are great and glorious; we marvel at your power.",judith16]
         - ["Exult in God's presence with hymns of praise.",47]
     reading:
+        cite: "Tobit 4:15a, 16a, 18a, 19"
+        text: "Do to no one what you yourself dislike. Give to the hungry some of your bread, and to the naked some of your clothing. Seek counsel from every wise man. At all times bless the Lord God, and ask him to make all your paths straight and to grant success to all your endeavors and plans."
         responsory:
             - "Incline my heart according to your will, O God."
             - ["Speed my steps along your path...","According to your will, O God."]
@@ -32,6 +34,8 @@ vespers:
         - ["I long to look on you, O Lord; do not turn your face away from me.",27ii]
         - ["He is the first-born of all creation; in every way the primacy is his.",colossians1]
     reading:
+        cite: "James 1:19-22, 25"
+        text: "Know this, my dear brothers: everyone should be quick to hear, slow to speak, slow to wrath, for the wrath of a man does not accomplish the righteousness of God. Therefore, put away all filth and evil excess and humbly welcome the word that has been planted in you and is able to save your souls. Be doers of the word and not hearers only, deluding yourselves. But the one who peers into the perfect law of freedom and perseveres, and is not a hearer who forgets but a doer who acts, such a one shall be blessed in what he does."
         responsory:
             - "Claim me once more as your own, Lord, and have mercy on me."
             - ["Do not abandon me with the wicked.","Have mercy on me."]

@@ -14,9 +14,13 @@ lauds:
         - ["Awake, lyre and harp, with praise let us awake the dawn.",57]
         - ["My people, says the Lord, will be filled with my blessings.",jeremiah31]
         - ["The Lord is great and worthy to be praised in the city of our God.",48]
-    responsory:
-        - "From the depth of my heart, I cry to you; hear me, Lord."
-        - ["I will do what you desire.","Hear me, Lord."]
+    reading:
+      cite: "Isaiah 66:1-2"
+      text: |
+        Thus says the Lord: The heavens are my throne, and the earth is my footstool. What kind of house can you build for me; what is to be my resting place? My hand made all these things when all of them came to be, says the Lord. This is the one whom I approve; the lowly and afflicted man who trembles at my word.
+      responsory:
+          - "From the depth of my heart, I cry to you; hear me, Lord."
+          - ["I will do what you desire.","Hear me, Lord."]
     benedictus: Let us serve the Lord in holiness, and he will save us from our enemies.
     intercessions:
         - ["The Lord Jesus Christ has given us the light of another day. In return we thank him as we cry out:","Lord, bless us and bring us close to you."]
@@ -31,6 +35,8 @@ vespers:
         - ["The one who is sinless in the eyes of God is blessed indeed.",32]
         - ["The Father has given Christ all honor, power, and kingship; all people will obey him.",revelation11]
     reading:
+        cite: "1 Peter 1:6-9"
+        text: "There is cause for rejoicing here. You may for a time have to suffer the distress of many trials; but this is so that your faith, which is more precious than the passing splendor of fire-tried gold, may by its genuineness lead to praise, glory, and honor when Jesus Christ appears. Although you have never seen him, you love him, and without seeing you now believe in him, and rejoice with inexpressible joy touched with glory because you are achieving faith's goal, your salvation."
         responsory:
             - "The Lord had given us food, bread of the finest wheat."
             - ["Honey from the rock to our heart's content...","Bread of the finest wheat."]
