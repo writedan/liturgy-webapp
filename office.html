@@ -4,12 +4,12 @@
 		<title>Liturgy of the Hours</title>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 		<script src="./yaml.js"></script>
-		<script src="./loth.js?10"></script>
+		<script src="./loth.js?11"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 		<script>
 			jQuery.ajaxSetup({async:false});
-			var UUID = '10';
+			var UUID = '11';
 
 			function getYaml(url, callback) {
 				jQuery.get(url, function(data) {
@@ -171,6 +171,7 @@
 				OFFICE[hour].name = OFFICE.name;
 				OFFICE[hour].hour = hour.charAt(0).toUpperCase() + hour.slice(1);
 				OFFICE[hour].collect = OFFICE.collect;
+				OFFICE[hour].weight = convertRankToWeight(OFFICE.rank);
 				OFFICE = OFFICE[hour];
 
 				// having now the office we can build the page
@@ -290,6 +291,54 @@
 
 				$('#content').append('<p><i>Thus ends the office.</i></p>');
 
+				{
+								function printPsalm(psalm) {
+									$.get('psalter/'+psalm[1]+'.txt?' + UUID,function(text){
+										var heading = document.createElement('h3');
+										heading.innerHTML = text.split('\n')[0];
+										$('#inviv').append(heading);
+										$('#inviv').append('<p><i>Ant.</i> ' + psalm[0] + '</p>');
+										var sections = text.trim().split("\r\n\r\n");
+										if (sections.length == 1) {
+											sections = text.trim().split("\n\n");
+										}
+										for (let k = 0; k < sections.length; k++) {
+											var sideA = (k % 2) == 0;
+											var section = sections[k].split('\n');
+											var j = (k == 0) ? 1 : 0;
+											for (; j < section.length; j++) {
+												if (j == 0 || (j == 1 && k == 0)) {
+													//if (k != 0) $('#inviv').append('<br/>');
+													$('#inviv').append('<i>All continue:</i><br/>'+section[j]+"<br/>");
+												} else if (j == 1 || (j == 2 && k == 0)) {
+													$('#inviv').append(section[j]+'<br/>');
+												} else {
+													$('#inviv').append(section[j] + '<br/>');
+												}
+											}
+
+											$('#inviv').append('<p><i>Side ' + (!sideA?'A':'B') + ' leader begins:</i><br/><i>Ant.</i> ' + psalm[0] + '</p>');
+										}
+
+										$('#inviv').append('<p><v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/><v>r</v> As it was in the beginning is now and will be forever. Amen.</p>');
+										$('#inviv').append('<p><i>The antiphon is recited by all.</i></p>');
+										$('#inviv').append('<p><i>Ant.</i> ' + psalm[0] + '</p>');
+									});
+								}
+
+								if (hour == 'vigil') {
+									console.log('make vigil');
+									printPsalm([OFFICE.invitatory, 95]);
+									$('#inviv').css('display','block');
+
+									if (OFFICE.weight < 4) {
+										console.log("\tmake Te Deum");
+									}
+								}
+
+
+							}
+
 				// document post-processor
 				let width = screen.width;
 				if (0.01 * width > 14) { // compress font size
@@ -300,6 +349,9 @@
 					}
 				}
 			});
+		</script>
+
+		<script>
 		</script>
 	</head>
 	<body>
@@ -313,6 +365,16 @@
 			<p>Our Father, who art in heaven, hallowed be thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread and forgive us our trespasses as we forgive those who trespass against us. And lead us not into temptation but deliver us from evil.</p>
 
 			<p>Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women and blessed is the fruit of thy womb, Jesus. Holy Mary, mother of God, pray for us sinners now and at the hour of our death. Amen.</p>
+
+			<div id="inviv" style="display:none">
+				<hr/>
+				<p>
+					<v>v</v> Lord, open my lips.<br/>
+					<v>r</v> And my mouth shall proclaim your praise.
+				</p>
+
+<hr/>
+			</div>
 
 			<hr/>
 

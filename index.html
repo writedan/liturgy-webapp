@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
-<script src='./loth.js?10'></script>
+<script src='./loth.js?11'></script>
 
 <script src="yaml.js"></script>
 
@@ -47,54 +47,7 @@
 				memorial				(reference 11-ii)
 			weak							(reference 12, 12-i, and 12-ii)
 	*/
-	function convertRankToWeight(rank) {
-		var mainRank = rank, minorRank;
-		if (Array.isArray(rank)) {
-			mainRank = rank[0];
-			minorRank = rank[1];
-		}
 
-		switch (mainRank) {
-			case 'holyday': return 1.0;
-			case 'solemnity':
-				switch (minorRank) {
-					case 'lord': return 2.1;
-					case 'bvm': return 2.2;
-					case 'saint': return 2.3;
-					case 'patron': return 2.4;
-					case 'dedication': return 2.5;
-					case 'title': return 2.6;
-				}
-			case 'feast':
-				switch (minorRank) {
-					case 'lord': return 3.1;
-					case 'sunday': return 3.2;
-					case 'bvm': return 3.3;
-					case 'saint': return 3.4;
-					case 'patron_diocese': return 3.5;
-					case 'dedication': return 3.6;
-					case 'patron_region': return 3.7;
-					case 'title': return 3.8;
-					case 'parish': return 3.9;
-					case 'diocese': return 3.91;
-				}
-			case 'strong_feria': return 4;
-			case 'memorial': return 5;
-			case 'secondary':
-				switch (minorRank) {
-					case 'patron': return 6.1;
-					case 'memorial': return 6.2;
-				}
-			case 'weak': return 7;
-			default:
-				console.log('----unkown rank----');
-				console.log(rank);
-				console.log('---unknown rank----');
-		}
-
-		alert('malformed rank: ' + rank);
-		return false;
-	}
 
 	var offices = [];
 
