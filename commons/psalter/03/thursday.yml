@@ -8,6 +8,9 @@ vigil:
         - ["Our years wither away like grass, but you, Lord God, are eternal.",90]
     call: ["In you is the source of life.","In your light we see light itself."]
 lauds:
+    reading:
+      cite: "1 Peter 4:8-11a"
+      text: "Above all, let your love for one another be intense, because love covers a multitude of sins. Be hospitable to one another without complaining. As each one has received a gift, use it to serve one another as good stewards of God's varied grace. Whoever preaches, let it be with the words of God; whoever serves, let it be with the strength that God supplies, so that in all things God may be glorified through Jesus Christ."
     psalmody:
         - ["Glorious things are said of you, O city of God.",87]
         - ["The Lord, the mighty conqueror will come; he will bring with him the prize of victory.",isaiah40]
@@ -19,6 +22,9 @@ lauds:
         - ["Purify our hearts of every evil desire.","Make us intent on doing your will."]
         - ["Open our hearts to the needs of all men.","Fill us with brotherly love."]
 vespers:
+    reading:
+      cite: "1 Peter 3:8-12"
+      text: "All of you should be like-minded, sympathetic, loving toward one another, compassionate, humble. Do not return evil for evil, or insult for insult; but, on the contrary, a blessing, because to this you were called, that you might inherit a blessing."
     psalmody:
         - ["Let your holy people rejoice, O Lord, as they enter your dwelling place.",132i]
         - ["The Lord has chosen Zion as his sanctuary.",132ii]
@@ -40,4 +46,3 @@ terce:
     responsory:
       - "O God, what marvels you have done."
       - "You have shown your power to all the nations."
-  

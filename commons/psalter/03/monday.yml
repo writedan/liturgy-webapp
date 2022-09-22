@@ -8,6 +8,10 @@ vigil:
         - ["I want a loving heart more than sacrifice, knowledge of my ways more than holocausts.",50iii]
     call: ["Listen my people and I will speak.","I am the Lord, your God."]
 lauds:
+    reading:
+      cite: "James 2:12-13"
+      text: |
+        Always speak and act as people who will be judged by the law of freedom. For the judgment is merciless to one who has not shown mercy; mercy triumphs over judgment. What good is it, my brothers, if someone says he has faith but does not have works? Can that faith save him? If a brother or sister has nothing to wear and has no food for the day, and one of you says to them, "Go in peace, keep warm, and eat well," but you do not give them the necessities of the body, what good is it? So also faith of itself, if it does not have works, is dead.
     psalmody:
         - ["Blessed are they who dwell in your house, O Lord.",84]
         - ["Come, let us climb the mountain of the Lord.",isaiah2]
@@ -19,6 +23,9 @@ lauds:
         - ["Make our work today benefit our brothers and sisters.","That with them and for them we may build an earthly city, pleasing to you."]
         - ["Grant joy and peace to us.","And to all we meet this day."]
 vespers:
+    reading:
+      cite: "James 4:11-12"
+      text: "Do not speak evil of one another. Whoever speaks evil of a brother or judges his brother speaks evil of the law and judges the law. If you judge the law, you are not a doer of the law but a judge. There is one lawgiver and judge who is able to save or to destroy. Who then are you to judge your neighbor?"
     psalmody:
         - ["All our eyes are fixed intently on the Lord, waiting for his merciful help.",123]
         - ["Our help is in the name of the Lord, who made heaven and earth.",124]

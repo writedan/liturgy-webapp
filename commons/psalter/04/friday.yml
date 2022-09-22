@@ -6,6 +6,9 @@ vigil:
     - ["The Lord himself will free us from hostile and treacherous hands.",55ii]
     - ["Entrust your cares to the Lord; he will sustain you.",55iii]
 lauds:
+  reading:
+    cite: "Galatians 2:16, 19-20"
+    text: "Knowing that a person is not justified by works of the law but through faith in Jesus Christ, we have believed in Christ Jesus that we may be justified by faith in Christ and not by works of the law, because by works of the law no one will be justified. For through the law I died to the law, that I might live for God. I have been crucified with Christ; yet I live, no longer I, but Christ lives in me; insofar as I now live in the flesh, I live by faith in the Son of God who has loved me and given himself up for me."
   psalmody:
     - ["Create a clean heart in me, O God; renew in me a steadfast spirit.",51]
     - ["Rejoice, Jerusalem, for though you all people will be gathered to the Lord.",tobit13]
@@ -17,6 +20,9 @@ lauds:
     - ["Accept us, for our hearts are humble and our spirits contrite.","And those who trust in you shall not be put to shame."]
     - ["You have called us to a prophetic vocation in Christ.","Help us proclaim your mighty deeds."]
 vespers:
+  reading:
+    cite: "Romans 8:1-2, 10-11"
+    text: "There is now no condemnation for those who are in Christ Jesus. For the law of the spirit of life in Christ Jesus has freed you from the law of sin and death. If Christ is in you, although the body is dead because of sin, the spirit is alive because of righteousness. If the Spirit of the one who raised Jesus from the dead dwells in you, the one who raised Christ from the dead will give life to your mortal bodies also, through his Spirit that dwells in you."
   psalmody:
     - ["Day after day I will bless you, Lord; I will tell of your marvelous deeds.",145i]
     - ["To you alone, Lord, we look with confidence; you are ever close to those who call upon you.",145ii]

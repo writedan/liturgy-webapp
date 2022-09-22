@@ -8,6 +8,19 @@ vigil:
         - ["Kingdoms of the earth, sing praise to God; make music in honor of the Lord.",68iii]
     call: ["I will listen to what the Lord God is saying.","He tells of peace to his people."]
 lauds:
+    reading:
+      cite: "1 John 4:12-13"
+      text: |
+        No one has ever seen God.
+        Yet, if we love one another,
+        God remains in us,
+        and his love is brought to perfection in us.
+        The way we know that we remain in him
+        and he in us,
+        is that he has given us of his Spirit.
+        We have seen and testify that the Father sent his Son as savior of the world.
+        Whoever acknowledges that Jesus is the Son of God,
+        God remains in him and he in God.
     psalmody:
         - ["Lord, you have blessed your land; you have forgiven the sins of your people.",85]
         - ["My soul has yearned for you in the night, and as morning breaks, I watch for your coming.",isaiah26]
@@ -19,6 +32,9 @@ lauds:
         - ["Give us your eternal wisdom...","To be with us today and to guide us."]
         - ["May our companions today be free of sorrow...","And filled with joy."]
 vespers:
+    reading:
+      cite: "Romans 12:9-12"
+      text: "Let love be sincere; hate what is evil, hold on to what is good; love one another with mutual affection; anticipate one another in showing honor. Do not grow slack in zeal, be fervent in spirit, serve the Lord. Rejoice in hope, endure in affliction, persevere in prayer."
     psalmody:
         - ["The Lord surrounds his people his strength.",125]
         - ["Unless you acquire the heart of a child, you cannot enter the kingdom of God.",131]

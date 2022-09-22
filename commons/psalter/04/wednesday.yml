@@ -8,6 +8,9 @@ vigil:
         - ["Bless the Lord, all you his works.",103iii]
     call: ["Lord, make me understand the way of your precepts.","And I will marvel at your wisdom."]
 lauds:
+    reading:
+      cite: "Deuteronomy 4:39-30"
+      text: "Know, and fix in your heart, that the Lord is God in the heavens above and on earth below, and that there is no other. You must keep his statutes and commandments which I enjoin on you today, that you and your children after you may prosper, and that you may have long life on the land which the Lord, your God, is giving you forever."
     psalmody:
         - ["My heart is ready, O God, my heart is ready.",108]
         - ["The Lord has robed me with grace and salvation.",isaiah61]
@@ -19,6 +22,18 @@ lauds:
         - ["Lord, keep us in your love, preserve our community.","Do not let us become separated from one another."]
         - ["Give us strength in temptation, endurance in trial.","And gratitude in prosperity."]
 vespers:
+    reading:
+      cite: "1 John 2:3-6"
+      text: |
+        The way we may be sure that we know Christ
+        is to keep his commandments.
+        Whoever says, "I know him,"
+        but does not keep his commandments
+        is a liar, and the truth is not in him.
+        But whoever keeps his word,
+        the love of God is truly perfected in him.
+        This is the way we may know that we are in union with him: whoever claims to abide in him
+        ought to live just as he lived. 
     psalmody:
         - ["Lord, how wonderful is your wisdom, so far beyond my understanding.", 139i]
         - ["I am the Lord; I search the mind and probe the heart.",139ii]

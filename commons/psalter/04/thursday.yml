@@ -7,6 +7,9 @@ vigil:
     - ["Arise, Lord, do not abandon us forever.",44iii]
   call: ["Let the light of your face shine on me, O Lord.","Teach me your way of holiness."]
 lauds:
+  reading:
+    cite: "Romans 8:18-21"
+    text: "I consider that the sufferings of this present time are as nothing compared with the glory to be revealed for us. For creation awaits with eager expectation the revelation of the children of God; for creation was made subject to futility, not of its own accord but because of the one who subjected it, in hope that creation itself would be set free from slavery to corruption and share in the glorious freedom of the children of God."
   psalmody:
     - ["At daybreak, be merciful to me, O Lord.",143]
     - ["The Lord will make a river of peace flow through Jerusalem.",isaiah66]
@@ -18,6 +21,9 @@ lauds:
     - ["Pour out your love through the Holy Spirit.","Heal our hearts, wounded by hatred and jealousy."]
     - ["Today grant work to laborers, bread to the hungry, joy to the sorrowful...","Grace and redemption to all people."]
 vespers:
+  reading:
+    cite: "Colossians 1:21-23"
+    text: "You yourselves were once alienated from him; you nourished hostility because of your evil deeds. But Christ has achieved reconciliation for you in his mortal body through his death, to present you holy, without blemish, and irreproachable before him, provided that you persevere in the faith, firmly grounded, stable, and not shifting from the hope of the gospel that you heard, which has been preached to every creature under heaven, of which I, Paul, am a minister."
   psalmody:
     - ["He is my comfort and my refuge: in him I put my trust.",144i]
     - ["Blessed are the people whose God is the Lord.",144ii]

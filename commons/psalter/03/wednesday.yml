@@ -8,6 +8,15 @@ vigil:
         - ["Once for all I swore to my servant David, his dynasty shall never end.",89iii]
     call: ["When we listened to your word, our minds are filled with light.","It is the lowly heart that understands."]
 lauds:
+    reading:
+      cite: "Job 1:21, 2:10b"
+      text: |
+        Naked I came forth from my mother's womb,
+          and naked shall I go back again.
+        The Lord gave and the Lord has taken away;
+          blessed be the name of the Lord!
+        We accept good things from God;
+          and should we not accept evil?
     psalmody:
         - ["Give joy to your servant, Lord, to you I lift up my heart.",86]
         - ["Blessed is the upright man, who speaks the truth.",isaiah33]
@@ -19,6 +28,9 @@ lauds:
         - ["Lead your Church in the way of your commandments.","May your Holy Spirit keep her faithful."]
         - ["Nourish the Church at the banquet of your Word and Bread.","Strengthened by this food may she follow you in joy."]
 vespers:
+    reading:
+      cite: "Ephesians 3:17-21"
+      text: "May Christ dwell in your hearts through faith; that you, rooted and grounded in love, may have strength to comprehend with all the holy ones what is the breadth and length and height and depth, and to know the love of Christ that surpasses knowledge, so that you may be filled with all the fullness of God. Now to him who is able to accomplish far more than all we ask or imagine, by the power at work within us, to him be glory in the church and in Christ Jesus to all generations, forever and ever. Amen."
     psalmody:
         - ["Those who sow in tears will reap in joy.",126]
         - ["May the Lord build our house and guard our city.",127]

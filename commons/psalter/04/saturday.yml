@@ -7,6 +7,9 @@ vigil:
     - ["A sacrifice of praise will give me glory.",50iii]
   call: ["We are always praying earnestly for you.","That you may have a deep knowledge of God's will."]
 lauds:
+  reading:
+    cite: "2 Peter 3:13-15a"
+    text: "We await new heavens and a new earth in which righteousness dwells. Therefore, beloved, since you await these things, be eager to be found without spot or blemish before him, at peace. And consider the patience of our Lord as salvation."
   psalmody:
     - ["We do well to sing your name, Most High, and proclaim your mercy at daybreak.",92]
     - ["I will create a new heart in you, and breathe into you a new spirit.",ezekiel36]

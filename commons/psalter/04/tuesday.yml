@@ -7,6 +7,9 @@ vigil:
     - ["You, O Lord, established the earth, and the heavens are the work of your hands.",102iii]
   call: ["Listen my people to my teaching.","Give ear to the words I speak."]
 lauds:
+  reading:
+    cite: "Isaiah 55:1"
+    text: "All you who are thirsty, come to the water. You who have no money, come, receive grain and eat; come without paying and without cost, drink wine and milk."
   psalmody:
     - ["I will sing to you, Lord, I will learn from the way of perfection.", 101]
     - ["Lord, do not withhold your compassion from us.", daniel3]
@@ -18,6 +21,9 @@ lauds:
     - ["Pour out your Spirit on us, your servants.","Make us sincere in our love for each other."]
     - ["You instructed us to labor and to exercise dominion over the earth.","May our work honor you and sanctify our brothers and sisters."]
 vespers:
+  reading:
+    cite: "Colossians 3:15-17"
+    text: "Let the peace of Christ control your hearts, the peace into which you were also called in one body. And be thankful. Let the word of Christ dwell in you richly, as in all wisdom you teach and admonish one another, singing psalms, hymns, and spiritual songs with gratitude in your hearts to God. And whatever you do, in word or in deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him."
   psalmody:
     - ["If I forget you Jerusalem, let my right hand wither.",137]
     - ["In the presence of the angels, I will sing to you, my God.",138]

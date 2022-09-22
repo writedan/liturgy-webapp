@@ -8,6 +8,10 @@ vigil:
         - ["Seek the Lord and you will live.",69iii]
     call: ["The Lord will teach us his ways.","And we will follow in his footsteps."]
 lauds:
+    reading:
+      cite: "2 Corinthians 12:7b-10"
+      text: |
+        As to the extraordinary revelations, that I might not become too conceited,  a thorn in the flesh was given to me, an angel of Satan, to beat me, to keep me from being too elated. Three times  I begged the Lord about this, that it might leave me, but he said to me,  "My grace is sufficient for you, for power is made perfect in weakness." I will rather boast most gladly of my weaknesses, in order that the power of Christ may dwell with me.
     psalmody:
         - ["You alone I have grieved by my sin; have pity on me, O Lord.",51]
         - ["Truly we know our offenses, Lord, for we have sinned against you.",jeremiah14]
@@ -19,6 +23,9 @@ lauds:
         - ["You send disciples to preach the Gospel to all nations.","Help them to extend the victory of your cross."]
         - ["You have given the sick and the suffering a share in your cross.","Give them patience and strength."]
 vespers:
+    reading:
+      cite: "James 1:2-8"
+      text: "Consider it all joy, my brothers, when you encounter various trials, for you know that the testing of your faith produces perseverance. And let perseverance be perfect, so that you may be perfect and complete, lacking in nothing. But if any of you lacks wisdom, he should ask God who gives to all generously and ungrudgingly, and he will be given it. But he should ask in faith, not doubting, for the one who doubts is like a wave of the sea that is driven and tossed about by the wind. For that person must not suppose that he will receive anything from the Lord, since he is a man of two minds, unstable in all his ways."
     psalmody:
         - ["Great is the Lord our God, transcending all other gods.",135i]
         - ["House of Israel, bless the Lord; sing psalms to him for he is merciful.",135ii]
