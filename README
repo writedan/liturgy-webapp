@@ -1,0 +1,1 @@
+This branch will control the access to the underlying data files and provide a more responsive webapp against master, which relies strictly upon Javascript. This branch utilizes PHP for greater fine control over the generation of webpages. Further, it provides an API for the streamlining of the codebase.
