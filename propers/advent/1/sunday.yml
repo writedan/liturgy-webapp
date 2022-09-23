@@ -1,0 +1,200 @@
+name: First Sunday in Advent
+rank: holyday
+common: psalter/01/sunday
+collect: >-
+  Grant your faithful, we pray, almighty God, the resolve to run forth to meet your Christ with righteous deeds at his coming, so that, gathered at his right hand, they may be worthy to possess the heavenly kingdom: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever;
+vespers1:
+  psalmody:
+    - ["Proclaim the good news among the nations: our God will come to save us.",141]
+    - ["Know that the Lord is coming and with him all his saints; that day will dawn with a wonderful light, alleluia.",142]
+    - ["The Lord will come with mighty power; all mortal eyes shall see him.",philippians2]
+  reading:
+    cite: "1 Thessalonians 5:23-24"
+    text: >-
+      May the God of peace make you perfect in holiness. May he preserve you whole and entire, spirit, soul, and body, irreproachable at the coming of our Lord Jesus Christ. He who calls us is trustworthy, therefore he will do it.
+    responsory:
+      - "Lord, show us your mercy and love."
+      - ["And grant us your salvation...","Your mercy and love."]
+  magnificat: "See the Lord coming from afar: his splendor fills the earth."
+  intercessions:
+    - ["Jesus Christ is the joy and happiness of all who look forward to his coming. Let us call upon him and say:","Come, Lord, and do not delay."]
+    - ["In joy, we wait for your coming:","Come, Lord Jesus."]
+    - ["Before time began, you shared life with the Father:","Come now and save us."]
+    - ["You created the world and all who live in it:","Come to redeem the work of your hands."]
+    - ["You did not hesitate to become man, subject to death:","Come to free us from the power of death."]
+    - ["You came to give us life to the full:","Come and give us your unending life."]
+    - ["You desire all people to live in love in your kingdom:","Come and bring together those who long to see you face to face."]
+vigil:
+  invitatory: "Come let us worship the Lord, the King who is to come."
+  psalmody:
+    - ["This is our heavenly king; he comes with power and might to save the nations, alleluia.",1]
+    - ["Daughter of Jerusalem, rejoice and be glad; your king will come to you: Zion, do not fear, your Savior hastens on his way.",2]
+    - ["Let us cleanse our hearts for the coming of our great King, that we may be ready to welcome him; he is coming and will not delay.",3]
+  call:
+    - "Lift up and heads and see."
+    - "Your redemption is now at hand."
+  reading1:
+    cite: "Isaiah 1:1-18"
+    text: >-
+      From the beginning of the book of the prophet Isaiah.
+
+      The vision of Isaiah son of Amoz concerning Judah and Jerusalem, which he saw in the reigns of Uzziah, Jotham, Ahaz and Hezekiah, kings of Judah.
+
+      Listen, you heavens; earth, attend
+      for the Lord is speaking,
+      'I reared sons, I brought them up,
+      but they have rebelled against me.
+      The ox knows its owner
+      and the ass its master's crib,
+      Israel knows nothing,
+      my people understands nothing.'
+
+      A sinful nation, a people weighed down with guilt,
+      a breed of wrong-doers, perverted sons.
+      They have abandoned the Lord, despised the Holy One of Israel,
+      they have turned away from him.
+
+      Where shall I strike you next,
+      since you heap one betrayal on another?
+      The whole head is sick, the whole heart grown faint;
+      from the sole of the foot to the head there is not a sound spot:
+      wounds, bruises, open sores
+      not dressed, not bandaged,
+      not soothed with oil.
+
+      Your land is desolate, your towns burnt down,
+      your fields-- strangers lay them waste before your eyes;
+      all is desolation, as after the fall of Sodom.
+
+      The daughter of Zion is left
+      like a shanty in a vineyard,
+      like a shed in a melon patch,
+      like a besieged city.
+      Had the Lord not left us a few survivors,
+      we should be like Sodom,
+      we should now be like Gomorrah.
+
+      Hear the word of the Lord,
+      you rulers of Sodom;
+      listen to the command of our God,
+      you people of Gomorrah.
+
+      'What are your endless sacrifices to me?
+      says the Lord.
+      I am sick of holocausts of rams
+      and the fat of calves.
+      The blood of bulls and of goats revolts me.
+      When you come to present yourselves before me,
+      who asked you to trample over my courts?
+      Bring me your worthless offerings no more,
+      the smoke of them fills me with disgust.
+      New Moons, sabbaths, assemblies--
+      I cannot endure festival and solemnity.
+      Your New Moons and your pilgrimages
+      I hate with all my soul.
+      They lie heavy on me,
+      I am tired of bearing them.
+      When you stretch out your hands
+      I turn my eyes away.
+      You may multiply your prayers,
+      I shall not listen.
+      Your hands are covered with blood,
+      wash, make yourselves clean.
+
+      'Take your wrong-doing out of my sight.
+      Cease to do evil.
+      Learn to do good,
+      search for justice,
+      help the oppressed,
+      be just to the orphan,
+      plead for the widow.
+
+      'Come now, let us talk this over,
+      says the Lord.
+      Though your sins are like scarlet,
+      they shall be as white as snow;
+      though they are red as crimson,`
+      they shall be like wool.'
+    responsory:
+      - ["Wash yourselves, be clean, banish evil from your hearts, away from my sight.","Though your sins be scarlet, they shall be made white as snow."]
+      - ["Cease to do evil and learn to do good; seek always what is just.","Though your sins be scarlet, they shall be made white as snow."]
+  reading2:
+    text: >-
+      From a catechetical instruction of Saint Cyril of Jerusalem, bishop.
+
+      We do not preach only one coming of Christ, but a second as well, much more glorious than the first. The first coming was marked by patience; the second will bring the crown of a divine kingdom.
+
+      In general, whatever relates to our Lord Jesus Christ has two aspects. There is a birth from God before the ages, and a birth from a virgin at the fullness of time. There is a hidden coming, like that of rain on fleece, and a coming before all eyes, still in the future.
+
+      At the first coming he was wrapped in swaddling clothes in a manger. At his second coming he will be clothed in light as in a garment. In the first coming he endured the cross, despising the shame; in the second coming he will be in glory, escorted by an army of angels.
+
+      We look then beyond the first coming and await the second. At the first coming we said: "Blessed is he who comes in the name of the Lord. "At the second we shall say it again; we shall go out with the angels to meet the Lord and cry out in adoration: "Blessed is he who comes in the name of the Lord."
+
+      The Saviour will not come to be judged again, but to judge those by whom he was judged. At his own judgement he was silent; then he will address those who committed the outrages against him when they crucified him and will remind them: "You did these things, and I was silent."
+
+      His first coming was to fulfil his plan of love, to teach men by gentle persuasion. This time, whether men like it or not, they will be subjects of his kingdom by necessity.
+
+      Malachi the prophet speaks of the two comings. "And the Lord whom you seek will come suddenly to his temple": that is one coming.
+
+      Again he says of another coming: "Look, the Lord almighty will come, and who will endure the day of his entry, or who will stand in his sight? Because he comes like a refiner's fire, a fuller's herb, and he will sit refining and cleansing."
+
+      These two comings are also referred to by Paul in writing to Titus: "The grace of God the Saviour has appeared to all men, instructing us to put aside impiety and worldly desires and live temperately, uprightly, and religiously in this present age, waiting for the joyful hope, the appearance of the glory of our great God and Saviour, Jesus Christ." Notice how he speaks of a first coming for which he gives thanks, and a second, the one we still await.
+
+      That is why the faith we profess has been handed on to you in these words: "He ascended into heaven, and is seated at the right hand of the Father, and he will come again in glory to judge the living and the dead, and his kingdom will have no end."
+
+      Our Lord Jesus Christ will therefore come from heaven. He will come at the end of the world, in glory, at the last day. For there will be an end to this world, and the created world will be made new.
+    responsory:
+      - ["Watching from afar, I see the power of God advancing and the whole earth enveloped in a cloud.","Go out to meet him crying: tell us if you are the One who is to reign over the people of Israel."]
+      - ["All peoples of the earth, all children of men, rich and poor alike.","Go out to meet him crying."]
+      - ["Shepherd of Israel, hear us, you who lead Joseph's race like a flock.","Tell us if you are the One."]
+      - ["Throw wide the gates, you princes, let the King of glory enter.","Who is to reign over the people of Israel."]
+      - ["Watching from afar, I see the power of God advancing and the whole earth enveloped in a cloud.","Go out to meet him crying: tell us if you are the One who is to reign over the people of Israel."]
+lauds:
+  psalmody:
+    - ["On the day, sweet wine will flow from the mountains, milk and honey from the hills, alleluia,",63]
+    - ["The mountains and hills will sing praise to God, all the trees of the forest will clap their hands, for he is coming, the Lord of a kingdom that lasts forever, alleluia.",daniel3]
+    - ["A great prophet will come to Jerusalem; of that people he will make a new creation.",149]
+  reading:
+    cite: "Romans 13:11-12"
+    text: >-
+      It is now the hour for you to wake from sleep, for our salvation is closer now than when we first accepted the faith. The night is far spent, the day draws near. Let us cast off the deeds of darkness and put on the armor of light.
+    responsory:
+      - "Christ, Son of the living God, have mercy on us."
+      - ["You are the one who is to come.","Have mercy on us."]
+  benedictus: "The Holy Spirit will come upon you, Mary, you have no need to be afraid; you will carry in your womb the Son of God, alleluia."
+  intercessions:
+    - ["To God our Father, who has given us the grace to wait in joyful hope for the revelation of our Lord Jesus Christ, let us make this prayer:","Show us your mercy, Lord."]
+    - ["Sanctify us in mind and body.","Keep us without sin until the coming of your Son."]
+    - ["Make us walk this day in holiness.","And live upright and devout lives in this world."]
+    - ["May we be clothed in our Lord Jesus Christ.","And filled with the Holy Spirit."]
+    - ["Lord, help us to stand watchful and ready.","Until your Son is revealed in all his glory."]
+terce:
+  psalmody:
+    antiphon: "This is the good news the prophets foretold: the Savior will be born of the Virgin Mary."
+  reading:
+    cite: "Romans 13:13-14a"
+    text: >-
+      Let us live honorably as in daylight; not in carousing and drunkenness, not in sexual excess and lust, not in quarreling and jealousy. Rather, put on the Lord Jesus Christ.
+    responsory:
+      - "The nations will revere your name, O Lord."
+      - "And the great ones of the earth will acknowledge your glory."
+vespers2:
+  psalmody:
+    - ["Rejoice, daughter of Zion, shout for joy, daughter of Jerusalem, alleluia.",110]
+    - ["Christ our King will come to us: the Lamb of God foretold by John.",114]
+    - ["I am coming soon, says the Lord; I will give to everyone the reward his deeds deserve.",revelation19]
+  reading:
+    cite: "Philippians 4:4-5"
+    text: >-
+      Rejoice in the Lord always! I say it again. Rejoice! Everyone should see how unselfish you are. The Lord is near.
+    responsory:
+      - "Lord, show us your mercy and love."
+      - ["And grant us your salvation...","Your mercy and love."]
+  magnificat: "Do not be afraid, Mary, you have found favor with God; you will conceive and give birth to a Son, alleluia."
+  intercessions:
+    - ["To Jesus Christ, our Redeemer, the way, the truth, and the life, let us make our humble prayer:","Come and stay with us, Lord."]
+    - ["Son of the Most High, your coming was announced to the Virgin Mary by Gabriel:","Come and rule over your people forever."]
+    - ["Holy One of God, in your presence John the Baptist lept in Elizabeth's womb:","Bring the joy of salvation to all the earth."]
+    - ["Jesus the Savior, the angel revealed your name to Joseph, the just man:","Come and save your people from their sins."]
+    - ["Light of the world, for whom Simeon and all the just waited:","Come and comfort us."]
+    - ["O Rising Sun that never sets, Zechariah foretold that you would visit us from above:","Come and shine on those who dwell in darkness and the shadow of death."]

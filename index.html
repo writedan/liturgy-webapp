@@ -76,6 +76,57 @@
 			}
 		});
 
+		function advent() {
+			// advent is divided in two sections: 1st Sunday trough 16 December and 17 December through 24 December.
+			// until the 16th, it wors just as ordinary time; thereafter, the advent offices are a combination of the day of the week and the calendar date
+
+			var weekSundays = [];
+			weekSundays[1] = getAdventSunday(currentYear);
+			for (let i = 2; i <= 4; i++) {
+				weekSundays[i] = moveDayForwardDays(weekSundays[i - 1], 7);
+			}
+
+			for (let i = 1; i < weekSundays.length; i++) weekSundays[i] = dayToDate(weekSundays[i]);
+
+			var weekNumber;
+			for (let i = 1; i < weekSundays.length; i++) {
+				let a = weekSundays[i];
+				let b = weekSundays[i + 1];
+				if (today >= a && (today < b || b == null)) weekNumber = i;
+			}
+
+			if (weekNumber == 4) {
+				// this is where its complicated
+				// will probably require merging here
+				var rank = 'strong_feria';
+				var name = WEEKDAYS[today.getDay()].charAt(0).toUpperCase() + WEEKDAYS[today.getDay()].slice(1) + ' in the ' + ordinalInWord(weekNumber) + ' Week of Advent';
+
+				if (today.getDay() == 0) {
+					rank = 'holyday';
+					name = ordinalInWord(weekNumber) + ' Sunday in Advent';
+				}
+				temporal = {
+					'name': name,
+					'rank': rank,
+					link: 'advent/' + weekNumber + '/' + WEEKDAYS[today.getDay()]
+				};
+			} else {
+				/*var rank = ['weak','feria'];
+				var name = WEEKDAYS[today.getDay()].charAt(0).toUpperCase() + WEEKDAYS[today.getDay()].slice(1) + ' in the ' + ordinalInWord(weekNumber) + ' Week of Advent';
+				if (today.getDay() == 0) {
+					rank = 'holyday';
+					name = ordinalInWord(weekNumber) + ' Sunday in Advent';
+				}
+				temporal = {
+					'name': name,
+					'rank': rank,
+					link: 'advent/' + weekNumber + '/' + WEEKDAYS[today.getDay()]
+				};*/
+			}
+
+			console.log(weekNumber + " Week in Advent");
+		}
+
 		// loading the temporal day is a bit more involved
 		function ordinaryTime() {
 			var weekSundays = [];
@@ -176,8 +227,10 @@
 		}
 
 		switch (season) {
+			case 'advent': advent(); break;
 			case 'pre-lent':
 			case 'post-pentecost': ordinaryTime(); break;
+			default: console.log('unknown season: ' + season);
 		}
 
 		for (let i = 0; i < sanctorals.length; i++) {
