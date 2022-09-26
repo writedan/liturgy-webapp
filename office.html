@@ -186,7 +186,7 @@
 						heading.innerHTML = text.split('\n')[0];
 						$('#content').append(heading);
 						$('#content').append('<p><i>Ant.</i> ' + psalm[0] + '</p>');
-						$('#content').append('<p><i class="sit-'+psalm[1]+'">All sit after the antiphon.</i></p>');
+						//$('#content').append('<p><i class="sit-'+psalm[1]+'">All sit after the antiphon.</i></p>');
 						//text = text.replaceAll("\n","\r\n").trim();
 						var sections = text.trim().split("\r\n\r\n");
 						if (sections.length == 1) {
@@ -208,7 +208,7 @@
 							}
 						}
 
-						$('#content').append('<p><i>After a brief pause, all stand:</i></p>');
+						//$('#content').append('<p><i>After a brief pause, all stand:</i></p>');
 						$('#content').append('<p><v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/><v>r</v> As it was in the beginning is now and will be forever. Amen.</p>');
 						$('#content').append('<p><i>The antiphon is recited by all.</i></p>');
 						$('#content').append('<p><i>Ant.</i> ' + psalm[0] + '</p>');
