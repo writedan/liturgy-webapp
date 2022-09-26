@@ -6,7 +6,7 @@ collect: >-
 vigil:
   reading1:
     cite: "Philippians 1:12-26"
-    text: >-
+    text: |
       From the letter of Saint Paul the Apostles to the Philippians.
 
       I want you to know, brothers, that my situation has turned out rather to advance the gospel, so that my imprisonment has become well known in Christ throughout the whole praetorium  and to all the rest,  and so that the majority of the brothers, having taken encouragement in the Lord from my imprisonment, dare more than ever to proclaim the word fearlessly. Of course, some preach Christ from envy and rivalry, others from good will. The latter act out of love, aware that I am here for the defense of the gospel; the former proclaim Christ out of selfish ambition, not from pure motives, thinking that they will cause me trouble in my imprisonment.
@@ -18,7 +18,7 @@ vigil:
       - ["I know that I shall never be put to shame, because my hopes and expectations have never been disappointed: I trust now as always.","Christ will be glorified in me, whether I live or die."]
       - ["For me life is Christ and death is gain.","Christ will be glorified in me, whether I live or die."]
   reading2:
-    text: >-
+    text: |
       From a letter to the Philippians of Saint Polycarp, bishop and martyr.
 
       It is not out of presumption that I write to you, my brothers, on what righteousness means, but rather because you asked me to do so. For neither I nor anyone like me can equal the wisdom of the blessed and glorious Paul. When he was in your city, he fully and courageously taught the men of that time the word of truth; when he was absent, he wrote you letters. By carefully studying these letters, you can strengthen yourselves in the faith that has been given to you. This faith is "the mother of us all," followed by hope, preceded by love - love of God, of Christ, of our neighbor. Whoever lives within this framework has fulfilled the commandment of righteousness. For anyone who has love is far from sin.
