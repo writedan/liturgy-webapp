@@ -142,3 +142,82 @@ september:
     name: "Saint Jerome, Priest and Doctor of the Church"
     rank: "memorial"
     link: "september/jerome"
+october:
+  1:
+    name: "Saint Therese of the Child Jesus (Therese of Lisieux), Virgin and Doctor of the Church"
+    rank: memorial
+    link: october/therese
+  2:
+    name: "The Holy Guardian Angels"
+    rank: memorial
+    link: october/angels
+  4:
+    name: "Saint Francis of Assisi"
+    rank: memorial
+    link: october/francis
+  5:
+    name: "Saint Faustina Kowalska, Virgin"
+    rank: [weak, memorial]
+    link: october/faustina
+  6:
+    name: "Saint Bruno, Priest"
+    rank: [weak, memorial]
+    link: october/bruno
+  7:
+    name: "Our Lady of the Rosary"
+    rank: memorial
+    link: october/rosary
+  9:
+    name: "Saint Denis, Bishop, and Companions, Martyrs"
+    rank: weak
+    link: october/denis
+  11:
+    name: "Saint John XXIII, Pope"
+    rank: weak
+    link: october/john_xxiii
+  14:
+    name: "Saint Callistus I, Pope and Martyr"
+    rank: weak
+    link: october/callistus
+  15:
+    name: "Saint Teresa of Jesus (Teresa of Avila), Virgin and Doctor of the Church"
+    rank: memorial
+    link: october/teresa
+  16:
+    - name: "Saint Hedwig, Religious"
+      rank: weak
+      link: october/hedwig
+    - name: "Saint Margaret Mary Alacoque"
+      rank: weak
+      link: october/alacoque
+  17:
+    name: "Saint Ignatius of Antioch"
+    rank: memorial
+    link: october/ignatius
+  18:
+    name: "Saint Luke, Evangelist"
+    rank: [feast, saint]
+    link: october/luke
+  19:
+    - name: "Saints John de Brebeuf and Isaac Jogues, Priests and Martyrs"
+      rank: weak
+      link: october/john_and_isaac
+    - name: "Saint Paul of the Cross"
+      rank: weak
+      link: october/paul
+  22:
+    name: "Saint John Paul II"
+    rank: weak
+    link: october/jp2
+  23:
+    name: "Saint John of Capistrano, Priest"
+    rank: weak
+    link: october/john_capistrano
+  24:
+    name: "Saint Anthony Mary Claret, Bishop"
+    link: weak
+    link: october/claret
+  28:
+    name: "Saints Simon and Jude, Apostles"
+    rank: [feast, saint]
+    link: october/simon_and_jude
