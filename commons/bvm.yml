@@ -1,5 +1,6 @@
 name: Common of the Blessed Virgin Mary
 vespers1:
+  hymn: 267 # O Mary, Mother of Us All
   psalmody:
     - ["Blessed are you, O Virgin Mary, for you carried the Creator of the world in your womb.",113]
     - ["You are the mother of your Maker, yet you remain a virgin forever.", 147]
@@ -18,6 +19,7 @@ vespers1:
     - ["Make your Church of one mind and one heart in love.","And help all those who believe to be one in prayer with Mary, the mother of Jesus."]
     - ["You crowned Mary queen of heaven.","May all the dead rejoice in your kingdom with the saints forever."]
 vigil:
+  hymn: 268 # The God Whom Earth and Sea and Sky
   invitatory: "Let us sing to the Lord as we celebrate this feast of the Blessed Virgin Mary."
   psalmody:
     - ["Mary received a blessing from the Lord and loving-kindness from God her savior.",24]
@@ -90,6 +92,7 @@ vigil:
       - ["Truly you are the most favored of women: where Eve brought a curse, you have brought a blessing.","Through you the Father's Gift has been bestowed on us."]
       - ["Through you, your ancestors have found salvation.","Through you, the Father's Gift has been bestowed on us."]
 lauds:
+  hymn: 269 # O Glorious Lady, Throned in Rest
   psalmody:
     - ["Blessed are you, O Mary, for the world's salvation came forth from you; now in glory, you rejoice forever with the Lord: intercede for us with your Son.",63]
     - ["You are the glory of Jerusalem, the joy of Israel: you are the fairest of our race.",daniel3]
@@ -113,6 +116,7 @@ lauds:
     - ["Savior of the world, by your redeeming might you preserved your mother beforehand from all stain of sin.","Keep watch over us, lest we sin."]
     - ["You are our redeemer, who made the immaculate Virgin Mary your purest home and the sanctuary of the Holy Spirit.","Make us temples of your Spirit forever."]
 vespers2:
+  hymn: 270 # Ave Maris Stella
   psalmody:
     - ["Hail Mary, full of grace, the Lord is with you.",122]
     - ["I am the handmaid of the Lord: let it be done to me as you have said.",127]
@@ -143,4 +147,3 @@ terce:
         O daughter Jerusalem!
       The King of Israel, the Lord,
         is in your midst.
-    
