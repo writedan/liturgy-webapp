@@ -9,7 +9,7 @@ january:
     link: "january/basil_and_gregory"
   "3":
     name: "Most Holy Name of Jesus"
-    wrankeight: ["weak","memorial"] # 12-i
+    rank: ["weak","memorial"] # 12-i
     link: "january/holy_name"
   # Epiphany on the 6th is skipped
   "7":
