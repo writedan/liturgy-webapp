@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Compline</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script src="./yaml.js"></script>
+  <script src="./loth.js?10"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script>
+    var urlParams = URLSearchParams(window.location.search);
+    var day = urlParams.get('d');
+    var season = urlParams.get('s');
+  </script>
+</head>
+<body>
+  <div id='content'>
+    <div class='center'>
+      <h3>Liturgy of the Hours</h3>
+      <div id='intro'></div>
+    </div>
+    <hr/>
+    <i>Before the office begins, kneel and make these prayers quietly.</i>
+    <p>Our Father, who art in heaven, hallowed be thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread and forgive us our trespasses as we forgive those who trespass against us. And lead us not into temptation but deliver us from evil.</p>
+
+    <p>Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women and blessed is the fruit of thy womb, Jesus. Holy Mary, mother of God, pray for us sinners now and at the hour of our death. Amen.</p>
+
+    <hr/>
+
+    <i>All stand as the office begins.<br/>At the symbol of &#9769; make the Sign of the Cross here and wherever else it appears.</i>
+
+    <p>
+      <v>v</v> God, &#9769; come to my assistance.<br/>
+      <v>r</v> Lord, make haste to help me.
+    </p>
+
+    <i>For the following verse, stand and make a profound bow here and wherever else it occurs, rising for the response.</i>
+
+    <p>
+      <v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/>
+      <v>r</v> As it was in the beginning is now and will be forever. Amen. <span id='alle'>Alleluia.</span>
+    </p>
+    <hr/>
+    <p><v>r</v> Into your hands, O Lord, I commend my spirit.</p>
+    <p><v>v</v> You have redeemed us, Lord God of truth.<br/><v>r</v> I commend my spirit.</p>
+    <p><v>v</v> Glory to the Father and to the Son and to the Holy Spirit.<br/><v>r</v> Into your hands, O Lord, I commend my spirit.</p>
+    <hr/>
+    <h3>Canticle of Simeon</h3>
+    <p><i>All stand for the Gospel canticle Nunc dimittis.</i></p>
+
+    <p><i>Minister begins:</i><br/>Lord, &#9769; now you let your servant go in peace;<br/><i>All continue:</i><br/></p>
+  </div>
+</body>
+</html>
