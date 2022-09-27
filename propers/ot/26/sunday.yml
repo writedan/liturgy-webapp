@@ -1,0 +1,52 @@
+name: Twenty-sixth Sunday in Ordinary Time
+rank: [feast, sunday]
+common: psalter/02/sunday
+collect: >-
+  O God, who manifests your almighty power above all by pardoning and showing mercy, bestow, we pray, your grace abundantly upon us and make those hastening to attain your promises heirs to the treasures of heaven: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vespers1:
+  reading:
+    cite: "Colossians 1:2b-6a"
+    text: >-
+      May God our Father give you grace and peace. We always give thanks to God, the Father of our Lord Jesus Christ, in our prayers for you because we have heard of your faith in Christ Jesus and the love you bear toward all the saints - moved as you are by the hope held in store for you in heaven. You heard of this hope through the message of truth, the gospel, which has come to you, has borne fruit, and has continued to grow in your midst, as it has everywhere in the world.
+  magnificat: >-
+    Not everyone who says, "Lord, Lord," will enter the kingdom of heaven, but the one who does the will of my heavenly Father, alleluia.
+vigil:
+  reading1:
+    cite: "Philippians 1:1-11"
+    text: |
+      From the beginning of the letter of Saint Paul the Apostle to the Philippians.
+
+      Paul and Timothy, slaves of Christ Jesus, to all the holy ones in Christ Jesus who are in Philippi, with the overseers and ministers: grace to you and peace from God our Father and the Lord Jesus Christ.
+
+      I give thanks to my God at every remembrance of you, praying always with joy in my every prayer for all of you, because of your partnership for the gospel from the first day until now.
+
+      I am confident of this, that the one who began a good work in you will continue to complete it until the day of Christ Jesus.   It is right that I should think this way about all of you, because I hold you in my heart, you who are all partners with me in grace, both in my imprisonment and in the defense and confirmation of the gospel. For God is my witness, how I long for all of you with the affection of Christ Jesus. And this is my prayer: that your love may increase ever more and more in knowledge and every kind of perception, to discern what is of value, so that you may be pure and blameless for the day of Christ, filled with the fruit of righteousness that comes through Jesus Christ for the glory and praise of God.
+    responsory:
+      - ["May you grow ever deeper in knowledge and all discernment.","So that perceiving always what is best, you may act blamelessly and with a clear conscience."]
+      - ["I am sure that the one who began this good work in you will continue to perfect it until the day of Christ Jesus.","So that perceiving always what is best, you may act blamelessly and with a clear conscience."]
+  reading2:
+    text: |
+      From the beginning of a latter to the Philippians of Saint Polycarp, bishop and martyr.
+
+      From Polycarp and his fellow presbyters to the pilgrim church of God at Philippi: May you have mercy and peace in abundance from Almighty God and Jesus Christ our Savior.
+
+      I rejoice with you greatly in the Lord Jesus Christ because you have assumed the pattern of true love and have rightly helped on their way those who were in chains. Such chains are becoming to the faithful; they are the rich crown of the chosen ones of our Lord and God. I am glad, too, that your deep-rooted faith, proclaimed of old, still abides and continues to bear fruit in the life-giving power of our Lord Jesus Christ. He, for our sins, did not refuse to go down to death, and "God raised him up after destroying the pains of hell. With a glorious joy that no words can express you believe in Christ without seeing him." This is the joy in which many wish to share "knowing that it is by grace that you are saved and not by works," for so God has willed through Jesus Christ.
+
+      "So prepare yourselves for the struggle, serve the Lord in fear and truth." Put aside empty talk and popular errors; "your faith must be in him who raised our Lord Jesus Christ from the dead and gave him a share in his own glory and a seat at his right hand." To him everything was made subject in heaven and on earth; all things obey him, who will come as judge of the living and the dead. All who refuse to believe must answer to God for the blood of his Son.
+
+      He who raised him from the dead will raise us too if we do his will and keep his commandments, loving what he loved, refraining from all wrongdoing, fraud, avarice, malice and slander. We must abstain from false witness, "not returning evil for evil, nor curse for curse," nor blow for blow, nor denunciation for denunciation. Always remember the words of the Lord, who taught: "Do not judge and you will not be judged; forgive and you will be forgiven; be merciful and you will find mercy; the amount you measure out to others will be the amount measured out to you. Blessed are the poor and those who suffer persecution, for theirs is the kingdom of God."
+    responsory:
+      - ["God has saved and called us to a life of holiness, not because of anything we had done, but according to his own design and by his own grace.","This grace was given to us in Christ Jesus before time began."]
+      - ["Not to us, O Lord, not to us, but to your name give glory because of your kindness and truth.","This grace was given to us in Christ Jesus before time began."]
+lauds:
+  reading:
+    cite: "Ezekiel 36:25-28"
+    text: >-
+      I will sprinkle clean water upon you to cleanse you from all your impurities, and from all your idols I will cleanse you. I will give you a new heart and place a new spirit within you, taking from your bodies your stony hearts and giving you natural hearts. I will put my spirit within you and make you live by my statutes, careful to observe my decrees. You shall live in the land I gave your fathers; you shall be my people, and I will be your God.
+  benedictus: "Whoever gives you a cup of water in my name because you are a follower of Christ shall not go unrewarded, says the Lord."
+vespers2:
+  reading:
+    cite: "2 Thessalonians 2:13-14"
+    text: >-
+      We are bound to thank God for you always, beloved brothers and sisters in the Lord, because you are the first fruits of those whom God has chosen for salvation, in holiness of spirit and fidelity to truth. He called you through our preaching of the good news so that you might achieve the glory of our Lord, Jesus Christ.
+  magnificat: "Son, remember the good things you received in your lifetime and the bad things Lazarus received in his."
