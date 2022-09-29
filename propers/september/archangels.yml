@@ -70,21 +70,21 @@ terce:
     responsory:
       - "The Lord will send forth his angels."
       - "With trumpet blasts and loud cries, they will summon the elect from the ends of the earth."
-  vespers:
-    psalmody:
-      - ["Your majesty is praised above the heavens, O King of the angels.",8]
-      - ["In the company of angels, I will sing psalms to you, O God.",138]
-      - ["I saw the Lamb, which appeared to have been slain, standing in the center of the throne, and I heard the sound of angelic choirs around the throne.",colossians1]
-    reading:
-      cite: "Revelation 1:4b-5"
-      text: "Grace to you and peace from him who is and who was and who is to come, and from the seven spirits before his throne, and from Jesus Christ, the faithful witness, the firstborn of the dead and ruler of the kings of the earth, who loves us and has freed us from our sins by his blood."
-      responsory:
-        - "Clouds of incense rose in the presence of the Lord."
-        - ["From the hand of the angel incense rose.","In the presence of the Lord."]
-    magnificat: "The angel Gabriel spoke to Mary and said: You will conceive and bear a son, and you shall name him Jesus."
-    intercessions:
-      - ["The angels carry out God's will. Let us pray that we too may listen carefuly for his voice and hear his call as we say:","We beg you, hear us."]
-      - ["That our prayers may rise like a pleasant fragnance before you.","Through the hands of your angels."]
-      - ["That we may proclaim glory to God in the highest and peace to his people on earth.","With the multitude of the heavenly hosts."]
-      - ["That the angels may receive us at the end of our days.","And lead us home to paradise."]
-      - ["That the holy standard-bearer, Michael, may bring into the light of your presence.","The souls of those who have died."]
+vespers:
+  psalmody:
+    - ["Your majesty is praised above the heavens, O King of the angels.",8]
+    - ["In the company of angels, I will sing psalms to you, O God.",138]
+    - ["I saw the Lamb, which appeared to have been slain, standing in the center of the throne, and I heard the sound of angelic choirs around the throne.",colossians1]
+  reading:
+    cite: "Revelation 1:4b-5"
+    text: "Grace to you and peace from him who is and who was and who is to come, and from the seven spirits before his throne, and from Jesus Christ, the faithful witness, the firstborn of the dead and ruler of the kings of the earth, who loves us and has freed us from our sins by his blood."
+    responsory:
+      - "Clouds of incense rose in the presence of the Lord."
+      - ["From the hand of the angel incense rose.","In the presence of the Lord."]
+  magnificat: "The angel Gabriel spoke to Mary and said: You will conceive and bear a son, and you shall name him Jesus."
+  intercessions:
+    - ["The angels carry out God's will. Let us pray that we too may listen carefuly for his voice and hear his call as we say:","We beg you, hear us."]
+    - ["That our prayers may rise like a pleasant fragnance before you.","Through the hands of your angels."]
+    - ["That we may proclaim glory to God in the highest and peace to his people on earth.","With the multitude of the heavenly hosts."]
+    - ["That the angels may receive us at the end of our days.","And lead us home to paradise."]
+    - ["That the holy standard-bearer, Michael, may bring into the light of your presence.","The souls of those who have died."]
