@@ -3,6 +3,7 @@ name: "Saints Michael, Gabriel, and Raphael"
 collect: >-
   O God, who disposes in marvelous order ministries both angelic and human, graciously grant that our life on earth may be defended by those who watch over us as they minister perpetually to you in heaven: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
 vigil:
+  inviatatory: "Come, let us worship the Lord in the company of his angels."
   psalmody:
     - ["The sea grew turbulent and the earth trembled when Michael the archangel came down from heaven.",97]
     - ["The angel Gabriel appeared to Zechariah and said: Your wife Elizabeth will bear you a son, and you shall name him John.",103i]
