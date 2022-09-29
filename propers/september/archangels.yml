@@ -1,0 +1,90 @@
+rank: [feast, saint]
+name: "Saints Michael, Gabriel, and Raphael"
+collect: >-
+  O God, who disposes in marvelous order ministries both angelic and human, graciously grant that our life on earth may be defended by those who watch over us as they minister perpetually to you in heaven: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  psalmody:
+    - ["The sea grew turbulent and the earth trembled when Michael the archangel came down from heaven.",97]
+    - ["The angel Gabriel appeared to Zechariah and said: Your wife Elizabeth will bear you a son, and you shall name him John.",103i]
+    - ["I am the Angel Raphael, I stand in the presence of the Lord; as for you, bless the Lord, and proclaim his wonderful deeds.",103ii]
+  call: ["Bless the Lord, all his angels.","Mighty in power and obedient to his word."]
+  reading1:
+    cite: "Revelation 12:1-17a"
+    text: |
+      From the book of Revelation.
+
+      Now a great sign appeared in heaven: a woman, adorned with the sun, standing on the moon, and with the twelve stars on her head for a crown. She was pregnant, and in labour, crying aloud in the pangs of childbirth. Then a second sign appeared in the sky, a huge red dragon which had seven heads and ten horns, and each of the seven heads crowned with a coronet. Its tail dragged a third of the stars from the sky and dropped them to the earth, and the dragon stopped in front of the woman as she was having the child, so that he could eat it as soon as it was born from its mother. The woman brought a male child into the world, the son who was to rule all the nations with an iron sceptre, and the child was taken straight up to God and to his throne, while the woman escaped into the desert, where God had made a place of safety ready, for her to be looked after in the twelve hundred and sixty days.
+
+      And now war broke out in heaven, when Michael with his angels attacked the dragon. The dragon fought back with his angels, but they were defeated and driven out of heaven. The great dragon, the primeval serpent, known as the devil or Satan, who had deceived all the world, was hurled down to the earth and his angels were hurled down with him. Then I heard a voice shout from heaven, ‘Victory and power and empire for ever have been won by our God, and all authority for his Christ, now that the persecutor, who accused our brothers day and night before our God, has been brought down. They have triumphed over him by the blood of the Lamb and by the witness of their martyrdom, because even in the face of death they would not cling to life. Let the heavens rejoice and all who live there; but for you, earth and sea, trouble is coming – because the devil has gone down to you in a rage, knowing that his days are numbered.’
+
+      As soon as the devil found himself thrown down to the earth, he sprang in pursuit of the woman, the mother of the male child, but she was given a huge pair of eagle’s wings to fly away from the serpent into the desert, to the place where she was to be looked after for a year and twice a year and half a year So the serpent vomited water from his mouth, like a river, after the woman, to sweep her away in the current, but the earth came to her rescue; it opened its mouth and swallowed the river thrown up by the dragon’s jaws. Then the dragon was enraged with the woman and went away to make war on the rest of her children, that is, all who obey God’s commandments and bear witness for Jesus.
+    responsory:
+      - ["There was silence in heaven when the dragon fought with Michael the archangel.","Then I heard a loud voice crying out: Salvation, glory, and power belong to the almighty God."]
+      - ["Now salvation and power have come; the reign of our God and the authority of Christ are at hand.","Then I heard a loud voice crying out: Salvation, glory, and power belong to the almighty God."]
+  reading2:
+    text: |
+      From a homily on the Gospels of Saint Gregory the Great, pope.
+
+      You should be aware that the word “angel” denotes a function rather than a nature. Those holy spirits of heaven have indeed always been spirits. They can only be called angels when they deliver some message. Moreover, those who deliver messages of lesser importance are called angels; and those who proclaim messages of supreme importance are called archangels. And so it was that not merely an angel but the archangel Gabriel was sent to the Virgin Mary. It was only fitting that the highest angel should come to announce the greatest of all messages.
+
+      Some angels are given proper names to denote the service they are empowered to perform. In that holy city, where perfect knowledge flows from the vision of almighty God, those who have no names may easily be known. But personal names are assigned to some, not because they could not be known without them, but rather to denote their ministry when they came among us. Thus, Michael means “Who is like God”; Gabriel is “The Strength of God”; and Raphael is “God’s Remedy.”
+
+      Whenever some act of wondrous power must be performed, Michael is sent, so that his action and his name may make it clear that no one can do what God does by his superior power. So also our ancient foe desired in his pride to be like God, saying: "I will ascend into heaven; I will exalt my throne above the stars of heaven; I will be like the Most High." He will be allowed to remain in power until the end of the world when he will be destroyed in the final punishment. Then, he will fight with the archangel Michael, as we are told by John: "A battle was fought with Michael the archangel."
+
+      So too Gabriel, who is called God’s strength, was sent to Mary. He came to announce the One who appeared as a humble man to quell the cosmic powers. Thus God’s strength announced the coming of the Lord of the heavenly powers, mighty in battle. Raphael means, as I have said, God’s remedy, for when he touched Tobit’s eyes in order to cure him, he banished the darkness of his blindness. Thus, since he is to heal, he is rightly called God’s remedy.
+    responsory:
+      - ["An angel stood by the altar, holding a golden censer; a large quantity of incense was given to him.","And clouds of incense rose from the hand of the angel in the presence of the Lord."]
+      - ["Thousands upon thousands waited on him, and myriads upon myriads stood before him.","And clouds of incense rose from the hand of the angel in the presence of the Lord."]
+lauds:
+  psalmody:
+    - ["Let us join the angels in praising the Lord, as the cherubim and seraphim sing: Holy, holy, holy.",63]
+    - ["Angels of the Lord, sing praise to the Lord forever.",daniel3]
+    - ["All the angels of heaven praise you, O Lord, and with one voice they say: To you we owe our hymn of praise.",149]
+  reading:
+    cite: "Genesis 28:12-13a"
+    text: >-
+      Jacob had a dream: a stairway rested on the ground, with its top reaching to the heavens; and God's messengers were going up and down on it. And there was the Lord standing beside him and saying: "I, the Lord, am the God of your forefather Abraham and the God of Isaac."
+    responsory:
+      - "An angel stood by the altar."
+      - ["And held a golden censer.","By the altar."]
+  benedictus: "Truly I say to you: You will see the heavens open and the angels of God ascending and descending upon the Son of Man."
+  intercessions:
+    - ["With one voice the choirs of angels sing their unceasing praise of the Lord. Let us join in their worship as we proclaim:","Angels of the Lord, bless the Lord."]
+    - ["You commanded your angels to guard us in all our ways.","Keep us from sin as you lead us in your path this day."]
+    - ["Father, the angels stand forever before your face,","Nourish in us a never-failing hope of coming at last into your presence."]
+    - ["Your children will be like the angels in heaven.","Grant us chastity in both mind and body."]
+    - ["Send Michael, the prince of heavenly hosts, to the aid of your people.","May he defend them against Satan and his angels on the day of battle."]
+terce:
+  psalmody:
+    antiphon: "Suddenly Michael, a prince of angels, came to my aid."
+  reading:
+    cite: "Daniel 12:1"
+    text: >-
+      At that time there shall arise
+        Michael, the great prince,
+        guardian of your people;
+      It shall be a time unsurpassed in distress
+        since nations began until that time.
+      At that time your people shall escape,
+        everyone who is found written in the book.
+    responsory:
+      - "The Lord will send forth his angels."
+      - "With trumpet blasts and loud cries, they will summon the elect from the ends of the earth."
+  vespers:
+    psalmody:
+      - ["Your majesty is praised above the heavens, O King of the angels.",8]
+      - ["In the company of angels, I will sing psalms to you, O God.",138]
+      - ["I saw the Lamb, which appeared to have been slain, standing in the center of the throne, and I heard the sound of angelic choirs around the throne.",colossians1]
+    reading:
+      cite: "Revelation 1:4b-5"
+      text: "Grace to you and peace from him who is and who was and who is to come, and from the seven spirits before his throne, and from Jesus Christ, the faithful witness, the firstborn of the dead and ruler of the kings of the earth, who loves us and has freed us from our sins by his blood."
+      responsory:
+        - "Clouds of incense rose in the presence of the Lord."
+        - ["From the hand of the angel incense rose.","In the presence of the Lord."]
+    magnificat: "The angel Gabriel spoke to Mary and said: You will conceive and bear a son, and you shall name him Jesus."
+    intercessions:
+      - ["The angels carry out God's will. Let us pray that we too may listen carefuly for his voice and hear his call as we say:","We beg you, hear us."]
+      - ["That our prayers may rise like a pleasant fragnance before you.","Through the hands of your angels."]
+      - ["That we may proclaim glory to God in the highest and peace to his people on earth.","With the multitude of the heavenly hosts."]
+      - ["That the angels may receive us at the end of our days.","And lead us home to paradise."]
+      - ["That the holy standard-bearer, Michael, may bring into the light of your presence.","The souls of those who have died."]
