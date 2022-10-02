@@ -1,0 +1,59 @@
+name: Twenty-seventh Sunday in Ordinary Time
+rank: [feast, sunday]
+common: psalter/03/sunday
+collect: >-
+  Almighty ever-living God, who in the abundance of your kindness surpasses the merits and the desires of those who entreat you, pour out your mercy upon us to pardon what conscience dreads and to give what prayer does not dare to ask: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vespers1:
+  reading:
+    cite: "Hebrews 13:20-21"
+    text: >-
+      May the God of peace, who brought up from the dead the great shepherd of the sheep by the blood of the eternal covenant, Jesus our Lord, furnish you with all that is good, that you may do his will. May he carry out in you what is pleasing to him through Jesus Christ, to whom be glory forever and ever.
+  magnificat: "He will bring those evil men to an evil end and entrust his vineyard to other tenants who will give him the harvest at the proper season."
+vigil:
+  reading1:
+    cite: "Timothy 1:1-20"
+    text: |
+      From the beginning of the first letter of Saint Paul the Apostle to Timothy.
+
+      Paul, an apostle of Christ Jesus by command of God our savior and of Christ Jesus our hope, to Timothy, my true child in faith: grace, mercy, and peace from God the Father and Christ Jesus our Lord.
+
+      I repeat the request I made of you when I was on my way to Macedonia, that you stay in Ephesus to instruct certain people not to teach false doctrines or to concern themselves with myths and endless genealogies, which promote speculations rather than the plan of God that is to be received by faith.
+
+      The aim of this instruction is love from a pure heart, a good conscience, and a sincere faith. Some people have deviated from these and turned to meaningless talk, wanting to be teachers of the law, but without understanding either what they are saying or what they assert with such assurance.
+
+      We know that the law is good, provided that one uses it as law, with the understanding that law is meant not for a righteous person but for the lawless and unruly, the godless and sinful, the unholy and profane, those who kill their fathers or mothers, murderers, the unchaste, sodomites, kidnapers, liars, perjurers, and whatever else is opposed to sound teaching, according to the glorious gospel of the blessed God, with which I have been entrusted.
+
+      I am grateful to him who has strengthened me, Christ Jesus our Lord, because he considered me trustworthy in appointing me to the ministry. I was once a blasphemer and a persecutor and an arrogant man, but I have been mercifully treated because I acted out of ignorance in my unbelief. Indeed, the grace of our Lord has been abundant, along with the faith and love that are in Christ Jesus.
+
+      This saying is trustworthy and deserves full acceptance: Christ Jesus came into the world to save sinners. Of these I am the foremost. But for that reason I was mercifully treated, so that in me, as the foremost, Christ Jesus might display all his patience as an example for those who would come to believe in him for everlasting life. To the king of ages, incorruptible, invisible, the only God, honor and glory forever and ever. Amen.
+
+      I entrust this charge to you, Timothy, my child, in accordance with the prophetic words once spoken about you. Through them may you fight a good fight by having faith and a good conscience. Some, by rejecting conscience, have made a shipwreck of their faith, among them Hymenaeus and Alexander, whom I have handed over to Satan to be taught not to blaspheme.
+    responsory:
+      - ["The grace of the Lord has been poured forth upon me in great abundance, and has filled me with faith and love.","Christ Jesus came into this world to save sinnes."]
+      - ["All men have sinned and are deprived of God's glory.","Christ Jesus came into this world to save sinners."]
+  reading2:
+    text: |
+      From the "Pastoral Guide" of Saint Gregory the Great, pope.
+
+      A spiritual guide should be silent when discretion  requires and speak when words are of service. Otherwise he may say what he should not or be silent when he should speak. Indiscreet speech may lead men into error and an imprudent silence may leave in error those who could have been taught. Pastors who lack foresight hesitate to say openly what is right because they fear losing the favor of men. As the voice of truth tells us, such leaders are not zealous pastors who protect their flocks, rather they are like mercenaries who flee by taking refuge in silence when the wolf appears.
+
+      The Lord reproaches them through the prophet: "They are dumb dogs that cannot bark." On another occasion he complains: Y"ou did not advance against the foe or set up a wall in front of the house of Israel, so that you might stand fast in battle on the day of the Lord." To advance against the foe involves a bold resistance to the powers of this world in defense of the flock. To stand fast in battle on the day of the Lord means to oppose the wicked enemy out of love for what is right.
+
+      When a pastor has been afraid to assert what is right, has he not turned his back and fled by remaining silent? Whereas if he intervenes on behalf of the flock, he sets up a wall against the enemy in front of the house of Israel. Therefore, the Lord again says to his unfaithful people: "Your prophets saw false and foolish visions and did not point out your wickedness, that you might repent of your sins." The name of prophet is sometimes given in the sacred writings to teachers who both declare the present to be fleeting and reveal what is to come. The word of God accuses them of seeing false visions because they are afraid to reproach men for their faults and thereby lull the evildoer with an empty promise of safety. Because they fear reproach, they keep silent and fail to point out the sinner's wrongdoing.
+
+      The word of reproach is a key that unlocks a door, because reproach reveals a fault of which the evildoer is himself often unaware. That is why Paul says of the bishop: "He must be able to encourage men in sound doctrine and refute those who oppose it." For the same reason God tells us through Malachi: "The lips of the priest are to preserve knowledge, and men shall look to him for the law, for he is the messenger of the Lord of hosts." Finally, that is also the reason why the Lord warns us through Isaiah: "Cry out and be not still; raise your voice in a trumpet call."
+
+      Anyone ordained a priest undertakes the task of preaching, so that with a loud cry he may go on ahead of the terrible judge who follows. If, then, a priest does not know how to preach, what kind of cry can such a dumb herald utter? It was to bring this home that the Holy Spirit descended in the form of tongues on the first pastors, for he causes those whom he has filled, to speak out spontaneously.
+    responsory:
+      - ["I will teach transgressors your ways and sinners shall return to you.","My tongue shall sing of your justice."]
+      - ["Open my lips, O Lord, and my mouth shall proclaim your praise.","My tongue shall sing of your justice."]
+lauds:
+  reading:
+    cite: "Ezekiel 37:12b-14"
+    text: "Thus says the Lord God: O my people, I will open your graves and have you rise from them, and bring you back to the land of Israel. Then you shall know that I am the Lord, when I open your graves and have you rise from them, O my people! I will put my spirit in you that you may live, and I will settle you upon your land; thus you shall know that I am the Lord. I have promised, and I will do it, says the Lord."
+  benedictus: "Let the little children come to me, for they are at home in my Father's kingdom."
+vespers2:
+  reading:
+    cite: "1 Peter 1:3-7"
+    text: "Blessed be the God and Father of our Lord Jesus Christ, who in his great mercy gave us a new birth to a living hope through the resurrection of Jesus Christ from the dead, to an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you who by the power of God are safeguarded through faith, to a salvation that is ready to be revealed in the final time. In this you rejoice, although now for a little while you may have to suffer through various trials, so that the genuineness of your faith, more precious than gold that is perishable even though tested by fire, may prove to be for praise, glory, and honor at the revelation of Jesus Christ."
+  magnificat: "Tell yourselves: we are useless servants, for we did only what we should have done."
