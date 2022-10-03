@@ -1,0 +1,96 @@
+name: Commons of a Holy Man
+vespers1:
+  psalmody:
+    - ["All you saints, sing praise to our God.",113]
+    - ["Blessed are they who hunger and thirst for holiness; they will be satisfied.",146]
+    - ["Blessed be God: he has chosen us to live in love, holy, and without blemish in his sight.",ephesians1]
+  reading:
+    cite: "Philippians 3:7-8"
+    text: "Those things I used to consider gain I have now reappraised as loss in the light of Christ. I have come to rate all as loss in the light of the surpassing knowledge of my Lord Jesus Christ. For his sake I have forfeited everything; I have accounted all else rubbish so that Christ may be my wealth."
+    responsory:
+      - "The Lord loved him, and shared with him his glory."
+      - ["He wrapped him in a splendid robe.","And shared with him his glory."]
+  magnificat: "He is like the wise man who built his house upon rock."
+  intercessions:
+    - ["Let us pray to the Father, the source of all holiness, and ask him to lead us to holiness of life through the example and intercession of his saints.","May we be holy as you are holy."]
+    - ["Holy Father, you want us to be called your sons and truly to be such.","Grant that your holy Church may proclaim you throghout the world."]
+    - ["Holy Father, you want us to walk worthily and please you in all we do.","Let us abound in doing good works."]
+    - ["Holy Father, you have reconciled us to yourself through Christ.","Preserve us in your name so that all may be one."]
+    - ["Holy Father, you have called us to a heavenly banquet.","Through the bread that came down from heaven make us worthy to grow in perfect love."]
+    - ["Holy Father, forgive the offenses of every sinner.","Let the dead perceive the light of your countenance."]
+  vigil:
+    invitatory: "Come, let us worship God, wonderful in his saints."
+    psalmody:
+      - ["He asked to share your life, O Lord, and you have heard his prayer; you have clothed him with glory and great beauty.",21]
+      - ["The path of the just is like the passage of the dawn; it grows from first light to the full splendor of day.",92i]
+      - ["The just man will flourish like the plam tree; he will grow like a cedar of Lebanon.",92ii]
+    call:
+      - "The Lord led this holy man along a sure path."
+      - "He showed him the kingdom of God."
+    reading1:
+      cite: "Colossians 3:1-17"
+      text: |
+        From the letter of Saint Paul the Apostle to the Colossians.
+
+        Since you have been raised with Christ, seek what is above, where Christ is seated at the right hand of God. Think of what is above, not of what is on earth. For you have died, and your life is hidden with Christ in God. When Christ your life appears, then you too will appear with him in glory.
+
+        Put to death, then, the parts of you that are earthly: immorality, impurity, passion, evil desire, and the greed that is idolatry.  Because of these the wrath of God is coming upon the disobedient. By these you too once conducted yourselves, when you lived in that way.
+
+        But now you must put them all away: anger, fury, malice, slander, and obscene language out of your mouths. Stop lying to one another, since you have taken off the old self with its practices and have put on the new self, which is being renewed, for knowledge, in the image of its creator. Here there is not Greek and Jew, circumcision and uncircumcision, barbarian, Scythian, slave, free; but Christ is all and in all.
+
+        Put on then, as God's chosen ones, holy and beloved, heartfelt compassion, kindness, humility, gentleness, and patience, bearing with one another and forgiving one another, if one has a grievance against another; as the Lord has forgiven you, so must you also do.
+
+        And over all these put on love, that is, the bond of perfection. And let the peace of Christ control your hearts, the peace into which you were also called in one body. And be thankful. Let the word of Christ dwell in you richly, as in all wisdom you teach and admonish one another, singing psalms, hymns, and spiritual songs with gratitude in your hearts to God.
+
+        And whatever you do, in word or in deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him.
+      responsory:
+        - ["All who have been baptized in Christ have put on Christ; there is no longer Jew nor Greek.","You are all one in Christ Jesus."]
+        - ["Put on the new man who is created in the image of God in justice and true holiness.","You are all one in Christ Jesus."]
+lauds:
+  psalmody:
+    - ["The Lord has given them unending glory; their name shall be in everlasting remembrance.",63]
+    - ["Servants of the Lord, bless the Lord forever.",daniel3]
+    - ["The saints will exult in glory; they will sing for joy as they bow down before the Lord.",149]
+  reading:
+    cite: "Romans 12:1-2"
+    text: "Brothers, I beg you through the mercy of God to offer your bodies as a living sacrifice holy and acceptable to God, your spiritual worship. Do not conform yourselves to this age but be transformed by the renewal of your mind, so that you may judge what is God’s will, what is good, pleasing and perfect."
+    responsory:
+      - "In the depths of his heart, the law of God is his guide."
+      - ["He will never lose his way.","The law of God is his guide."]
+  benedictus:
+    "The man of God welcomes the light that searches his deeds and finds them true."
+  intercessions:
+    - ["My brothers, let us praise Christ, asking to serve him and to be holy and righteous in his sight all the days of our life. Let us acclaim him:","Lord, you alone are the holy one."]
+    - ["You desired to experience everything we experience but sin.","Have mercy on us, Lord Jesus."]
+    - ["You called us to love perfectly.","Make us holy, Lord Jesus."]
+    - ["You commissioned us to be the salt of the earth and the light of the world.","Let your light shine on us, Lord Jesus."]
+    - ["You desired to serve, not to be served.","Help us, Lord Jesus, to give humble service to you and to our neighbors."]
+    - ["You are in the form of God sharing in the splendor of the Father.","Lord Jesus, let us see the glory of your face."]
+terce:
+  psalmody:
+    antiphon: "If anyone takes to heart what Christ has said, he will know perfect love."
+  reading:
+    cite: "Galataisn 6:7b-8"
+    text: "A man will reap only what he sows. If he sows in the field of the fless, he will reap a harvest of corruption; but if his seed-ground is the spirit, he will reap everlasting life."
+    responsory:
+      - "The Lord teaches the humble his way."
+      - "He guides the gentle-hearted along the right path."
+vespers2:
+  psalmody:
+    - ["God found him pure and strong; he will have everlasting glory.",15]
+    - ["God's saints will be filled with his love and mercy; he watches over his chosen ones.",112]
+    - ["The whole earth echoes with the melody of heaven where the saints are singing before the throne of God and the Lamb.",revelation15]
+  reading:
+    cite: "Romans 8:28-30"
+    text: "We know that all things work for good for those who love God, who are called according to his purpose. For those he foreknew he also predestined to be conformed to the image of his Son, so that he might be the firstborn among many brothers. And those he predestined he also called; and those he called he also justified; and those he justified he also glorified."
+    responsory:
+      - "Just is the Lord, in justice he delights."
+      - ["He looks with favor on the upright man.","In justice he delights."]
+  magnificat: "Good and faithful servant, enter into the joy of your Lord."
+  intercessions:
+    - ["Let us pray to the Father, the source of all holiness, and ask him to lead us to holiness of life through the example and intercession of his saints.","May we be holy as you are holy."]
+    - ["Holy Father, you want us to be called your sons and truly to be such.","Grant that your holy Church may proclaim you throghout the world."]
+    - ["Holy Father, you want us to walk worthily and please you in all we do.","Let us abound in doing good works."]
+    - ["Holy Father, you have reconciled us to yourself through Christ.","Preserve us in your name so that all may be one."]
+    - ["Holy Father, you have called us to a heavenly banquet.","Through the bread that came down from heaven make us worthy to grow in perfect love."]
+    - ["Holy Father, forgive the offenses of every sinner.","Let the dead perceive the light of your countenance."]
