@@ -17,7 +17,7 @@ lauds:
         - ["Come, let us climb the mountain of the Lord.",isaiah2]
         - ["Sing to the Lord and bless his name.",96]
     intercessions:
-        ["We were created to glorify God through deeds. Let us earnestly pray:","May we give glory to your name, Lord."]
+        - ["We were created to glorify God through deeds. Let us earnestly pray:","May we give glory to your name, Lord."]
         - ["We bless you, creator of all things.","For you have given us the good things of the earth and brought us to this day."]
         - ["Look with favor on us as we begin our daily work.","Let us be fellow workers with you."]
         - ["Make our work today benefit our brothers and sisters.","That with them and for them we may build an earthly city, pleasing to you."]
