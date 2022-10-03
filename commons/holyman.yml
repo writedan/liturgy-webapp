@@ -18,34 +18,60 @@ vespers1:
     - ["Holy Father, you have reconciled us to yourself through Christ.","Preserve us in your name so that all may be one."]
     - ["Holy Father, you have called us to a heavenly banquet.","Through the bread that came down from heaven make us worthy to grow in perfect love."]
     - ["Holy Father, forgive the offenses of every sinner.","Let the dead perceive the light of your countenance."]
-  vigil:
-    invitatory: "Come, let us worship God, wonderful in his saints."
-    psalmody:
-      - ["He asked to share your life, O Lord, and you have heard his prayer; you have clothed him with glory and great beauty.",21]
-      - ["The path of the just is like the passage of the dawn; it grows from first light to the full splendor of day.",92i]
-      - ["The just man will flourish like the plam tree; he will grow like a cedar of Lebanon.",92ii]
-    call:
-      - "The Lord led this holy man along a sure path."
-      - "He showed him the kingdom of God."
-    reading1:
-      cite: "Colossians 3:1-17"
-      text: |
-        From the letter of Saint Paul the Apostle to the Colossians.
+vigil:
+  invitatory: "Come, let us worship God, wonderful in his saints."
+  psalmody:
+    - ["He asked to share your life, O Lord, and you have heard his prayer; you have clothed him with glory and great beauty.",21]
+    - ["The path of the just is like the passage of the dawn; it grows from first light to the full splendor of day.",92i]
+    - ["The just man will flourish like the plam tree; he will grow like a cedar of Lebanon.",92ii]
+  call:
+    - "The Lord led this holy man along a sure path."
+    - "He showed him the kingdom of God."
+  reading1:
+    cite: "Colossians 3:1-17"
+    text: |
+      From the letter of Saint Paul the Apostle to the Colossians.
 
-        Since you have been raised with Christ, seek what is above, where Christ is seated at the right hand of God. Think of what is above, not of what is on earth. For you have died, and your life is hidden with Christ in God. When Christ your life appears, then you too will appear with him in glory.
+      Since you have been raised with Christ, seek what is above, where Christ is seated at the right hand of God. Think of what is above, not of what is on earth. For you have died, and your life is hidden with Christ in God. When Christ your life appears, then you too will appear with him in glory.
 
-        Put to death, then, the parts of you that are earthly: immorality, impurity, passion, evil desire, and the greed that is idolatry.  Because of these the wrath of God is coming upon the disobedient. By these you too once conducted yourselves, when you lived in that way.
+      Put to death, then, the parts of you that are earthly: immorality, impurity, passion, evil desire, and the greed that is idolatry.  Because of these the wrath of God is coming upon the disobedient. By these you too once conducted yourselves, when you lived in that way.
 
-        But now you must put them all away: anger, fury, malice, slander, and obscene language out of your mouths. Stop lying to one another, since you have taken off the old self with its practices and have put on the new self, which is being renewed, for knowledge, in the image of its creator. Here there is not Greek and Jew, circumcision and uncircumcision, barbarian, Scythian, slave, free; but Christ is all and in all.
+      But now you must put them all away: anger, fury, malice, slander, and obscene language out of your mouths. Stop lying to one another, since you have taken off the old self with its practices and have put on the new self, which is being renewed, for knowledge, in the image of its creator. Here there is not Greek and Jew, circumcision and uncircumcision, barbarian, Scythian, slave, free; but Christ is all and in all.
 
-        Put on then, as God's chosen ones, holy and beloved, heartfelt compassion, kindness, humility, gentleness, and patience, bearing with one another and forgiving one another, if one has a grievance against another; as the Lord has forgiven you, so must you also do.
+      Put on then, as God's chosen ones, holy and beloved, heartfelt compassion, kindness, humility, gentleness, and patience, bearing with one another and forgiving one another, if one has a grievance against another; as the Lord has forgiven you, so must you also do.
 
-        And over all these put on love, that is, the bond of perfection. And let the peace of Christ control your hearts, the peace into which you were also called in one body. And be thankful. Let the word of Christ dwell in you richly, as in all wisdom you teach and admonish one another, singing psalms, hymns, and spiritual songs with gratitude in your hearts to God.
+      And over all these put on love, that is, the bond of perfection. And let the peace of Christ control your hearts, the peace into which you were also called in one body. And be thankful. Let the word of Christ dwell in you richly, as in all wisdom you teach and admonish one another, singing psalms, hymns, and spiritual songs with gratitude in your hearts to God.
 
-        And whatever you do, in word or in deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him.
-      responsory:
-        - ["All who have been baptized in Christ have put on Christ; there is no longer Jew nor Greek.","You are all one in Christ Jesus."]
-        - ["Put on the new man who is created in the image of God in justice and true holiness.","You are all one in Christ Jesus."]
+      And whatever you do, in word or in deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him.
+    responsory:
+      - ["All who have been baptized in Christ have put on Christ; there is no longer Jew nor Greek.","You are all one in Christ Jesus."]
+      - ["Put on the new man who is created in the image of God in justice and true holiness.","You are all one in Christ Jesus."]
+  reading2:
+    text: |
+      From a homily on the Acts of the Apostles of Saint John Chrysostom, bishop.
+
+      There is nothing colder than a Christian who does not seek to save others.
+
+      You cannot plead poverty here; the widow putting in her two small coins will be your accuser. Peter said, "Silver and gold I have not." Paul was so poor that he was often hungry and went without necessary food.
+
+      You cannot plead humble birth, for they were humbly born, of humble stock. You cannot offer the excuse of lack of education, for they were uneducated. You cannot plead ill-health, for Timothy also had poor health, with frequent illnesses.
+
+      Each one can help his neighbor, if only he is willing to do what is in his power. Look at the trees that do not bear fruit: have you not noticed how strong and fine they are, upstanding, smooth, and tall? If we had a garden, we would much prefer trees with fruit—pomegranates and olives—to trees that are for pleasure, not for utility, and any utility these have is small.
+
+      Such are those men who think only of their own concerns. In fact, they are even worse: the trees are at least useful for building or for protection, whereas the selfish are fit only for punishment. Such were those foolish virgins who were chaste, comely, and self-controlled, but did nothing for anyone. So they are consumed in the fire. Such are those men who refuse to give Christ food.
+
+      Notice that none of them is accused of personal sins. They are not accused of committing fornication or perjury or any such sin at all: only of not helping anybody else. The man who buried the talent was like this. His life was blameless, but he was of no service to others.
+
+      How can such a person be a Christian? Tell me, if yeast did not make the whole mass like itself, is it really yeast? Again, if perfume failed to pervade all around it with its fragrance, would we call it perfume?
+
+      Do not say, “It is impossible for me to influence others.” If you are a Christian, it is impossible for this not to happen. Things found in nature cannot be denied; so it is here, for it is a question of the nature of a Christian.
+
+      Do not insult God. If you say that the sun cannot shine, you have insulted Him. If you say that a Christian cannot help others, you have insulted God and called Him a liar. It is easier for the sun not to give warmth or shine than for the Christian not to shed his light. It is easier for light to be darkness than for this to happen.
+
+      Do not say then that it is impossible. The opposite is impossible. Do not insult God. If we have put our affairs in order, these things will certainly come to be and will follow as a natural consequence. The light of a Christian cannot escape notice. So bright a lamp cannot be hidden.
+    responsory:
+      - ["Now you are light in the Lord; live as men native to the light.","Light makes you gentle, loving, and true."]
+      - ["I have given you to the world as its light, and you must shine for all to see.","Light makes you gentle, loving, and true."]
 lauds:
   psalmody:
     - ["The Lord has given them unending glory; their name shall be in everlasting remembrance.",63]
@@ -70,7 +96,7 @@ terce:
   psalmody:
     antiphon: "If anyone takes to heart what Christ has said, he will know perfect love."
   reading:
-    cite: "Galataisn 6:7b-8"
+    cite: "Galatians 6:7b-8"
     text: "A man will reap only what he sows. If he sows in the field of the fless, he will reap a harvest of corruption; but if his seed-ground is the spirit, he will reap everlasting life."
     responsory:
       - "The Lord teaches the humble his way."
