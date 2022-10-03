@@ -1,3 +1,8 @@
+name: Tuesday of the Twenty-seventh Week in Ordinary Time
+rank: weak
+collect: >-
+  Almighty ever-living God, who in the abundance of your kindness surpasses the merits and the desires of those who entreat you, pour out your mercy upon us to pardon what conscience dreads and to give what prayer does not dare to ask: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+common: psalter/03/tuesday
 vigil:
   reading1:
     cite: "1 Timothy 3:1-16"
@@ -34,3 +39,6 @@ vigil:
       By God's grace there are many things I understand, but I keep well within my limitations for fear that boasting should be my undoing. At the moment, then, I must be more apprehensive than ever and pay no attention at all to those who flatter me; their praise is as a scourge. For though I have a fierce desire to suffer martyrdom, I know not whether I am worthy of it. Most people are unaware of my passionate longing, but it assails me with increasing intensity. My present need, then, is for that humility by which the prince of this world is overthrown.
 
       And so I strongly urge you, not I so much as the love of Jesus Christ, to be nourished exclusively on Christian fare, abstaining from the alien food that is heresy. And this you will do if you are neither arrogant nor cut off from God, from Jesus Christ, and from the bishop and the teachings of the apostles. Whoever is within the sanctuary is pure; but whoever is not is unclean. That is to say, whoever acts apart from the bishop and the clergy and the deacons is not pure in his conscience. In writing this, it is not that I am aware of anything of the sort among you; I only wish to forewarn you, for you are my dearest children.
+    responsory:
+      - ["Make every effort to maintain the unity of the Spirit through a peace that binds you together. There is but one body, one Spirit, just as you were called to the one hope when you were called.","There is one Lord, one faith, one baptism."]
+      - ["No one can lay a foundation other than the one which has been laid, that is, Christ Jesus.","There is one Lord, one faith, one baptism."]
