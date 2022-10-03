@@ -1,0 +1,24 @@
+name: Saint Francis of Assisi
+rank: memorial
+common: holymen_religious
+collect: >-
+  O God, by whose gift Saint Francis was conformed to Christ in poverty and humility, grant that, by walking in Francis' footsteps, we may follow your Son, and, through joyful chairty, come to be united with you: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+lauds:
+  benedictus: "Francis left this earth a poor and lowly man; he enters heaven rich in God's favor, greeted with songs of rejoicing."
+vespers:
+  magnificat: "God forbid that I should boast except in the Cross of our Lord Jesus Christ, for I bear the marks of Jesus on my body."
+vigil:
+  reading2:
+    text: |
+      From a letter of Saint Francis of Assisi to all the faithful.
+
+      It was through his archangel, Saint Gabriel, that the Father above made known to the holy and glorious Virgin Mary that the worthy, holy and glorious Word of the Father would come from heaven and take from her womb the real flesh of our human frailty. Though he was wealthy beyond reckoning, he still willingly chose to be poor with his blessed mother. And shortly before his passion he celebrated the Passover with his disciples. Then he prayed to his Father saying: "Father, if it be possible, let this cup be taken from me."
+
+      Nevertheless, he reposed his will in the will of his Father. The Father willed that his blessed and glorious Son, whom he gave to us and who was born for us, should through his own blood offer himself as a sacrificial victim on the altar of the cross. This was to be done not for himself through whom all things were made, but for our sins. It was intended to leave us an example of how to follow in his footsteps. And he desires all of us to be saved through him, and to receive him with pure heart and chaste body.
+
+      O how happy and blessed are those who love the Lord and do as the Lord himself said in the gospel: "You shall love the Lord your God with your whole heart and your whole soul; and your neighbour as yourself." Therefore, let us love God and adore him with pure heart and mind. This is his particular desire when he says: "True worshippers adore the Father in spirit and truth." For all who adore him must do so in the spirit of truth. Let us also direct to him our praises and prayers saying: "Our Father, who art in heaven," since "we must always pray and never grow slack."
+
+      Furthermore, let us produce worthy fruits of penance. Let us also love our neighbours as ourselves. Let us have charity and humility. Let us give alms because these cleanse our souls from the stains of sin. Men lose all the material things they leave behind them in this world, but they carry with them the reward of their charity and the alms they give. For these they will receive from the Lord the reward and recompense they deserve. We must not be wise and prudent according to the flesh. Rather we must be simple, humble and pure. We should never desire to be over others. Instead, we ought to be servants who are submissive to every human being for God’s sake. The Spirit of the Lord will rest on all who live in this way and persevere in it to the end. He will permanently dwell in them. They will be the Father’s children who do his work. They are the spouses, brothers and mothers of our Lord Jesus Christ.
+    responsory:
+      - ["Blessed are you who are poor, for the kingdom of God is yours.","Blessed are those of gentle spirit; they shall inherit the land."]
+      - ["Blessed are you who hunger now; you shall be satisfied.","Blessed are those of gentle spirit; they shall inherit the land."]
