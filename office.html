@@ -99,13 +99,8 @@
 
 				// handle first and second vespers
 				var office_name = hour.charAt(0).toUpperCase() + hour.slice(1);
-				if (temporal == null) {
-					if (hour == 'vespers' && sanctoral.vespers == null) hour = 'vespers2';
-				} else if (sanctoral == null) {
-					if (hour == 'vespers' && temporal.vespers == null) hour = 'vespers2';
-				} else {
-					if (hour == 'vespers' && (temporal.vespers == null || sanctoral.vespers == null)) hour = 'vespers2';
-				}
+
+				if (hour == 'vespers') hour = 'vespers2';
 
 				if (office_name == 'Vespers1') office_name = 'First Vespers';
 				else if (office_name == 'Vespers2') office_name = 'Second Vespers';
