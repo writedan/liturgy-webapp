@@ -1,0 +1,91 @@
+name: Saint Luke the Evangelist
+rank: [feast, saint]
+common: apostles
+collect: >-
+  Lord God, who chose Saint Luke to reveal by his preaching and writings the mystery of your love for the poor, grant that those who already glory iin your name may persevere as one heart and one soul and that all nations may merit to see your salvation: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+lauds:
+  psalmody:
+    - ["The holy evangelists searched the wisdom of past ages: through their gospels they confirmed the words of the prophets, alleluia.",63]
+    - ["Through the gospel God called us to believe in the truth and to share the glory of our Lord Jesus Christ, alleluia.",daniel3]
+    - ["Many will praise their wisdom, it shall be remembered forever, alleluia.",149]
+  reading:
+    cite: "1 Corinthians 15:1-2a, 3-4"
+    text: "Brothers, I am reminding you of the gospel I preached to you, which you indeed received and in which you also stand. Through it you are also being saved. For I handed on to you as of first importance what I also received: that Christ died for our sins in accordance with the scriptures; that he was buried; that he was raised on the third day in accordance with the scriptures."
+    responsory:
+      - "They proclaimed the Lord's praises, told of his power to save, alleluia, alleluia."
+      - ["And of the wonders he had worked.","Alleluia, alleluia."]
+  benedictus: "Saint Luke gave us the gospel message and proclaimed Christ as the dawn from on high."
+  intercessions:
+    - ["Let us sing a song of praise to our Savior, who destroyed the power of death and made clear the path to life and immortality through the Gospel. Let us petition him in humble supplication.","Strengthen your Church in faith and love."]
+    - ["You marvelously illuminated your Church through distinguished leaders and holy men and women.","Let Christians rejoice always in such splendor."]
+    - ["You forgave the sins of your people when their holy leaders like Moses sought your compassion.","Through their intercession continue to purify and sanctify your holy people."]
+    - ["In the midst of their brothers and sisters you anointed your holy ones and filled with with the Holy Spirit.","Fill all the leaders of your people with the same Spirit."]
+    - ["You yourself are the only visible possession of your holy pastors.","Let none of them won at the price of your blood remain far from you."]
+    - ["The shepherds of your Church keep your flock from being snatched out of your hand. Through them you give your flock eternal life.","Save those who have died; those for whom you gave up your life."]
+terce:
+  psalmody:
+    antiphon: "Go forth and proclaim the good news of the kingdom and freely share with others what God has given you."
+  reading:
+    cite: "Romans 1:16-17"
+    text: >-
+      I am not ashamed of the gospel. It is the power of God for the salvation of everyone who believes: for Jew first, and then Greek. For in it is revealed the righteousness of God from faith to faith; as it is written, "The one who is righteous by faith will live."
+    responsory:
+      - "Their voice has gone out to the limits of the earth."
+      - "Their words to the ends of the earth."
+vespers:
+  psalmody:
+    - ["My life is at the service of the Gospel; God has given me this gift of his grace, alleluia.",116]
+    - ["I do all this for the sake of the Gospel, in order to share in its rewards, alleluia.",126]
+    - ["This grace has been given to me: to proclaim to the nations the infinite riches of Christ, alleluia.",ephesians1]
+  reading:
+    cite: "Colossians 1:3a-6"
+    text: >-
+      We always give thanks to God, the Father of our Lord Jesus Christ, when we pray for you for we have heard of your faith in Christ Jesus and the love that you have for all the holy ones because of the hope reserved for you in heaven. Of this you have already heard through the word of truth, the gospel, that has come to you. Just as in the whole world it is bearing fruit and growing, so also among you, from the day you heard it and came to know the grace of God in truth.
+    responsory:
+      - "Tell all the nations how glorious God is, alleluia, alleluia."
+      - ["Make known his wonders to every people.","Alleluia, alleluia."]
+  magnificat: "The holy evangelist Luke is worthy of praise in the Church, for he has proclaimed the tender compassion of Christ."
+  intercessions:
+    - ["Our God is the Father of light. Through the good news of his Son he has called us to believe in the truth. Let us pray now for his holy people as we say:","Lord, remember your Church."]
+    - ["Father, you raised your Son, our Good Shepherd, from the dead.","Make us his witnesses to the ends of the earth."]
+    - ["You sent your Son into the world to bring good news to the poor.","give us courage to bring that good news to all peoples."]
+    - ["You sent your Son to sow the word of life.","Help us to sow his word and reap its harvest with joy."]
+    - ["You sent your Son to make the world one through his blood.","May all of us work together for this unity."]
+    - ["You sent your Son at your right hand in the heavens.","Open the gates of your kingdom to those who have died."]
+vigil:
+  call:
+    - "The nations heard and rejoice."
+    - "They praised the word of the Lord."
+  reading1:
+    cite: "Acts 9:27-31; 11:19-26"
+    text: |
+      From the Acts of the Apostles.
+
+      Barnabas took charge of Saul and brought him to the apostles, and he reported to them how on the way he had seen the Lord and that he had spoken to him, and how in Damascus he had spoken out boldly in the name of Jesus. He moved about freely with them in Jerusalem, and spoke out boldly in the name of the Lord. He also spoke and debated with the Hellenists, but they tried to kill him. And when the brothers learned of this, they took him down to Caesarea and sent him on his way to Tarsus.
+
+      The church throughout all Judea, Galilee, and Samaria was at peace. It was being built up and walked in the fear of the Lord, and with the consolation of the holy Spirit it grew in numbers.
+
+      Now those who had been scattered by the persecution that arose because of Stephen went as far as Phoenicia, Cyprus, and Antioch, preaching the word to no one but Jews. There were some Cypriots and Cyrenians among them, however, who came to Antioch and began to speak to the Greeks as well, proclaiming the Lord Jesus. The hand of the Lord was with them and a great number who believed turned to the Lord.
+
+      The news about them reached the ears of the church in Jerusalem, and they sent Barnabas to go to Antioch. When he arrived and saw the grace of God, he rejoiced and encouraged them all to remain faithful to the Lord in firmness of heart, for he was a good man, filled with the holy Spirit and faith. And a large number of people was added to the Lord.
+
+      Then he went to Tarsus to look for Saul, and when he had found him he brought him to Antioch. For a whole year they met with the church and taught a large number of people, and it was in Antioch that the disciples were first called Christians.
+    responsory:
+      - ["The word of God continued to increase and spread everywhere.","And all who were destined for eternal life believed in it."]
+      - ["The disciples were filled with joy and with the Holy Spirit.","And all who were destined for eternal life believed in it."]
+  reading2:
+    text: |
+      From a homily on the gospels by Saint Gregory the Great, pope.
+
+      Beloved brothers, our Lord and Saviour sometimes gives us instruction by words and sometimes by actions. His very deeds are our commands; and whenever he acts silently he is teaching us what we should do. For example, he sends his disciples out to preach two by two, because the precept of charity is twofold-love of God and of one's neighbour.
+
+      The Lord sends his disciples out to preach in two's in order to teach us silently that whoever fails in charity toward his neighbour should by no means take upon himself the office of preaching.
+
+      Rightly is it said that "he sent them ahead of him into every city and place where he himself was to go." For the Lord follows after the preachers, because preaching goes ahead to prepare the way, and then when the words of exhortation have gone ahead and established truth in our minds, the Lord comes to live within us. To those who preach Isaiah says: "Prepare the way of the Lord, make straight the paths of our God." And the psalmist tells them: "Make a way for him who rises above the sunset." The Lord rises above the sunset because from that very place where he slept in death, he rose again and manifested a greater glory. He rises above the sunset because in his resurrection he trampled underfoot the death which he endured. Therefore, we make a way for him who rises above the sunset when we preach his glory to you, so that when he himself follows after us, he may illumine you with his love.
+
+      Let us listen now to his words as he sends his preachers forth: "The harvest is great but the labourers are few. Pray therefore the Lord of the harvest to send labourers into his harvest." That the harvest is good but the labourers are few cannot be said without a heavy heart, for although there are many to hear the good news there are only a few to preach it. Indeed, see how full the world is of priests, but yet in God's harvest a true labourer is rarely to be found; although we have accepted the priestly office we do not fulfil its demands.
+
+      Think over, my beloved brothers, think over his words: "Pray the Lord of the harvest to send labourers into his harvest." Pray for us so that we may be able to labour worthily on your behalf, that our tongue may not grow weary of exhortation, that after we have taken up the office of preaching our silence may not bring us condemnation from the just judge.
+    responsory:
+      - ["He carefully traced the whole story from the beginning and wrote his gospel.","So that we might understand the truth of the teaching we had received."]
+      - ["He gave us a record concerning all that Jesus did and taught.","So that we might understand the truth of the teaching we had received."]
