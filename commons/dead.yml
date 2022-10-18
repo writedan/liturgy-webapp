@@ -78,22 +78,22 @@ terce:
     responsory:
       - "Why are you heavy, my heart, why are you so anxious?"
       - "Put your hope in God, for I will praise him still."
-  vespers:
-    psalmody:
-      - ["The Lord will keep you from all evil; he will guard your soul.",121]
-      - ["If you kept a record of our sins, Lord, who could escape condemnation?",130]
-      - ["As the Father raises the dead and gives them life, so the Son gives life to whom he wills.",philippians2]
-    reading:
-      cite: "1 Corinthians 15:55-57"
-      text: "O death, where is your victory? O death, where is your sting? The sting of death is sin, and sin gets its sting from the law. But thanks be to God who has given us the victory through our Lord Jesus Christ."
-      responsory:
-        - "In you, Lord, is our hope: we shall never hope in vain."
-        - ["We shall dance and rejoice in your mercy.","We shall never hope in vain."]
-    magnificat: "All that the Father gives me will come to me, and whoever comes to me I shall not turn away."
-    intercessions:
-      - ["We acknowledge Christ the Lord through whom we hope that our lowly bodies will be made like his in glory as we say:","Lord, you are our life and resurrection."]
-      - ["Christ, Son of the living God, who raised up Lazarus your friend from the dead.","Raise up to life and glory the dead whom you have redeemed by your precious blood."]
-      - ["Christ, consoler of those who mourn, you dried the tears of the family of Lazarus, of the widow's son, and the daughter of Jarius.","Comfort those who mourn for the dead."]
-      - ["Christ, Savior, destroy the reign of sin in our earthly bodies, so that just as through sin we deserved punishment...","So through you we may gain eternal life."]
-      - ["Christ, Redeemer, look on those who have no hope because they do not know you.","May they receive faith in the resurrection and in the life of the world to come."]
-      - ["You revealed yourself to the blind man who begged for the light of his eyes.","Show your face to the dead who are still deprived of your light."]
+vespers:
+  psalmody:
+    - ["The Lord will keep you from all evil; he will guard your soul.",121]
+    - ["If you kept a record of our sins, Lord, who could escape condemnation?",130]
+    - ["As the Father raises the dead and gives them life, so the Son gives life to whom he wills.",philippians2]
+  reading:
+    cite: "1 Corinthians 15:55-57"
+    text: "O death, where is your victory? O death, where is your sting? The sting of death is sin, and sin gets its sting from the law. But thanks be to God who has given us the victory through our Lord Jesus Christ."
+    responsory:
+      - "In you, Lord, is our hope: we shall never hope in vain."
+      - ["We shall dance and rejoice in your mercy.","We shall never hope in vain."]
+  magnificat: "All that the Father gives me will come to me, and whoever comes to me I shall not turn away."
+  intercessions:
+    - ["We acknowledge Christ the Lord through whom we hope that our lowly bodies will be made like his in glory as we say:","Lord, you are our life and resurrection."]
+    - ["Christ, Son of the living God, who raised up Lazarus your friend from the dead.","Raise up to life and glory the dead whom you have redeemed by your precious blood."]
+    - ["Christ, consoler of those who mourn, you dried the tears of the family of Lazarus, of the widow's son, and the daughter of Jarius.","Comfort those who mourn for the dead."]
+    - ["Christ, Savior, destroy the reign of sin in our earthly bodies, so that just as through sin we deserved punishment...","So through you we may gain eternal life."]
+    - ["Christ, Redeemer, look on those who have no hope because they do not know you.","May they receive faith in the resurrection and in the life of the world to come."]
+    - ["You revealed yourself to the blind man who begged for the light of his eyes.","Show your face to the dead who are still deprived of your light."]
