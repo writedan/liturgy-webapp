@@ -3,6 +3,7 @@ rank: weak
 collect: >-
   Listen kindly to our prayers, O Lord, and, as our faith in your Son raised from the dead is deepened, so may our hope of resurrection for your departed servants also find new strength: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
 vigil:
+  invitatory: "Come, let us worship the Lord, all things live for him."
   psalmody:
     - ["From the earth you formed me, with flesh your clothed me; Lord, my Redeemer, raise me up again on the last day.",40i]
     - ["Lord, may it please you to rescue me; look upon me and help me.",40ii]
