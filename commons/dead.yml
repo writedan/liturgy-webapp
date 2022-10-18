@@ -1,0 +1,98 @@
+name: Office for the Dead
+rank: weak
+collect: >-
+  Listen kindly to our prayers, O Lord, and, as our faith in your Son raised from the dead is deepened, so may our hope of resurrection for your departed servants also find new strength: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  psalmody:
+    - ["From the earth you formed me, with flesh your clothed me; Lord, my Redeemer, raise me up again on the last day.",40i]
+    - ["Lord, may it please you to rescue me; look upon me and help me.",40ii]
+    - ["My soul is thristing for the living God; when shall I see him face to face?",42]
+  call:
+    - "Lord, countless are your mercies."
+    - "Give me life according to your word."
+  reading1:
+    cite: "2 Corinthians 4:16 - 5:10"
+    text: |
+      From the second letter of Saint Paul the Apostles to the Corinthians.
+
+      We do not lose heart. Even though our outer nature is wasting away, our inner nature is being renewed day by day. For this slight momentary affliction is preparing us for an eternal weight of glory beyond all measure, because we look not at what can be seen but at what cannot be seen; for what can be seen is temporary, but what cannot be seen is eternal.
+
+      For we know that if the earthly tent we live in is destroyed, we have a building from God, a house not made with hands, eternal in the heavens. For in this tent we groan, longing to be clothed with our heavenly dwelling— if indeed, when we have taken it off* we will not be found naked. For while we are still in this tent, we groan under our burden, because we wish not to be unclothed but to be further clothed, so that what is mortal may be swallowed up by life. He who has prepared us for this very thing is God, who has given us the Spirit as a guarantee.
+
+      So we are always confident; even though we know that while we are at home in the body we are away from the Lord— for we walk by faith, not by sight. Yes, we do have confidence, and we would rather be away from the body and at home with the Lord. So whether we are at home or away, we make it our aim to please him. For all of us must appear before the judgement seat of Christ, so that each may receive recompense for what has been done in the body, whether good or evil.
+    responsory:
+      - ["Lord, do not judge me according to my deeds: I have done nothing worthy in your sight: therefore I implore you, God of majesty.","Blot our all my guilt."]
+      - ["Lord, wash away my iniquities, and cleanse me from my sin.","Blot out all my guilt."]
+  reading2:
+    text: |
+      From a book on the death of his brother Satyrus by Saint Ambrose, bishop.
+
+      We see that death is gain, life is loss. Paul says: "For me life is Christ, and death a gain." What does “Christ” mean but to die in the body, and receive the breath of life? Let us then die with Christ, to live with Christ. We should have a daily familiarity with death, a daily desire for death. By this kind of detachment our soul must learn to free itself from the desires of the body. It must soar above earthly lusts to a place where they cannot come near, to hold it fast. It must take on the likeness of death, to avoid the punishment of death. The law of our fallen nature is at war with the law of our reason and subjects the law of reason to the law of error. What is the remedy? "Who will set me free from this body of death? The grace of God, through Jesus Christ, our Lord."
+
+      We have a doctor to heal us; let us use the remedy he prescribes. The remedy is the grace of Christ, the dead body our own. Let us then be exiles from our body, so as not to be exiles from Christ. Though we are still in the body, let us not give ourselves to the things of the body. We must not reject the natural rights of the body, but we must desire before all else the gifts of grace.
+
+      What more need be said? It was by the death of one man that the world was redeemed. Christ did not need to die if he did not want to, but he did not look on death as something to be despised, something to be avoided, and he could have found no better means to save us than by dying. Thus his death is life for all. We are sealed with the sign of his death; when we pray we preach his death; when we offer sacrifice we proclaim his death. His death is victory; his death is a sacred sign; each year his death is celebrated with solemnity by the whole world.
+
+      What more should we say about his death since we use this divine example to prove that it was death alone that won freedom from death, and death itself was its own redeemer? Death is then no cause for mourning, for it is the cause of mankind’s salvation. Death is not something to be avoided, for the Son of God did not think it beneath his dignity, nor did he seek to escape it.
+
+      Death was not part of nature; it became part of nature. God did not decree death from the beginning; he prescribed it as a remedy. Human life was condemned because of sin to unremitting labour and unbearable sorrow and so began to experience the burden of wretchedness. There had to be a limit to its evils; death had to restore what life had forfeited. Without the assistance of grace, immortality is more of a burden than a blessing.
+
+      The soul has to turn away from the aimless paths of this life, from the defilement of an earthly body; it must reach out to those assemblies in heaven (though it is given only to the saints to be admitted to them) to sing the praises of God. We learn from Scripture how God’s praise is sung to the music of the harp: "Great and wonderful are your deeds, Lord God Almighty; just and true are your ways, King of the nations. Who will not revere and glorify your nature? You alone are holy; all nations will come and worship before you." The soul must also desire to witness your nuptials, Jesus, and to see your bride escorted from earthly to heavenly realities, as all rejoice and sing: All flesh will come before you. No longer will the bride be held in subjection to this passing world but will be made one with the spirit.
+
+      Above all else, holy David prayed that he might see and gaze on this: "One thing I have asked of the Lord, this I shall pray for: to dwell in the house of the Lord all the days of my life, and to see how gracious is the Lord."
+    responsory:
+      - ["There are some who have died a godly death.","They shall receive the splendid reward which awaits them."]
+      - ["Then the just will shine like the sun in hte kingdom of the Father.","They shall receive the splendid reward which awaits them."]
+lauds:
+  psalmody:
+    - ["The bones that were crushed shall leap for joy before the Lord.",51]
+    - ["At the very threshold of death, rescue me, Lord.",isaiah38]
+    - ["I will praise my God all the days of my life.",146]
+  reading:
+    cite: "1 Thessalonians 4:14"
+    text: "If we believe that Jesus died and rose, God will bring forth with him from the dead those also who have fallen asleep believing in him."
+    responsory:
+      - "I will praise you, Lord, for you have rescued me."
+      - ["You have turned my sorrow into joy.","For you have rescued me."]
+  benedictus: "I am the Resurrection, I am the Life: to beleive in me means life, in spire of death, and all who believe and live in me shall never die."
+  intercessions:
+    - ["Let us pray to the all-powerful Father who raised Jesus from the dead and gives new life to our mortal bodies, and say to him:","Lord, give us new life in Christ."]
+    - ["Father, through baptism we have been buried with your Son and have risen with him in his resurrection.","Grant that we may walk in newness of life so that when we die, we may live with Christ forever."]
+    - ["Provident Father, you have given us the living bread that has come down from heaven and which should always be eaten worthily.","Grant that we may eat this bread worthily and be raised up to eternal life on the last day."]
+    - ["Lord, you sent an angel to comfort your Son in his agony.","Give us the hope of your consolation when death draws near."]
+    - ["You delivered the three youths from the firery furace.","Free your faithful ones from the punishment they suffer for their sins."]
+    - ["God of the living and the dead, you raised Jesus from the dead.","Raise up those who have died and grant that we may share eternal glory with them."]
+terce:
+  psalmody:
+    - ["Look on me with love, O Lord, and rescue me.",70]
+    - ["Lord, lay your healing hands on the wounds of my sins.",85]
+    - ["Be my salvation, Lord, true to your name and by your mighty power set me free.",86]
+  reading:
+    cite: "Job 19:25-26a"
+    text: |
+      For I know that my Redeemer lives,
+      and that at the last he will stand upon the earth;
+      and after my skin has been thus destroyed,
+      then in my flesh I shall see God.
+    responsory:
+      - "Why are you heavy, my heart, why are you so anxious?"
+      - "Put your hope in God, for I will praise him still."
+  vespers:
+    psalmody:
+      - ["The Lord will keep you from all evil; he will guard your soul.",121]
+      - ["If you kept a record of our sins, Lord, who could escape condemnation?",130]
+      - ["As the Father raises the dead and gives them life, so the Son gives life to whom he wills.",philippians2]
+    reading:
+      cite: "1 Corinthians 15:55-57"
+      text: "O death, where is your victory? O death, where is your sting? The sting of death is sin, and sin gets its sting from the law. But thanks be to God who has given us the victory through our Lord Jesus Christ."
+      responsory:
+        - "In you, Lord, is our hope: we shall never hope in vain."
+        - ["We shall dance and rejoice in your mercy.","We shall never hope in vain."]
+    magnificat: "All that the Father gives me will come to me, and whoever comes to me I shall not turn away."
+    intercessions:
+      - ["We acknowledge Christ the Lord through whom we hope that our lowly bodies will be made like his in glory as we say:","Lord, you are our life and resurrection."]
+      - ["Christ, Son of the living God, who raised up Lazarus your friend from the dead.","Raise up to life and glory the dead whom you have redeemed by your precious blood."]
+      - ["Christ, consoler of those who mourn, you dried the tears of the family of Lazarus, of the widow's son, and the daughter of Jarius.","Comfort those who mourn for the dead."]
+      - ["Christ, Savior, destroy the reign of sin in our earthly bodies, so that just as through sin we deserved punishment...","So through you we may gain eternal life."]
+      - ["Christ, Redeemer, look on those who have no hope because they do not know you.","May they receive faith in the resurrection and in the life of the world to come."]
+      - ["You revealed yourself to the blind man who begged for the light of his eyes.","Show your face to the dead who are still deprived of your light."]
