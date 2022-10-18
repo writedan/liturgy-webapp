@@ -317,7 +317,6 @@
 			var office = offices[i];
 			if (office.date.getTime() != today.getTime()) continue;
 			if (office.weight < highest_weight) {
-				console.log
 				daytime = [office];
 				highest_weight = office.weight;
 			} else if (office.weight == highest_weight) {
@@ -330,9 +329,9 @@
 		var highest_weight = 8;
 		for (let i = 0; i < offices.length; i++) {
 			var office = offices[i];
+			office.include_vigil = true; // TODO REMOVE THIS TO REMOVE VIGIL READINGS FROM VESPERS
 			if (office.date.getTime() == today.getTime() || office.bifucrated_vespers) {
 				if (office.weight < highest_weight) {
-					console.log
 					vespers = [office];
 					highest_weight = office.weight;
 				} else if (office.weight == highest_weight) {
@@ -348,13 +347,38 @@
 			var office = offices[i];
 			if (office.date.getTime() == today.getTime()) continue;
 			if (office.weight < highest_weight) {
-				console.log
 				vigil = [office];
 				highest_weight = office.weight;
 			} else if (office.weight == highest_weight) {
 				vigil.push(office);
 			}
 		}
+	}
+
+	{ // handle votive offices
+		var defunctorum = {
+			name: 'Office for the Dead',
+			rank: 'weak',
+			link: 'dead',
+			sanctoral: false,
+			date: vespers[0].date,
+			bifucrated_vespers: false,
+			include_vigil: false
+		};
+
+		var bvm = {
+			name: 'Office of the Blessed Virgin Mary',
+			rank: 'weak',
+			link: 'bvm',
+			sanctoral: false,
+			date: vespers[0].date,
+			bifucrated_vespers: false,
+			include_vigil: false
+		}
+
+		daytime.push(defunctorum, bvm);
+		vespers.push(defunctorum, bvm);
+		vigil.push(defunctorum, bvm);
 	}
 
 	// since we only have one transfer, it will just be handled manually
@@ -377,6 +401,9 @@
 				href = href + '&t=' + daytime[i].link;
 			}
 			var ele = '<a href="' + href + '">' + daytime[i].name + '</a>';
+			if (i + 1 != daytime.length) {
+				ele = ele + "<br/><br/>";
+			}
 			$('#hours').append('<tr style="width:100%"><td style="width:25%">' + (i == 0 ? 'Lauds':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
 
@@ -394,6 +421,9 @@
 				href = href + '&t=' + daytime[i].link;
 			}
 			var ele = '<a href="' + href + '">' + daytime[i].name + '</a>';
+			if (i + 1 != daytime.length) {
+				ele = ele + "<br/><br/>";
+			}
 			$('#hours').append('<tr style="width:100%"><td style="width:25%">' + (i == 0 ? 'Terce':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
 
@@ -415,7 +445,16 @@
 			} else { // else it is the temporal reference
 				href = href + '&t=' + vespers[i].link;
 			}
-			var ele = '<a href="' + href + '&v=lessons">' + vespers[i].name + '</a>';
+
+			var ele;
+			if (!vespers[i].include_vigil) {
+				ele = '<a href="' + href + '">' + vespers[i].name + '</a>';
+			} else {
+				ele = '<a href="' + href + '&v=lessons">' + vespers[i].name + '</a>';
+			}
+			if (i + 1 != vespers.length) {
+				ele = ele + "<br/><br/>";
+			}
 			$('#hours').append('<tr style="width:100%"><td style="width:25%">' + (i == 0 ? 'Vespers':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
 
@@ -433,6 +472,9 @@
 				href = href + '&t=' + vigil[i].link;
 			}
 			var ele = '<a href="' + href + '">' + vigil[i].name + '</a>';
+			if (i + 1 != vigil.length) {
+				ele = ele + "<br/><br/>";
+			}
 			$('#hours').append('<tr style="width:100%"><td style="width:25%">' + (i == 0 ? 'Vigil':'') + '</td><td style="width:75%">' + ele + '</td></tr>');
 		}
 
