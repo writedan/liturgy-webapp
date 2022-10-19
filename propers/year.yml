@@ -199,12 +199,13 @@ october:
     rank: [feast, saint]
     link: october/luke
   19:
-    - name: "Saints John de Brebeuf and Isaac Jogues, Priests and Martyrs"
-      rank: weak
-      link: october/john_and_isaac
-    - name: "Saint Paul of the Cross"
-      rank: weak
-      link: october/paul
+    name: "Saints John de Brebeuf and Isaac Jogues, Priests and Martyrs"
+    rank: memorial
+    link: october/john_and_isaac
+  20:
+    name: "Saint Paul of the Cross"
+    rank: weak
+    link: october/paul
   22:
     name: "Saint John Paul II"
     rank: weak
