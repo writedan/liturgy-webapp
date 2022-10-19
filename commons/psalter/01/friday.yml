@@ -1,5 +1,6 @@
 rank: feria
 name: I Friday
+rank: weak
 vigil:
     invitatory: Come, let us give thanks to the Lord, for his great love is without end.
     hymn: 185 # O Trinity of Unity
@@ -36,7 +37,7 @@ vespers:
     reading:
         cite: "Romans 15:1-6"
         text: >
-          We who are strong ought to put up with the failings of the weak and not to please ourselves; let each of us please our neighbor for the good, for building up. For Christ did not please himself; but, as it is written,"The insults of those who insult you fall upon me." For whatever was written previously was written for our instruction, that by endurance and by the encouragement of the scriptures we might have hope. May the God of endurance and encouragement grant you to think in harmony with one another, in keeping with Christ Jesus, that with one accord you may with one voice glorify the God and Father of our Lord Jesus Christ. 
+          We who are strong ought to put up with the failings of the weak and not to please ourselves; let each of us please our neighbor for the good, for building up. For Christ did not please himself; but, as it is written,"The insults of those who insult you fall upon me." For whatever was written previously was written for our instruction, that by endurance and by the encouragement of the scriptures we might have hope. May the God of endurance and encouragement grant you to think in harmony with one another, in keeping with Christ Jesus, that with one accord you may with one voice glorify the God and Father of our Lord Jesus Christ.
         responsory:
             - "Christ loved us and washed away our sins in his own blood."
             - ["He made us a nation of kings and priests...","In his own blood."]

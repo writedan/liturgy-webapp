@@ -1,5 +1,6 @@
 rank: sunday
 name: I Sunday
+rank: [feast, sunday]
 vespers1:
         hymn: 151 # O God, Creator of the World
         psalmody:

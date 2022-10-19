@@ -1,5 +1,6 @@
 rank: sunday
 name: II Sunday
+rank: [feast, sunday]
 vespers1:
     hymn: 195 # O God, the Source and Fount of Life
     psalmody:
@@ -69,4 +70,3 @@ terce:
     responsory:
       - "I will sing forever of your mercy, O Lord."
       - "Make known to all generations the fidelity of our God."
-  

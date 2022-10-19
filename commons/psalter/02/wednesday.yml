@@ -1,5 +1,6 @@
 rank: feria
 name: II Wednesday
+rank: weak
 vigil:
     invitatory: Cry out with joy to the Lord, all the earth; serve the Lord with gladness.
     hymn: 209 # Lord and Creator, Judge Supreme, Almighty
@@ -11,7 +12,7 @@ vigil:
 lauds:
     hymn: 211 # O Author of the Heavens Bright
     psalmody:
-        - ["O God, all your ways are holy; what god can compare to our God?",77]
+        - ["O God, all your ways are holy; what God can compare to our God?",77]
         - ["My heart leaps up with joy to the Lord, for he humbles only to exalt us.",1samuel2]
         - ["The Lord is king, let the earth rejoice.",97]
     reading:
