@@ -1,0 +1,88 @@
+name: Thirtieth Sunday in Ordinary Time
+common: psalter/02/sunday
+rank: [feast, sunday]
+collect: >-
+  Almighty ever-living God, increase our faith, hope, and charity, and make us love what you command, so that we may merit what you promise: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vespers1:
+  magnificat: "Teacher, what is the greatest commandment in the law? Jesus said to him, you shall love the Lord your God with your whole heart, alleluia."
+  reading:
+    cite: "Colossians 1:2b-6a"
+    text: >-
+      May God our Father give you grace and peace. We always give thanks to God, the Father of our Lord Jesus Christ, in our prayers for you because we have heard of your faith in Christ Jesus and the love you bear toward all the saints - moved as you are by the hope held in store for you in heaven. You heard of this hope through the message of truth, the gospel, which has come to you, has borne fruit, and has continued to grow in your midst, as it has everywhere in the world.
+lauds:
+  benedictus: "Son of David, have pity on me. What do you want me to do for you? Restore my sight."
+  reading:
+    cite: "Ezekiel 36:25-28"
+    text: >-
+      I will sprinkle clean water upon you to cleanse you from all your impurities, and from all your idols I will cleanse you. I will give you a new heart and place a new spirit within you, taking from your bodies your stony hearts and giving you natural hearts. I will put my spirit within you and make you live by my statutes, careful to observe my decrees. You shall live in the land I gave your fathers; you shall be my people, and I will be your God.
+vespers2:
+  cite: "2 Thessalonians 2:13-14"
+  text: >-
+    We are bound to thank God for you always, beloved brothers and sisters in the Lord, because you are the first fruits of those whom God has chosen for salvation, in holiness of spirit and fidelity to truth. He called you through our preaching of the good news so that you might achieve the glory of our Lord, Jesus Christ.
+  magnificat: "The publican went home at peace with God, for everyone who exalts himself shall be humbled, and whoever humbles himself shall be exalted."
+vigil:
+  reading1:
+    cite: "Wisdom 1:1-15"
+    text: |
+      From the beginning of the book of Wisdom.
+
+      Love justice, you who judge the earth;
+        think of the Lord in goodness,
+        and seek him in integrity of heart;
+      Because he is found by those who test him not,
+        and he manifests himself to those who do not disbelieve him.
+      For perverse counsels separate a man from God,
+        and his power, put to the proof, rebukes the foolhardy;
+
+      Because into a soul that plots evil wisdom enters not,
+        nor dwells she in a body under debt of sin.
+      For the holy spirit of discipline flees deceit
+        and withdraws from senseless counsels;
+        and when injustice occurs it is rebuked.
+
+      For wisdom is a kindly spirit,
+        yet she acquits not the blasphemer of his guilty lips;
+      Because God is the witness of his inmost self
+        and the sure observer of his heart
+        and the listener to his tongue.
+      For the spirit of the Lord fills the world,
+        is all-embracing, and knows what man says.
+
+      Therefore no one who utters wicked things can go unnoticed,
+        nor will chastising condemnation pass him by.
+      For the devices of the wicked man shall be scrutinized,
+        and the sound of his words shall reach the Lord,
+        for the chastisement of his transgressions;
+      Because a jealous ear hearkens to everything,
+        and discordant grumblings are no secret.
+      Therefore guard against profitless grumbling,
+        and from calumny withhold your tongues;
+      For a stealthy utterance does not go unpunished,
+        and a lying mouth slays the soul.
+
+      Court not death by your erring way of life,
+        nor draw to yourselves destruction by the works of your hands.
+      Because God did not make death,
+        nor does he rejoice in the destruction of the living.
+      For he fashioned all things that they might have being;
+        and the creatures of the world are wholesome,
+      And there is not a destructive drug among them
+        nor any domain of the nether world on earth,
+      For justice is undying.
+    responsory:
+      - ["Happy is the one who finds wisdom; it is more precious than your most valued possessions.","Its ways are pleasant; all its paths lead to peace."]
+      - ["Wisdom that comes from God is utterly pure; it is also peacable, gentle, full of kindness and manifests itself in good works.","Its ways are pleasant; all its paths lead to peace."]
+  reading2:
+    text: |
+      From a letter to the Corinthians by Saint Clement, pope.
+
+      Let us fix our gaze on the Father and Creator of the whole world, and let us hold on to his peace and blessings, his splendid and surpassing gifts. Let us contemplate him in our thoughts and with our mind's eye reflect upon the peaceful and restrained unfolding of his plan; let us consider the care with which he provides for the whole of his creation.
+
+      By his direction the heavens are in motion, and they are subject to him in peace. Day and night fulfill the course he has established without interfering with each other. The sun, the moon and the choirs of stars revolve in harmony at his command in their appointed paths without deviation. By his will the earth blossoms in the proper seasons and produces abundant food for men and animals and all the living things on it without reluctance and without any violation of what he has arranged.
+
+      Yet unexplored regions of the abysses and inexpressible realms of the deep are subject to his laws. The mass of the boundless sea, joined together by his ordinance in a single expanse, does not overflow its prescribed limits but flows as he commanded it. For he said: "Thus far shall you come, and your waves will be halted here." The ocean, impassable for men, and the worlds beyond it are governed by the same edicts of the Lord.
+
+      The seasons, spring, summer, autumn and winter, follow one another in harmony. The quarters from which the winds blow function in due season without the least deviation. And the ever-flowing springs, created for our health as well as our enjoyment, unfailingly offer their breasts to sustain human life. The tiniest of living creatures meet together in harmony and peace. The great Creator and Lord of the universe commanded all these things to be established in peace and harmony, in his goodness to all, and in overflowing measure to us who seek refuge in his mercies through our Lord Jesus Christ; to him be glory and majesty for ever and ever. Amen.
+    responsory:
+      - ["O Lord, you rule the heavens and the earth; you created the seas: you are king of the universe.","Hear the prayers of your servants."]
+      - ["Lord, God of heaven and earth, have pity on the humiliation of our people.","Hear the prayers of your servants."]
