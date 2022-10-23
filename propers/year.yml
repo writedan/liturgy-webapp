@@ -216,7 +216,7 @@ october:
     link: october/john_capistrano
   24:
     name: "Saint Anthony Mary Claret, Bishop"
-    link: weak
+    rank: weak
     link: october/claret
   28:
     name: "Saints Simon and Jude, Apostles"
