@@ -1,0 +1,59 @@
+name: Thirty-first Sunday in Ordinary Time
+rank: [feast, sunday]
+common: psalter/03/sunday
+collect: >-
+  Almighty and merciful God, by whose gift your faithful offer you right and praiseworthy service, grant, we pray, that we may hasten without stumbling to receive the things you have promised: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vespers1:
+  reading:
+    cite: "Hebrews 13:20-21"
+    text: |
+       May the God of peace, who brought up from the dead the great shepherd of the sheep by the blood of the eternal covenant, Jesus our Lord, furnish you with all that is good, that you may do his will. May he carry out in you what is pleasing to him through Jesus Christ, to whom be glory forever and ever.
+  magnificat: "You have one teacher, and he is in heaven, Christ, your Lord."
+vespers2:
+  reading:
+    cite: "1 Peter 1:3-7"
+    text: |
+        Blessed be the God and Father of our Lord Jesus Christ, who in his great mercy gave us a new birth to a living hope through the resurrection of Jesus Christ from the dead, to an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you who by the power of God are safeguarded through faith, to a salvation that is ready to be revealed in the final time. In this you rejoice, although now for a little while you may have to suffer through various trials, so that the genuineness of your faith, more precious than gold that is perishable even though tested by fire, may prove to be for praise, glory, and honor at the revelation of Jesus Christ.
+  magnificat: "The son of Man came to seek out and save those who were lost."
+Lauds:
+  reading:
+    cite: "Ezekiel 37:12b-14"
+    text: |
+         Thus says the Lord God: O my people, I will open your graves and have you rise from them, and bring you back to the land of Israel. Then you shall know that I am the Lord, when I open your graves and have you rise from them, O my people! I will put my spirit in you that you may live, and I will settle you upon your land; thus you shall know that I am the Lord. I have promised, and I will do it, says the Lord. 
+  benedictus: "Love the Lord your God with all your heart, and love your neighbor as yourself: there is no greater commandment than these."
+vigil:
+  reading1:
+    cite: "1 Maccabees 1:1-24"
+    text: |
+      From the beginning of the first book of Maccabees.
+
+      After Alexander the Macedonian, Philip's son, who came from the land of Kittim, had defeated Darius, king of the Persians and Medes, he became king in his place, having first ruled in Greece. He fought many campaigns, captured fortresses, and put kings to death. He advanced to the ends of the earth, gathering plunder from many nations; the earth fell silent before him, and his heart became proud and arrogant. He collected a very strong army and conquered provinces, nations, and rulers, and they became his tributaries. But after all this he took to his bed, realizing that he was going to die. He therefore summoned his officers, the nobles, who had been brought up with him from his youth, to divide his kingdom among them while he was still alive. Alexander had reigned twelve years when he died.
+
+      So his officers took over his kingdom, each in his own territory, and after his death they all put on royal crowns, and so did their sons after them for many years, causing much distress over the earth.
+
+      There sprang from these a sinful offshoot, Antiochus Epiphanes, son of King Antiochus, once a hostage at Rome. He became king in the year one hundred and thirty-seven of the kingdom of the Greeks.
+
+      In those days there appeared in Israel men who were breakers of the law, and they seduced many people, saying: "Let us go and make an alliance with the Gentiles all around us; since we separated from them, many evils have come upon us." The proposal was agreeable; some from among the people promptly went to the king, and he authorized them to introduce the way of living of the Gentiles. Thereupon they built a gymnasium in Jerusalem according to the Gentile custom. They covered over the mark of their circumcision and abandoned the holy covenant; they allied themselves with the Gentiles and sold themselves to wrongdoing.
+
+      When his kingdom seemed secure, Antiochus proposed to become king of Egypt, so as to rule over both kingdoms. He invaded Egypt with a strong force, with chariots and elephants, and with a large fleet, to make war on Ptolemy, king of Egypt. Ptolemy was frightened at his presence and fled, leaving many casualties. The fortified cities in the land of Egypt were captured, and Antiochus plundered the land of Egypt.
+
+      After Antiochus had defeated Egypt in the year one hundred and forty-three, he returned and went up to Israel and to Jerusalem with a strong force. He insolently invaded the sanctuary and took away the golden altar, the lampstand for the light with all its fixtures, the offering table, the cups and the bowls, the golden censers, the curtain, the crowns, and the golden ornament on the facade of the temple. He stripped off everything, and took away the gold and silver and the precious vessels; he also took all the hidden treasures he could find. Taking all this, he went back to his own country, after he had spoken with great arrogance and shed much blood.
+    responsory:
+       - ["If for a little while our God is angry with us, to punish and discipline us...","He will again be at peace with his servants."]
+       - ["All discipline seems harsh at the time it is administered; afterward is yields the peaceful fruit of an honest life.","He will again be at peace with his servants."]
+  reading2:
+    text: |
+      From the pastoral constitution on the Church in the modern world of the Second Vatican Council.
+
+      Peace is not the mere absence of war or the simple maintenance of a balance of power between forces, nor can it be imposed at the dictate of absolute power. It is called, rightly and properly, a work of justice. It is the product of order, the order implanted in human society by its divine founder, to be realized in practice as men hunger and thirst for ever more perfect justice.
+
+      The common good of the human race is subject to the eternal law as its primary principle, but its requirements in practice keep changing with the passage of time. The result is that peace is never established finally and for ever; the building up of peace has to go on all the time. Again, the human will is weak and wounded by sin; the search for peace therefore demands from each individual constant control of the passions, and from legitimate authority untiring vigilance.
+
+      Even this is not enough. Peace here on earth cannot be maintained unless the good of the human person is safeguarded, and men are willing to trust each other and share their riches of spirit and talent. If peace is to be established it is absolutely necessary to have a firm determination to respect other persons and peoples and their dignity, and to be zealous in the practice of brotherhood.
+
+      Peace is therefore the fruit also of love; love goes beyond what justice can achieve. Peace on earth, born of love for one’s neighbor, is the sign and the effect of the peace of Christ that flows from God the Father. In his own person the incarnate Son, the Prince of Peace, reconciled all men to God through his death on the cross. In his human nature he destroyed hatred and restored unity to all mankind in one people and one body. Raised on high by the resurrection, he sent the Spirit of love into the hearts of men.
+
+      All Christians are thus urgently summoned to live the truth in love, and to join all true peacemakers in prayer and work for peace. Moved by the same spirit, we cannot but praise those who renounce violence in defense of rights, and have recourse to means of defense otherwise available to the less powerful as well, provided that this can be done without injury to the rights and obligations of others or of the community.
+    responsory:
+       - ["Yours, O Lord, is the grandeur and the power; you are exalted as ruler over all.","Bring us peace, O Lord, in our time."]
+       - ["O God, Creator of all things, you are awesome and strong, just and merciful.","Bring us peace, O Lord, in our time."]
