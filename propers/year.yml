@@ -222,3 +222,8 @@ october:
     name: "Saints Simon and Jude, Apostles"
     rank: [feast, saint]
     link: october/simon_and_jude
+november:
+  1:
+    name: "All Saints"
+    rank: [solemnity, saint]
+    link: november/all_saints

@@ -1,0 +1,131 @@
+name: All Saints
+rank: [solemnity, saint]
+collect: >-
+  Almighty ever-living God, by whose gift we venerate in one celebration the merits of all the Saints, bestow on us, we pray, through the prayers of so many intercessors, an abundance of the reconciliation with you for which we earnestly long: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  invitatory: "Come let us worship God whose praises are sung in the assembly of the saints."
+  psalmody:
+    - ["How great is your name, O Lord, for with glory and honor you have crowned your saints; you have set them over the works of your hands.",8]
+    - ["Blessed are the pure of heart for they shall see God.",15]
+    - ["You have shown your saints the path of life, you have filled them with joy in your presence, O Lord.",16]
+  call:
+    - "Look to the Lord and be enlightened."
+    - "And never let your faces be ashamed."
+  reading1:
+    cite: "Revelation 5:1-14"
+    text: |
+      From the book of Revelation.
+
+      In the right hand of the One who sat on the throne I, John, saw the scroll. It had writing on both sides and was sealed with seven seals. Then I saw a mighty angel who proclaimed in a loud voice: "Who is worthy to open the scroll and break up its seals?" But no one in heaven or on earth or under the earth could be found to open the scroll or examine its contents. I wept bitterly because no one could be found worthy to open or examine the scroll. One of the elders said to me: "Do not weep. The Lion of the tribe of Judah, the Root of David, has won the right by his victory to open the scroll with the seven seals."
+
+      Then, between the throne with the four living creatures and the elders, I saw a Lamb standing, a Lamb that had been slain. He had seven horns and seven eyes; these eyes are the seven spirits of God, sent to all parts of the world. The Lamb came and received the scroll from the right hand of the One who sat on the throne.
+
+      When he had taken the scroll, the four living creatures and the twenty-four elders fell down before the Lamb. Along with their harps, the elders were holding vessels of gold filled with aromatic spices, which were the prayers of God's holy people. This is the new hymn they sang:
+
+      "Worthy are you the receive the scroll
+        and break open its seals,
+        for you were slain.
+      With your blood you purchased for God
+        men of every race and tongue,
+        of every people and nation.
+      You made of them a kingdom,
+        and priests to serve our God,
+        and they shall reign on the earth.
+
+           As my vision continued, I heard the voices of many angels who surrounded the throne and the  living creatures and the elders. They were countless in number, thousands and tens of thousands, and they all cried out:
+
+      "Worthy is the Lamb that was slain
+        to receive power and riches, wisdom and strength,
+        honor and glory and praise!"
+
+           Then I heard the voices of every creature in heaven and on earth and under the earth and in the sea; everything in the universe cried aloud:
+
+      "To the One seated on the throne, and to the Lamb,
+        be praise and honor, glory and might,
+        forever and ever!"
+
+      The four living creatures answered, "Amen," and the elders fell down and worshipped.
+    responsory:
+      - ["We give you thanks, Lord God Almighty: who is, who was, and who is to come.","For you have begun your reign and now the time has come to reward your servants and your saints."]
+      - ["May all creatures praise you, O Lord; may all your saints bless you.","For you have begun your reign and now the time has come to reward your servants and your saints."]
+  reading2:
+    text: |
+      From a sermon of Saint Bernard, abbot.
+
+      Why should our praise and glorification, or even the celebration of this feast day mean anything to the saints? What do they care about earthly honours when their heavenly Father honours them by fulfilling the faithful promise of the Son? What does our commendation mean to them? The saints have no need of honour from us; neither does our devotion add the slightest thing to what is theirs. Clearly, if we venerate their memory, it serves us, not them. But I tell you, when I think of them, I feel myself inflamed by a tremendous yearning.
+
+      Calling the saints to mind inspires, or rather arouses in us, above all else, a longing to enjoy their company, so desirable in itself. We long to share in the citizenship of heaven, to dwell with the spirits of the blessed, to join the assembly of patriarchs, the ranks of the prophets, the council of apostles, the great host of martyrs, the noble company of confessors and the choir of virgins. In short, we long to be united in happiness with all the saints. But our dispositions change. The Church of all the first followers of Christ awaits us, but we do nothing about it. The saints want us to be with them, and we are indifferent. The souls of the just await us, and we ignore them.
+
+      Come, brothers, let us at length spur ourselves on. We must rise again with Christ, we must seek the world which is above and set our mind on the things of heaven. Let us long for those who are longing for us, hasten to those who are waiting for us, and ask those who look for our coming to intercede for us. We should not only want to be with the saints, we should also hope to possess their happiness. While we desire to be in their company, we must also earnestly seek to share in their glory. Do not imagine that there is anything harmful in such an ambition as this; there is no danger in setting our hearts on such glory.
+
+      When we commemorate the saints we are inflamed with another yearning: that Christ our life may also appear to us as he appeared to them and that we may one day share in his glory. Until then we see him, not as he is, but as he became for our sake. He is our head, crowned, not with glory, but with the thorns of our sins. As members of that head, crowned with thorns, we should be ashamed to live in luxury; his purple robes are a mockery rather than an honour. When Christ comes again, his death shall no longer be proclaimed, and we shall know that we also have died, and that our life is hidden with him. The glorious head of the Church will appear and his glorified members will shine in splendour with him, when he forms this lowly body anew into such glory as belongs to himself, its head.
+
+      Therefore, we should aim at attaining this glory with a wholehearted and prudent desire. That we may rightly hope and strive for such blessedness, we must above all seek the prayers of the saints. Thus, what is beyond our own powers to obtain will be granted through their intercession.
+    responsory:
+      - ["Praise God all you who serve him both great and small.","For the Lord God Almighty had begun his reign."]
+      - ["Sing for joy, God's chosen ones, let all the saints give him fitting praise.","For the Lord God Almighty had begun his reign."]
+vespers1:
+  psalmody:
+    - ["Eternal light will shine upon your saints, O Lord, and they will live forever, alleluia.",113]
+    - ["Jerusalem, city of God, you will rejoice in your children, for they shall all be blessed are gathered together with the Lord, alleluia.",147]
+    - ["Before the throne of God and the Lamb the saints will sing a new song; their voices will resound throughout the earth, alleluia.",revelation19]
+  reading:
+    cite: "Hebrews 12:22-24"
+    text: >-
+      You have drawn near to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable angels in festal gathering, and to the assembly of the firstborn who are enrolled in heaven, and to God the judge of all, and to the spirits of the righteous made perfect, and to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks a better word than the blood of Abel.
+    responsory:
+      - "The just shall rejoice in the presence of the Lord."
+      - ["They shall sing for joy.","In the presence of the Lord."]
+  magnificat: "The glorious company of the apostles praise you; the noble fellowship of prophets praise you; the white-robed army of martyrs praise you; throghout the world the holy Church acclaims you: holy Trinity, one God."
+  intercessions:
+    - ["God is the reward of all the saints. Let us joyfully call upon him:","Lord, save your people."]
+    - ["O God, through your Son Jesus Christ you built your Church on the foundation of the apostles.","Keep their teaching secure among your faithful people."]
+    - ["You made the martyrs powerful witnesses even to the point of giving up their lives.","Help all Christians to give faithful witness to your Son."]
+    - ["You gave holy virgins the gift of imitating the virginity of Christ.","May those consecrated to virginity be steadfast witnesses to the coming of your kingdom."]
+    - ["Your saints now see you face to face.","Keep alive in our hearts the hope of coming at last into your presence."]
+    - ["Bring all who have died into the company of heaven with Mary, Joseph, and all your saints.","And give us also a place in the unending fellowship of your kingdom."]
+lauds:
+  psalmody:
+    - ["The saints find their home in the kingdom of heaven; their life is eternal peace, alleluia.",63]
+    - ["Saints of the Lord, sing praise to the Lord forever.",daniel3]
+    - ["Sing a hymn of praise in honor of the saints, the children of Israel whom God has chosen as his own; celebrate the glory of all his holy ones.",149]
+  reading:
+    cite: "Ephesians 1:17-18"
+    text: >-
+      May the God of our Lord Jesus Christ, the Father of glory, grant you a spirit of wisdom and insight to know him clearly. May God enlighten your innermost vision that you may know the great hope to which he has called you, the wealth of his glorious heritage to be distributed among the members of the church.
+    responsory:
+      - "Let the just rejoice and sing for joy in the Lord."
+      - ["Delight in his love, you pure of heart.","And sing for joy in the Lord."]
+  benedictus: "The saints will shine like the sun in the kingdom of their Father, alleluia."
+  intercessions:
+    - ["God is the reward of all the saints. Let us joyfully call upon him:","Lord, save your people."]
+    - ["O God, source of all that is holy, you have let your holiness shine in many marvelous ways through the lives of your saints.","Help us to celebrate your greatness in them."]
+    - ["The lives of your saints have given testimony to your Son, Jesus Christ.","Through their example may we draw closer to him."]
+    - ["King of heaven, through your saints you have given us the courage to follow after your Son.","Help us to imitate the example of the saints who show us the way to Christ."]
+    - ["Father, in the eucharistic sacrifice you unite us more fully with those who now live in your kingdom.","By our frequent sharing in the body and blood of your Son bring us to the company of the eternal banquet."]
+vespers2:
+  psalmody:
+    - ["I saw a vast crowd of countless numbers from every nation standing before the throne.",110]
+    - ["God tried them and found them worthy of himself; they shall receive a crown of glory from the Lord.",116]
+    - ["By your own blood, Lord, you brought us back to God; from every tribe, and tongue, and people, and nation, you made us a kingdom for God.",revelation4]
+  reading:
+    cite: "2 Corinthians 6:16b; 7:1"
+    text: >-
+      For you are the temple of the living God, just as God has said:
+
+      “I will dwell in them and walk among them,
+      I will be their God,
+      and they shall be My people.”
+
+      Since we have these promises, beloved, let us purify ourselves from every defilement of flesh and spirit, and in the fear of God strive to fulfill our consecration perfectly.
+    responsory:
+      - "Let the saints rejoice in the Lord."
+      - ["God has chosen you as his own.","Rejoice in the Lord."]
+  magnificat: "How glorious is that kingdom where all the saints rejoice with Christ; clothed in white robes, they follow the Lamb wherever he goes."
+  intercessions:
+    - ["God is the reward of all the saints. Let us joyfully call upon him:","Lord, save your people."]
+    - ["O God, through your Son Jesus Christ you built your Church on the foundation of the apostles.","Keep their teaching secure among your faithful people."]
+    - ["You made the martyrs powerful witnesses even to the point of giving up their lives.","Help all Christians to give faithful witness to your Son."]
+    - ["You gave holy virgins the gift of imitating the virginity of Christ.","May those consecrated to virginity be steadfast witnesses to the coming of your kingdom."]
+    - ["Your saints now see you face to face.","Keep alive in our hearts the hope of coming at last into your presence."]
+    - ["Bring all who have died into the company of heaven with Mary, Joseph, and all your saints.","And give us also a place in the unending fellowship of your kingdom."]
