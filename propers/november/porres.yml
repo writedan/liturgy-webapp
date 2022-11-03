@@ -1,0 +1,26 @@
+name: Saint Martin de Porres
+rank: weak
+common: holyman
+collect: >-
+  O God, who led Saint Martin de Porres by the path of humility to heavenly glory, grant that we may so follow his radiant example in this life as to merit to be exalted with him in heaven: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vespers:
+  magnificat: "Let us proclaim the greatness of the Lord, for with heavenly gifts he has raised up his lowly servant Martin."
+lauds:
+  benedictus: "Blessed be the Lord, for he has set all nations free; he has called us out of darkness into his own wonderful light."
+vigil:
+  reading2:
+    text: |
+      From a homily given at the canonization of Saint Martin de Porres by Pope John XXIII.
+
+      The example of Martin's life is ample evidence that we can strive for holiness and salvation as Christ Jesus has shown us: first, by loving God "with all your heart, with all your soul, and with all your mind; and second, by loving your neighbor as yourself."
+
+      When Martin had come to realize that Christ Jesus "suffered for us and that he carried our sins on his body to the cross, he would meditate with remarkable ardor and affection about Christ on the cross. He had an exceptional love for the great sacrament of the Eucharist and often spent long hours in prayer before the blessed sacrament. His desire was to receive the sacrament in Communion as often as he could.
+
+      Saint Martin, always obedient and inspired by his divine teacher, dealt with his brothers and with that profound love which comes from pure faith and humility of spirit. He loved men and because he honestly looked on them as God's children and as his own brothers and sisters. Such was his humility that he loved them even more than himself, and considered them to be better and more righteous than he was.
+
+      He did not blame others for their shortcomings. Certain that he deserved more severe punishment for his sins than others did, he would overlook their worst offenses. He was tireless in his efforts to reform the criminal, and he would sit up with the sick to bring them comfort. For the poor he would provide food, clothing and medicine. He did all he could to care for poor farmhands, blacks, and mulattoes who were looked down upon as slaves, the dregs of society in their time. Common people responded by calling him, "Martin the charitable."
+
+      The virtuous example and even the conversation of this saintly man exerted a powerful influence in drawing men to religion. It is remarkable how even today his influence can still move us toward the things of heaven. Sad to say, not all of us understand these spiritual values as well as we should, nor do we give them a proper place in our lives. Many of us, in fact, strongly attracted by sin, may look upon these values as of little moment, even something of a nuisance, or we ignore them altogether. It is deeply rewarding for men striving for salvation to follow in Christ's footsteps and to obey God's commandments. If only everyone could learn this lesson from the example that Martin gave us.
+    responsory:
+      - ["Blessed is the man who is found without fault, who does not make gold his life's object, who does not put his trust in wealth.","His future will be secure in the Lord."]
+      - ["Who is this man that we may praise him, for he has done wonders in his life.","His future will be secure in the Lord."]
