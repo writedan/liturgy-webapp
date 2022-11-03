@@ -139,7 +139,7 @@ function getChristKing(year) {
 }
 
 // For universal use
-var UUID = '13';
+var UUID = '14';
 
 function loadYaml(url, callback) {
 	jQuery.get(url + '.yml?' + UUID, function onGetYaml(data) {

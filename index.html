@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
-<script src='./loth.js?13'></script>
+<script src='./loth.js?14'></script>
 
 <script src="yaml.js"></script>
 
@@ -329,7 +329,7 @@
 		var highest_weight = 8;
 		for (let i = 0; i < offices.length; i++) {
 			var office = offices[i];
-			office.include_vigil = true; // TODO REMOVE THIS TO REMOVE VIGIL READINGS FROM VESPERS
+			office.include_vigil = false; // TODO REMOVE THIS TO REMOVE VIGIL READINGS FROM VESPERS
 			if (office.date.getTime() == today.getTime() || office.bifucrated_vespers) {
 				if (office.weight < highest_weight) {
 					vespers = [office];
