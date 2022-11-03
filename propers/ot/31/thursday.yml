@@ -1,0 +1,41 @@
+name: Thursday of the Thirty-first Week in Ordinary Time
+common: psalter/03/thursday
+rank: weak
+collect: >-
+  Almighty and merciful God, by whose gift your faithful offer you right and praiseworthy service, grant, we pray, that we may hasten without stumbling to receive the things you have promised: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  reading1:
+    cite: "1 Maccabees 4:36-59"
+    text: |
+      From the first book of the Maccabees.
+
+      Judas and his brothers said, "Now that our enemies have been crushed, let us go up to purify the sanctuary and rededicate it." So the whole army assembled, and went up to Mount Zion. They found the sanctuary desolate, the altar desecrated, the gates burnt, weeds growing in the courts as in a forest or on some mountain, and the priests' chambers demolished. Then they tore their clothes and made great lamentation; they sprinkled their heads with ashes and fell with their faces to the ground. And when the signal was given with trumpets, they cried out to Heaven.
+
+      Judas appointed men to attack those in the citadel, while he purified the sanctuary. He chose blameless priests, devoted to the law; these purified the sanctuary and carried away the stones of the Abomination to an unclean place.
+
+      They deliberated what ought to be done with the altar of holocausts that had been desecrated. The happy thought came to them to tear it down, lest it be a lasting shame to them that the Gentiles had defiled it; so they tore down the altar. They stored the stones in a suitable place on the temple hill, until a prophet should come and decide what to do with them. Then they took uncut stones, according to the law, and built a new altar like the former one. They also repaired the sanctuary and the interior of the temple and purified the courts. They made new sacred vessels and brought the lampstand, the altar of incense, and the table into the temple. Then they burned incense on the altar and lighted the lamps on the lampstand, and these illuminated the temple. They also put loaves on the table and hung up curtains. Thus they finished all the work they had undertaken.
+
+      Early in the morning on the twenty-fifth day of the ninth month, that is, the month of Chislev, in the year one hundred and forty-eight, they arose and offered sacrifice according to the law on the new altar of holocausts that they had made. On the anniversary of the day on which the Gentiles had defiled it, on that very day it was reconsecrated with songs, harps, flutes, and cymbals. All the people prostrated themselves and adored and praised Heaven, who had given them success.
+
+      For eight days they celebrated the dedication of the altar and joyfully offered holocausts and sacrifices of deliverance and praise. They ornamented the facade of the temple with gold crowns and shields; they repaired the gates and the priests' chambers and furnished them with doors. There was great joy among the people now that the disgrace of the Gentiles was removed.
+
+      Then Judas and his brothers and the entire congregation of Israel decreed that the days of the dedication of the altar should be observed with joy and gladness on the anniversary every year for eight days, from the twenty-fifth day of the month Chislev.
+    responsory:
+      - ["They decorated the facade of the temple with golden crowns; they dedicated the altar to the Lord.","And there was great joy among the people."]
+      - ["They blessed the Lord with hymns and thanksgiving.","And there was great joy among the people."]
+  reading2:
+    text: |
+      From a catechetical instruction on the Creed by Saint Cyril of Jerusalem, bishop.
+
+      In learning and professing the faith, you must accept and retain only the Church’s present tradition, confirmed as it is by the Scriptures. Although not everyone is able to read the Scriptures, some because they have never learned to read, others because their daily activities keep them from such study, still so that their souls will not be lost through ignorance, we have gathered together the whole of the faith in a few concise articles.
+
+      Now I order you to retain this creed for your nourishment through life and never to accept any alternative, not even if I myself were to change and say something contrary to what I am now teaching, not even if some angel of contradiction, changed into an angel of light, tried to lead you astray. For "even if we, or an angel from heaven, should preach to you a gospel contrary to that which you have now received, let him be accursed in your sight."
+
+      So for the present be content to listen to the simple words of the creed and to memorize them; at some suitable time you can find the proof of each article in the Scriptures. This summary of the faith was not composed at man’s whim; the most important sections were chosen from the whole Scripture to constitute and complete a comprehensive statement of the faith. Just as the mustard seed contains in a small grain many branches, so this brief statement of the faith keeps in its heart, as it were, all the religious truth to be found in Old and New Testament alike. That is why, my brothers, you must consider and preserve the traditions you are now receiving. Inscribe them across your heart.
+
+      Observe them scrupulously, so that no enemy may rob any of you in an idle and heedless moment; let no heretic deprive you of what has been given to you. Faith is rather like depositing in a bank the money entrusted to you, and God will surely demand an account of what you have deposited. In the words of the Apostle: "I charge you before the God who gives life to all things, and before Christ who bore witness under Pontius Pilate in a splendid declaration, to keep unblemished this faith you have received, until the coming of our Lord Jesus Christ."
+
+      You have now been given life’s great treasure; when he comes, the Lord will ask for what he has entrusted to you. At the appointed time he will reveal himself, for he is the blessed and sole Ruler, King of kings, Lord of lords. He alone is immortal, dwelling in unapproachable light. No man has seen or ever can see him. To him be glory, honor and power for ever and ever. Amen.
+    responsory:
+      - ["The just man will live by faith, but if he draws back I will take no pleasure in him.","We are not people who draw back and are lost; we live by faith that we might be saved."]
+      - ["The unbeliever has no integrity.","We are not people who draw back and are lost; we live by faith that we might be saved."]
