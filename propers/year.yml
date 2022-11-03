@@ -227,3 +227,78 @@ november:
     name: "All Saints"
     rank: [solemnity, saint]
     link: november/all_saints
+  2: # TODO: handle transfer
+    name: "Commemoration of All the Faithful Departed"
+    rank: [solemnity, saint]
+    link: november/all_souls
+    transfer: [feast, sunday]
+  3:
+    name: "Saint Martin de Porres, Religious"
+    rank: weak
+    link: november/porres
+  4:
+    name: "Saint Charles Borromeo, Bishop"
+    rank: memorial
+    link: november/borromeo
+  9:
+    name: "Dedication of the Lateran Basilica"
+    rank: [feast, saint]
+    link: november/lateran
+  10:
+    name: "Saint Leo the Great, Pope and Doctor of the Church"
+    rank: [feast, saint]
+    link: november/leo
+  11:
+    name: "Saint Martin of Tours, Bishop"
+    rank: memorial
+    link: november/tours
+  12:
+    name: "Saint Josaphat, Bishop and Martyr"
+    rank: memorial
+    link: november/josaphat
+  15:
+    name: "Saint Albert the Great, Bishop and Doctor of the Church"
+    rank: weak
+    link: november/albert
+  16:
+    - name: "Saint Margaret of Scotland"
+      rank: weak
+      link: november/margaret
+    - name: "Saint Gertrude, Virgin"
+      rank: weak
+      link: november/gertrude
+  17:
+    name: "Saint Elizabeth of Hungry, Religious"
+    rank: memorial
+    link: november/elizabeth
+  18:
+    name: "Dedication of the Basilicas of Saints Peter and Paul the Apostles"
+    rank: weak
+    link: november/peter_and_paul
+  21:
+    name: "Presentation of the Blessed Virgin Mary"
+    rank: memorial
+    link: november/presentation
+  22:
+    name: "Saint Cecilia, Virgin and Martyr"
+    rank: memorial
+    link: november/cecilia
+  23:
+    - name: "Saint Clement I, Pope and Martyr"
+      rank: weak
+      link: november/clement
+    - name: "Saint Columban, Abbot"
+      rank: weak
+      link: november/columban
+  24:
+    name: "Saint Andrew Dung-Lac, Priest and Martyr"
+    rank: memorial
+    link: november/dunglac
+  25:
+    name: "Saint Catherine of Alexandria, Virgin and Martyr"
+    rank: weak
+    link: november/catherine
+  30:
+    name: "Saint Andrew, Apostle"
+    rank: [feast, saint]
+    link: november/andrew
