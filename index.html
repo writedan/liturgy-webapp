@@ -366,9 +366,26 @@
 			include_vigil: false
 		};
 
+		var bvm = {
+			name: 'Saturday Office of the Blessed Virgin Mary',
+			rank: 'weak',
+			link: 'bvm',
+			sanctoral: true,
+			date: vespers[0].date,
+			bifucrated_vespers: false,
+			include_vigil: false,
+			temporal_ref: vespers[0]
+		};
+
 		if(daytime[0].weight == 7) daytime.push(defunctorum);
 		if(vespers[0].weight == 7) vespers.push(defunctorum);
 		if(vigil[0].weight == 7) vigil.push(defunctorum);
+
+		if (today.getDay() == 5) {
+			if(daytime[0].weight == 7) daytime.push(bvm);
+			if(vespers[0].weight == 7) vespers.push(bvm);
+			if(vigil[0].weight == 7) vigil.push(bvm);
+		}
 	}
 
 	// since we only have one transfer, it will just be handled manually
