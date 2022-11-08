@@ -1,0 +1,20 @@
+name: Dedication of Saint John Lateran Basilica
+rank: [feast, saint]
+common: dedication
+collect: >-
+  O God, who from living and chosen stones prepare an eternal dwelling for your majesty, increase in your Church the spirit of grace you have bestowed, so that by new growth your faithful people may build up the heavenly Jerusalem: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  reading2:
+    text: |
+      From a sermon by Saint Caesarius of Arles, bishop.
+
+      My fellow Christians, today is the birthday of this church, an occasion for celebration and rejoicing. We, however, ought to be the true and living temple of God. Nevertheless, Christians rightly commemorate this feast of the Church, their mother, for they know that through her they were reborn in the spirit. At our first birth, we were vessels of God’s wrath; reborn, we became vessels of his mercy. Our first birth brought death to us, but our second restored us to life.
+
+      Indeed, before our baptism we were sanctuaries of the devil; but after our baptism we merited the privilege of being temples of Christ. And if we think more carefully about the meaning of our salvation, we shall realize that we are indeed living and true temples of God. God does not dwell only in structures fashioned by human hands, in homes of wood and stone, but rather he dwells principally in the soul made according to his own image and fashioned by his own hand. Therefore, the apostle Paul says: The temple of God is holy, and you are that temple.
+
+      When Christ came, he banished the devil from our hearts, in order to build in them a temple for himself. Let us therefore do what we can with his help, so that our evil deeds will not deface that temple. For whoever does evil, does injury to Christ. As I said earlier, before Christ redeemed us, we were the house of the devil, but afterward, we merited the privilege of being the house of God. God himself in his loving mercy saw fit to make of us his own home.
+
+      My fellow Christians, do we wish to celebrate joyfully the birth of this temple? Then let us not destroy the living temples of God in ourselves by works of evil. I shall speak clearly, so that all can understand. Whenever we come to church, we must prepare our hearts to be as beautiful as we expect this church to be. Do you wish to find this basilica immaculately clean? Then do not soil your soul with the filth of sins. Do you wish this basilica to be full of light? God too wishes that your soul be not in darkness, but that the light of good works shine in us, so that he who dwells in the heavens will be glorified. Just as you enter this church building, so God wishes to enter into your soul, for he promised: I shall live in them, and I shall walk the corridors of their hearts.
+    responsory:
+      - ["I saw water flowing eastward from beneath the threshold of the temple, alleluia; wherever the river flowed everything became alive.","Those who were saved by it cried out: Alleluia, alleluia."]
+      - ["When the temple was dedicated, the people sang songs of praise and beautiful hymns.","Those who were saved by it cried out: Alleluia, alleluia."]
