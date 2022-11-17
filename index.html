@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
-<script src='./loth.js?13'></script>
+<script src='./loth.js?14'></script>
 
 <script src="yaml.js"></script>
 
@@ -241,6 +241,34 @@
 
 		temporal.date = today;
 		offices.push(temporal);
+
+		console.log(offices);
+
+		{ // handle votive offices
+			var defunctorum = {
+				name: 'Office for the Dead',
+				rank: 'weak',
+				link: 'dead',
+				sanctoral: false,
+				date: today,
+				bifucrated_vespers: false,
+				include_vigil: false
+			};
+
+			var bvm = {
+				name: 'Saturday Office of the Blessed Virgin Mary',
+				rank: 'weak',
+				link: 'bvm',
+				sanctoral: true,
+				date: today,
+				bifucrated_vespers: false,
+				include_vigil: false,
+				temporal_ref: temporal
+			};
+
+			offices.push(defunctorum);
+			if (today.getDay() == 6) offices.push(bvm);
+		}
 	}
 </script>
 
@@ -329,7 +357,7 @@
 		var highest_weight = 8;
 		for (let i = 0; i < offices.length; i++) {
 			var office = offices[i];
-			office.include_vigil = true; // TODO REMOVE THIS TO REMOVE VIGIL READINGS FROM VESPERS
+			office.include_vigil = false;
 			if (office.date.getTime() == today.getTime() || office.bifucrated_vespers) {
 				if (office.weight < highest_weight) {
 					vespers = [office];
@@ -353,32 +381,6 @@
 				vigil.push(office);
 			}
 		}
-	}
-
-	{ // handle votive offices
-		var defunctorum = {
-			name: 'Office for the Dead',
-			rank: 'weak',
-			link: 'dead',
-			sanctoral: false,
-			date: vespers[0].date,
-			bifucrated_vespers: false,
-			include_vigil: false
-		};
-
-		var bvm = {
-			name: 'Office of the Blessed Virgin Mary',
-			rank: 'weak',
-			link: 'bvm',
-			sanctoral: false,
-			date: vespers[0].date,
-			bifucrated_vespers: false,
-			include_vigil: false
-		}
-
-		daytime.push(defunctorum);
-		vespers.push(defunctorum);
-		vigil.push(defunctorum);
 	}
 
 	// since we only have one transfer, it will just be handled manually

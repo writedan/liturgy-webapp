@@ -1,3 +1,42 @@
-name: Office of the Blessed Virgin Mary
+name: Saturday Office of the Blessed Virgin Mary
 common: bvm
 rank: weak
+collect: >-
+  Lord our God, you have made the Virgin Mary the model for all who welcome your word and who put it into practice; open our hearts to receive it with joy and by the power of your Spirit grant that we also may become a dwelling place in which your word of salvation is fulfilled: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the same Holy Spirit, God, forever and ever.
+vigil:
+  invitatory: Come, let us worship Christ, the Son of Mary.
+  reading1:
+    cite: "Galatians 3:22 - 4:7"
+    text: |
+      From the letter of Saint Paul the Apostle to the Galatians.
+
+      Scripture confined all things under the power of sin, that through faith in Jesus Christ the promise might be given to those who believe.
+
+      Before faith came, we were held in custody under law, confined for the faith that was to be revealed.  Consequently, the law was our disciplinarian for Christ, that we might be justified by faith.  But now that faith has come, we are no longer under a disciplinarian.  For through faith you are all children of God in Christ Jesus.  For all of you who were baptized into Christ have clothed yourselves with Christ.  There is neither Jew nor Greek, there is neither slave nor free person, there is not male and female; for you are all one in Christ Jesus.  And if you belong to Christ, then you are Abraham's descendant, heirs according to the promise.
+
+      I mean that as long as the heir is not of age, he is no different from a slave, although he is the owner of everything,  but he is under the supervision of guardians and administrators until the date set by his father.  In the same way we also, when we were not of age, were enslaved to the elemental powers of the world.  But when the fullness of time had come, God sent his Son, born of a woman, born under the law,  to ransom those under the law, so that we might receive adoption.  As proof that you are children, God sent the spirit of his Son into our hearts, crying out, "Abba, Father!"  So you are no longer a slave but a child, and if a child then also an heir, through God.
+    responsory:
+      - ["When the fullness of time had come, God sent forth his own Son, born of a woman, subject to the law.","To deliver those under the law."]
+      - ["Because of his great love for us, God sent his own Son in the likeness of our sinful flesh.","To deliver those under the law."]
+  reading2:
+    text: |
+      From a sermon by Saint Aelred, abbot.
+
+      Let us come to his bride, his mother, his perfect handmaid, for the blessed Mary is all of this.
+
+      But what are we to do for her? What kind of gifts shall we offer her? Would that we could at least return what we are in duty bound to do, for we owe her honor and service, we owe her love and praise. We owe her honor, for she is the mother of our Lord. He who fails to honor the mother clearly dishonors the son. Also, Scripture says: "Honor your father and your mother."
+
+      What then, my brothers, shall we say? Is she not our mother? Yes, my brothers, she is indeed our mother, for through her we have been born, not for the world but for God.
+
+      Once we all lay in death, as you know and believe, in sin, in darkness, in misery. In death, because we had lost the Lord; in sin, because of our corruption; in darkness, for we were without the light of wisdom, and thus had perished utterly.
+
+      But then we were born, far better than through Eve, through Mary the blessed, because Christ was born of her. We have recovered new life in place of sin, immortality instead of mortality, light in place of darkness.
+
+      She is our mother, the mother of our life, the mother of our incarnation, the mother of our light. As the Apostle says of our Lord, "he became for us by God’s power our wisdom and justice, and holiness and redemption."
+
+      She then, as mother of Christ, is the mother of our wisdom and justice, of our holiness and redemption. She is more our mother than the mother of our flesh. Our birth from her is better, for from her is born our holiness, our wisdom, our justice, our sanctification, our redemption.
+
+      "Praise the Lord in his holy ones," say the Scriptures. If our Lord is to be praised in those holy ones through whom he brings to being deeds of power and miracles, how much more is he to be praised in her in whom he fashioned himself, who is wonderful beyond all wonders.
+    responsory:
+      - ["Happy are you, holy Virgin Mary, and most worthy of all praise.","From your womb Christ the Sun of Justice has risen; through him we have salvation and deliverance."]
+      - ["Blessed are you among women and blessed is the fruit of your womb.","From your womb Christ the Sun of Justice has risen; through him we have salvation and deliverance."]
