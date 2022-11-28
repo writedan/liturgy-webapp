@@ -111,7 +111,7 @@
 					link: 'advent/' + weekNumber + '/' + WEEKDAYS[today.getDay()]
 				};
 			} else {
-				/*var rank = ['weak','feria'];
+				var rank = ['weak','feria'];
 				var name = WEEKDAYS[today.getDay()].charAt(0).toUpperCase() + WEEKDAYS[today.getDay()].slice(1) + ' in the ' + ordinalInWord(weekNumber) + ' Week of Advent';
 				if (today.getDay() == 0) {
 					rank = 'holyday';
@@ -121,7 +121,7 @@
 					'name': name,
 					'rank': rank,
 					link: 'advent/' + weekNumber + '/' + WEEKDAYS[today.getDay()]
-				};*/
+				};
 			}
 
 			console.log(weekNumber + " Week in Advent");
@@ -189,6 +189,7 @@
 				rank = ['feast','sunday'];
 				name = ordinalInWord(weekNumber) + ' Sunday in Ordinary Time';
 			}
+
 			temporal = {
 				'name': name,
 				'rank': rank,
@@ -233,11 +234,14 @@
 			default: console.log('unknown season: ' + season);
 		}
 
+		console.log(temporal);
+
 		for (let i = 0; i < sanctorals.length; i++) {
 			sanctorals[i].date = today;
 			sanctorals[i].temporal_ref = temporal;
 			offices.push(sanctorals[i])
 		};
+
 
 		temporal.date = today;
 		offices.push(temporal);
