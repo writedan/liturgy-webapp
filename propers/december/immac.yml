@@ -1,0 +1,43 @@
+name: "Immaculate Conception"
+rank: [solemnity, bvm]
+common: bvm
+collect: >-
+  O God, who by the Immaculate Conception of the Blessed Virgin prepared a worthy dwellng for your Son, grant, we pray, that as you preserved her from every stain by virtute of the death of your Son, which you foresaw, so, through her intercession, we, too, may be cleansed and admitted to your presence: through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, forever and ever.
+vigil:
+  invitatory: "Come, let us celebrate the Immaculate Conception of the Virgin Mary; let us worship her Son, Christ the Lord."
+  psalmody:
+    - ["At her conception Mary received a blessing from the Lord and loving kindness from God her Savior.",24]
+    - ["God grave her his help from the dawning of her days; the Most High has made his dwelling place a holy temple.",46]
+    - ["Glorious things are said of you, O city of God, established on his holy mountain.",87]
+  call: ["The God of power has given me his strength.","He has kept me in the way of holiness."]
+  reading1:
+    cite: "Romans 5:12-21"
+    text: |
+      From the letter of Saint Paul the Apostle to the Romans.
+
+      Just as sin came into the world through one man, and death came through sin, and so death spread to all because all have sinned— sin was indeed in the world before the law, but sin is not reckoned when there is no law. Yet death exercised dominion from Adam to Moses, even over those whose sins were not like the transgression of Adam, who is a type of the one who was to come. 
+
+      But the free gift is not like the trespass. For if the many died through the one man’s trespass, much more surely have the grace of God and the free gift in the grace of the one man, Jesus Christ, abounded for the many. And the free gift is not like the effect of the one man’s sin. For the judgement following one trespass brought condemnation, but the free gift following many trespasses brings justification. If, because of the one man’s trespass, death exercised dominion through that one, much more surely will those who receive the abundance of grace and the free gift of righteousness exercise dominion in life through the one man, Jesus Christ. 
+
+      Therefore just as one man’s trespass led to condemnation for all, so one man’s act of righteousness leads to justification and life for all. For just as by the one man’s disobedience the many were made sinners, so by the one man’s obedience the many will be made righteous. But law came in, with the result that the trespass multiplied; but where sin increased, grace abounded all the more, so that, just as sin exercised dominion in death, so grace might also exercise dominion through justification leading to eternal life through Jesus Christ our Lord. 
+    responsory:
+      - ["Through one man sin came into the world; in him all men have sinned.","Do not be afraid, Mary, you have found favor with God."]
+      - ["The Lord has rescued you from death and sheltered you from all harm.","Do not be afraid, Mary, you have found favor with God."]
+  reading2:
+    text: |
+      From a sermon by Saint Anselm, bishop.
+
+      Blessed Lady, sky and stars, earth and rivers, day and night – everything that is subject to the power or use of man – rejoice that through you they are in some sense restored to their lost beauty and are endowed with inexpressible new grace. All creatures were dead, as it were, useless for men or for the praise of God, who made them. The world, contrary to its true destiny, was corrupted and tainted by the acts of men who served idols. Now all creation has been restored to life and rejoices that it is controlled and given splendour by men who believe in God. The universe rejoices with new and indefinable loveliness. Not only does it feel the unseen presence of God himself, its Creator, it sees him openly, working and making it holy. These great blessings spring from the blessed fruit of Mary’s womb.
+
+      Through the fullness of the grace that was given you, dead things rejoice in their freedom, and those in heaven are glad to be made new. Through the Son who was the glorious fruit of your virgin womb, just souls who died before his life-giving death rejoice as they are freed from captivity, and the angels are glad at the restoration of their shattered domain.
+
+      Lady, full and overflowing with grace, all creation receives new life from your abundance. Virgin, blessed above all creatures, through your blessing all creation is blessed, not only creation from its Creator, but the Creator himself has been blessed by creation.
+
+      To Mary God gave his only-begotten Son, whom he loved as himself. Through Mary God made himself a Son, not different but the same, by nature Son of God and Son of Mary. The whole universe was created by God, and God was born of Mary. God created all things, and Mary gave birth to God. The God who made all things gave himself form through Mary, and thus he made his own creation. He who could create all things from nothing would not remake his ruined creation without Mary.
+
+      God, then, is the Father of the created world and Mary the mother of the re-created world. God is the Father by whom all things were given life, and Mary the mother through whom all things were given new life. For God begot the Son, through whom all things were made, and Mary gave birth to him as the Saviour of the world. Without God’s Son, nothing could exist; without Mary’s Son, nothing could be redeemed.
+
+      Truly the Lord is with you, to whom the Lord granted that all nature should owe as much to you as to himself.
+    responsory:
+      - ["Proclaim with me the glory of the Lord.","For great is his merciful love for me."]
+      - ["From this day all generations will call me blesed.","For great is his merciful love for me."]

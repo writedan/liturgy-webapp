@@ -302,3 +302,8 @@ november:
     name: "Saint Andrew, Apostle"
     rank: [feast, saint]
     link: november/andrew
+december:
+  8:
+    name: "Immaculate Conception of the Blessed Virgin Mary"
+    rank: [solemnity, bvm]
+    link: december/immac
